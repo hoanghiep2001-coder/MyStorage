@@ -1,0 +1,141 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 527,
+      "max": [
+        10.0184965133667,
+        0.01756475307047367,
+        8.670754432678223
+      ],
+      "min": [
+        -9.826092720031738,
+        -0.02447163127362728,
+        -8.840606689453125
+      ],
+      "name": "san/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 527,
+      "name": "san/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 527,
+      "name": "san/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 798,
+      "name": "san/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 16864,
+      "byteStride": 32,
+      "name": "san",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3192,
+      "byteOffset": 16864
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 20056,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:/toan2/squidrun/iteam/baibien/color.jpg",
+          "relativeFileName": "D:\\toan2\\squidrun\\iteam\\baibien\\color.jpg"
+        }
+      },
+      "name": "file1",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "color",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "san",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "san"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "file1",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

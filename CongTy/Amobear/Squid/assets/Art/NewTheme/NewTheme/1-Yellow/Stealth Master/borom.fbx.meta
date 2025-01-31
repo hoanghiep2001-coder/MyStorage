@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3d85abde-4e55-4ee6-b847-edd71d41d164",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "3d85abde-4e55-4ee6-b847-edd71d41d164@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a8a9d": {
+      "importer": "gltf-mesh",
+      "uuid": "3d85abde-4e55-4ee6-b847-edd71d41d164@a8a9d",
+      "displayName": "",
+      "id": "a8a9d",
+      "name": "borom.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "3d85abde-4e55-4ee6-b847-edd71d41d164@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "3d85abde-4e55-4ee6-b847-edd71d41d164@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3d85abde-4e55-4ee6-b847-edd71d41d164@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3c680": {
+      "importer": "gltf-scene",
+      "uuid": "3d85abde-4e55-4ee6-b847-edd71d41d164@3c680",
+      "displayName": "",
+      "id": "3c680",
+      "name": "borom.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "3d85abde-4e55-4ee6-b847-edd71d41d164@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "3d85abde-4e55-4ee6-b847-edd71d41d164@3c680",
+    "assetFinder": {
+      "meshes": [
+        "3d85abde-4e55-4ee6-b847-edd71d41d164@a8a9d"
+      ],
+      "skeletons": [],
+      "textures": [
+        "3d85abde-4e55-4ee6-b847-edd71d41d164@d20e9"
+      ],
+      "materials": [
+        "3d85abde-4e55-4ee6-b847-edd71d41d164@33452"
+      ],
+      "scenes": [
+        "3d85abde-4e55-4ee6-b847-edd71d41d164@3c680"
+      ]
+    }
+  }
+}

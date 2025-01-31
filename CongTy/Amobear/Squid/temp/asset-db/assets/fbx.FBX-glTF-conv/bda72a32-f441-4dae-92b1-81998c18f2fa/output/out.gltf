@@ -1,0 +1,141 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 294,
+      "max": [
+        0.2955017387866974,
+        0.9664137363433838,
+        0.2972234785556793
+      ],
+      "min": [
+        -0.2955017685890198,
+        0.3700295686721802,
+        -0.29722338914871216
+      ],
+      "name": "ball4/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 294,
+      "name": "ball4/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 294,
+      "name": "ball4/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 1296,
+      "name": "ball4/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 9408,
+      "byteStride": 32,
+      "name": "ball4",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5184,
+      "byteOffset": 9408
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 14592,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:\\CocosProjects\\PA\\SantaCall_Op2\\assets\\Image\\3D\\Models\\Texture\\T_Ball3456.png",
+          "relativeFileName": "..\\..\\Texture\\T_Ball3456.png"
+        }
+      },
+      "name": "file7",
+      "uri": "T_Ball3456.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "T_Ball3456",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ball4",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "ball4"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "file7",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

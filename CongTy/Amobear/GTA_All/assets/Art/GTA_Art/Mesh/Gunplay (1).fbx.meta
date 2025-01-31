@@ -1,0 +1,135 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "18d6f": {
+      "importer": "gltf-animation",
+      "uuid": "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3@18d6f",
+      "displayName": "",
+      "id": "18d6f",
+      "name": "mixamo.com.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.20000000298023224
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 46
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2deab": {
+      "importer": "gltf-material",
+      "uuid": "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3@2deab",
+      "displayName": "",
+      "id": "2deab",
+      "name": "Default_Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "66cf3": {
+      "importer": "gltf-scene",
+      "uuid": "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3@66cf3",
+      "displayName": "",
+      "id": "66cf3",
+      "name": "Gunplay (1).prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 0.20000000298023224,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "mixamo.com",
+            "from": 0,
+            "to": 0.20000000298023224,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3@66cf3",
+    "assetFinder": {
+      "meshes": [
+        "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3@a62fe"
+      ],
+      "skeletons": [
+        "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3@2deab"
+      ],
+      "scenes": [
+        "5ebe1684-2b5d-4831-8b2b-c19c4c32c1a3@66cf3"
+      ]
+    }
+  }
+}

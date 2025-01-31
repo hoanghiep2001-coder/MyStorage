@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7b62529a-089b-4807-8b10-8c076e22b26c",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "7b62529a-089b-4807-8b10-8c076e22b26c@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0c4e8": {
+      "importer": "gltf-mesh",
+      "uuid": "7b62529a-089b-4807-8b10-8c076e22b26c@0c4e8",
+      "displayName": "",
+      "id": "0c4e8",
+      "name": "quadua.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7b62529a-089b-4807-8b10-8c076e22b26c@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "7b62529a-089b-4807-8b10-8c076e22b26c@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7b62529a-089b-4807-8b10-8c076e22b26c@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1ef78": {
+      "importer": "gltf-scene",
+      "uuid": "7b62529a-089b-4807-8b10-8c076e22b26c@1ef78",
+      "displayName": "",
+      "id": "1ef78",
+      "name": "quadua.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "7b62529a-089b-4807-8b10-8c076e22b26c@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "7b62529a-089b-4807-8b10-8c076e22b26c@1ef78",
+    "assetFinder": {
+      "meshes": [
+        "7b62529a-089b-4807-8b10-8c076e22b26c@0c4e8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7b62529a-089b-4807-8b10-8c076e22b26c@d20e9"
+      ],
+      "materials": [
+        "7b62529a-089b-4807-8b10-8c076e22b26c@33452"
+      ],
+      "scenes": [
+        "7b62529a-089b-4807-8b10-8c076e22b26c@1ef78"
+      ]
+    }
+  }
+}

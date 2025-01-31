@@ -1,0 +1,1172 @@
+12-27-2024 15:17-debug: Start record console... {file(D:\CocosProjects\Amobear\CarJam\temp\builder\log\web-mobile12-27-2024 15-17.log)}
+12-27-2024 15:17-debug: =================================== Build Task (web-mobile) Start ================================
+12-27-2024 15:17-debug: Start build task, options:{"name":"CarJam","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"sourceMaps":false,"replaceSplashScreen":true,"mainBundleCompressionType":"merge_dep","mainBundleIsRemote":false,"mergeStartScene":false,"experimentalEraseModules":false,"compressTexture":true,"packAutoAtlas":true,"startScene":"a046ee54-38b3-4192-88b1-fedf48e27501","scenes":[{"url":"db://assets/Scene/GamePlay/BusSort_PA_09_EN.scene","uuid":"a046ee54-38b3-4192-88b1-fedf48e27501","inBundle":false}],"outputName":"web-mobile","packages":{"web-mobile":{"orientation":"auto","polyfills":{"asyncFunctions":true}},"cocos-service":{"configID":"aa8ef9","services":[]},"super-html":null}}
+12-27-2024 15:17-debug: Process: heapTotal 275.14MB heapUsed 260.13MB rss 540.33MB
+12-27-2024 15:17-debug: Build with Cocos Creator 3.4.2
+12-27-2024 15:17-debug: cocos-service:(onBeforeBuild) start...0%
+12-27-2024 15:17-debug: // ---- cocos-service:(onBeforeBuild) ----
+12-27-2024 15:17-debug: // ---- cocos-service:(onBeforeBuild) success ----
+12-27-2024 15:17-debug: cocos-service:(onBeforeBuild)3%
+12-27-2024 15:17-debug: Query all assets info in project
+12-27-2024 15:17-debug: init custom config: keepNodeUuid: false, useCache: true
+12-27-2024 15:17-debug: BuildAssetLibrary query-assets with assets 377
+12-27-2024 15:17-debug: BuildAssetLibrary initialized with asset 1052!
+12-27-2024 15:17-debug:   Number of all scenes: 4
+12-27-2024 15:17-debug:   Number of all scripts: 23
+12-27-2024 15:17-debug:   Number of other assets: 1631
+12-27-2024 15:17-debug: web-mobile:(onAfterInit) start...3%
+12-27-2024 15:17-debug: Process: heapTotal 275.79MB heapUsed 262.08MB rss 542.67MB
+12-27-2024 15:17-debug: // ---- web-mobile:(onAfterInit) ----
+12-27-2024 15:17-debug: // ---- web-mobile:(onAfterInit) success ----
+12-27-2024 15:17-debug: cocos-service:(onAfterInit) start...5%
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterInit) ----
+12-27-2024 15:17-debug: Process: heapTotal 275.79MB heapUsed 262.10MB rss 542.70MB
+12-27-2024 15:17-debug: web-mobile:(onAfterInit)5%
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterInit) success ----
+12-27-2024 15:17-log: // ---- Reload project scripts ----
+12-27-2024 15:17-debug: Process: heapTotal 275.79MB heapUsed 261.81MB rss 542.13MB
+12-27-2024 15:17-debug: reload all scripts.
+12-27-2024 15:17-debug: cocos-service:(onAfterInit)8%
+12-27-2024 15:17-debug: Reload project scripts start8%
+12-27-2024 15:17-debug: Incremental keys: 
+12-27-2024 15:17-debug: Unregister Singleton
+12-27-2024 15:17-debug: Unregister SoundController
+12-27-2024 15:17-debug: Unregister CustomerBehavior
+12-27-2024 15:17-debug: Unregister CarBehavior
+12-27-2024 15:17-debug: Unregister CarEnabledClick
+12-27-2024 15:17-debug: Unregister CarStops
+12-27-2024 15:17-debug: Unregister CarHidden
+12-27-2024 15:17-debug: Unregister CarTransporter
+12-27-2024 15:17-debug: Unregister GameController
+12-27-2024 15:17-debug: Unregister UIGameController
+12-27-2024 15:17-debug: Unregister CustomerController
+12-27-2024 15:17-debug: Unregister CarSkin
+12-27-2024 15:17-debug: Unregister HideMask
+12-27-2024 15:17-debug: Unregister EnablePhysics
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/cce/internal/x/prerequisite-imports.js'
+12-27-2024 15:17-debug: Unregister Tutorial
+12-27-2024 15:17-debug: Unregister Responsive
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/AdHelper/IronSource.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/cce/internal/x/cc.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/cce/internal/code-quality/cr.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/CONST.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/SoundController.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Singleton.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarBehavior.js'
+12-27-2024 15:17-debug: Unregister CameraComponent
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarStops.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Customer/CustomerBehavior.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarEnabledClick.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/GameInfo.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarTransporter.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/interface.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/GameController.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/UIGameController.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Customer/CustomerController.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Others/HandleLogicGamePlay.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/UI/Camera.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/UI/Tutorial.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/EnablePhysics.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Responsive.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Utility.js'
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/cce/internal/code-quality/cr.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/cce/internal/x/cc.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/CONST.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register Singleton
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Singleton.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register SoundController
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/SoundController.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/AdHelper/IronSource.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/GameInfo.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register CarStops
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarStops.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register CarSkin
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarSkin.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register CustomerBehavior
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Customer/CustomerBehavior.js" loaded.
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarSkin.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/GamePlay/HideMask.js'
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarBehavior.js" loaded.
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarHidden.js'
+12-27-2024 15:17-debug: [[Executor]] Register CarEnabledClick
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarEnabledClick.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarHidden.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register CarHidden
+12-27-2024 15:17-debug: [[Executor]] Register CarTransporter
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarTransporter.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register GameController
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/GameController.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/interface.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register CarBehavior
+12-27-2024 15:17-debug: [[Executor]] Register UIGameController
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/UIGameController.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register HideMask
+12-27-2024 15:17-debug: [[Executor]] Register CustomerController
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Customer/CustomerController.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Others/HandleLogicGamePlay.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/GamePlay/HideMask.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register Tutorial
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/UI/Camera.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/UI/Tutorial.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/EnablePhysics.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register CameraComponent
+12-27-2024 15:17-debug: [[Executor]] Register EnablePhysics
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Responsive.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register Responsive
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Utility.js" loaded.
+12-27-2024 15:17-debug: Reload project scripts √9%
+12-27-2024 15:17-log: // ---- Query asset bundle ----
+12-27-2024 15:17-debug: Process: heapTotal 275.79MB heapUsed 262.56MB rss 542.61MB
+12-27-2024 15:17-debug: Query asset bundle start9%
+12-27-2024 15:17-debug: Query asset bundle √10%
+12-27-2024 15:17-debug: Query and organize assets start10%
+12-27-2024 15:17-log: // ---- Query and organize assets ----
+12-27-2024 15:17-debug: Process: heapTotal 275.79MB heapUsed 262.69MB rss 542.56MB
+12-27-2024 15:17-debug: Number of scenes: 1
+12-27-2024 15:17-debug: Number of asset bundle: 1
+12-27-2024 15:17-debug: Query and organize assets √11%
+12-27-2024 15:17-log: // ---- Organize scripts ----
+12-27-2024 15:17-debug: Process: heapTotal 285.66MB heapUsed 272.62MB rss 556.94MB
+12-27-2024 15:17-debug: sort script group...
+12-27-2024 15:17-debug: Number of assets: 188
+12-27-2024 15:17-debug: Organize scripts √13%
+12-27-2024 15:17-debug: Organize scripts start11%
+12-27-2024 15:17-log: // ---- Organize texture compression tasks ----
+12-27-2024 15:17-debug: Process: heapTotal 285.66MB heapUsed 272.65MB rss 556.94MB
+12-27-2024 15:17-debug: Organize texture compression tasks start13%
+12-27-2024 15:17-debug: Number of image-compress task: 0
+12-27-2024 15:17-debug: Organize texture compression tasks √14%
+12-27-2024 15:17-debug: Process: heapTotal 285.66MB heapUsed 272.80MB rss 556.99MB
+12-27-2024 15:17-log: // ---- Group json ----
+12-27-2024 15:17-debug: Number of json group: 1
+12-27-2024 15:17-debug: Group json start14%
+12-27-2024 15:17-debug: Merging Texture2D json start15%
+12-27-2024 15:17-debug: Group json √15%
+12-27-2024 15:17-debug: Process: heapTotal 285.66MB heapUsed 272.96MB rss 556.99MB
+12-27-2024 15:17-log: // ---- Merging Texture2D json ----
+12-27-2024 15:17-debug:  start16%
+12-27-2024 15:17-debug: Merging Texture2D json √16%
+12-27-2024 15:17-debug: Process: heapTotal 285.66MB heapUsed 273.00MB rss 557.05MB
+12-27-2024 15:17-debug:  √18%
+12-27-2024 15:17-log: // ----  ----
+12-27-2024 15:17-debug: web-mobile:(onBeforeBuildAssets) start...18%
+12-27-2024 15:17-debug: Process: heapTotal 285.66MB heapUsed 273.02MB rss 557.05MB
+12-27-2024 15:17-debug: web-mobile:(onBeforeBuildAssets)20%
+12-27-2024 15:17-debug: // ---- web-mobile:(onBeforeBuildAssets) success ----
+12-27-2024 15:17-debug: // ---- web-mobile:(onBeforeBuildAssets) ----
+12-27-2024 15:17-debug: Process: heapTotal 285.66MB heapUsed 273.06MB rss 557.05MB
+12-27-2024 15:17-debug:  start20%
+12-27-2024 15:17-log: // ----  ----
+12-27-2024 15:17-debug: Build script20%
+12-27-2024 15:17-debug: Process: heapTotal 308.99MB heapUsed 283.65MB rss 580.30MB
+12-27-2024 15:17-warn: [[Build.Script.Rollup]] Circular dependency: file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts -> file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarSkin.ts -> file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts
+12-27-2024 15:17-debug: Copy externalScripts success!
+12-27-2024 15:17-debug: Build script√20%
+12-27-2024 15:17-debug: Process: heapTotal 318.99MB heapUsed 294.68MB rss 581.48MB
+12-27-2024 15:17-debug: Build engine20%
+12-27-2024 15:17-debug: Use cache engine: {link(C:\Users\hiepdh\AppData\Local\Temp\CocosCreator\3.4.2\builder\engine\12b4edd5bb0a2c0ef294393c84426433)}
+12-27-2024 15:17-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","3d","audio","base","dragon-bones","gfx-webgl","marionette","particle","particle-2d","physics-2d-box2d","physics-cannon","primitive","profiler","terrain","tween","ui"],"engineVersion":"3.4.2","platform":"HTML5","md5Map":[],"engineName":"cocos-js","useCache":true,"split":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.4.2\\resources\\resources\\3d\\engine"}
+12-27-2024 15:17-debug: Build engine√20%
+12-27-2024 15:17-debug: Build auto-atlas start27%
+12-27-2024 15:17-debug: Process: heapTotal 318.99MB heapUsed 293.44MB rss 582.71MB
+12-27-2024 15:17-debug: Build auto-atlas √33%
+12-27-2024 15:17-log: // ---- Build auto-atlas ----
+12-27-2024 15:17-debug: Compress Image start33%
+12-27-2024 15:17-log: // ---- Compress Image ----
+12-27-2024 15:17-debug: Process: heapTotal 318.99MB heapUsed 293.46MB rss 582.72MB
+12-27-2024 15:17-debug: Compress Image √40%
+12-27-2024 15:17-debug: Copy the resource start40%
+12-27-2024 15:17-log: // ---- Copy the resource ----
+12-27-2024 15:17-debug: Process: heapTotal 318.99MB heapUsed 293.48MB rss 582.72MB
+12-27-2024 15:17-debug:  √27%
+12-27-2024 15:17-debug: Asset Bundle(main) handle assets: 188
+12-27-2024 15:17-debug: Build the grouped json and scatter files to the specified location start47%
+12-27-2024 15:17-log: // ---- Build the grouped json and scatter files to the specified location ----
+12-27-2024 15:17-debug: Copy the resource √47%
+12-27-2024 15:17-debug: Process: heapTotal 318.99MB heapUsed 296.99MB rss 582.71MB
+12-27-2024 15:17-debug: Json group(build-task/json) compile success，json number: 6
+12-27-2024 15:17-debug: Build the grouped json and scatter files to the specified location √53%
+12-27-2024 15:17-debug: Compress zip bundle start53%
+12-27-2024 15:17-log: // ---- Compress zip bundle ----
+12-27-2024 15:17-debug: Compress zip bundle √60%
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.46MB rss 562.54MB
+12-27-2024 15:17-log: // ---- Add md5 suffix to assets ----
+12-27-2024 15:17-debug: Init settings and config start70%
+12-27-2024 15:17-debug: Add md5 suffix to assets start60%
+12-27-2024 15:17-debug: Add md5 suffix to assets √70%
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.49MB rss 562.54MB
+12-27-2024 15:17-debug: Init settings and config √71%
+12-27-2024 15:17-log: // ---- Init settings and config ----
+12-27-2024 15:17-debug: tasks.settings.macro start71%
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.51MB rss 562.54MB
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.54MB rss 562.54MB
+12-27-2024 15:17-debug: tasks.settings.macro does not defined in i18n
+12-27-2024 15:17-log: // ---- tasks.settings.macro ----
+12-27-2024 15:17-debug: tasks.settings.macro √71%
+12-27-2024 15:17-log: // ---- Use cached settings ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.59MB rss 562.51MB
+12-27-2024 15:17-debug: Use cached settings start71%
+12-27-2024 15:17-debug: Use cached settings √72%
+12-27-2024 15:17-debug: custom joint texture layouts start72%
+12-27-2024 15:17-log: // ---- custom joint texture layouts ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.63MB rss 562.51MB
+12-27-2024 15:17-debug: custom joint texture layouts √72%
+12-27-2024 15:17-debug: custom joint physics start72%
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.66MB rss 562.51MB
+12-27-2024 15:17-log: // ---- custom joint physics ----
+12-27-2024 15:17-log: // ---- Fill script data to settings ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.67MB rss 562.51MB
+12-27-2024 15:17-debug: Fill script data to settings start73%
+12-27-2024 15:17-debug: Fill scene data to settings start73%
+12-27-2024 15:17-log: // ---- Fill scene data to settings ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.69MB rss 562.51MB
+12-27-2024 15:17-debug: Fill scene data to settings √74%
+12-27-2024 15:17-debug: Fill script data to settings √73%
+12-27-2024 15:17-log: // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.71MB rss 562.51MB
+12-27-2024 15:17-debug: Organize assets groups，generate packedAssets and rawAssets data start74%
+12-27-2024 15:17-debug: Organize assets groups，generate packedAssets and rawAssets data √74%
+12-27-2024 15:17-debug: custom joint physics √73%
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.76MB rss 562.51MB
+12-27-2024 15:17-debug: options.md5Cache is false.
+12-27-2024 15:17-log: // ---- Generate md5AssetsMap from suffixMap to settings ----
+12-27-2024 15:17-debug: Generate md5AssetsMap from suffixMap to settings start74%
+12-27-2024 15:17-debug: // ---- web-mobile:(onBeforeCompressSettings) ----
+12-27-2024 15:17-debug: Generate md5AssetsMap from suffixMap to settings √75%
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.78MB rss 562.51MB
+12-27-2024 15:17-debug: web-mobile:(onBeforeCompressSettings)77%
+12-27-2024 15:17-debug: cocos-service:(onBeforeCompressSettings) start...77%
+12-27-2024 15:17-debug: // ---- cocos-service:(onBeforeCompressSettings) ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.81MB rss 562.52MB
+12-27-2024 15:17-debug: // ---- web-mobile:(onBeforeCompressSettings) success ----
+12-27-2024 15:17-debug: web-mobile:(onBeforeCompressSettings) start...75%
+12-27-2024 15:17-debug: // ---- cocos-service:(onBeforeCompressSettings) success ----
+12-27-2024 15:17-debug: cocos-service:(onBeforeCompressSettings)80%
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.91MB rss 562.53MB
+12-27-2024 15:17-log: // ----  ----
+12-27-2024 15:17-debug:  start80%
+12-27-2024 15:17-debug:  √81%
+12-27-2024 15:17-debug: Compress settings.json and config.json start81%
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 274.94MB rss 562.56MB
+12-27-2024 15:17-debug: Compress settings.json and config.json √82%
+12-27-2024 15:17-log: // ---- Save config.json ----
+12-27-2024 15:17-debug: Save config.json start82%
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 275.11MB rss 562.73MB
+12-27-2024 15:17-debug: Save config.json √83%
+12-27-2024 15:17-log: // ---- Save Settings.json ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 275.15MB rss 562.77MB
+12-27-2024 15:17-debug: Sort build template start84%
+12-27-2024 15:17-log: // ---- Sort build template ----
+12-27-2024 15:17-debug: Save Settings.json start83%
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 275.19MB rss 562.80MB
+12-27-2024 15:17-log: // ---- Compress settings.json and config.json ----
+12-27-2024 15:17-debug: cocos-service:(onAfterCompressSettings) start...85%
+12-27-2024 15:17-debug: Sort build template √85%
+12-27-2024 15:17-debug: Save Settings.json √84%
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterCompressSettings) ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 276.66MB rss 563.95MB
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterCompressSettings) success ----
+12-27-2024 15:17-debug: cocos-service:(onAfterCompressSettings)87%
+12-27-2024 15:17-debug: web-mobile:(onAfterBuild) start...87%
+12-27-2024 15:17-debug: // ---- web-mobile:(onAfterBuild) ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 275.74MB rss 563.97MB
+12-27-2024 15:17-debug: Use build-template {link(D:\CocosProjects\Amobear\CarJam\build-templates\web-mobile)}.
+12-27-2024 15:17-debug: // ---- web-mobile:(onAfterBuild) success ----
+12-27-2024 15:17-debug: cocos-service:(onAfterBuild) start...90%
+12-27-2024 15:17-debug: web-mobile:(onAfterBuild)90%
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterBuild) ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 276.04MB rss 564.64MB
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterBuild) success ----
+12-27-2024 15:17-debug: cocos-service:(onAfterBuild)93%
+12-27-2024 15:17-debug: super-html:(onAfterBuild) start...93%
+12-27-2024 15:17-debug: // ---- super-html:(onAfterBuild) ----
+12-27-2024 15:17-log: super-html : engine version 3.4.2
+12-27-2024 15:17-log: task config{"l_custom_script":["D:\\CocosProjects\\Amobear\\CarJam\\extensions\\super-html\\dist\\custom_script\\34x\\custom-34x.js","D:\\CocosProjects\\Amobear\\CarJam\\extensions\\super-html\\dist\\custom_script\\34x\\index-34x.js"],"path_input_dir":"D:\\CocosProjects\\Amobear\\CarJam\\build\\web-mobile","path_html":"D:\\CocosProjects\\Amobear\\CarJam\\build\\web-mobile\\index.html","path_out_file":"D:\\CocosProjects\\Amobear\\CarJam\\build\\index.html","enable_obfuscator":true,"max_size":2097152}
+12-27-2024 15:17-log: super-html : -- start --
+12-27-2024 15:17-log: super-html : file count 128
+12-27-2024 15:17-debug: // ---- super-html:(onAfterBuild) success ----
+12-27-2024 15:17-debug: Process: heapTotal 310.58MB heapUsed 276.24MB rss 564.07MB
+12-27-2024 15:17-debug: build success in 8502 ms!
+12-27-2024 15:17-debug: super-html:(onAfterBuild)95%
+12-27-2024 15:17-debug: Stop record console. {file(D:\CocosProjects\Amobear\CarJam\temp\builder\log\web-mobile12-27-2024 15-17.log)}
+12-27-2024 15:17-debug: Start record console... {file(D:\CocosProjects\Amobear\CarJam\temp\builder\log\web-mobile12-27-2024 15-17.log)}
+12-27-2024 15:17-debug: Start build task, options:{"name":"CarJam","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"sourceMaps":false,"replaceSplashScreen":true,"mainBundleCompressionType":"merge_dep","mainBundleIsRemote":false,"mergeStartScene":false,"experimentalEraseModules":false,"compressTexture":true,"packAutoAtlas":true,"startScene":"a046ee54-38b3-4192-88b1-fedf48e27501","scenes":[{"url":"db://assets/Scene/GamePlay/BusSort_PA_09_EN.scene","uuid":"a046ee54-38b3-4192-88b1-fedf48e27501","inBundle":false}],"outputName":"web-mobile","packages":{"web-mobile":{"orientation":"auto","polyfills":{"asyncFunctions":true}},"cocos-service":{"configID":"aa8ef9","services":[]},"super-html":null}}
+12-27-2024 15:17-debug: // ---- cocos-service:(onBeforeBuild) ----
+12-27-2024 15:17-debug: Process: heapTotal 311.43MB heapUsed 292.35MB rss 589.02MB
+12-27-2024 15:17-debug: =================================== Build Task (web-mobile) Start ================================
+12-27-2024 15:17-debug: Build with Cocos Creator 3.4.2
+12-27-2024 15:17-debug: cocos-service:(onBeforeBuild) start...0%
+12-27-2024 15:17-debug: // ---- cocos-service:(onBeforeBuild) success ----
+12-27-2024 15:17-debug: cocos-service:(onBeforeBuild)3%
+12-27-2024 15:17-debug: Query all assets info in project
+12-27-2024 15:17-debug: init custom config: keepNodeUuid: false, useCache: true
+12-27-2024 15:17-debug: BuildAssetLibrary query-assets with assets 377
+12-27-2024 15:17-debug: BuildAssetLibrary initialized with asset 1052!
+12-27-2024 15:17-debug:   Number of all scenes: 4
+12-27-2024 15:17-debug:   Number of all scripts: 23
+12-27-2024 15:17-debug:   Number of other assets: 1631
+12-27-2024 15:17-debug: web-mobile:(onAfterInit) start...3%
+12-27-2024 15:17-debug: // ---- web-mobile:(onAfterInit) success ----
+12-27-2024 15:17-debug: web-mobile:(onAfterInit)5%
+12-27-2024 15:17-debug: cocos-service:(onAfterInit) start...5%
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterInit) ----
+12-27-2024 15:17-debug: Process: heapTotal 305.57MB heapUsed 294.81MB rss 584.66MB
+12-27-2024 15:17-debug: // ---- web-mobile:(onAfterInit) ----
+12-27-2024 15:17-debug: Process: heapTotal 305.32MB heapUsed 294.30MB rss 583.44MB
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterInit) success ----
+12-27-2024 15:17-debug: cocos-service:(onAfterInit)8%
+12-27-2024 15:17-log: // ---- Reload project scripts ----
+12-27-2024 15:17-debug: Reload project scripts start8%
+12-27-2024 15:17-debug: Process: heapTotal 281.99MB heapUsed 265.75MB rss 543.07MB
+12-27-2024 15:17-debug: reload all scripts.
+12-27-2024 15:17-debug: Incremental keys: 
+12-27-2024 15:17-debug: Unregister SoundController
+12-27-2024 15:17-debug: Unregister CarStops
+12-27-2024 15:17-debug: Unregister Singleton
+12-27-2024 15:17-debug: Unregister CarBehavior
+12-27-2024 15:17-debug: Unregister CustomerBehavior
+12-27-2024 15:17-debug: Unregister CarHidden
+12-27-2024 15:17-debug: Unregister CarEnabledClick
+12-27-2024 15:17-debug: Unregister GameController
+12-27-2024 15:17-debug: Unregister CarTransporter
+12-27-2024 15:17-debug: Unregister UIGameController
+12-27-2024 15:17-debug: Unregister CarSkin
+12-27-2024 15:17-debug: Unregister CustomerController
+12-27-2024 15:17-debug: Unregister CameraComponent
+12-27-2024 15:17-debug: Unregister HideMask
+12-27-2024 15:17-debug: Unregister EnablePhysics
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/cce/internal/x/prerequisite-imports.js'
+12-27-2024 15:17-debug: Unregister Responsive
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/cce/internal/code-quality/cr.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/AdHelper/IronSource.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/cce/internal/x/cc.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/CONST.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/SoundController.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarBehavior.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Singleton.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarStops.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarSkin.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/GameInfo.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Customer/CustomerBehavior.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarHidden.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarEnabledClick.js'
+12-27-2024 15:17-debug: Unregister Tutorial
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarTransporter.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/GameController.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/UIGameController.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/GamePlay/HideMask.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Customer/CustomerController.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/UI/Camera.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/interface.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Others/HandleLogicGamePlay.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/UI/Tutorial.js'
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/EnablePhysics.js'
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Utility.js'
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/cce/internal/x/cc.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/cce/internal/code-quality/cr.js" loaded.
+12-27-2024 15:17-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Responsive.js'
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Singleton.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register Singleton
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/SoundController.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/AdHelper/IronSource.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/GameInfo.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register CarStops
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarStops.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register CarSkin
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/CONST.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarSkin.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register SoundController
+12-27-2024 15:17-debug: [[Executor]] Register CustomerBehavior
+12-27-2024 15:17-debug: [[Executor]] Register CarEnabledClick
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Customer/CustomerBehavior.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarEnabledClick.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarBehavior.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register CarHidden
+12-27-2024 15:17-debug: [[Executor]] Register CarBehavior
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarTransporter.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarHidden.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/interface.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/GameController.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register UIGameController
+12-27-2024 15:17-debug: [[Executor]] Register GameController
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/UIGameController.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register CarTransporter
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Customer/CustomerController.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/GamePlay/HideMask.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register HideMask
+12-27-2024 15:17-debug: [[Executor]] Register CustomerController
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Others/HandleLogicGamePlay.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register Tutorial
+12-27-2024 15:17-debug: [[Executor]] Register CameraComponent
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/UI/Tutorial.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/EnablePhysics.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/UI/Camera.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register Responsive
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Responsive.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+12-27-2024 15:17-debug: [[Executor]] Register EnablePhysics
+12-27-2024 15:17-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Utility.js" loaded.
+12-27-2024 15:17-debug: Query asset bundle start9%
+12-27-2024 15:17-log: // ---- Query asset bundle ----
+12-27-2024 15:17-debug: Process: heapTotal 281.99MB heapUsed 266.36MB rss 543.80MB
+12-27-2024 15:17-debug: Reload project scripts √9%
+12-27-2024 15:17-debug: Query asset bundle √10%
+12-27-2024 15:17-debug: Query and organize assets start10%
+12-27-2024 15:17-log: // ---- Query and organize assets ----
+12-27-2024 15:17-debug: Number of scenes: 1
+12-27-2024 15:17-debug: Process: heapTotal 281.99MB heapUsed 266.46MB rss 543.84MB
+12-27-2024 15:17-debug: Number of assets: 188
+12-27-2024 15:17-debug: Number of asset bundle: 1
+12-27-2024 15:17-log: // ---- Organize scripts ----
+12-27-2024 15:17-debug: Query and organize assets √11%
+12-27-2024 15:17-debug: Process: heapTotal 292.02MB heapUsed 279.74MB rss 565.48MB
+12-27-2024 15:17-debug: sort script group...
+12-27-2024 15:17-debug: Organize scripts √13%
+12-27-2024 15:17-debug: Organize scripts start11%
+12-27-2024 15:17-debug: Organize texture compression tasks start13%
+12-27-2024 15:17-log: // ---- Organize texture compression tasks ----
+12-27-2024 15:17-debug: Process: heapTotal 292.02MB heapUsed 279.77MB rss 565.01MB
+12-27-2024 15:17-debug: Number of image-compress task: 0
+12-27-2024 15:17-debug: Organize texture compression tasks √14%
+12-27-2024 15:17-log: // ---- Group json ----
+12-27-2024 15:17-debug: Process: heapTotal 296.34MB heapUsed 278.56MB rss 564.50MB
+12-27-2024 15:17-debug: Group json √15%
+12-27-2024 15:17-debug: Number of json group: 1
+12-27-2024 15:17-debug: Merging Texture2D json start15%
+12-27-2024 15:17-log: // ---- Merging Texture2D json ----
+12-27-2024 15:17-debug: Process: heapTotal 296.34MB heapUsed 278.72MB rss 564.50MB
+12-27-2024 15:17-debug: Merging Texture2D json √16%
+12-27-2024 15:17-debug: Group json start14%
+12-27-2024 15:17-log: // ----  ----
+12-27-2024 15:17-debug: Process: heapTotal 296.34MB heapUsed 278.76MB rss 564.55MB
+12-27-2024 15:17-debug: web-mobile:(onBeforeBuildAssets) start...18%
+12-27-2024 15:17-debug:  start16%
+12-27-2024 15:17-debug: // ---- web-mobile:(onBeforeBuildAssets) ----
+12-27-2024 15:17-debug: Process: heapTotal 296.34MB heapUsed 278.78MB rss 564.56MB
+12-27-2024 15:17-debug: web-mobile:(onBeforeBuildAssets)20%
+12-27-2024 15:17-debug: // ---- web-mobile:(onBeforeBuildAssets) success ----
+12-27-2024 15:17-debug:  start20%
+12-27-2024 15:17-log: // ----  ----
+12-27-2024 15:17-debug: Process: heapTotal 296.34MB heapUsed 278.82MB rss 564.56MB
+12-27-2024 15:17-debug:  √18%
+12-27-2024 15:17-debug: Build script20%
+12-27-2024 15:17-debug: Process: heapTotal 315.34MB heapUsed 294.24MB rss 587.04MB
+12-27-2024 15:17-warn: [[Build.Script.Rollup]] Circular dependency: file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts -> file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarSkin.ts -> file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts
+12-27-2024 15:17-debug: Build script√20%
+12-27-2024 15:17-debug: Copy externalScripts success!
+12-27-2024 15:17-debug: Process: heapTotal 328.59MB heapUsed 295.15MB rss 588.00MB
+12-27-2024 15:17-debug: Build engine20%
+12-27-2024 15:17-debug: Use cache engine: {link(C:\Users\hiepdh\AppData\Local\Temp\CocosCreator\3.4.2\builder\engine\12b4edd5bb0a2c0ef294393c84426433)}
+12-27-2024 15:17-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","3d","audio","base","dragon-bones","gfx-webgl","marionette","particle","particle-2d","physics-2d-box2d","physics-cannon","primitive","profiler","terrain","tween","ui"],"engineVersion":"3.4.2","platform":"HTML5","md5Map":[],"engineName":"cocos-js","useCache":true,"split":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.4.2\\resources\\resources\\3d\\engine"}
+12-27-2024 15:17-debug: Build engine√20%
+12-27-2024 15:17-debug:  √27%
+12-27-2024 15:17-debug: Build auto-atlas start27%
+12-27-2024 15:17-debug: Process: heapTotal 328.59MB heapUsed 297.79MB rss 588.13MB
+12-27-2024 15:17-log: // ---- Build auto-atlas ----
+12-27-2024 15:17-log: // ---- Compress Image ----
+12-27-2024 15:17-debug: Process: heapTotal 328.59MB heapUsed 297.81MB rss 588.13MB
+12-27-2024 15:17-debug: Build auto-atlas √33%
+12-27-2024 15:17-debug: Compress Image √40%
+12-27-2024 15:17-debug: Compress Image start33%
+12-27-2024 15:17-debug: Copy the resource start40%
+12-27-2024 15:17-debug: Process: heapTotal 328.59MB heapUsed 297.83MB rss 588.13MB
+12-27-2024 15:17-log: // ---- Copy the resource ----
+12-27-2024 15:17-debug: Asset Bundle(main) handle assets: 188
+12-27-2024 15:17-debug: Build the grouped json and scatter files to the specified location start47%
+12-27-2024 15:17-log: // ---- Build the grouped json and scatter files to the specified location ----
+12-27-2024 15:17-debug: Process: heapTotal 328.59MB heapUsed 296.88MB rss 588.27MB
+12-27-2024 15:17-debug: Copy the resource √47%
+12-27-2024 15:17-debug: Json group(build-task/json) compile success，json number: 6
+12-27-2024 15:17-debug: Build the grouped json and scatter files to the specified location √53%
+12-27-2024 15:17-debug: Compress zip bundle start53%
+12-27-2024 15:17-log: // ---- Compress zip bundle ----
+12-27-2024 15:17-debug: Add md5 suffix to assets start60%
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.33MB rss 567.14MB
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.36MB rss 567.14MB
+12-27-2024 15:17-debug: Compress zip bundle √60%
+12-27-2024 15:17-log: // ---- Add md5 suffix to assets ----
+12-27-2024 15:17-debug: Init settings and config start70%
+12-27-2024 15:17-debug: Add md5 suffix to assets √70%
+12-27-2024 15:17-log: // ---- Init settings and config ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.38MB rss 567.14MB
+12-27-2024 15:17-debug: tasks.settings.macro does not defined in i18n
+12-27-2024 15:17-debug: Init settings and config √71%
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.41MB rss 567.14MB
+12-27-2024 15:17-log: // ---- tasks.settings.macro ----
+12-27-2024 15:17-debug: tasks.settings.macro start71%
+12-27-2024 15:17-debug: tasks.settings.macro √71%
+12-27-2024 15:17-debug: Use cached settings start71%
+12-27-2024 15:17-log: // ---- Use cached settings ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.46MB rss 567.14MB
+12-27-2024 15:17-debug: Use cached settings √72%
+12-27-2024 15:17-log: // ---- custom joint texture layouts ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.50MB rss 567.14MB
+12-27-2024 15:17-debug: custom joint texture layouts start72%
+12-27-2024 15:17-debug: custom joint texture layouts √72%
+12-27-2024 15:17-debug: custom joint physics start72%
+12-27-2024 15:17-log: // ---- custom joint physics ----
+12-27-2024 15:17-debug: Fill script data to settings start73%
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.52MB rss 567.14MB
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.54MB rss 567.14MB
+12-27-2024 15:17-debug: custom joint physics √73%
+12-27-2024 15:17-log: // ---- Fill script data to settings ----
+12-27-2024 15:17-log: // ---- Fill scene data to settings ----
+12-27-2024 15:17-debug: Fill script data to settings √73%
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.56MB rss 567.14MB
+12-27-2024 15:17-debug: Organize assets groups，generate packedAssets and rawAssets data start74%
+12-27-2024 15:17-debug: Fill scene data to settings √74%
+12-27-2024 15:17-debug: Fill scene data to settings start73%
+12-27-2024 15:17-log: // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+12-27-2024 15:17-debug: Generate md5AssetsMap from suffixMap to settings start74%
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.58MB rss 567.15MB
+12-27-2024 15:17-log: // ---- Generate md5AssetsMap from suffixMap to settings ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.62MB rss 567.46MB
+12-27-2024 15:17-debug: Organize assets groups，generate packedAssets and rawAssets data √74%
+12-27-2024 15:17-debug: Generate md5AssetsMap from suffixMap to settings √75%
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.65MB rss 567.64MB
+12-27-2024 15:17-debug: // ---- web-mobile:(onBeforeCompressSettings) success ----
+12-27-2024 15:17-debug: web-mobile:(onBeforeCompressSettings)77%
+12-27-2024 15:17-debug: cocos-service:(onBeforeCompressSettings) start...77%
+12-27-2024 15:17-debug: // ---- cocos-service:(onBeforeCompressSettings) ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.67MB rss 567.79MB
+12-27-2024 15:17-debug: options.md5Cache is false.
+12-27-2024 15:17-debug: // ---- web-mobile:(onBeforeCompressSettings) ----
+12-27-2024 15:17-debug: web-mobile:(onBeforeCompressSettings) start...75%
+12-27-2024 15:17-debug: // ---- cocos-service:(onBeforeCompressSettings) success ----
+12-27-2024 15:17-log: // ----  ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.79MB rss 567.27MB
+12-27-2024 15:17-debug: cocos-service:(onBeforeCompressSettings)80%
+12-27-2024 15:17-debug:  start80%
+12-27-2024 15:17-debug:  √81%
+12-27-2024 15:17-debug: Compress settings.json and config.json start81%
+12-27-2024 15:17-log: // ---- Compress settings.json and config.json ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.82MB rss 567.30MB
+12-27-2024 15:17-debug: Save config.json start82%
+12-27-2024 15:17-debug: Compress settings.json and config.json √82%
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.99MB rss 567.46MB
+12-27-2024 15:17-debug: Save config.json √83%
+12-27-2024 15:17-log: // ---- Save config.json ----
+12-27-2024 15:17-log: // ---- Save Settings.json ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 281.03MB rss 567.50MB
+12-27-2024 15:17-debug: Save Settings.json √84%
+12-27-2024 15:17-debug: Sort build template start84%
+12-27-2024 15:17-log: // ---- Sort build template ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 281.07MB rss 567.54MB
+12-27-2024 15:17-debug: cocos-service:(onAfterCompressSettings) start...85%
+12-27-2024 15:17-debug: Save Settings.json start83%
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterCompressSettings) ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 280.81MB rss 568.95MB
+12-27-2024 15:17-debug: Sort build template √85%
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterCompressSettings) success ----
+12-27-2024 15:17-debug: cocos-service:(onAfterCompressSettings)87%
+12-27-2024 15:17-debug: // ---- web-mobile:(onAfterBuild) ----
+12-27-2024 15:17-debug: Process: heapTotal 312.66MB heapUsed 281.67MB rss 568.67MB
+12-27-2024 15:17-debug: Use build-template {link(D:\CocosProjects\Amobear\CarJam\build-templates\web-mobile)}.
+12-27-2024 15:17-debug: // ---- web-mobile:(onAfterBuild) success ----
+12-27-2024 15:17-debug: web-mobile:(onAfterBuild) start...87%
+12-27-2024 15:17-debug: web-mobile:(onAfterBuild)90%
+12-27-2024 15:17-debug: cocos-service:(onAfterBuild) start...90%
+12-27-2024 15:17-debug: Process: heapTotal 312.91MB heapUsed 282.17MB rss 568.88MB
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterBuild) ----
+12-27-2024 15:17-debug: // ---- cocos-service:(onAfterBuild) success ----
+12-27-2024 15:17-debug: cocos-service:(onAfterBuild)93%
+12-27-2024 15:17-debug: super-html:(onAfterBuild) start...93%
+12-27-2024 15:17-debug: // ---- super-html:(onAfterBuild) ----
+12-27-2024 15:17-debug: Process: heapTotal 312.91MB heapUsed 282.23MB rss 568.88MB
+12-27-2024 15:17-log: super-html : -- start --
+12-27-2024 15:17-log: super-html : engine version 3.4.2
+12-27-2024 15:17-log: task config{"l_custom_script":["D:\\CocosProjects\\Amobear\\CarJam\\extensions\\super-html\\dist\\custom_script\\34x\\custom-34x.js","D:\\CocosProjects\\Amobear\\CarJam\\extensions\\super-html\\dist\\custom_script\\34x\\index-34x.js"],"path_input_dir":"D:\\CocosProjects\\Amobear\\CarJam\\build\\web-mobile","path_html":"D:\\CocosProjects\\Amobear\\CarJam\\build\\web-mobile\\index.html","path_out_file":"D:\\CocosProjects\\Amobear\\CarJam\\build\\index.html","enable_obfuscator":true,"max_size":2097152}
+12-27-2024 15:17-debug: // ---- super-html:(onAfterBuild) success ----
+12-27-2024 15:17-debug: super-html:(onAfterBuild)95%
+12-27-2024 15:17-debug: build success in 8578 ms!
+12-27-2024 15:17-log: super-html : file count 128
+12-27-2024 15:17-debug: Stop record console. {file(D:\CocosProjects\Amobear\CarJam\temp\builder\log\web-mobile12-27-2024 15-17.log)}
+12-27-2024 15:24-debug: Start record console... {file(D:\CocosProjects\Amobear\CarJam\temp\builder\log\web-mobile12-27-2024 15-17.log)}
+12-27-2024 15:24-debug: Start build task, options:{"name":"CarJam","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"sourceMaps":false,"replaceSplashScreen":true,"mainBundleCompressionType":"merge_dep","mainBundleIsRemote":false,"mergeStartScene":false,"experimentalEraseModules":false,"compressTexture":true,"packAutoAtlas":true,"startScene":"a046ee54-38b3-4192-88b1-fedf48e27501","scenes":[{"url":"db://assets/Scene/GamePlay/BusSort_PA_09_EN.scene","uuid":"a046ee54-38b3-4192-88b1-fedf48e27501","inBundle":false}],"outputName":"web-mobile","packages":{"web-mobile":{"orientation":"auto","polyfills":{"asyncFunctions":true}},"cocos-service":{"configID":"aa8ef9","services":[]},"super-html":null}}
+12-27-2024 15:24-debug: cocos-service:(onBeforeBuild) start...0%
+12-27-2024 15:24-debug: =================================== Build Task (web-mobile) Start ================================
+12-27-2024 15:24-debug: Build with Cocos Creator 3.4.2
+12-27-2024 15:24-debug: // ---- cocos-service:(onBeforeBuild) ----
+12-27-2024 15:24-debug: Process: heapTotal 311.46MB heapUsed 293.51MB rss 590.16MB
+12-27-2024 15:24-debug: // ---- cocos-service:(onBeforeBuild) success ----
+12-27-2024 15:24-debug: cocos-service:(onBeforeBuild)3%
+12-27-2024 15:24-debug: Query all assets info in project
+12-27-2024 15:24-debug: init custom config: keepNodeUuid: false, useCache: true
+12-27-2024 15:24-debug: BuildAssetLibrary query-assets with assets 377
+12-27-2024 15:24-debug: BuildAssetLibrary initialized with asset 1052!
+12-27-2024 15:24-debug:   Number of all scripts: 23
+12-27-2024 15:24-debug:   Number of other assets: 1631
+12-27-2024 15:24-debug: web-mobile:(onAfterInit) start...3%
+12-27-2024 15:24-debug: // ---- web-mobile:(onAfterInit) ----
+12-27-2024 15:24-debug: Process: heapTotal 305.86MB heapUsed 295.35MB rss 584.60MB
+12-27-2024 15:24-debug: web-mobile:(onAfterInit)5%
+12-27-2024 15:24-debug: // ---- web-mobile:(onAfterInit) success ----
+12-27-2024 15:24-debug: // ---- cocos-service:(onAfterInit) ----
+12-27-2024 15:24-debug: cocos-service:(onAfterInit) start...5%
+12-27-2024 15:24-debug: Process: heapTotal 306.36MB heapUsed 296.10MB rss 585.15MB
+12-27-2024 15:24-debug:   Number of all scenes: 4
+12-27-2024 15:24-debug: // ---- cocos-service:(onAfterInit) success ----
+12-27-2024 15:24-debug: cocos-service:(onAfterInit)8%
+12-27-2024 15:24-debug: Reload project scripts start8%
+12-27-2024 15:24-log: // ---- Reload project scripts ----
+12-27-2024 15:24-debug: Process: heapTotal 306.36MB heapUsed 296.15MB rss 581.25MB
+12-27-2024 15:24-debug: reload all scripts.
+12-27-2024 15:24-debug: Incremental keys: 
+12-27-2024 15:24-debug: Unregister Singleton
+12-27-2024 15:24-debug: Unregister SoundController
+12-27-2024 15:24-debug: Unregister CustomerBehavior
+12-27-2024 15:24-debug: Unregister CarSkin
+12-27-2024 15:24-debug: Unregister CarBehavior
+12-27-2024 15:24-debug: Unregister CarEnabledClick
+12-27-2024 15:24-debug: Unregister CarStops
+12-27-2024 15:24-debug: Unregister CarHidden
+12-27-2024 15:24-debug: Unregister CarTransporter
+12-27-2024 15:24-debug: Unregister UIGameController
+12-27-2024 15:24-debug: Unregister CustomerController
+12-27-2024 15:24-debug: Unregister CameraComponent
+12-27-2024 15:24-debug: Unregister Tutorial
+12-27-2024 15:24-debug: Unregister GameController
+12-27-2024 15:24-debug: Unregister HideMask
+12-27-2024 15:24-debug: Unregister EnablePhysics
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/cce/internal/x/prerequisite-imports.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/AdHelper/IronSource.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/cce/internal/code-quality/cr.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/CONST.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/SoundController.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Singleton.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/cce/internal/x/cc.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarStops.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/GameInfo.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarBehavior.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarSkin.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Customer/CustomerBehavior.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarEnabledClick.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarHidden.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarTransporter.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/interface.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/GameController.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/UIGameController.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Customer/CustomerController.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/GamePlay/HideMask.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Others/HandleLogicGamePlay.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/UI/Camera.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/UI/Tutorial.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/EnablePhysics.js'
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Responsive.js'
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+12-27-2024 15:24-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Utility.js'
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/cce/internal/code-quality/cr.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/CONST.js" loaded.
+12-27-2024 15:24-debug: Unregister Responsive
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Singleton.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register Singleton
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/SoundController.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register SoundController
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/cce/internal/x/cc.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/GameInfo.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register CarStops
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/AdHelper/IronSource.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarStops.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarSkin.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Customer/CustomerBehavior.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register CarSkin
+12-27-2024 15:24-debug: [[Executor]] Register CarBehavior
+12-27-2024 15:24-debug: [[Executor]] Register CustomerBehavior
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarEnabledClick.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarHidden.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register CarHidden
+12-27-2024 15:24-debug: [[Executor]] Register CarTransporter
+12-27-2024 15:24-debug: [[Executor]] Register CarEnabledClick
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarTransporter.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register GameController
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/GameController.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/UIGameController.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register CustomerController
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Customer/CustomerController.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register HideMask
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/GamePlay/HideMask.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register UIGameController
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarBehavior.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/interface.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Others/HandleLogicGamePlay.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register Tutorial
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/UI/Camera.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/UI/Tutorial.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/EnablePhysics.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register Responsive
+12-27-2024 15:24-debug: [[Executor]] Register EnablePhysics
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Utility.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+12-27-2024 15:24-debug: Reload project scripts √9%
+12-27-2024 15:24-debug: Query asset bundle start9%
+12-27-2024 15:24-log: // ---- Query asset bundle ----
+12-27-2024 15:24-debug: Process: heapTotal 306.61MB heapUsed 296.09MB rss 581.30MB
+12-27-2024 15:24-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Responsive.js" loaded.
+12-27-2024 15:24-debug: [[Executor]] Register CameraComponent
+12-27-2024 15:24-debug: Query asset bundle √10%
+12-27-2024 15:24-debug: Query and organize assets start10%
+12-27-2024 15:24-log: // ---- Query and organize assets ----
+12-27-2024 15:24-debug: Process: heapTotal 306.61MB heapUsed 296.18MB rss 581.39MB
+12-27-2024 15:24-debug: Number of scenes: 1
+12-27-2024 15:24-debug: Number of assets: 188
+12-27-2024 15:24-debug: Number of asset bundle: 1
+12-27-2024 15:24-debug: Query and organize assets √11%
+12-27-2024 15:24-debug: Process: heapTotal 313.09MB heapUsed 286.97MB rss 583.78MB
+12-27-2024 15:24-log: // ---- Organize scripts ----
+12-27-2024 15:24-debug: sort script group...
+12-27-2024 15:24-debug: Organize scripts start11%
+12-27-2024 15:24-log: // ---- Organize texture compression tasks ----
+12-27-2024 15:24-debug: Process: heapTotal 313.09MB heapUsed 287.00MB rss 583.83MB
+12-27-2024 15:24-debug: Organize texture compression tasks start13%
+12-27-2024 15:24-debug: Organize scripts √13%
+12-27-2024 15:24-debug: Number of image-compress task: 0
+12-27-2024 15:24-debug: Organize texture compression tasks √14%
+12-27-2024 15:24-debug: Process: heapTotal 313.09MB heapUsed 287.17MB rss 583.67MB
+12-27-2024 15:24-debug: Group json √15%
+12-27-2024 15:24-debug: Merging Texture2D json start15%
+12-27-2024 15:24-log: // ---- Merging Texture2D json ----
+12-27-2024 15:24-debug: Process: heapTotal 313.09MB heapUsed 287.33MB rss 583.67MB
+12-27-2024 15:24-debug: Merging Texture2D json √16%
+12-27-2024 15:24-debug:  start16%
+12-27-2024 15:24-log: // ----  ----
+12-27-2024 15:24-debug: Group json start14%
+12-27-2024 15:24-debug: Process: heapTotal 313.09MB heapUsed 287.37MB rss 583.73MB
+12-27-2024 15:24-debug: Number of json group: 1
+12-27-2024 15:24-debug: web-mobile:(onBeforeBuildAssets) start...18%
+12-27-2024 15:24-debug: // ---- web-mobile:(onBeforeBuildAssets) ----
+12-27-2024 15:24-debug: // ---- web-mobile:(onBeforeBuildAssets) success ----
+12-27-2024 15:24-debug: Process: heapTotal 313.09MB heapUsed 287.39MB rss 583.73MB
+12-27-2024 15:24-log: // ---- Group json ----
+12-27-2024 15:24-debug:  start20%
+12-27-2024 15:24-log: // ----  ----
+12-27-2024 15:24-debug: Process: heapTotal 313.09MB heapUsed 287.43MB rss 583.73MB
+12-27-2024 15:24-debug:  √18%
+12-27-2024 15:24-debug: web-mobile:(onBeforeBuildAssets)20%
+12-27-2024 15:24-debug: Build script20%
+12-27-2024 15:24-debug: Process: heapTotal 324.34MB heapUsed 301.64MB rss 595.11MB
+12-27-2024 15:24-warn: [[Build.Script.Rollup]] Circular dependency: file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts -> file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarSkin.ts -> file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts
+12-27-2024 15:24-debug: Build script√20%
+12-27-2024 15:24-debug: Build engine20%
+12-27-2024 15:24-debug: Copy externalScripts success!
+12-27-2024 15:24-debug: Process: heapTotal 340.34MB heapUsed 314.72MB rss 605.72MB
+12-27-2024 15:24-debug: Use cache engine: {link(C:\Users\hiepdh\AppData\Local\Temp\CocosCreator\3.4.2\builder\engine\12b4edd5bb0a2c0ef294393c84426433)}
+12-27-2024 15:24-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","3d","audio","base","dragon-bones","gfx-webgl","marionette","particle","particle-2d","physics-2d-box2d","physics-cannon","primitive","profiler","terrain","tween","ui"],"engineVersion":"3.4.2","platform":"HTML5","md5Map":[],"engineName":"cocos-js","useCache":true,"split":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.4.2\\resources\\resources\\3d\\engine"}
+12-27-2024 15:24-debug: Build engine√20%
+12-27-2024 15:24-debug:  √27%
+12-27-2024 15:24-debug: Build auto-atlas start27%
+12-27-2024 15:24-debug: Process: heapTotal 340.34MB heapUsed 317.53MB rss 605.84MB
+12-27-2024 15:24-debug: Compress Image start33%
+12-27-2024 15:24-log: // ---- Build auto-atlas ----
+12-27-2024 15:24-log: // ---- Compress Image ----
+12-27-2024 15:24-debug: Process: heapTotal 340.34MB heapUsed 317.55MB rss 605.84MB
+12-27-2024 15:24-debug: Copy the resource start40%
+12-27-2024 15:24-debug: Build auto-atlas √33%
+12-27-2024 15:24-debug: Compress Image √40%
+12-27-2024 15:24-debug: Process: heapTotal 340.34MB heapUsed 317.57MB rss 605.84MB
+12-27-2024 15:24-log: // ---- Copy the resource ----
+12-27-2024 15:24-debug: Asset Bundle(main) handle assets: 188
+12-27-2024 15:24-debug: Build the grouped json and scatter files to the specified location start47%
+12-27-2024 15:24-log: // ---- Build the grouped json and scatter files to the specified location ----
+12-27-2024 15:24-debug: Process: heapTotal 319.34MB heapUsed 281.72MB rss 569.45MB
+12-27-2024 15:24-debug: Copy the resource √47%
+12-27-2024 15:24-debug: Json group(build-task/json) compile success，json number: 6
+12-27-2024 15:24-debug: Build the grouped json and scatter files to the specified location √53%
+12-27-2024 15:24-debug: Compress zip bundle start53%
+12-27-2024 15:24-log: // ---- Compress zip bundle ----
+12-27-2024 15:24-debug: Add md5 suffix to assets start60%
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 315.95MB rss 614.29MB
+12-27-2024 15:24-log: // ---- Add md5 suffix to assets ----
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 315.98MB rss 614.33MB
+12-27-2024 15:24-debug: Compress zip bundle √60%
+12-27-2024 15:24-debug: Add md5 suffix to assets √70%
+12-27-2024 15:24-debug: Init settings and config start70%
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.05MB rss 613.48MB
+12-27-2024 15:24-log: // ---- Init settings and config ----
+12-27-2024 15:24-debug: tasks.settings.macro does not defined in i18n
+12-27-2024 15:24-debug: Init settings and config √71%
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.08MB rss 613.48MB
+12-27-2024 15:24-log: // ---- tasks.settings.macro ----
+12-27-2024 15:24-debug: tasks.settings.macro start71%
+12-27-2024 15:24-debug: tasks.settings.macro √71%
+12-27-2024 15:24-debug: Use cached settings start71%
+12-27-2024 15:24-log: // ---- Use cached settings ----
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.13MB rss 613.48MB
+12-27-2024 15:24-debug: Use cached settings √72%
+12-27-2024 15:24-log: // ---- custom joint texture layouts ----
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.17MB rss 613.48MB
+12-27-2024 15:24-debug: custom joint texture layouts start72%
+12-27-2024 15:24-debug: custom joint texture layouts √72%
+12-27-2024 15:24-debug: custom joint physics start72%
+12-27-2024 15:24-log: // ---- custom joint physics ----
+12-27-2024 15:24-debug: Fill script data to settings start73%
+12-27-2024 15:24-log: // ---- Fill script data to settings ----
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.21MB rss 613.48MB
+12-27-2024 15:24-debug: custom joint physics √73%
+12-27-2024 15:24-debug: Fill script data to settings √73%
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.20MB rss 613.48MB
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.23MB rss 613.48MB
+12-27-2024 15:24-debug: Fill scene data to settings start73%
+12-27-2024 15:24-log: // ---- Fill scene data to settings ----
+12-27-2024 15:24-debug: Organize assets groups，generate packedAssets and rawAssets data start74%
+12-27-2024 15:24-debug: Fill scene data to settings √74%
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.25MB rss 613.48MB
+12-27-2024 15:24-log: // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+12-27-2024 15:24-debug: Organize assets groups，generate packedAssets and rawAssets data √74%
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.30MB rss 613.48MB
+12-27-2024 15:24-log: // ---- Generate md5AssetsMap from suffixMap to settings ----
+12-27-2024 15:24-debug: Generate md5AssetsMap from suffixMap to settings √75%
+12-27-2024 15:24-debug: options.md5Cache is false.
+12-27-2024 15:24-debug: web-mobile:(onBeforeCompressSettings) start...75%
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.32MB rss 613.48MB
+12-27-2024 15:24-debug: // ---- web-mobile:(onBeforeCompressSettings) success ----
+12-27-2024 15:24-debug: Generate md5AssetsMap from suffixMap to settings start74%
+12-27-2024 15:24-debug: web-mobile:(onBeforeCompressSettings)77%
+12-27-2024 15:24-debug: cocos-service:(onBeforeCompressSettings) start...77%
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.35MB rss 613.48MB
+12-27-2024 15:24-debug: // ---- cocos-service:(onBeforeCompressSettings) ----
+12-27-2024 15:24-debug: // ---- web-mobile:(onBeforeCompressSettings) ----
+12-27-2024 15:24-debug: // ---- cocos-service:(onBeforeCompressSettings) success ----
+12-27-2024 15:24-debug:  start80%
+12-27-2024 15:24-log: // ----  ----
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.45MB rss 613.48MB
+12-27-2024 15:24-debug: cocos-service:(onBeforeCompressSettings)80%
+12-27-2024 15:24-debug:  √81%
+12-27-2024 15:24-debug: Compress settings.json and config.json start81%
+12-27-2024 15:24-log: // ---- Compress settings.json and config.json ----
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.48MB rss 613.27MB
+12-27-2024 15:24-log: // ---- Save config.json ----
+12-27-2024 15:24-debug: Compress settings.json and config.json √82%
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.65MB rss 613.27MB
+12-27-2024 15:24-debug: Save Settings.json start83%
+12-27-2024 15:24-log: // ---- Save Settings.json ----
+12-27-2024 15:24-debug: Save Settings.json √84%
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.69MB rss 613.27MB
+12-27-2024 15:24-debug: Save config.json √83%
+12-27-2024 15:24-log: // ---- Sort build template ----
+12-27-2024 15:24-debug: Process: heapTotal 340.72MB heapUsed 316.73MB rss 613.27MB
+12-27-2024 15:24-debug: cocos-service:(onAfterCompressSettings) start...85%
+12-27-2024 15:24-debug: // ---- cocos-service:(onAfterCompressSettings) ----
+12-27-2024 15:24-debug: Process: heapTotal 338.93MB heapUsed 313.67MB rss 612.12MB
+12-27-2024 15:24-debug: Save config.json start82%
+12-27-2024 15:24-debug: Sort build template √85%
+12-27-2024 15:24-debug: Sort build template start84%
+12-27-2024 15:24-debug: // ---- cocos-service:(onAfterCompressSettings) success ----
+12-27-2024 15:24-debug: cocos-service:(onAfterCompressSettings)87%
+12-27-2024 15:24-debug: // ---- web-mobile:(onAfterBuild) ----
+12-27-2024 15:24-debug: Process: heapTotal 338.93MB heapUsed 314.53MB rss 610.29MB
+12-27-2024 15:24-debug: Use build-template {link(D:\CocosProjects\Amobear\CarJam\build-templates\web-mobile)}.
+12-27-2024 15:24-debug: web-mobile:(onAfterBuild) start...87%
+12-27-2024 15:24-debug: // ---- web-mobile:(onAfterBuild) success ----
+12-27-2024 15:24-debug: Process: heapTotal 338.93MB heapUsed 316.46MB rss 611.00MB
+12-27-2024 15:24-debug: web-mobile:(onAfterBuild)90%
+12-27-2024 15:24-debug: cocos-service:(onAfterBuild) start...90%
+12-27-2024 15:24-debug: // ---- cocos-service:(onAfterBuild) ----
+12-27-2024 15:24-debug: // ---- cocos-service:(onAfterBuild) success ----
+12-27-2024 15:24-debug: super-html:(onAfterBuild) start...93%
+12-27-2024 15:24-debug: // ---- super-html:(onAfterBuild) ----
+12-27-2024 15:24-debug: Process: heapTotal 338.93MB heapUsed 316.51MB rss 610.41MB
+12-27-2024 15:24-log: super-html : engine version 3.4.2
+12-27-2024 15:24-log: task config{"l_custom_script":["D:\\CocosProjects\\Amobear\\CarJam\\extensions\\super-html\\dist\\custom_script\\34x\\custom-34x.js","D:\\CocosProjects\\Amobear\\CarJam\\extensions\\super-html\\dist\\custom_script\\34x\\index-34x.js"],"path_input_dir":"D:\\CocosProjects\\Amobear\\CarJam\\build\\web-mobile","path_html":"D:\\CocosProjects\\Amobear\\CarJam\\build\\web-mobile\\index.html","path_out_file":"D:\\CocosProjects\\Amobear\\CarJam\\build\\index.html","enable_obfuscator":true,"max_size":2097152}
+12-27-2024 15:24-log: super-html : file count 128
+12-27-2024 15:24-debug: // ---- super-html:(onAfterBuild) success ----
+12-27-2024 15:24-log: super-html : -- start --
+12-27-2024 15:24-debug: super-html:(onAfterBuild)95%
+12-27-2024 15:24-debug: cocos-service:(onAfterBuild)93%
+12-27-2024 15:24-debug: build success in 9210 ms!
+12-27-2024 15:24-debug: Stop record console. {file(D:\CocosProjects\Amobear\CarJam\temp\builder\log\web-mobile12-27-2024 15-17.log)}
+12-27-2024 15:25-debug: Start record console... {file(D:\CocosProjects\Amobear\CarJam\temp\builder\log\web-mobile12-27-2024 15-17.log)}
+12-27-2024 15:25-debug: Start build task, options:{"name":"CarJam","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"sourceMaps":false,"replaceSplashScreen":true,"mainBundleCompressionType":"merge_dep","mainBundleIsRemote":false,"mergeStartScene":false,"experimentalEraseModules":false,"compressTexture":true,"packAutoAtlas":true,"startScene":"a046ee54-38b3-4192-88b1-fedf48e27501","scenes":[{"url":"db://assets/Scene/GamePlay/BusSort_PA_09_EN.scene","uuid":"a046ee54-38b3-4192-88b1-fedf48e27501","inBundle":false}],"outputName":"web-mobile","packages":{"web-mobile":{"orientation":"auto","polyfills":{"asyncFunctions":true}},"cocos-service":{"configID":"aa8ef9","services":[]},"super-html":null}}
+12-27-2024 15:25-debug: =================================== Build Task (web-mobile) Start ================================
+12-27-2024 15:25-debug: cocos-service:(onBeforeBuild) start...0%
+12-27-2024 15:25-debug: // ---- cocos-service:(onBeforeBuild) ----
+12-27-2024 15:25-debug: Process: heapTotal 328.02MB heapUsed 308.96MB rss 609.41MB
+12-27-2024 15:25-debug: Build with Cocos Creator 3.4.2
+12-27-2024 15:25-debug: // ---- cocos-service:(onBeforeBuild) success ----
+12-27-2024 15:25-debug: cocos-service:(onBeforeBuild)3%
+12-27-2024 15:25-debug: Query all assets info in project
+12-27-2024 15:25-debug: init custom config: keepNodeUuid: false, useCache: true
+12-27-2024 15:25-debug: BuildAssetLibrary query-assets with assets 377
+12-27-2024 15:25-debug:   Number of all scenes: 4
+12-27-2024 15:25-debug: BuildAssetLibrary initialized with asset 1052!
+12-27-2024 15:25-debug:   Number of all scripts: 23
+12-27-2024 15:25-debug:   Number of other assets: 1631
+12-27-2024 15:25-debug: // ---- web-mobile:(onAfterInit) ----
+12-27-2024 15:25-debug: web-mobile:(onAfterInit) start...3%
+12-27-2024 15:25-debug: // ---- web-mobile:(onAfterInit) success ----
+12-27-2024 15:25-debug: cocos-service:(onAfterInit) start...5%
+12-27-2024 15:25-debug: // ---- cocos-service:(onAfterInit) ----
+12-27-2024 15:25-debug: Process: heapTotal 321.67MB heapUsed 310.83MB rss 603.54MB
+12-27-2024 15:25-debug: web-mobile:(onAfterInit)5%
+12-27-2024 15:25-debug: Process: heapTotal 322.17MB heapUsed 311.54MB rss 604.24MB
+12-27-2024 15:25-debug: // ---- cocos-service:(onAfterInit) success ----
+12-27-2024 15:25-debug: cocos-service:(onAfterInit)8%
+12-27-2024 15:25-debug: Reload project scripts start8%
+12-27-2024 15:25-debug: Process: heapTotal 322.17MB heapUsed 310.83MB rss 599.05MB
+12-27-2024 15:25-debug: reload all scripts.
+12-27-2024 15:25-log: // ---- Reload project scripts ----
+12-27-2024 15:25-debug: Incremental keys: 
+12-27-2024 15:25-debug: Unregister Singleton
+12-27-2024 15:25-debug: Unregister SoundController
+12-27-2024 15:25-debug: Unregister CarSkin
+12-27-2024 15:25-debug: Unregister CarStops
+12-27-2024 15:25-debug: Unregister CarBehavior
+12-27-2024 15:25-debug: Unregister CarEnabledClick
+12-27-2024 15:25-debug: Unregister CustomerBehavior
+12-27-2024 15:25-debug: Unregister CarHidden
+12-27-2024 15:25-debug: Unregister CarTransporter
+12-27-2024 15:25-debug: Unregister UIGameController
+12-27-2024 15:25-debug: Unregister CustomerController
+12-27-2024 15:25-debug: Unregister CameraComponent
+12-27-2024 15:25-debug: Unregister GameController
+12-27-2024 15:25-debug: Unregister EnablePhysics
+12-27-2024 15:25-debug: Unregister HideMask
+12-27-2024 15:25-debug: Unregister Responsive
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/AdHelper/IronSource.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/cce/internal/code-quality/cr.js'
+12-27-2024 15:25-debug: Unregister Tutorial
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/cce/internal/x/prerequisite-imports.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/CONST.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/SoundController.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Singleton.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarBehavior.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/GameInfo.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarStops.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/cce/internal/x/cc.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Customer/CustomerBehavior.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarSkin.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarEnabledClick.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Const/interface.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarTransporter.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/GameController.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Controller/UIGameController.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/GamePlay/HideMask.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Customer/CustomerController.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Car/CarHidden.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/UI/Tutorial.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/EnablePhysics.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/UI/Camera.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Utility.js'
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Utils/Responsive.js'
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/CONST.js" loaded.
+12-27-2024 15:25-debug: Invalidating 'pack:///mods/fs/0/assets/Scripts/Others/HandleLogicGamePlay.js'
+12-27-2024 15:25-debug: [[Executor]] Register Singleton
+12-27-2024 15:25-debug: [[Executor]] Register SoundController
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Singleton.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/SoundController.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/AdHelper/IronSource.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/GameInfo.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register CarStops
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarStops.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register CarSkin
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarSkin.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register CustomerBehavior
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Customer/CustomerBehavior.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/cce/internal/code-quality/cr.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarBehavior.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarEnabledClick.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register CarBehavior
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/cce/internal/x/cc.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarHidden.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register CarEnabledClick
+12-27-2024 15:25-debug: [[Executor]] Register CarTransporter
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Car/CarTransporter.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register GameController
+12-27-2024 15:25-debug: [[Executor]] Register CarHidden
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Const/interface.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/UIGameController.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Controller/GameController.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register CustomerController
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Customer/CustomerController.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register UIGameController
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/GamePlay/HideMask.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Others/HandleLogicGamePlay.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/UI/Camera.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register CameraComponent
+12-27-2024 15:25-debug: [[Executor]] Register Tutorial
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/UI/Tutorial.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/EnablePhysics.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register Responsive
+12-27-2024 15:25-debug: [[Executor]] Register EnablePhysics
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Utility.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Scripts/Utils/Responsive.js" loaded.
+12-27-2024 15:25-debug: [[Executor]] Register HideMask
+12-27-2024 15:25-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+12-27-2024 15:25-debug: Query asset bundle start9%
+12-27-2024 15:25-debug: Reload project scripts √9%
+12-27-2024 15:25-log: // ---- Query asset bundle ----
+12-27-2024 15:25-debug: Process: heapTotal 322.42MB heapUsed 311.72MB rss 600.59MB
+12-27-2024 15:25-debug: Query asset bundle √10%
+12-27-2024 15:25-debug: Query and organize assets start10%
+12-27-2024 15:25-debug: Process: heapTotal 322.42MB heapUsed 311.82MB rss 599.77MB
+12-27-2024 15:25-log: // ---- Query and organize assets ----
+12-27-2024 15:25-debug: Number of scenes: 1
+12-27-2024 15:25-debug: Number of assets: 188
+12-27-2024 15:25-debug: Number of asset bundle: 1
+12-27-2024 15:25-log: // ---- Organize scripts ----
+12-27-2024 15:25-debug: Process: heapTotal 321.77MB heapUsed 296.35MB rss 594.29MB
+12-27-2024 15:25-debug: Query and organize assets √11%
+12-27-2024 15:25-debug: Organize scripts start11%
+12-27-2024 15:25-debug: Organize texture compression tasks start13%
+12-27-2024 15:25-debug: Organize scripts √13%
+12-27-2024 15:25-log: // ---- Organize texture compression tasks ----
+12-27-2024 15:25-debug: Process: heapTotal 321.77MB heapUsed 296.38MB rss 594.52MB
+12-27-2024 15:25-debug: sort script group...
+12-27-2024 15:25-debug: Number of image-compress task: 0
+12-27-2024 15:25-debug: Organize texture compression tasks √14%
+12-27-2024 15:25-debug: Process: heapTotal 321.77MB heapUsed 296.60MB rss 593.48MB
+12-27-2024 15:25-log: // ---- Group json ----
+12-27-2024 15:25-debug: Number of json group: 1
+12-27-2024 15:25-debug: Merging Texture2D json start15%
+12-27-2024 15:25-log: // ---- Merging Texture2D json ----
+12-27-2024 15:25-debug: Process: heapTotal 321.77MB heapUsed 296.75MB rss 593.48MB
+12-27-2024 15:25-debug: Group json √15%
+12-27-2024 15:25-debug: Group json start14%
+12-27-2024 15:25-debug:  start16%
+12-27-2024 15:25-debug: Merging Texture2D json √16%
+12-27-2024 15:25-debug: Process: heapTotal 321.77MB heapUsed 296.79MB rss 593.54MB
+12-27-2024 15:25-log: // ----  ----
+12-27-2024 15:25-debug: web-mobile:(onBeforeBuildAssets) start...18%
+12-27-2024 15:25-debug: Process: heapTotal 321.77MB heapUsed 296.81MB rss 593.54MB
+12-27-2024 15:25-debug: // ---- web-mobile:(onBeforeBuildAssets) success ----
+12-27-2024 15:25-debug: web-mobile:(onBeforeBuildAssets)20%
+12-27-2024 15:25-debug: // ---- web-mobile:(onBeforeBuildAssets) ----
+12-27-2024 15:25-log: // ----  ----
+12-27-2024 15:25-debug:  start20%
+12-27-2024 15:25-debug: Process: heapTotal 321.77MB heapUsed 296.85MB rss 593.54MB
+12-27-2024 15:25-debug:  √18%
+12-27-2024 15:25-debug: Build script20%
+12-27-2024 15:25-debug: Process: heapTotal 332.85MB heapUsed 310.42MB rss 604.78MB
+12-27-2024 15:25-warn: [[Build.Script.Rollup]] Circular dependency: file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts -> file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarSkin.ts -> file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts
+12-27-2024 15:25-debug: Copy externalScripts success!
+12-27-2024 15:25-debug: Build script√20%
+12-27-2024 15:25-debug: Process: heapTotal 347.59MB heapUsed 324.49MB rss 614.07MB
+12-27-2024 15:25-debug: Build engine20%
+12-27-2024 15:25-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","3d","audio","base","dragon-bones","gfx-webgl","marionette","particle","particle-2d","physics-2d-box2d","physics-cannon","primitive","profiler","terrain","tween","ui"],"engineVersion":"3.4.2","platform":"HTML5","md5Map":[],"engineName":"cocos-js","useCache":true,"split":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.4.2\\resources\\resources\\3d\\engine"}
+12-27-2024 15:25-debug: Use cache engine: {link(C:\Users\hiepdh\AppData\Local\Temp\CocosCreator\3.4.2\builder\engine\12b4edd5bb0a2c0ef294393c84426433)}
+12-27-2024 15:25-debug: Build engine√20%
+12-27-2024 15:25-debug: Build auto-atlas start27%
+12-27-2024 15:25-log: // ---- Build auto-atlas ----
+12-27-2024 15:25-debug: Process: heapTotal 350.09MB heapUsed 323.39MB rss 615.82MB
+12-27-2024 15:25-debug: Build auto-atlas √33%
+12-27-2024 15:25-log: // ---- Compress Image ----
+12-27-2024 15:25-debug:  √27%
+12-27-2024 15:25-debug: Process: heapTotal 350.09MB heapUsed 323.40MB rss 615.82MB
+12-27-2024 15:25-debug: Copy the resource start40%
+12-27-2024 15:25-debug: Compress Image start33%
+12-27-2024 15:25-log: // ---- Copy the resource ----
+12-27-2024 15:25-debug: Process: heapTotal 350.09MB heapUsed 323.42MB rss 615.82MB
+12-27-2024 15:25-debug: Compress Image √40%
+12-27-2024 15:25-debug: Asset Bundle(main) handle assets: 188
+12-27-2024 15:25-debug: Build the grouped json and scatter files to the specified location start47%
+12-27-2024 15:25-log: // ---- Build the grouped json and scatter files to the specified location ----
+12-27-2024 15:25-debug: Process: heapTotal 350.09MB heapUsed 326.91MB rss 615.84MB
+12-27-2024 15:25-debug: Copy the resource √47%
+12-27-2024 15:25-debug: Json group(build-task/json) compile success，json number: 6
+12-27-2024 15:25-debug: Build the grouped json and scatter files to the specified location √53%
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.30MB rss 619.66MB
+12-27-2024 15:25-debug: Compress zip bundle √60%
+12-27-2024 15:25-debug: Compress zip bundle start53%
+12-27-2024 15:25-debug: Add md5 suffix to assets start60%
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.33MB rss 619.97MB
+12-27-2024 15:25-log: // ---- Compress zip bundle ----
+12-27-2024 15:25-log: // ---- Add md5 suffix to assets ----
+12-27-2024 15:25-log: // ---- Init settings and config ----
+12-27-2024 15:25-debug: Add md5 suffix to assets √70%
+12-27-2024 15:25-debug: Init settings and config start70%
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.35MB rss 619.02MB
+12-27-2024 15:25-debug: tasks.settings.macro does not defined in i18n
+12-27-2024 15:25-log: // ---- tasks.settings.macro ----
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.37MB rss 619.32MB
+12-27-2024 15:25-debug: tasks.settings.macro start71%
+12-27-2024 15:25-debug: Init settings and config √71%
+12-27-2024 15:25-debug: tasks.settings.macro √71%
+12-27-2024 15:25-debug: Use cached settings start71%
+12-27-2024 15:25-log: // ---- Use cached settings ----
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.43MB rss 618.16MB
+12-27-2024 15:25-debug: Use cached settings √72%
+12-27-2024 15:25-debug: custom joint texture layouts start72%
+12-27-2024 15:25-log: // ---- custom joint texture layouts ----
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.46MB rss 618.16MB
+12-27-2024 15:25-debug: custom joint texture layouts √72%
+12-27-2024 15:25-debug: custom joint physics start72%
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.49MB rss 618.16MB
+12-27-2024 15:25-debug: Fill script data to settings start73%
+12-27-2024 15:25-log: // ---- custom joint physics ----
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.50MB rss 618.16MB
+12-27-2024 15:25-debug: custom joint physics √73%
+12-27-2024 15:25-debug: Fill script data to settings √73%
+12-27-2024 15:25-log: // ---- Fill script data to settings ----
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.52MB rss 618.16MB
+12-27-2024 15:25-debug: Fill scene data to settings √74%
+12-27-2024 15:25-log: // ---- Fill scene data to settings ----
+12-27-2024 15:25-log: // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+12-27-2024 15:25-debug: Organize assets groups，generate packedAssets and rawAssets data start74%
+12-27-2024 15:25-debug: Fill scene data to settings start73%
+12-27-2024 15:25-debug: Organize assets groups，generate packedAssets and rawAssets data √74%
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.54MB rss 618.16MB
+12-27-2024 15:25-log: // ---- Generate md5AssetsMap from suffixMap to settings ----
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.58MB rss 618.16MB
+12-27-2024 15:25-debug: options.md5Cache is false.
+12-27-2024 15:25-debug: Generate md5AssetsMap from suffixMap to settings start74%
+12-27-2024 15:25-debug: // ---- web-mobile:(onBeforeCompressSettings) ----
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.61MB rss 618.16MB
+12-27-2024 15:25-debug: web-mobile:(onBeforeCompressSettings) start...75%
+12-27-2024 15:25-debug: // ---- web-mobile:(onBeforeCompressSettings) success ----
+12-27-2024 15:25-debug: web-mobile:(onBeforeCompressSettings)77%
+12-27-2024 15:25-debug: Generate md5AssetsMap from suffixMap to settings √75%
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.63MB rss 618.16MB
+12-27-2024 15:25-debug: cocos-service:(onBeforeCompressSettings) start...77%
+12-27-2024 15:25-debug: // ---- cocos-service:(onBeforeCompressSettings) ----
+12-27-2024 15:25-debug: // ---- cocos-service:(onBeforeCompressSettings) success ----
+12-27-2024 15:25-debug: cocos-service:(onBeforeCompressSettings)80%
+12-27-2024 15:25-debug:  start80%
+12-27-2024 15:25-log: // ----  ----
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.73MB rss 618.16MB
+12-27-2024 15:25-debug:  √81%
+12-27-2024 15:25-debug: Compress settings.json and config.json start81%
+12-27-2024 15:25-log: // ---- Compress settings.json and config.json ----
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.76MB rss 618.16MB
+12-27-2024 15:25-log: // ---- Save config.json ----
+12-27-2024 15:25-debug: Compress settings.json and config.json √82%
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.93MB rss 618.16MB
+12-27-2024 15:25-debug: Save config.json √83%
+12-27-2024 15:25-debug: Save Settings.json start83%
+12-27-2024 15:25-log: // ---- Save Settings.json ----
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 320.97MB rss 618.16MB
+12-27-2024 15:25-debug: Sort build template start84%
+12-27-2024 15:25-debug: Save Settings.json √84%
+12-27-2024 15:25-debug: Save config.json start82%
+12-27-2024 15:25-log: // ---- Sort build template ----
+12-27-2024 15:25-debug: cocos-service:(onAfterCompressSettings) start...85%
+12-27-2024 15:25-debug: Process: heapTotal 346.24MB heapUsed 321.01MB rss 618.16MB
+12-27-2024 15:25-debug: // ---- cocos-service:(onAfterCompressSettings) ----
+12-27-2024 15:25-debug: Process: heapTotal 343.95MB heapUsed 317.75MB rss 616.08MB
+12-27-2024 15:25-debug: Sort build template √85%
+12-27-2024 15:25-debug: // ---- cocos-service:(onAfterCompressSettings) success ----
+12-27-2024 15:25-debug: web-mobile:(onAfterBuild) start...87%
+12-27-2024 15:25-debug: cocos-service:(onAfterCompressSettings)87%
+12-27-2024 15:25-debug: Process: heapTotal 343.95MB heapUsed 318.60MB rss 614.95MB
+12-27-2024 15:25-debug: Use build-template {link(D:\CocosProjects\Amobear\CarJam\build-templates\web-mobile)}.
+12-27-2024 15:25-debug: // ---- web-mobile:(onAfterBuild) ----
+12-27-2024 15:25-debug: cocos-service:(onAfterBuild) start...90%
+12-27-2024 15:25-debug: // ---- cocos-service:(onAfterBuild) ----
+12-27-2024 15:25-debug: web-mobile:(onAfterBuild)90%
+12-27-2024 15:25-debug: Process: heapTotal 343.95MB heapUsed 320.60MB rss 616.27MB
+12-27-2024 15:25-debug: // ---- web-mobile:(onAfterBuild) success ----
+12-27-2024 15:25-debug: // ---- cocos-service:(onAfterBuild) success ----
+12-27-2024 15:25-debug: super-html:(onAfterBuild) start...93%
+12-27-2024 15:25-debug: // ---- super-html:(onAfterBuild) ----
+12-27-2024 15:25-debug: Process: heapTotal 343.95MB heapUsed 320.86MB rss 615.29MB
+12-27-2024 15:25-log: super-html : -- start --
+12-27-2024 15:25-log: super-html : engine version 3.4.2
+12-27-2024 15:25-log: task config{"l_custom_script":["D:\\CocosProjects\\Amobear\\CarJam\\extensions\\super-html\\dist\\custom_script\\34x\\custom-34x.js","D:\\CocosProjects\\Amobear\\CarJam\\extensions\\super-html\\dist\\custom_script\\34x\\index-34x.js"],"path_input_dir":"D:\\CocosProjects\\Amobear\\CarJam\\build\\web-mobile","path_html":"D:\\CocosProjects\\Amobear\\CarJam\\build\\web-mobile\\index.html","path_out_file":"D:\\CocosProjects\\Amobear\\CarJam\\build\\index.html","enable_obfuscator":true,"max_size":2097152}
+12-27-2024 15:25-debug: cocos-service:(onAfterBuild)93%
+12-27-2024 15:25-debug: // ---- super-html:(onAfterBuild) success ----
+12-27-2024 15:25-log: super-html : file count 128
+12-27-2024 15:25-debug: super-html:(onAfterBuild)95%
+12-27-2024 15:25-debug: build success in 8652 ms!
+12-27-2024 15:25-debug: Stop record console. {file(D:\CocosProjects\Amobear\CarJam\temp\builder\log\web-mobile12-27-2024 15-17.log)}

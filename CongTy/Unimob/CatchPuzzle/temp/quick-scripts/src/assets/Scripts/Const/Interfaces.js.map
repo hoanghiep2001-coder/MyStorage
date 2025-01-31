@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets\\Scripts\\Const\\Interfaces.ts"],"names":[],"mappings":"","file":"","sourceRoot":"/","sourcesContent":["interface GridItem {\r\n    isNull: boolean | null,\r\n    correctItemPos: cc.Vec3 | null,\r\n    currentItem: cc.Node | null,\r\n}\r\n\r\nexport interface Grid {\r\n    currentStates: GridItem[] | null;\r\n}"]}

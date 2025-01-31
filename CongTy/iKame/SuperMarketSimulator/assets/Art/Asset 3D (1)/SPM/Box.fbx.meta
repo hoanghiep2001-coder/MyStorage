@@ -1,0 +1,117 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "27c81020-f1bc-4888-9b30-841861e4180b",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "09cb9": {
+      "importer": "gltf-mesh",
+      "uuid": "27c81020-f1bc-4888-9b30-841861e4180b@09cb9",
+      "displayName": "",
+      "id": "09cb9",
+      "name": "CardboardBox_20x20x10_Animated_Model.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cbc2b": {
+      "importer": "gltf-animation",
+      "uuid": "27c81020-f1bc-4888-9b30-841861e4180b@cbc2b",
+      "displayName": "",
+      "id": "cbc2b",
+      "name": "Scene.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8333333134651184
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "27c81020-f1bc-4888-9b30-841861e4180b@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 5
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d9508": {
+      "importer": "gltf-scene",
+      "uuid": "27c81020-f1bc-4888-9b30-841861e4180b@d9508",
+      "displayName": "",
+      "id": "d9508",
+      "name": "Box.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Scene",
+        "duration": 0.8333333134651184,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Scene",
+            "from": 0,
+            "to": 0.8333333134651184,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "27c81020-f1bc-4888-9b30-841861e4180b@d9508",
+    "assetFinder": {
+      "meshes": [
+        "27c81020-f1bc-4888-9b30-841861e4180b@09cb9"
+      ],
+      "skeletons": [
+        "27c81020-f1bc-4888-9b30-841861e4180b@438fe"
+      ],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "27c81020-f1bc-4888-9b30-841861e4180b@d9508"
+      ]
+    }
+  }
+}

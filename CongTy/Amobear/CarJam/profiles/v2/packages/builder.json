@@ -1,0 +1,69 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "name": "CarJam",
+    "scenes": [
+      {
+        "url": "db://assets/Scene/GamePlay/BusSort_PA_09_EN.scene",
+        "uuid": "a046ee54-38b3-4192-88b1-fedf48e27501",
+        "inBundle": false
+      }
+    ],
+    "startScene": "a046ee54-38b3-4192-88b1-fedf48e27501",
+    "replaceSplashScreen": true
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1735287434635": {
+        "id": "1735287434635",
+        "progress": 1,
+        "state": "success",
+        "message": "12-27-2024 15:25 Build success in 8652 ms!",
+        "options": {
+          "name": "CarJam",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": true,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "a046ee54-38b3-4192-88b1-fedf48e27501",
+          "scenes": [
+            {
+              "url": "db://assets/Scene/GamePlay/BusSort_PA_09_EN.scene",
+              "uuid": "a046ee54-38b3-4192-88b1-fedf48e27501",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-mobile",
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "aa8ef9",
+              "services": []
+            },
+            "super-html": null
+          }
+        },
+        "time": "12-27-2024 15:25",
+        "dirty": false
+      }
+    }
+  }
+}

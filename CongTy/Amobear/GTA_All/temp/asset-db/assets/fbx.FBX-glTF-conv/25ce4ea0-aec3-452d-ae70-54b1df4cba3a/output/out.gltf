@@ -1,0 +1,224 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.11398433893918991,
+        0.12689268589019775,
+        0.24432510137557983
+      ],
+      "min": [
+        -0.11499965935945511,
+        -0.1237453818321228,
+        -3.814697180359872e-08
+      ],
+      "name": "tower_one_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 8,
+      "name": "tower_one_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 8,
+      "name": "tower_one_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 12,
+      "name": "tower_one_Material0/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 44,
+      "max": [
+        0.13145583868026733,
+        0.12963926792144775,
+        1.541091799736023
+      ],
+      "min": [
+        -0.13247117400169373,
+        -0.1264919638633728,
+        -3.814697180359872e-08
+      ],
+      "name": "tower_one_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 44,
+      "name": "tower_one_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 44,
+      "name": "tower_one_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 54,
+      "name": "tower_one_Material0/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 256,
+      "byteStride": 32,
+      "name": "tower_one_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 256
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1408,
+      "byteOffset": 304,
+      "byteStride": 32,
+      "name": "tower_one_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 216,
+      "byteOffset": 1712
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1928,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 25.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:\\CocosProjects\\PA\\GTA3_PlayableAds\\GTA3_Playable_3_v2\\temp\\asset-db\\assets\\fbx.FBX-glTF-conv\\25ce4ea0-aec3-452d-ae70-54b1df4cba3a\\output\\.fbm\\A552215C\\3.fbm/glass.jpg",
+          "relativeFileName": "..\\..\\..\\temp\\asset-db\\assets\\fbx.FBX-glTF-conv\\25ce4ea0-aec3-452d-ae70-54b1df4cba3a\\output\\.fbm\\A552215C\\3.fbm\\glass.jpg"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "glass.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "tower_antenna",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.08211157470941544,
+          0.08211157470941544,
+          0.08211157470941544,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.16077464818954468
+      }
+    },
+    {
+      "name": "glass",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.27216553688049316
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "tower_one_Material0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "tower_one",
+      "rotation": [
+        -0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

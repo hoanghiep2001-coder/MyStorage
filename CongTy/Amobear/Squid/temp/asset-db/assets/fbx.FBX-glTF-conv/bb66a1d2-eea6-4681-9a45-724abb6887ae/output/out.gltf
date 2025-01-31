@@ -1,0 +1,223 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.05000000074505806,
+        0.04045625776052475,
+        0.05000000074505806
+      ],
+      "min": [
+        -0.05000000074505806,
+        0.04045625776052475,
+        -0.05000000074505806
+      ],
+      "name": "san/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 4,
+      "name": "san/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 4,
+      "name": "san/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 6,
+      "name": "san/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 29,
+      "max": [
+        1.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "san/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 29,
+      "name": "san/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 29,
+      "name": "san/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 29,
+      "name": "san/scale/Output",
+      "type": "VEC3"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 0,
+            "path": "scale"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 4,
+          "output": 5
+        },
+        {
+          "input": 4,
+          "output": 6
+        },
+        {
+          "input": 4,
+          "output": 7
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 128,
+      "byteStride": 32,
+      "name": "san",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 128
+    },
+    {
+      "buffer": 0,
+      "byteLength": 116,
+      "byteOffset": 152
+    },
+    {
+      "buffer": 0,
+      "byteLength": 348,
+      "byteOffset": 268
+    },
+    {
+      "buffer": 0,
+      "byteLength": 464,
+      "byteOffset": 616
+    },
+    {
+      "buffer": 0,
+      "byteLength": 348,
+      "byteOffset": 1080
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1428,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "name": "lambert3",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.23709726333618164,
+          0.4365532398223877,
+          0.6218037009239197,
+          0.625
+        ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "san",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "san",
+      "scale": [
+        472.5834045410156,
+        472.5834045410156,
+        472.5834045410156
+      ],
+      "translation": [
+        0.0,
+        -19.118955612182617,
+        1.776356799695581e-17
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

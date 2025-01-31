@@ -1,0 +1,232 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 33,
+      "max": [
+        0.8316380977630615,
+        1.9022064208984375,
+        0.10526765882968903
+      ],
+      "min": [
+        -0.8273710012435913,
+        1.628977656364441,
+        0.01698041893541813
+      ],
+      "name": "polySurface4_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 33,
+      "name": "polySurface4_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 33,
+      "name": "polySurface4_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 54,
+      "name": "polySurface4_Material0/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 252,
+      "max": [
+        0.6215009093284607,
+        2.2723546028137207,
+        0.12795071303844452
+      ],
+      "min": [
+        -0.8316380977630615,
+        0.0,
+        -0.12795071303844452
+      ],
+      "name": "polySurface4_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 252,
+      "name": "polySurface4_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 252,
+      "name": "polySurface4_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 390,
+      "name": "polySurface4_Material0/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1056,
+      "byteStride": 32,
+      "name": "polySurface4_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 216,
+      "byteOffset": 1056
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8064,
+      "byteOffset": 1272,
+      "byteStride": 32,
+      "name": "polySurface4_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1560,
+      "byteOffset": 9336
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 10896,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\toan2\\squidrun\\iteam\\baibien\\color.jpg",
+          "relativeFileName": "D:\\toan2\\squidrun\\iteam\\baibien\\color.jpg"
+        }
+      },
+      "name": "file2",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:/1. 3D TEAM/12. Squid Game/NewTheme/color.jpg",
+          "relativeFileName": "U:\\1. 3D TEAM\\12. Squid Game\\NewTheme\\color.jpg"
+        }
+      },
+      "name": "file1",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "color",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    },
+    {
+      "name": "lambert2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "polySurface4_Material0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "polySurface4"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "file2",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "file1",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

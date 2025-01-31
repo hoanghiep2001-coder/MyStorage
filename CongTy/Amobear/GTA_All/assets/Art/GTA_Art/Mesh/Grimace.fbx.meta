@@ -1,0 +1,135 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "eca2c71b-ca0f-4a0e-b722-ff9784a87c89",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "eca2c71b-ca0f-4a0e-b722-ff9784a87c89@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "63ab1": {
+      "importer": "gltf-animation",
+      "uuid": "eca2c71b-ca0f-4a0e-b722-ff9784a87c89@63ab1",
+      "displayName": "",
+      "id": "63ab1",
+      "name": "Shoot.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5666666626930237
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "eca2c71b-ca0f-4a0e-b722-ff9784a87c89@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 46
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2deab": {
+      "importer": "gltf-material",
+      "uuid": "eca2c71b-ca0f-4a0e-b722-ff9784a87c89@2deab",
+      "displayName": "",
+      "id": "2deab",
+      "name": "Default_Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8512c": {
+      "importer": "gltf-scene",
+      "uuid": "eca2c71b-ca0f-4a0e-b722-ff9784a87c89@8512c",
+      "displayName": "",
+      "id": "8512c",
+      "name": "Grimace.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 0.5666666626930237,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Shoot",
+            "from": 0,
+            "to": 0.5666666626930237,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "eca2c71b-ca0f-4a0e-b722-ff9784a87c89@8512c",
+    "assetFinder": {
+      "meshes": [
+        "eca2c71b-ca0f-4a0e-b722-ff9784a87c89@a62fe"
+      ],
+      "skeletons": [
+        "eca2c71b-ca0f-4a0e-b722-ff9784a87c89@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "eca2c71b-ca0f-4a0e-b722-ff9784a87c89@2deab"
+      ],
+      "scenes": [
+        "eca2c71b-ca0f-4a0e-b722-ff9784a87c89@8512c"
+      ]
+    }
+  }
+}

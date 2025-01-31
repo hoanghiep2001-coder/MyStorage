@@ -1,0 +1,157 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "442472a6-1171-47db-b1c0-c4629690d242",
+  "files": [],
+  "subMetas": {
+    "4ea30": {
+      "importer": "gltf-mesh",
+      "uuid": "442472a6-1171-47db-b1c0-c4629690d242@4ea30",
+      "displayName": "",
+      "id": "4ea30",
+      "name": "Cylinder.005_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5e49e": {
+      "importer": "gltf-embeded-image",
+      "uuid": "442472a6-1171-47db-b1c0-c4629690d242@5e49e",
+      "displayName": "",
+      "id": "5e49e",
+      "name": "base_color_texture-0.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ef396": {
+      "importer": "gltf-embeded-image",
+      "uuid": "442472a6-1171-47db-b1c0-c4629690d242@ef396",
+      "displayName": "",
+      "id": "ef396",
+      "name": "base_color_texture-1.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0a1ef": {
+      "importer": "texture",
+      "uuid": "442472a6-1171-47db-b1c0-c4629690d242@0a1ef",
+      "displayName": "",
+      "id": "0a1ef",
+      "name": "base_color_texture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/textures/trees/THAN CAY DUA.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "05da8": {
+      "importer": "texture",
+      "uuid": "442472a6-1171-47db-b1c0-c4629690d242@05da8",
+      "displayName": "",
+      "id": "05da8",
+      "name": "base_color_texture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/textures/trees/THAN CAY DUA.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5d925": {
+      "importer": "gltf-scene",
+      "uuid": "442472a6-1171-47db-b1c0-c4629690d242@5d925",
+      "displayName": "",
+      "id": "5d925",
+      "name": "tree3.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "remap": "db://assets/textures/trees/THAN CAY DUA.jpg",
+        "uri": "442472a6-1171-47db-b1c0-c4629690d242@5e49e"
+      },
+      {
+        "name": "base_color_texture",
+        "remap": "db://assets/textures/trees/THAN CAY DUA.jpg",
+        "uri": "442472a6-1171-47db-b1c0-c4629690d242@ef396"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "442472a6-1171-47db-b1c0-c4629690d242@5d925",
+    "assetFinder": {
+      "meshes": [
+        "442472a6-1171-47db-b1c0-c4629690d242@4ea30"
+      ],
+      "skeletons": [],
+      "textures": [
+        "442472a6-1171-47db-b1c0-c4629690d242@0a1ef",
+        "442472a6-1171-47db-b1c0-c4629690d242@05da8"
+      ],
+      "materials": [
+        "0c86cd98-2a21-4ffa-a7ab-5be0ae12b196",
+        "f96c7af6-2a48-44fa-825a-ed2849017a93"
+      ],
+      "scenes": [
+        "442472a6-1171-47db-b1c0-c4629690d242@5d925"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/models/trees/Materials_tree3"
+  }
+}

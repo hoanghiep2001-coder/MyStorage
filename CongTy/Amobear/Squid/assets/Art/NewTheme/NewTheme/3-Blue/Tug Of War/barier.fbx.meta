@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a62aadf0-54cf-4b35-b869-2aa7041896a7",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "a62aadf0-54cf-4b35-b869-2aa7041896a7@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4bf4a": {
+      "importer": "gltf-mesh",
+      "uuid": "a62aadf0-54cf-4b35-b869-2aa7041896a7@4bf4a",
+      "displayName": "",
+      "id": "4bf4a",
+      "name": "barier.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a62aadf0-54cf-4b35-b869-2aa7041896a7@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "a62aadf0-54cf-4b35-b869-2aa7041896a7@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a62aadf0-54cf-4b35-b869-2aa7041896a7@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9dca": {
+      "importer": "gltf-scene",
+      "uuid": "a62aadf0-54cf-4b35-b869-2aa7041896a7@c9dca",
+      "displayName": "",
+      "id": "c9dca",
+      "name": "barier.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "a62aadf0-54cf-4b35-b869-2aa7041896a7@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "a62aadf0-54cf-4b35-b869-2aa7041896a7@c9dca",
+    "assetFinder": {
+      "meshes": [
+        "a62aadf0-54cf-4b35-b869-2aa7041896a7@4bf4a"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a62aadf0-54cf-4b35-b869-2aa7041896a7@d20e9"
+      ],
+      "materials": [
+        "a62aadf0-54cf-4b35-b869-2aa7041896a7@33452"
+      ],
+      "scenes": [
+        "a62aadf0-54cf-4b35-b869-2aa7041896a7@c9dca"
+      ]
+    }
+  }
+}

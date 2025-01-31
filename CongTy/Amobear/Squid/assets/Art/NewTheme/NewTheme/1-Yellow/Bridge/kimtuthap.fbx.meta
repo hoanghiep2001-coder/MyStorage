@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3c8143c8-5baa-40d9-a4b0-d8db494c6035",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "3c8143c8-5baa-40d9-a4b0-d8db494c6035@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "951d0": {
+      "importer": "gltf-mesh",
+      "uuid": "3c8143c8-5baa-40d9-a4b0-d8db494c6035@951d0",
+      "displayName": "",
+      "id": "951d0",
+      "name": "kimtuthap.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "3c8143c8-5baa-40d9-a4b0-d8db494c6035@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "3c8143c8-5baa-40d9-a4b0-d8db494c6035@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3c8143c8-5baa-40d9-a4b0-d8db494c6035@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1aa37": {
+      "importer": "gltf-scene",
+      "uuid": "3c8143c8-5baa-40d9-a4b0-d8db494c6035@1aa37",
+      "displayName": "",
+      "id": "1aa37",
+      "name": "kimtuthap.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "3c8143c8-5baa-40d9-a4b0-d8db494c6035@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "3c8143c8-5baa-40d9-a4b0-d8db494c6035@1aa37",
+    "assetFinder": {
+      "meshes": [
+        "3c8143c8-5baa-40d9-a4b0-d8db494c6035@951d0"
+      ],
+      "skeletons": [],
+      "textures": [
+        "3c8143c8-5baa-40d9-a4b0-d8db494c6035@d20e9"
+      ],
+      "materials": [
+        "3c8143c8-5baa-40d9-a4b0-d8db494c6035@33452"
+      ],
+      "scenes": [
+        "3c8143c8-5baa-40d9-a4b0-d8db494c6035@1aa37"
+      ]
+    }
+  }
+}

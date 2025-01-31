@@ -1,0 +1,141 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 300,
+      "max": [
+        1.4469728469848633,
+        3.6777215003967285,
+        0.08091720938682556
+      ],
+      "min": [
+        -1.4469728469848633,
+        0.32227852940559387,
+        -0.080917127430439
+      ],
+      "name": "so8/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 300,
+      "name": "so8/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 300,
+      "name": "so8/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 840,
+      "name": "so8/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 9600,
+      "byteStride": 32,
+      "name": "so8",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3360,
+      "byteOffset": 9600
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 12960,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:\\CocosProjects\\PA\\SantaCall_Op2\\assets\\Image\\3D\\Models\\Texture\\Wood.jpg",
+          "relativeFileName": "..\\Texture\\Wood.jpg"
+        }
+      },
+      "name": "file4",
+      "uri": "Wood.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "T_B_Brick",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "so8",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "so8"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "file4",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

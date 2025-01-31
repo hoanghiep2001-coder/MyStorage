@@ -1,0 +1,69 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "web-mobile-001",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "name": "Squid",
+    "replaceSplashScreen": true,
+    "startScene": "ea8122fe-55a2-4720-a57b-d691f022cb96",
+    "scenes": [
+      {
+        "url": "db://assets/Scene/GTA2_PA_CL02.scene",
+        "uuid": "ea8122fe-55a2-4720-a57b-d691f022cb96",
+        "inBundle": false
+      }
+    ]
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1735302088524": {
+        "id": "1735302088524",
+        "progress": 1,
+        "state": "success",
+        "message": "12-30-2024 17:43 Build success in 8230 ms!",
+        "options": {
+          "name": "Squid",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": true,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "ea8122fe-55a2-4720-a57b-d691f022cb96",
+          "scenes": [
+            {
+              "url": "db://assets/Scene/Squid_PA_30.scene",
+              "uuid": "ea8122fe-55a2-4720-a57b-d691f022cb96",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-mobile",
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "1b5f3b",
+              "services": []
+            },
+            "super-html": null
+          }
+        },
+        "time": "12-30-2024 17:43",
+        "dirty": false
+      }
+    }
+  }
+}

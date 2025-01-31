@@ -1,0 +1,285 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        0.28795111179351807,
+        0.07789137959480286,
+        0.28795111179351807
+      ],
+      "min": [
+        -0.28795111179351807,
+        -2.38418573772492e-09,
+        -0.28795111179351807
+      ],
+      "name": "pCube5/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 20,
+      "name": "pCube5/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 20,
+      "name": "pCube5/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 30,
+      "name": "pCube5/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        0.28795111179351807,
+        0.07789137214422226,
+        0.28795111179351807
+      ],
+      "min": [
+        -0.28795111179351807,
+        0.0,
+        -0.28795111179351807
+      ],
+      "name": "pCube6/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 20,
+      "name": "pCube6/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 20,
+      "name": "pCube6/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 30,
+      "name": "pCube6/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 80,
+      "max": [
+        0.2874701917171478,
+        1.340021014213562,
+        0.3546432852745056
+      ],
+      "min": [
+        -0.2874701917171478,
+        0.0,
+        -0.3546432852745056
+      ],
+      "name": "pCube4/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 80,
+      "name": "pCube4/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 80,
+      "name": "pCube4/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 120,
+      "name": "pCube4/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 640,
+      "byteStride": 32,
+      "name": "pCube5",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 120,
+      "byteOffset": 640
+    },
+    {
+      "buffer": 0,
+      "byteLength": 640,
+      "byteOffset": 760,
+      "byteStride": 32,
+      "name": "pCube6",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 120,
+      "byteOffset": 1400
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2560,
+      "byteOffset": 1520,
+      "byteStride": 32,
+      "name": "pCube4",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 480,
+      "byteOffset": 4080
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4560,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:/1. 3D TEAM/12. Squid Game/NewTheme/color.jpg",
+          "relativeFileName": "U:\\1. 3D TEAM\\12. Squid Game\\NewTheme\\color.jpg"
+        }
+      },
+      "name": "file1",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "color",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "pCube5",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "pCube6",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "pCube4",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "pCube5"
+    },
+    {
+      "mesh": 1,
+      "name": "pCube6"
+    },
+    {
+      "mesh": 2,
+      "name": "pCube4"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "file1",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

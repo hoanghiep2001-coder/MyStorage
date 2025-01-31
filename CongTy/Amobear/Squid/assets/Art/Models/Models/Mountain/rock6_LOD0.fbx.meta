@@ -1,0 +1,168 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f2da3050-e34e-4081-8e83-5d3420fbffd1",
+  "files": [],
+  "subMetas": {
+    "168ef": {
+      "importer": "gltf-mesh",
+      "uuid": "f2da3050-e34e-4081-8e83-5d3420fbffd1@168ef",
+      "displayName": "",
+      "id": "168ef",
+      "name": "rock6.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "32a8d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f2da3050-e34e-4081-8e83-5d3420fbffd1@32a8d",
+      "displayName": "",
+      "id": "32a8d",
+      "name": "texmap0.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7c1d2": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f2da3050-e34e-4081-8e83-5d3420fbffd1@7c1d2",
+      "displayName": "",
+      "id": "7c1d2",
+      "name": "texmap2.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f4cd": {
+      "importer": "texture",
+      "uuid": "f2da3050-e34e-4081-8e83-5d3420fbffd1@4f4cd",
+      "displayName": "",
+      "id": "4f4cd",
+      "name": "texmap0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f2da3050-e34e-4081-8e83-5d3420fbffd1@32a8d"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "63aea": {
+      "importer": "texture",
+      "uuid": "f2da3050-e34e-4081-8e83-5d3420fbffd1@63aea",
+      "displayName": "",
+      "id": "63aea",
+      "name": "texmap2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f2da3050-e34e-4081-8e83-5d3420fbffd1@7c1d2"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49b5b": {
+      "importer": "gltf-material",
+      "uuid": "f2da3050-e34e-4081-8e83-5d3420fbffd1@49b5b",
+      "displayName": "",
+      "id": "49b5b",
+      "name": "rock6.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "815f5": {
+      "importer": "gltf-scene",
+      "uuid": "f2da3050-e34e-4081-8e83-5d3420fbffd1@815f5",
+      "displayName": "",
+      "id": "815f5",
+      "name": "rock6_LOD0.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "texmap0",
+        "uri": "f2da3050-e34e-4081-8e83-5d3420fbffd1@32a8d"
+      },
+      {
+        "name": "texmap2",
+        "uri": "f2da3050-e34e-4081-8e83-5d3420fbffd1@7c1d2"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "f2da3050-e34e-4081-8e83-5d3420fbffd1@815f5",
+    "assetFinder": {
+      "meshes": [
+        "f2da3050-e34e-4081-8e83-5d3420fbffd1@168ef"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f2da3050-e34e-4081-8e83-5d3420fbffd1@4f4cd",
+        "f2da3050-e34e-4081-8e83-5d3420fbffd1@63aea"
+      ],
+      "materials": [
+        "f2da3050-e34e-4081-8e83-5d3420fbffd1@49b5b"
+      ],
+      "scenes": [
+        "f2da3050-e34e-4081-8e83-5d3420fbffd1@815f5"
+      ]
+    }
+  }
+}

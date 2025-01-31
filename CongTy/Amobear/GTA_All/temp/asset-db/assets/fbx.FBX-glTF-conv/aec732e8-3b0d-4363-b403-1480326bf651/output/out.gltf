@@ -1,0 +1,236 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 70,
+      "max": [
+        0.026129333302378654,
+        0.018476229161024094,
+        0.47597938776016235
+      ],
+      "min": [
+        -0.026129333302378654,
+        -0.026129333302378654,
+        -0.001086378120817244
+      ],
+      "name": "Cylinder.004_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 70,
+      "name": "Cylinder.004_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 70,
+      "name": "Cylinder.004_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 276,
+      "name": "Cylinder.004_Material0/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 324,
+      "max": [
+        0.3466568887233734,
+        0.288212388753891,
+        0.5785650014877319
+      ],
+      "min": [
+        -0.25452378392219543,
+        -0.23804128170013428,
+        0.04079242795705795
+      ],
+      "name": "Cylinder.004_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 324,
+      "name": "Cylinder.004_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 324,
+      "name": "Cylinder.004_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 864,
+      "name": "Cylinder.004_Material0/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2240,
+      "byteStride": 32,
+      "name": "Cylinder.004_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1104,
+      "byteOffset": 2240
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10368,
+      "byteOffset": 3344,
+      "byteStride": 32,
+      "name": "Cylinder.004_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3456,
+      "byteOffset": 13712
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 17168,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 25.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:\\2023\\3\\GTA new\\tex\\fix map\\cay\\goc.jpg",
+          "relativeFileName": "U:\\2023\\3\\GTA new\\tex\\fix map\\cay\\goc.jpg"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:\\2023\\3\\GTA new\\tex\\fix map\\cay\\la.png",
+          "relativeFileName": "U:\\2023\\3\\GTA new\\tex\\fix map\\cay\\la.png"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "goc",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.27216553688049316
+      }
+    },
+    {
+      "name": "la",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.27216553688049316
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cylinder.004_Material0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cylinder.004",
+      "rotation": [
+        -0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "scale": [
+        56.58087158203125,
+        56.58087158203125,
+        56.58087158203125
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

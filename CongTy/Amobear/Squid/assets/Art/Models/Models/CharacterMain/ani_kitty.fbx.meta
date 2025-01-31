@@ -1,0 +1,182 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c362b2e1-f740-457f-9b68-60818970eb09",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "c6e33": {
+      "importer": "gltf-mesh",
+      "uuid": "c362b2e1-f740-457f-9b68-60818970eb09@c6e33",
+      "displayName": "",
+      "id": "c6e33",
+      "name": "Cube.002.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2ee8f": {
+      "importer": "gltf-animation",
+      "uuid": "c362b2e1-f740-457f-9b68-60818970eb09@2ee8f",
+      "displayName": "",
+      "id": "2ee8f",
+      "name": "Armature|Armature|Armature|t pose.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.0416666679084301
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "c362b2e1-f740-457f-9b68-60818970eb09@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 38
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "c362b2e1-f740-457f-9b68-60818970eb09@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "c362b2e1-f740-457f-9b68-60818970eb09@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c362b2e1-f740-457f-9b68-60818970eb09@48b02"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0b53b": {
+      "importer": "gltf-material",
+      "uuid": "c362b2e1-f740-457f-9b68-60818970eb09@0b53b",
+      "displayName": "",
+      "id": "0b53b",
+      "name": "Hello Kitty.001.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1c1cc": {
+      "importer": "gltf-scene",
+      "uuid": "c362b2e1-f740-457f-9b68-60818970eb09@1c1cc",
+      "displayName": "",
+      "id": "1c1cc",
+      "name": "ani_kitty.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "c362b2e1-f740-457f-9b68-60818970eb09@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Armature|Armature|Armature|t pose",
+        "duration": 0.0416666679084301,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Armature|Armature|Armature|t pose",
+            "from": 0,
+            "to": 0.0416666679084301,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "c362b2e1-f740-457f-9b68-60818970eb09@1c1cc",
+    "assetFinder": {
+      "meshes": [
+        "c362b2e1-f740-457f-9b68-60818970eb09@c6e33"
+      ],
+      "skeletons": [
+        "c362b2e1-f740-457f-9b68-60818970eb09@438fe"
+      ],
+      "textures": [
+        "c362b2e1-f740-457f-9b68-60818970eb09@7d6ab"
+      ],
+      "materials": [
+        "c362b2e1-f740-457f-9b68-60818970eb09@0b53b"
+      ],
+      "scenes": [
+        "c362b2e1-f740-457f-9b68-60818970eb09@1c1cc"
+      ]
+    }
+  }
+}

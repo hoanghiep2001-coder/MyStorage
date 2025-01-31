@@ -1,0 +1,4059 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 5219.962899923325,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 50
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 54
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-cannon",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 40
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-cannon",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 7263358.084499955,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/AdHelper/IronSource.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 7
+          },
+          "end": {
+            "line": 4,
+            "column": 86
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 82
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarEnabledClick.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 86
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarHidden.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarSkin.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 78
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarStops.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 79
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarTransporter.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 85
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/CONST.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 78
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 81
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/interface.ts",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 7
+          },
+          "end": {
+            "line": 13,
+            "column": 82
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/GameController.ts",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 92
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/SoundController.ts",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 93
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/UIGameController.ts",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 7
+          },
+          "end": {
+            "line": 16,
+            "column": 94
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Customer/CustomerBehavior.ts",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 7
+          },
+          "end": {
+            "line": 17,
+            "column": 92
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Customer/CustomerController.ts",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 18,
+            "column": 94
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/GamePlay/HideMask.ts",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 7
+          },
+          "end": {
+            "line": 19,
+            "column": 84
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Others/HandleLogicGamePlay.ts",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 7
+          },
+          "end": {
+            "line": 20,
+            "column": 93
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/UI/Camera.ts",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 7
+          },
+          "end": {
+            "line": 21,
+            "column": 76
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/UI/Tutorial.ts",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 7
+          },
+          "end": {
+            "line": 22,
+            "column": 78
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/EnablePhysics.ts",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 7
+          },
+          "end": {
+            "line": 23,
+            "column": 86
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/Responsive.ts",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 7
+          },
+          "end": {
+            "line": 24,
+            "column": 83
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/Singleton.ts",
+        "rewritten": "__unresolved_21",
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 7
+          },
+          "end": {
+            "line": 25,
+            "column": 82
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/Utility.ts",
+        "rewritten": "__unresolved_22",
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 7
+          },
+          "end": {
+            "line": 26,
+            "column": 80
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/AdHelper/IronSource.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarEnabledClick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarHidden.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarSkin.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarStops.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarTransporter.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/interface.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Customer/CustomerBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Customer/CustomerController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/GamePlay/HideMask.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Others/HandleLogicGamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/UI/Camera.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/UI/Tutorial.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/EnablePhysics.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/Singleton.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/Utility.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/AdHelper/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1733893724929.7026,
+      "uuid": "b6c66277-217f-4536-809a-48462fc2596e"
+    },
+    "chunkId": "assets/Scripts/AdHelper/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 22
+          },
+          "end": {
+            "line": 1,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/GamePlay/HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1734599354724.6406,
+      "uuid": "f6c02d92-2a89-49d0-b14e-d4bba72e5a8f"
+    },
+    "chunkId": "assets/Scripts/GamePlay/HideMask.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 115
+          },
+          "end": {
+            "line": 1,
+            "column": 119
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 33
+          },
+          "end": {
+            "line": 6,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 22
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/GameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 31
+          },
+          "end": {
+            "line": 8,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 32
+          },
+          "end": {
+            "line": 9,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Car/CarBehavior",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 28
+          },
+          "end": {
+            "line": 10,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 27
+          },
+          "end": {
+            "line": 11,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Car/CarEnabledClick",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 32
+          },
+          "end": {
+            "line": 12,
+            "column": 56
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/AdHelper/IronSource.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarEnabledClick.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1734581669786.799,
+      "uuid": "8208e254-7f17-4f4e-8770-ae92221db73e"
+    },
+    "chunkId": "assets/Scripts/Const/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 33
+          },
+          "end": {
+            "line": 1,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/CONST.ts": {
+    "mTimestamp": {
+      "mtime": 1733975833984.3792,
+      "uuid": "703629a5-5db0-4bf7-9720-84e49e17521d"
+    },
+    "chunkId": "assets/Scripts/Const/CONST.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/SoundController.ts": {
+    "mTimestamp": {
+      "mtime": 1733998049011.7183,
+      "uuid": "6b331de7-4b55-4a08-b095-681f437f548a"
+    },
+    "chunkId": "assets/Scripts/Controller/SoundController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../Utils/Singleton",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Utils/Singleton.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1734599361355.9238,
+      "uuid": "9aa2e1c5-d023-4c31-a92d-0c1bf2005386"
+    },
+    "chunkId": "assets/Scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 58
+          },
+          "end": {
+            "line": 2,
+            "column": 62
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 27
+          },
+          "end": {
+            "line": 6,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/AdHelper/IronSource.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/interface.ts": {
+    "mTimestamp": {
+      "mtime": 1733793216569.345,
+      "uuid": "773aae95-19d3-4de1-887d-f68b5fa67770"
+    },
+    "chunkId": "assets/Scripts/Const/interface.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Others/HandleLogicGamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1733196336795.2854,
+      "uuid": "45fe3322-0661-48ba-b1ba-b8f4ddcac881"
+    },
+    "chunkId": "assets/Scripts/Others/HandleLogicGamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 100
+          },
+          "end": {
+            "line": 1,
+            "column": 104
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/UIGameController.ts": {
+    "mTimestamp": {
+      "mtime": 1734525139062.9548,
+      "uuid": "eae0a180-6b6c-41fb-bf24-e054165f939c"
+    },
+    "chunkId": "assets/Scripts/Controller/UIGameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 159
+          },
+          "end": {
+            "line": 2,
+            "column": 163
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/GameController.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Utils/EnablePhysics.ts": {
+    "mTimestamp": {
+      "mtime": 1733196336998.4077,
+      "uuid": "bcf6df5e-8eb1-488a-b217-771bcdc22457"
+    },
+    "chunkId": "assets/Scripts/Utils/EnablePhysics.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Utils/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1733995578332.8574,
+      "uuid": "ff71ea16-94c0-487e-bf0d-6f6375515da5"
+    },
+    "chunkId": "assets/Scripts/Utils/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 33
+          },
+          "end": {
+            "line": 2,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Utils/Utility.ts": {
+    "mTimestamp": {
+      "mtime": 1733196337515.4404,
+      "uuid": "29ed240b-aa91-4932-a5a4-5ca3411d6bd9"
+    },
+    "chunkId": "assets/Scripts/Utils/Utility.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 45
+          },
+          "end": {
+            "line": 1,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Utils/Singleton.ts": {
+    "mTimestamp": {
+      "mtime": 1734162773825.7861,
+      "uuid": "68e71e46-300a-45c6-a436-7aa7acd49d56"
+    },
+    "chunkId": "assets/Scripts/Utils/Singleton.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1735280676713,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Customer/CustomerBehavior.ts": {
+    "mTimestamp": {
+      "mtime": 1733985399054.1948,
+      "uuid": "ebb54c62-011f-4581-b3f2-cedad0a4e6fb"
+    },
+    "chunkId": "assets/Scripts/Customer/CustomerBehavior.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 95
+          },
+          "end": {
+            "line": 1,
+            "column": 99
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Customer/CustomerController.ts": {
+    "mTimestamp": {
+      "mtime": 1734525309908.4385,
+      "uuid": "cb2b8c92-d685-4f06-b12d-a413a5f99f88"
+    },
+    "chunkId": "assets/Scripts/Customer/CustomerController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 116
+          },
+          "end": {
+            "line": 1,
+            "column": 120
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CustomerBehavior",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 33
+          },
+          "end": {
+            "line": 4,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Customer/CustomerBehavior.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarBehavior.ts": {
+    "mTimestamp": {
+      "mtime": 1734582072660.4731,
+      "uuid": "0962809e-bebd-421b-b56a-f6ac1aab4a64"
+    },
+    "chunkId": "assets/Scripts/Car/CarBehavior.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 172
+          },
+          "end": {
+            "line": 1,
+            "column": 176
+          }
+        }
+      },
+      {
+        "value": "./CarStops",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CarSkin",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 32
+          },
+          "end": {
+            "line": 6,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 22
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarStops.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarSkin.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/CONST.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarStops.ts": {
+    "mTimestamp": {
+      "mtime": 1734076749085.7556,
+      "uuid": "1922f389-5836-4c46-9e0e-d062afede9b6"
+    },
+    "chunkId": "assets/Scripts/Car/CarStops.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarSkin.ts": {
+    "mTimestamp": {
+      "mtime": 1734062273942.9604,
+      "uuid": "87bdc8f5-5913-4b3d-865c-a4a52daa4f2c"
+    },
+    "chunkId": "assets/Scripts/Car/CarSkin.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 96
+          },
+          "end": {
+            "line": 2,
+            "column": 100
+          }
+        }
+      },
+      {
+        "value": "./CarBehavior",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 28
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 5,
+            "column": 38
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/CONST.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarTransporter.ts": {
+    "mTimestamp": {
+      "mtime": 1734073618917.5005,
+      "uuid": "63e595dc-465c-41be-a048-4f7985372018"
+    },
+    "chunkId": "assets/Scripts/Car/CarTransporter.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 89
+          },
+          "end": {
+            "line": 2,
+            "column": 93
+          }
+        }
+      },
+      {
+        "value": "./CarSkin",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarSkin.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarHidden.ts": {
+    "mTimestamp": {
+      "mtime": 1734056040971.3596,
+      "uuid": "c171afdd-d0cb-493e-9480-03d8fce128d1"
+    },
+    "chunkId": "assets/Scripts/Car/CarHidden.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 70
+          },
+          "end": {
+            "line": 2,
+            "column": 74
+          }
+        }
+      },
+      {
+        "value": "./CarBehavior",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 28
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CarSkin",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 32
+          },
+          "end": {
+            "line": 6,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 22
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarSkin.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/CONST.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Car/CarEnabledClick.ts": {
+    "mTimestamp": {
+      "mtime": 1734525531227.9111,
+      "uuid": "f005677b-8af2-4420-ae18-b418ec072c42"
+    },
+    "chunkId": "assets/Scripts/Car/CarEnabledClick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/UI/Tutorial.ts": {
+    "mTimestamp": {
+      "mtime": 1734591768300.37,
+      "uuid": "d9990198-6325-4793-bc6a-898fbedcb61e"
+    },
+    "chunkId": "assets/Scripts/UI/Tutorial.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 58
+          },
+          "end": {
+            "line": 2,
+            "column": 62
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/UI/Camera.ts": {
+    "mTimestamp": {
+      "mtime": 1734581731642.8467,
+      "uuid": "80794dc6-5a06-49fa-a9a7-f276b9ebbfb6"
+    },
+    "chunkId": "assets/Scripts/UI/Camera.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 78
+          },
+          "end": {
+            "line": 2,
+            "column": 82
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/AdHelper/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1733893724929.7026,
+      "uuid": "b6c66277-217f-4536-809a-48462fc2596e"
+    },
+    "chunkId": "assets/Scripts/AdHelper/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 22
+          },
+          "end": {
+            "line": 1,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts": {
+    "mTimestamp": {
+      "mtime": 1735273866317.104,
+      "uuid": "0962809e-bebd-421b-b56a-f6ac1aab4a64"
+    },
+    "chunkId": "assets/Scripts/Car/CarBehavior.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 172
+          },
+          "end": {
+            "line": 1,
+            "column": 176
+          }
+        }
+      },
+      {
+        "value": "./CarStops",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CarSkin",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 32
+          },
+          "end": {
+            "line": 6,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 22
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Customer/CustomerBehavior",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 33
+          },
+          "end": {
+            "line": 8,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarStops.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarSkin.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Customer/CustomerBehavior.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarHidden.ts": {
+    "mTimestamp": {
+      "mtime": 1734056040971.3596,
+      "uuid": "c171afdd-d0cb-493e-9480-03d8fce128d1"
+    },
+    "chunkId": "assets/Scripts/Car/CarHidden.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 70
+          },
+          "end": {
+            "line": 2,
+            "column": 74
+          }
+        }
+      },
+      {
+        "value": "./CarBehavior",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 28
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CarSkin",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 32
+          },
+          "end": {
+            "line": 6,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 22
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarSkin.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/CONST.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarTransporter.ts": {
+    "mTimestamp": {
+      "mtime": 1735273904521.7476,
+      "uuid": "63e595dc-465c-41be-a048-4f7985372018"
+    },
+    "chunkId": "assets/Scripts/Car/CarTransporter.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 89
+          },
+          "end": {
+            "line": 2,
+            "column": 93
+          }
+        }
+      },
+      {
+        "value": "./CarSkin",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarSkin.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarSkin.ts": {
+    "mTimestamp": {
+      "mtime": 1734062273942.9604,
+      "uuid": "87bdc8f5-5913-4b3d-865c-a4a52daa4f2c"
+    },
+    "chunkId": "assets/Scripts/Car/CarSkin.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 96
+          },
+          "end": {
+            "line": 2,
+            "column": 100
+          }
+        }
+      },
+      {
+        "value": "./CarBehavior",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 28
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 5,
+            "column": 38
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/CONST.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/CONST.ts": {
+    "mTimestamp": {
+      "mtime": 1733975833984.3792,
+      "uuid": "703629a5-5db0-4bf7-9720-84e49e17521d"
+    },
+    "chunkId": "assets/Scripts/Const/CONST.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarStops.ts": {
+    "mTimestamp": {
+      "mtime": 1735268439231.729,
+      "uuid": "1922f389-5836-4c46-9e0e-d062afede9b6"
+    },
+    "chunkId": "assets/Scripts/Car/CarStops.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1735281878893.7864,
+      "uuid": "8208e254-7f17-4f4e-8770-ae92221db73e"
+    },
+    "chunkId": "assets/Scripts/Const/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 33
+          },
+          "end": {
+            "line": 1,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/SoundController.ts": {
+    "mTimestamp": {
+      "mtime": 1734955229726.038,
+      "uuid": "6b331de7-4b55-4a08-b095-681f437f548a"
+    },
+    "chunkId": "assets/Scripts/Controller/SoundController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../Utils/Singleton",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/Singleton.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/UIGameController.ts": {
+    "mTimestamp": {
+      "mtime": 1734525139062.9548,
+      "uuid": "eae0a180-6b6c-41fb-bf24-e054165f939c"
+    },
+    "chunkId": "assets/Scripts/Controller/UIGameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 159
+          },
+          "end": {
+            "line": 2,
+            "column": 163
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Customer/CustomerController.ts": {
+    "mTimestamp": {
+      "mtime": 1735280920365.5454,
+      "uuid": "cb2b8c92-d685-4f06-b12d-a413a5f99f88"
+    },
+    "chunkId": "assets/Scripts/Customer/CustomerController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 122
+          },
+          "end": {
+            "line": 1,
+            "column": 126
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CustomerBehavior",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 33
+          },
+          "end": {
+            "line": 4,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Customer/CustomerBehavior.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Customer/CustomerBehavior.ts": {
+    "mTimestamp": {
+      "mtime": 1733985399054.1948,
+      "uuid": "ebb54c62-011f-4581-b3f2-cedad0a4e6fb"
+    },
+    "chunkId": "assets/Scripts/Customer/CustomerBehavior.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 95
+          },
+          "end": {
+            "line": 1,
+            "column": 99
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/UI/Camera.ts": {
+    "mTimestamp": {
+      "mtime": 1734581731642.8467,
+      "uuid": "80794dc6-5a06-49fa-a9a7-f276b9ebbfb6"
+    },
+    "chunkId": "assets/Scripts/UI/Camera.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 78
+          },
+          "end": {
+            "line": 2,
+            "column": 82
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Others/HandleLogicGamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1733196336795.2854,
+      "uuid": "45fe3322-0661-48ba-b1ba-b8f4ddcac881"
+    },
+    "chunkId": "assets/Scripts/Others/HandleLogicGamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 100
+          },
+          "end": {
+            "line": 1,
+            "column": 104
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/UI/Tutorial.ts": {
+    "mTimestamp": {
+      "mtime": 1734591768300.37,
+      "uuid": "d9990198-6325-4793-bc6a-898fbedcb61e"
+    },
+    "chunkId": "assets/Scripts/UI/Tutorial.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 58
+          },
+          "end": {
+            "line": 2,
+            "column": 62
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/GamePlay/HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1735283476466.77,
+      "uuid": "f6c02d92-2a89-49d0-b14e-d4bba72e5a8f"
+    },
+    "chunkId": "assets/Scripts/GamePlay/HideMask.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 115
+          },
+          "end": {
+            "line": 1,
+            "column": 119
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 33
+          },
+          "end": {
+            "line": 6,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 22
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/GameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 31
+          },
+          "end": {
+            "line": 8,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 32
+          },
+          "end": {
+            "line": 9,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Car/CarBehavior",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 28
+          },
+          "end": {
+            "line": 10,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Car/CarEnabledClick",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 32
+          },
+          "end": {
+            "line": 12,
+            "column": 56
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarEnabledClick.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/EnablePhysics.ts": {
+    "mTimestamp": {
+      "mtime": 1733196336998.4077,
+      "uuid": "bcf6df5e-8eb1-488a-b217-771bcdc22457"
+    },
+    "chunkId": "assets/Scripts/Utils/EnablePhysics.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/Utility.ts": {
+    "mTimestamp": {
+      "mtime": 1733196337515.4404,
+      "uuid": "29ed240b-aa91-4932-a5a4-5ca3411d6bd9"
+    },
+    "chunkId": "assets/Scripts/Utils/Utility.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 45
+          },
+          "end": {
+            "line": 1,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1733995578332.8574,
+      "uuid": "ff71ea16-94c0-487e-bf0d-6f6375515da5"
+    },
+    "chunkId": "assets/Scripts/Utils/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 33
+          },
+          "end": {
+            "line": 2,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Utils/Singleton.ts": {
+    "mTimestamp": {
+      "mtime": 1734954824264.4043,
+      "uuid": "68e71e46-300a-45c6-a436-7aa7acd49d56"
+    },
+    "chunkId": "assets/Scripts/Utils/Singleton.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/interface.ts": {
+    "mTimestamp": {
+      "mtime": 1733793216569.345,
+      "uuid": "773aae95-19d3-4de1-887d-f68b5fa67770"
+    },
+    "chunkId": "assets/Scripts/Const/interface.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1735287936625.495,
+      "uuid": "9aa2e1c5-d023-4c31-a92d-0c1bf2005386"
+    },
+    "chunkId": "assets/Scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 69
+          },
+          "end": {
+            "line": 1,
+            "column": 73
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/AdHelper/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/CarJam/assets/Scripts/Car/CarEnabledClick.ts": {
+    "mTimestamp": {
+      "mtime": 1734525531227.9111,
+      "uuid": "f005677b-8af2-4420-ae18-b418ec072c42"
+    },
+    "chunkId": "assets/Scripts/Car/CarEnabledClick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  }
+}

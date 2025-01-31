@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48d0c": {
+      "importer": "gltf-mesh",
+      "uuid": "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@48d0c",
+      "displayName": "",
+      "id": "48d0c",
+      "name": "cucda.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a2af9": {
+      "importer": "gltf-scene",
+      "uuid": "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@a2af9",
+      "displayName": "",
+      "id": "a2af9",
+      "name": "cucda.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@a2af9",
+    "assetFinder": {
+      "meshes": [
+        "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@48d0c"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@d20e9"
+      ],
+      "materials": [
+        "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@33452"
+      ],
+      "scenes": [
+        "a5afcfb8-e252-47f5-9e8c-18bc0af5aa2f@a2af9"
+      ]
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "cbcd6": {
+      "importer": "gltf-mesh",
+      "uuid": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@cbcd6",
+      "displayName": "",
+      "id": "cbcd6",
+      "name": "Body.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5c1d5": {
+      "importer": "gltf-animation",
+      "uuid": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@5c1d5",
+      "displayName": "",
+      "id": "5c1d5",
+      "name": "T-Pose.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.03333333507180214
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 34
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "adacb": {
+      "importer": "gltf-embeded-image",
+      "uuid": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@adacb",
+      "displayName": "",
+      "id": "adacb",
+      "name": "file2.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e873a": {
+      "importer": "texture",
+      "uuid": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@e873a",
+      "displayName": "",
+      "id": "e873a",
+      "name": "file2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@adacb"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bed06": {
+      "importer": "gltf-material",
+      "uuid": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@bed06",
+      "displayName": "",
+      "id": "bed06",
+      "name": "body.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c0739": {
+      "importer": "gltf-scene",
+      "uuid": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@c0739",
+      "displayName": "",
+      "id": "c0739",
+      "name": "body_anim@T-Pose.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file2",
+        "uri": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@adacb"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 0.03333333507180214,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "T-Pose",
+            "from": 0,
+            "to": 0.03333333507180214,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@c0739",
+    "assetFinder": {
+      "meshes": [
+        "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@cbcd6"
+      ],
+      "skeletons": [
+        "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@438fe"
+      ],
+      "textures": [
+        "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@e873a"
+      ],
+      "materials": [
+        "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@bed06"
+      ],
+      "scenes": [
+        "4a845c4b-ef49-4b4c-90d6-aaa1f958c940@c0739"
+      ]
+    }
+  }
+}

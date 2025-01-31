@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "383d67e8-234c-4b31-96aa-c10af7339857",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "383d67e8-234c-4b31-96aa-c10af7339857@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bbae8": {
+      "importer": "gltf-mesh",
+      "uuid": "383d67e8-234c-4b31-96aa-c10af7339857@bbae8",
+      "displayName": "",
+      "id": "bbae8",
+      "name": "tree.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "383d67e8-234c-4b31-96aa-c10af7339857@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Art/color.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "74dd3": {
+      "importer": "gltf-scene",
+      "uuid": "383d67e8-234c-4b31-96aa-c10af7339857@74dd3",
+      "displayName": "",
+      "id": "74dd3",
+      "name": "tree.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "db://assets/Art/color.jpg"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "383d67e8-234c-4b31-96aa-c10af7339857@74dd3",
+    "assetFinder": {
+      "meshes": [
+        "383d67e8-234c-4b31-96aa-c10af7339857@bbae8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "383d67e8-234c-4b31-96aa-c10af7339857@d20e9"
+      ],
+      "materials": [
+        "383d67e8-234c-4b31-96aa-c10af7339857@33452"
+      ],
+      "scenes": [
+        "383d67e8-234c-4b31-96aa-c10af7339857@74dd3"
+      ]
+    }
+  }
+}

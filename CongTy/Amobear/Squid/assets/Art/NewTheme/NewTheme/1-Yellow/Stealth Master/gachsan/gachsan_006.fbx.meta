@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "dd2bfb95-87ec-4415-841a-e5e10d300bdb",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "dd2bfb95-87ec-4415-841a-e5e10d300bdb@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "84c30": {
+      "importer": "gltf-mesh",
+      "uuid": "dd2bfb95-87ec-4415-841a-e5e10d300bdb@84c30",
+      "displayName": "",
+      "id": "84c30",
+      "name": "gachsan_006.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "dd2bfb95-87ec-4415-841a-e5e10d300bdb@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "dd2bfb95-87ec-4415-841a-e5e10d300bdb@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "dd2bfb95-87ec-4415-841a-e5e10d300bdb@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e726a": {
+      "importer": "gltf-scene",
+      "uuid": "dd2bfb95-87ec-4415-841a-e5e10d300bdb@e726a",
+      "displayName": "",
+      "id": "e726a",
+      "name": "gachsan_006.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "dd2bfb95-87ec-4415-841a-e5e10d300bdb@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "dd2bfb95-87ec-4415-841a-e5e10d300bdb@e726a",
+    "assetFinder": {
+      "meshes": [
+        "dd2bfb95-87ec-4415-841a-e5e10d300bdb@84c30"
+      ],
+      "skeletons": [],
+      "textures": [
+        "dd2bfb95-87ec-4415-841a-e5e10d300bdb@d20e9"
+      ],
+      "materials": [
+        "dd2bfb95-87ec-4415-841a-e5e10d300bdb@33452"
+      ],
+      "scenes": [
+        "dd2bfb95-87ec-4415-841a-e5e10d300bdb@e726a"
+      ]
+    }
+  }
+}

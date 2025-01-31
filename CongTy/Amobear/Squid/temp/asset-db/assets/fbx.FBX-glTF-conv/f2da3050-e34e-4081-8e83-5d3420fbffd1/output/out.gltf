@@ -1,0 +1,173 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1298,
+      "max": [
+        0.08085917681455612,
+        0.1269049197435379,
+        0.08445025235414505
+      ],
+      "min": [
+        -0.07523387670516968,
+        -0.11989177763462067,
+        -0.08653979003429413
+      ],
+      "name": "rock6/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1298,
+      "name": "rock6/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1298,
+      "name": "rock6/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 1298,
+      "name": "rock6/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 1298,
+      "name": "rock6/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 6873,
+      "name": "rock6/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 72688,
+      "byteStride": 56,
+      "name": "rock6",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 27492,
+      "byteOffset": 72688
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 100180,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\CocosProjects\\Amobear\\Squid\\assets\\Art\\Models\\Models\\Mountain\\rock6_Albedo.png",
+          "relativeFileName": "rock6_Albedo.png"
+        }
+      },
+      "name": "texmap0",
+      "uri": "rock6_Albedo.png"
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\CocosProjects\\Amobear\\Squid\\assets\\Art\\Models\\Models\\Mountain\\rock6_Normal.png",
+          "relativeFileName": "rock6_Normal.png"
+        }
+      },
+      "name": "texmap2",
+      "uri": "rock6_Normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "rock6",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.8164966106414795
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "rock6",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 4,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "rock6"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "texmap0",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "texmap2",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

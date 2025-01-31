@@ -1,0 +1,112 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2678,
+      "max": [
+        0.8782756328582764,
+        1.794269323348999,
+        0.16018258035182953
+      ],
+      "min": [
+        -0.8782756328582764,
+        0.00902467593550682,
+        -0.17995861172676086
+      ],
+      "name": "male_zbrush/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 2678,
+      "name": "male_zbrush/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2678,
+      "name": "male_zbrush/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 2678,
+      "name": "male_zbrush/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 13416,
+      "name": "male_zbrush/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 107120,
+      "byteStride": 40,
+      "name": "male_zbrush",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 53664,
+      "byteOffset": 107120
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 160784,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 60.0
+    }
+  },
+  "meshes": [
+    {
+      "name": "male_zbrush",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "male_zbrush"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

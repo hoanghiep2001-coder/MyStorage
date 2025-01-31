@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4d6ccefd-841a-4402-bdc8-878728f97bdf",
+  "files": [],
+  "subMetas": {
+    "01a55": {
+      "importer": "gltf-mesh",
+      "uuid": "4d6ccefd-841a-4402-bdc8-878728f97bdf@01a55",
+      "displayName": "",
+      "id": "01a55",
+      "name": "polySurface1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "adacb": {
+      "importer": "gltf-embeded-image",
+      "uuid": "4d6ccefd-841a-4402-bdc8-878728f97bdf@adacb",
+      "displayName": "",
+      "id": "adacb",
+      "name": "file2.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e873a": {
+      "importer": "texture",
+      "uuid": "4d6ccefd-841a-4402-bdc8-878728f97bdf@e873a",
+      "displayName": "",
+      "id": "e873a",
+      "name": "file2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4d6ccefd-841a-4402-bdc8-878728f97bdf@adacb"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5c670": {
+      "importer": "gltf-material",
+      "uuid": "4d6ccefd-841a-4402-bdc8-878728f97bdf@5c670",
+      "displayName": "",
+      "id": "5c670",
+      "name": "color1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "05847": {
+      "importer": "gltf-scene",
+      "uuid": "4d6ccefd-841a-4402-bdc8-878728f97bdf@05847",
+      "displayName": "",
+      "id": "05847",
+      "name": "wooddecor.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file2",
+        "uri": "4d6ccefd-841a-4402-bdc8-878728f97bdf@adacb"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "4d6ccefd-841a-4402-bdc8-878728f97bdf@05847",
+    "assetFinder": {
+      "meshes": [
+        "4d6ccefd-841a-4402-bdc8-878728f97bdf@01a55"
+      ],
+      "skeletons": [],
+      "textures": [
+        "4d6ccefd-841a-4402-bdc8-878728f97bdf@e873a"
+      ],
+      "materials": [
+        "4d6ccefd-841a-4402-bdc8-878728f97bdf@5c670"
+      ],
+      "scenes": [
+        "4d6ccefd-841a-4402-bdc8-878728f97bdf@05847"
+      ]
+    }
+  }
+}

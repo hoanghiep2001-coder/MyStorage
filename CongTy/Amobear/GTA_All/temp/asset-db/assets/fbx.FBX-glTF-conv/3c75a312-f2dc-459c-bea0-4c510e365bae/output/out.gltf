@@ -1,0 +1,124 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 45,
+      "max": [
+        0.006022763438522816,
+        0.005460973363369703,
+        0.00524764321744442
+      ],
+      "min": [
+        -0.006022763438522816,
+        -0.005460973363369703,
+        -0.00524764321744442
+      ],
+      "name": "RockDebris_Low/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 45,
+      "name": "RockDebris_Low/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 45,
+      "name": "RockDebris_Low/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 192,
+      "name": "RockDebris_Low/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1440,
+      "byteStride": 32,
+      "name": "RockDebris_Low",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 768,
+      "byteOffset": 1440
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2208,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "materials": [
+    {
+      "name": "RockSpike",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5879999995231628,
+          0.5879999995231628,
+          0.5879999995231628,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "RockDebris_Low",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "RockDebris_Low",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

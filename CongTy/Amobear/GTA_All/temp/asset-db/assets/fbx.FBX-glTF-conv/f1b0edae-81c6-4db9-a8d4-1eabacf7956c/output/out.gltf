@@ -1,0 +1,236 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.24337902665138245,
+        0.2519237995147705,
+        0.2836441397666931
+      ],
+      "min": [
+        -0.2450459599494934,
+        -0.23650114238262177,
+        0.0
+      ],
+      "name": "Cube.007_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 8,
+      "name": "Cube.007_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 8,
+      "name": "Cube.007_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 12,
+      "name": "Cube.007_Material0/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.24337902665138245,
+        0.2519237995147705,
+        0.2836441397666931
+      ],
+      "min": [
+        -0.2450459599494934,
+        -0.23650114238262177,
+        0.0
+      ],
+      "name": "Cube.007_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Cube.007_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Cube.007_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 24,
+      "name": "Cube.007_Material0/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 256,
+      "byteStride": 32,
+      "name": "Cube.007_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 256
+    },
+    {
+      "buffer": 0,
+      "byteLength": 512,
+      "byteOffset": 304,
+      "byteStride": 32,
+      "name": "Cube.007_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 816
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 912,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 25.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:\\2023\\3\\GTA new\\tex\\be tong.jpg",
+          "relativeFileName": "U:\\2023\\3\\GTA new\\tex\\be tong.jpg"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:\\2023\\3\\GTA new\\tex\\building\\chanel.png",
+          "relativeFileName": "U:\\2023\\3\\GTA new\\tex\\building\\chanel.png"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "be tong",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.27216553688049316
+      }
+    },
+    {
+      "name": "chanel",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.27216553688049316
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.007_Material0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cube.007",
+      "rotation": [
+        -0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

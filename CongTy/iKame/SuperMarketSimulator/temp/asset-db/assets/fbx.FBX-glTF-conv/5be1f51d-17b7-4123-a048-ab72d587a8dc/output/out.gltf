@@ -1,0 +1,103 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1042,
+      "max": [
+        0.7306990623474121,
+        1.2750425338745117,
+        1.752576231956482
+      ],
+      "min": [
+        -0.5662126541137695,
+        -0.0007821141043677926,
+        -1.1667537689208984
+      ],
+      "name": "Desk/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1042,
+      "name": "Desk/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1042,
+      "name": "Desk/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 2556,
+      "name": "Desk/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 33344,
+      "byteStride": 32,
+      "name": "Desk",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10224,
+      "byteOffset": 33344
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 43568,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "meshes": [
+    {
+      "name": "Desk",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Desk"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

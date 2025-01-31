@@ -1,0 +1,109 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 671,
+      "max": [
+        0.7880423069000244,
+        0.1574293076992035,
+        2.073474168777466
+      ],
+      "min": [
+        -0.7880423069000244,
+        -0.23657067120075226,
+        0.0004730363143607974
+      ],
+      "name": "Scene/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 671,
+      "name": "Scene/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 671,
+      "name": "Scene/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 2334,
+      "name": "Scene/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 21472,
+      "byteStride": 32,
+      "name": "Scene",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 9336,
+      "byteOffset": 21472
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 30808,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "materials": [
+    {
+      "name": "Default_Material"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Scene",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "real_gangster_crime__56_street_band_Low"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

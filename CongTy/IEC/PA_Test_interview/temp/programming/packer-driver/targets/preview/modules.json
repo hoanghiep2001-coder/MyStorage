@@ -1,0 +1,857 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 5724.653499960899,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 50
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 54
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-ammo",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 50
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_21",
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 14
+          },
+          "end": {
+            "line": 22,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "rewritten": "__unresolved_22",
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 14
+          },
+          "end": {
+            "line": 23,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_23",
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 14
+          },
+          "end": {
+            "line": 24,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-ammo",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 4437517.342899978,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/CONST/GameInfo.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 7
+          },
+          "end": {
+            "line": 4,
+            "column": 112
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/CONST/interfaces.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 114
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/Controller/CameraController.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 125
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/GamePlay/BlackHole.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 116
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/GamePlay/JoyStick.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 115
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/CONST/interfaces.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/Controller/CameraController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/GamePlay/BlackHole.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/GamePlay/JoyStick.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/JoyStick/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1735701558625.9387,
+      "uuid": "171ff78e-d248-4fd1-86a6-09620fbfc3b7"
+    },
+    "chunkId": "assets/Scripts/JoyStick/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/GamePlay/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1735797916202.0352,
+      "uuid": "30ac68ab-6d00-497d-849e-55125ee2b6f6"
+    },
+    "chunkId": "assets/Scripts/GamePlay/JoyStick.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 112
+          },
+          "end": {
+            "line": 2,
+            "column": 116
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./BlackHole",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 39
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/GamePlay/BlackHole.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/GamePlay/TouchArea.ts": {
+    "mTimestamp": {
+      "mtime": 1735702125656.3877,
+      "uuid": "52e59c12-ece0-44c8-98f6-5ee92bc4401c"
+    },
+    "chunkId": "assets/Scripts/GamePlay/TouchArea.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/CONST/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1735798003562.5366,
+      "uuid": "0f0d1342-65b2-4153-9f37-b8baa8350a5e"
+    },
+    "chunkId": "assets/Scripts/CONST/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/CONST/interfaces.ts": {
+    "mTimestamp": {
+      "mtime": 1735702597701.9873,
+      "uuid": "6dc21079-6889-4155-a48f-aaba7b0b740d"
+    },
+    "chunkId": "assets/Scripts/CONST/interfaces.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1735797444738,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/Controller/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1735799832633.9712,
+      "uuid": "19489dc3-2924-4bd3-9dd5-fe76ea2dc9e3"
+    },
+    "chunkId": "assets/Scripts/Controller/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 50
+          },
+          "end": {
+            "line": 2,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/GamePlay/BlackHole.ts": {
+    "mTimestamp": {
+      "mtime": 1735751177451.988,
+      "uuid": "18df8666-066d-4f36-9536-4519a0f49de3"
+    },
+    "chunkId": "assets/Scripts/GamePlay/BlackHole.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 131
+          },
+          "end": {
+            "line": 2,
+            "column": 135
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/WinterWolf_IEC/PA_Test_interview/assets/Scripts/CONST/GameInfo.ts"
+      }
+    ]
+  }
+}

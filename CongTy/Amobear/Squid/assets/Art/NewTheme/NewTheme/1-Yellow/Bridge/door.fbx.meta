@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ded66aee-ba89-4b08-8f71-0a3f402482b9",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "ded66aee-ba89-4b08-8f71-0a3f402482b9@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "92006": {
+      "importer": "gltf-scene",
+      "uuid": "ded66aee-ba89-4b08-8f71-0a3f402482b9@92006",
+      "displayName": "",
+      "id": "92006",
+      "name": "door.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c41b8": {
+      "importer": "gltf-mesh",
+      "uuid": "ded66aee-ba89-4b08-8f71-0a3f402482b9@c41b8",
+      "displayName": "",
+      "id": "c41b8",
+      "name": "door_L.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "ded66aee-ba89-4b08-8f71-0a3f402482b9@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "ded66aee-ba89-4b08-8f71-0a3f402482b9@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ded66aee-ba89-4b08-8f71-0a3f402482b9@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "ded66aee-ba89-4b08-8f71-0a3f402482b9@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "ded66aee-ba89-4b08-8f71-0a3f402482b9@92006",
+    "assetFinder": {
+      "meshes": [
+        "ded66aee-ba89-4b08-8f71-0a3f402482b9@c41b8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "ded66aee-ba89-4b08-8f71-0a3f402482b9@d20e9"
+      ],
+      "materials": [
+        "ded66aee-ba89-4b08-8f71-0a3f402482b9@33452"
+      ],
+      "scenes": [
+        "ded66aee-ba89-4b08-8f71-0a3f402482b9@92006"
+      ]
+    }
+  }
+}

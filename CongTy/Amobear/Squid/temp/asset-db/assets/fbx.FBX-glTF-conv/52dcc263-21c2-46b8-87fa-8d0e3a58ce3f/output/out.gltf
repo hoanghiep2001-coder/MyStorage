@@ -1,0 +1,773 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 200,
+      "max": [
+        0.7529188394546509,
+        0.7529187798500061,
+        0.16642577946186066
+      ],
+      "min": [
+        -0.7529187202453613,
+        -0.7529187798500061,
+        -0.0546489916741848
+      ],
+      "name": "HOP_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 200,
+      "name": "HOP_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 200,
+      "name": "HOP_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 420,
+      "name": "HOP_Material0/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 58,
+      "max": [
+        0.7529188394546509,
+        0.7529187798500061,
+        0.16642577946186066
+      ],
+      "min": [
+        -0.7529187202453613,
+        -0.7529187798500061,
+        0.16642577946186066
+      ],
+      "name": "HOP_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 58,
+      "name": "HOP_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 58,
+      "name": "HOP_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 168,
+      "name": "HOP_Material0/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 43,
+      "max": [
+        0.7040187120437622,
+        0.7040187120437622,
+        0.0
+      ],
+      "min": [
+        -0.7040187120437622,
+        -0.7040187120437622,
+        0.0
+      ],
+      "name": "HOP_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 43,
+      "name": "HOP_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 43,
+      "name": "HOP_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 84,
+      "name": "HOP_Material0/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6400,
+      "byteStride": 32,
+      "name": "HOP_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1680,
+      "byteOffset": 6400
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1856,
+      "byteOffset": 8080,
+      "byteStride": 32,
+      "name": "HOP_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 672,
+      "byteOffset": 9936
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1376,
+      "byteOffset": 10608,
+      "byteStride": 32,
+      "name": "HOP_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 336,
+      "byteOffset": 11984
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 12320,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "originalMaterial": {
+            "properties": {
+              "3dsMax": {
+                "ClassIDa": 1030429932,
+                "ClassIDb": -559038463,
+                "ORIGINAL_MTL": "PHYSICAL_MTL",
+                "Parameters": {
+                  "aniso_angle_map_on": true,
+                  "aniso_channel": 0,
+                  "aniso_mode": 0,
+                  "anisoangle": 0.25,
+                  "anisotropy": 0.0,
+                  "anisotropy_map_on": true,
+                  "base_color": [
+                    0.8705882430076599,
+                    0.3884892165660858,
+                    0.13333334028720856,
+                    1.0
+                  ],
+                  "base_color_map_on": true,
+                  "base_weight": 1.0,
+                  "base_weight_map_on": true,
+                  "brdf_curve": 5.0,
+                  "brdf_high": 1.0,
+                  "brdf_low": 0.05000000074505806,
+                  "brdf_mode": true,
+                  "coat_affect_color": 0.5,
+                  "coat_affect_roughness": 0.5,
+                  "coat_aniso_angle_map_on": true,
+                  "coat_aniso_map_on": true,
+                  "coat_anisoangle": 0.25,
+                  "coat_anisotropy": 0.0,
+                  "coat_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "coat_color_map_on": true,
+                  "coat_ior": 1.5199999809265137,
+                  "coat_map_on": true,
+                  "coat_rough_map_on": true,
+                  "coat_roughness": 0.0,
+                  "coat_roughness_inv": false,
+                  "coating": 0.0,
+                  "cutout_map_on": true,
+                  "diff_rough_map_on": true,
+                  "diff_roughness": 0.0,
+                  "dispersion": 0.0,
+                  "displacement_map_amt": 1.0,
+                  "displacement_map_on": true,
+                  "emission": 1.0,
+                  "emission_map_on": true,
+                  "emit_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "emit_color_map_on": true,
+                  "emit_kelvin": 6500.0,
+                  "emit_luminance": 1500.0,
+                  "material_mode": 2,
+                  "metalness": 0.0,
+                  "metalness_map_on": true,
+                  "refl_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "refl_color_map_on": true,
+                  "reflectivity": 1.0,
+                  "reflectivity_map_on": true,
+                  "roughness": 0.0,
+                  "roughness_inv": false,
+                  "roughness_map_on": true,
+                  "scattering": 0.0,
+                  "scattering_map_on": true,
+                  "sheen": 0.0,
+                  "sheen_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "sheen_color_map_on": true,
+                  "sheen_map_on": true,
+                  "sheen_rough_map_on": true,
+                  "sheen_roughness": 0.30000001192092896,
+                  "sss_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "sss_color_map_on": true,
+                  "sss_depth": 10.0,
+                  "sss_scale": 1.0,
+                  "sss_scale_map_on": true,
+                  "sss_scatter_color": [
+                    100.0,
+                    50.0,
+                    25.0,
+                    1.0
+                  ],
+                  "thin_film": 0.0,
+                  "thin_film_ior": 1.2999999523162842,
+                  "thin_film_ior_map_on": true,
+                  "thin_film_map_on": true,
+                  "thin_film_thickness": 0.0,
+                  "thin_walled": false,
+                  "trans_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "trans_color_map_on": true,
+                  "trans_depth": 0.0,
+                  "trans_ior": 1.5199999809265137,
+                  "trans_ior_map_on": true,
+                  "trans_rough_map_on": true,
+                  "trans_roughness": 0.0,
+                  "trans_roughness_inv": false,
+                  "trans_roughness_lock": true,
+                  "trans_scatter_aniso": 0.0,
+                  "trans_scatter_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "transparency": 0.0,
+                  "transparency_map_on": true
+                },
+                "SuperClassID": 3072
+              },
+              "AmbientColor": [
+                0.8705882430076599,
+                0.3884892165660858,
+                0.13333334028720856
+              ],
+              "DiffuseColor": [
+                0.8705882430076599,
+                0.3884892165660858,
+                0.13333334028720856
+              ],
+              "EmissiveColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "EmissiveFactor": 0.0,
+              "MultiLayer": false,
+              "ShadingModel": "unknown",
+              "ShininessExponent": 1024.0,
+              "SpecularColor": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "SpecularFactor": 2.0,
+              "TransparencyFactor": 0.0
+            }
+          }
+        }
+      },
+      "name": "Material #71",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.031234752386808395
+      }
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "originalMaterial": {
+            "properties": {
+              "3dsMax": {
+                "ClassIDa": 1030429932,
+                "ClassIDb": -559038463,
+                "ORIGINAL_MTL": "PHYSICAL_MTL",
+                "Parameters": {
+                  "aniso_angle_map_on": true,
+                  "aniso_channel": 0,
+                  "aniso_mode": 0,
+                  "anisoangle": 0.25,
+                  "anisotropy": 0.0,
+                  "anisotropy_map_on": true,
+                  "base_color": [
+                    0.8129496574401855,
+                    0.597122311592102,
+                    0.21960784494876862,
+                    1.0
+                  ],
+                  "base_color_map_on": true,
+                  "base_weight": 1.0,
+                  "base_weight_map_on": true,
+                  "brdf_curve": 5.0,
+                  "brdf_high": 1.0,
+                  "brdf_low": 0.05000000074505806,
+                  "brdf_mode": true,
+                  "coat_affect_color": 0.5,
+                  "coat_affect_roughness": 0.5,
+                  "coat_aniso_angle_map_on": true,
+                  "coat_aniso_map_on": true,
+                  "coat_anisoangle": 0.25,
+                  "coat_anisotropy": 0.0,
+                  "coat_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "coat_color_map_on": true,
+                  "coat_ior": 1.5199999809265137,
+                  "coat_map_on": true,
+                  "coat_rough_map_on": true,
+                  "coat_roughness": 0.0,
+                  "coat_roughness_inv": false,
+                  "coating": 0.0,
+                  "cutout_map_on": true,
+                  "diff_rough_map_on": true,
+                  "diff_roughness": 0.0,
+                  "dispersion": 0.0,
+                  "displacement_map_amt": 1.0,
+                  "displacement_map_on": true,
+                  "emission": 1.0,
+                  "emission_map_on": true,
+                  "emit_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "emit_color_map_on": true,
+                  "emit_kelvin": 6500.0,
+                  "emit_luminance": 1500.0,
+                  "material_mode": 2,
+                  "metalness": 0.0,
+                  "metalness_map_on": true,
+                  "refl_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "refl_color_map_on": true,
+                  "reflectivity": 1.0,
+                  "reflectivity_map_on": true,
+                  "roughness": 0.0,
+                  "roughness_inv": false,
+                  "roughness_map_on": true,
+                  "scattering": 0.0,
+                  "scattering_map_on": true,
+                  "sheen": 0.0,
+                  "sheen_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "sheen_color_map_on": true,
+                  "sheen_map_on": true,
+                  "sheen_rough_map_on": true,
+                  "sheen_roughness": 0.30000001192092896,
+                  "sss_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "sss_color_map_on": true,
+                  "sss_depth": 10.0,
+                  "sss_scale": 1.0,
+                  "sss_scale_map_on": true,
+                  "sss_scatter_color": [
+                    100.0,
+                    50.0,
+                    25.0,
+                    1.0
+                  ],
+                  "thin_film": 0.0,
+                  "thin_film_ior": 1.2999999523162842,
+                  "thin_film_ior_map_on": true,
+                  "thin_film_map_on": true,
+                  "thin_film_thickness": 0.0,
+                  "thin_walled": false,
+                  "trans_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "trans_color_map_on": true,
+                  "trans_depth": 0.0,
+                  "trans_ior": 1.5199999809265137,
+                  "trans_ior_map_on": true,
+                  "trans_rough_map_on": true,
+                  "trans_roughness": 0.0,
+                  "trans_roughness_inv": false,
+                  "trans_roughness_lock": true,
+                  "trans_scatter_aniso": 0.0,
+                  "trans_scatter_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "transparency": 0.0,
+                  "transparency_map_on": true
+                },
+                "SuperClassID": 3072
+              },
+              "AmbientColor": [
+                0.8129496574401855,
+                0.597122311592102,
+                0.21960784494876862
+              ],
+              "DiffuseColor": [
+                0.8129496574401855,
+                0.597122311592102,
+                0.21960784494876862
+              ],
+              "EmissiveColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "EmissiveFactor": 0.0,
+              "MultiLayer": false,
+              "ShadingModel": "unknown",
+              "ShininessExponent": 1024.0,
+              "SpecularColor": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "SpecularFactor": 2.0,
+              "TransparencyFactor": 0.0
+            }
+          }
+        }
+      },
+      "name": "Material #25",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.031234752386808395
+      }
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "originalMaterial": {
+            "properties": {
+              "3dsMax": {
+                "ClassIDa": 1030429932,
+                "ClassIDb": -559038463,
+                "ORIGINAL_MTL": "PHYSICAL_MTL",
+                "Parameters": {
+                  "aniso_angle_map_on": true,
+                  "aniso_channel": 0,
+                  "aniso_mode": 0,
+                  "anisoangle": 0.25,
+                  "anisotropy": 0.0,
+                  "anisotropy_map_on": true,
+                  "base_color": [
+                    0.7266187071800232,
+                    0.24629293382167816,
+                    0.07841209322214127,
+                    1.0
+                  ],
+                  "base_color_map_on": true,
+                  "base_weight": 1.0,
+                  "base_weight_map_on": true,
+                  "brdf_curve": 5.0,
+                  "brdf_high": 1.0,
+                  "brdf_low": 0.05000000074505806,
+                  "brdf_mode": true,
+                  "coat_affect_color": 0.5,
+                  "coat_affect_roughness": 0.5,
+                  "coat_aniso_angle_map_on": true,
+                  "coat_aniso_map_on": true,
+                  "coat_anisoangle": 0.25,
+                  "coat_anisotropy": 0.0,
+                  "coat_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "coat_color_map_on": true,
+                  "coat_ior": 1.5199999809265137,
+                  "coat_map_on": true,
+                  "coat_rough_map_on": true,
+                  "coat_roughness": 0.0,
+                  "coat_roughness_inv": false,
+                  "coating": 0.0,
+                  "cutout_map_on": true,
+                  "diff_rough_map_on": true,
+                  "diff_roughness": 0.0,
+                  "dispersion": 0.0,
+                  "displacement_map_amt": 1.0,
+                  "displacement_map_on": true,
+                  "emission": 1.0,
+                  "emission_map_on": true,
+                  "emit_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "emit_color_map_on": true,
+                  "emit_kelvin": 6500.0,
+                  "emit_luminance": 1500.0,
+                  "material_mode": 2,
+                  "metalness": 0.0,
+                  "metalness_map_on": true,
+                  "refl_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "refl_color_map_on": true,
+                  "reflectivity": 1.0,
+                  "reflectivity_map_on": true,
+                  "roughness": 0.0,
+                  "roughness_inv": false,
+                  "roughness_map_on": true,
+                  "scattering": 0.0,
+                  "scattering_map_on": true,
+                  "sheen": 0.0,
+                  "sheen_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "sheen_color_map_on": true,
+                  "sheen_map_on": true,
+                  "sheen_rough_map_on": true,
+                  "sheen_roughness": 0.30000001192092896,
+                  "sss_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "sss_color_map_on": true,
+                  "sss_depth": 10.0,
+                  "sss_scale": 1.0,
+                  "sss_scale_map_on": true,
+                  "sss_scatter_color": [
+                    100.0,
+                    50.0,
+                    25.0,
+                    1.0
+                  ],
+                  "thin_film": 0.0,
+                  "thin_film_ior": 1.2999999523162842,
+                  "thin_film_ior_map_on": true,
+                  "thin_film_map_on": true,
+                  "thin_film_thickness": 0.0,
+                  "thin_walled": false,
+                  "trans_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "trans_color_map_on": true,
+                  "trans_depth": 0.0,
+                  "trans_ior": 1.5199999809265137,
+                  "trans_ior_map_on": true,
+                  "trans_rough_map_on": true,
+                  "trans_roughness": 0.0,
+                  "trans_roughness_inv": false,
+                  "trans_roughness_lock": true,
+                  "trans_scatter_aniso": 0.0,
+                  "trans_scatter_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "transparency": 0.0,
+                  "transparency_map_on": true
+                },
+                "SuperClassID": 3072
+              },
+              "AmbientColor": [
+                0.7266187071800232,
+                0.24629293382167816,
+                0.07841209322214127
+              ],
+              "DiffuseColor": [
+                0.7266187071800232,
+                0.24629293382167816,
+                0.07841209322214127
+              ],
+              "EmissiveColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "EmissiveFactor": 0.0,
+              "MultiLayer": false,
+              "ShadingModel": "unknown",
+              "ShininessExponent": 1024.0,
+              "SpecularColor": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "SpecularFactor": 2.0,
+              "TransparencyFactor": 0.0
+            }
+          }
+        }
+      },
+      "name": "Material #117",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.031234752386808395
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "HOP_Material0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "HOP",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1.0683339834213257,
+        1.0683339834213257,
+        1.0683339834213257
+      ],
+      "translation": [
+        0.0,
+        0.07063537836074829,
+        6.378790828875935e-08
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

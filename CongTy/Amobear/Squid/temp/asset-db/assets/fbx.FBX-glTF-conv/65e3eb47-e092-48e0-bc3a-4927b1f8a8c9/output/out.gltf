@@ -1,0 +1,116 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 6,
+      "max": [
+        7.216938495635986,
+        0.0,
+        11.075296401977539
+      ],
+      "min": [
+        -14.069796562194824,
+        0.0,
+        -13.335371971130371
+      ],
+      "name": "pPlane1/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 6,
+      "name": "pPlane1/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 6,
+      "name": "pPlane1/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 12,
+      "name": "pPlane1/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteStride": 32,
+      "name": "pPlane1",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 192
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 240,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "materials": [
+    {
+      "name": "lambert1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          1.0
+        ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "pPlane1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "pPlane1"
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

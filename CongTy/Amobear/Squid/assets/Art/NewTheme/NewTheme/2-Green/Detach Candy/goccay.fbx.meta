@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "890b8f98-60e2-4392-a76a-3ab491d1de4c",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "890b8f98-60e2-4392-a76a-3ab491d1de4c@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "39717": {
+      "importer": "gltf-mesh",
+      "uuid": "890b8f98-60e2-4392-a76a-3ab491d1de4c@39717",
+      "displayName": "",
+      "id": "39717",
+      "name": "goccay.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "890b8f98-60e2-4392-a76a-3ab491d1de4c@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "890b8f98-60e2-4392-a76a-3ab491d1de4c@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "890b8f98-60e2-4392-a76a-3ab491d1de4c@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "02e2a": {
+      "importer": "gltf-scene",
+      "uuid": "890b8f98-60e2-4392-a76a-3ab491d1de4c@02e2a",
+      "displayName": "",
+      "id": "02e2a",
+      "name": "goccay.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "890b8f98-60e2-4392-a76a-3ab491d1de4c@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "890b8f98-60e2-4392-a76a-3ab491d1de4c@02e2a",
+    "assetFinder": {
+      "meshes": [
+        "890b8f98-60e2-4392-a76a-3ab491d1de4c@39717"
+      ],
+      "skeletons": [],
+      "textures": [
+        "890b8f98-60e2-4392-a76a-3ab491d1de4c@d20e9"
+      ],
+      "materials": [
+        "890b8f98-60e2-4392-a76a-3ab491d1de4c@33452"
+      ],
+      "scenes": [
+        "890b8f98-60e2-4392-a76a-3ab491d1de4c@02e2a"
+      ]
+    }
+  }
+}

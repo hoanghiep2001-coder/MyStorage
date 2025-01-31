@@ -1,0 +1,116 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 226,
+      "max": [
+        0.41302254796028137,
+        2.6516005992889404,
+        -0.6049636602401733
+      ],
+      "min": [
+        -0.41302239894866943,
+        1.3483994007110596,
+        -0.7567070722579956
+      ],
+      "name": "so3_T/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 226,
+      "name": "so3_T/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 226,
+      "name": "so3_T/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 624,
+      "name": "so3_T/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 7232,
+      "byteStride": 32,
+      "name": "so3_T",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2496,
+      "byteOffset": 7232
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 9728,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "materials": [
+    {
+      "name": "color",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          1.0
+        ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "so3_T",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "so3_T"
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

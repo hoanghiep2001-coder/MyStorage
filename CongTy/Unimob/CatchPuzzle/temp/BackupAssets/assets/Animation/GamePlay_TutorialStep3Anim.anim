@@ -1,0 +1,123 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "GamePlay_TutorialStep3Anim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.3333333333333335,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Tools/Overlay": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 150
+            }
+          ]
+        }
+      },
+      "UI/Text_CleanFace": {
+        "props": {
+          "opacity": [],
+          "angle": []
+        }
+      },
+      "UI/hand": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.8333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "Tools/Spine_CleanHair": {
+        "comps": {},
+        "props": {
+          "opacity": []
+        }
+      },
+      "UI/Text_CleanHair": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "Tools/Spine_Sponge": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/Use A Face Mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.8333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 255
+            }
+          ],
+          "angle": [
+            {
+              "frame": 1.8333333333333333,
+              "value": -5
+            },
+            {
+              "frame": 1.9166666666666667,
+              "value": 5
+            },
+            {
+              "frame": 2,
+              "value": -5
+            },
+            {
+              "frame": 2.0833333333333335,
+              "value": 5
+            },
+            {
+              "frame": 2.1666666666666665,
+              "value": -5
+            },
+            {
+              "frame": 2.25,
+              "value": 5
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

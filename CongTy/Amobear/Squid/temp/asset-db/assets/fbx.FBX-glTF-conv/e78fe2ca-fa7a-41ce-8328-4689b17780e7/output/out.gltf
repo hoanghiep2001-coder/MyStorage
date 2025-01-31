@@ -1,0 +1,120 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 691,
+      "max": [
+        0.08085917681455612,
+        0.1262703835964203,
+        0.08387675136327744
+      ],
+      "min": [
+        -0.07510930299758911,
+        -0.11846784502267838,
+        -0.08548274636268616
+      ],
+      "name": "rock6/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 691,
+      "name": "rock6/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 691,
+      "name": "rock6/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 691,
+      "name": "rock6/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 691,
+      "name": "rock6/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 1332,
+      "name": "rock6/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 38696,
+      "byteStride": 56,
+      "name": "rock6",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5328,
+      "byteOffset": 38696
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 44024,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "meshes": [
+    {
+      "name": "rock6",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 4,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 5
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "rock6"
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

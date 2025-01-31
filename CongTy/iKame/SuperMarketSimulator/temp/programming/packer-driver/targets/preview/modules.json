@@ -1,0 +1,6346 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 6455.447299957275,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 50
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-cannon",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-cannon",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 3183462.6776999235,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/AdHelper/IronSource.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 7
+          },
+          "end": {
+            "line": 4,
+            "column": 106
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/CONST.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 101
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/interface.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 102
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/GameController.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 112
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/SoundController.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 113
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/UIGameController.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 114
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/GamePlay/HideMask.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 104
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Money/MoneyBehavior.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 106
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Behavior.ts",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 7
+          },
+          "end": {
+            "line": 13,
+            "column": 103
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Controller.ts",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 105
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Customer.ts",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 103
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Others/HandleLogicGamePlay.ts",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 7
+          },
+          "end": {
+            "line": 16,
+            "column": 113
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/EnablePhysics.ts",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 7
+          },
+          "end": {
+            "line": 17,
+            "column": 106
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/Responsive.ts",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 18,
+            "column": 103
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/Singleton.ts",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 7
+          },
+          "end": {
+            "line": 19,
+            "column": 102
+          }
+        }
+      },
+      {
+        "value": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/Utility.ts",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 7
+          },
+          "end": {
+            "line": 20,
+            "column": 100
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/AdHelper/IronSource.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/interface.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/GamePlay/HideMask.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Money/MoneyBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Behavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Controller.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Customer.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Others/HandleLogicGamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/EnablePhysics.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/Singleton.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/Utility.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/AdHelper/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1724814005268.486,
+      "uuid": "b6c66277-217f-4536-809a-48462fc2596e"
+    },
+    "chunkId": "assets/Scripts/AdHelper/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 22
+          },
+          "end": {
+            "line": 1,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/CONST.ts": {
+    "mTimestamp": {
+      "mtime": 1725012904488.3633,
+      "uuid": "703629a5-5db0-4bf7-9720-84e49e17521d"
+    },
+    "chunkId": "assets/Scripts/Const/CONST.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1725597904016.9587,
+      "uuid": "9aa2e1c5-d023-4c31-a92d-0c1bf2005386"
+    },
+    "chunkId": "assets/Scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/AdHelper/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/RoboController.ts": {
+    "mTimestamp": {
+      "mtime": 1725591369422.2168,
+      "uuid": "7b73ae4f-6a8a-4c64-8160-45684891694d"
+    },
+    "chunkId": "assets/Scripts/Controller/RoboController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 89
+          },
+          "end": {
+            "line": 1,
+            "column": 93
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Utils/Singleton",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 22
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "./UIGameController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 33
+          },
+          "end": {
+            "line": 5,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Robo/RoboLevel",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Robo/RoboBehavior",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 29
+          },
+          "end": {
+            "line": 7,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Utils/Singleton.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboLevel.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboBehavior.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/SoundController.ts": {
+    "mTimestamp": {
+      "mtime": 1725597916798.7878,
+      "uuid": "6b331de7-4b55-4a08-b095-681f437f548a"
+    },
+    "chunkId": "assets/Scripts/Controller/SoundController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../Utils/Singleton",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Utils/Singleton.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/AdHelper/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/UIGameController.ts": {
+    "mTimestamp": {
+      "mtime": 1725597833059.1406,
+      "uuid": "eae0a180-6b6c-41fb-bf24-e054165f939c"
+    },
+    "chunkId": "assets/Scripts/Controller/UIGameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 82
+          },
+          "end": {
+            "line": 2,
+            "column": 86
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 5,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/GamePlay/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1724745495334.8267,
+      "uuid": "0b046e23-7738-4bb4-8619-f03ea3888146"
+    },
+    "chunkId": "assets/Scripts/GamePlay/GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/GamePlay/HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1725597916798.7878,
+      "uuid": "f6c02d92-2a89-49d0-b14e-d4bba72e5a8f"
+    },
+    "chunkId": "assets/Scripts/GamePlay/HideMask.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 27
+          },
+          "end": {
+            "line": 2,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Utils/Utility",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "../Others/vFx_FireLight",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 30
+          },
+          "end": {
+            "line": 5,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "../Others/HandleLogicGamePlay",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 30
+          },
+          "end": {
+            "line": 6,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 33
+          },
+          "end": {
+            "line": 7,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Robo/RoboBehavior",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 29
+          },
+          "end": {
+            "line": 9,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Controller/GameController",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 31
+          },
+          "end": {
+            "line": 10,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/AdHelper/IronSource.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Utils/Utility.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Others/vFx_FireLight.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Others/HandleLogicGamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Others/vFx_FireLight.ts": {
+    "mTimestamp": {
+      "mtime": 1725589950658.921,
+      "uuid": "6b4b36a0-ce3d-4ccf-90c2-4118dc72d332"
+    },
+    "chunkId": "assets/Scripts/Others/vFx_FireLight.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 94
+          },
+          "end": {
+            "line": 1,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1725596980846.568,
+      "uuid": "8208e254-7f17-4f4e-8770-ae92221db73e"
+    },
+    "chunkId": "assets/Scripts/Const/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Utils/EnablePhysics.ts": {
+    "mTimestamp": {
+      "mtime": 1724657484085.1707,
+      "uuid": "bcf6df5e-8eb1-488a-b217-771bcdc22457"
+    },
+    "chunkId": "assets/Scripts/Utils/EnablePhysics.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Utils/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1725416321624.3755,
+      "uuid": "ff71ea16-94c0-487e-bf0d-6f6375515da5"
+    },
+    "chunkId": "assets/Scripts/Utils/Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Utils/Singleton.ts": {
+    "mTimestamp": {
+      "mtime": 1724656971714.6396,
+      "uuid": "68e71e46-300a-45c6-a436-7aa7acd49d56"
+    },
+    "chunkId": "assets/Scripts/Utils/Singleton.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Utils/Utility.ts": {
+    "mTimestamp": {
+      "mtime": 1724750867128.071,
+      "uuid": "29ed240b-aa91-4932-a5a4-5ca3411d6bd9"
+    },
+    "chunkId": "assets/Scripts/Utils/Utility.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 45
+          },
+          "end": {
+            "line": 1,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboBehavior.ts": {
+    "mTimestamp": {
+      "mtime": 1725009901178.0713,
+      "uuid": "41676923-f548-403c-a1fe-bc217c9b3e55"
+    },
+    "chunkId": "assets/Scripts/Robo/RoboBehavior.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 84
+          },
+          "end": {
+            "line": 2,
+            "column": 88
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1732356725112,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Others/HandleLogicGamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1725597562499.0332,
+      "uuid": "45fe3322-0661-48ba-b1ba-b8f4ddcac881"
+    },
+    "chunkId": "assets/Scripts/Others/HandleLogicGamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 100
+          },
+          "end": {
+            "line": 1,
+            "column": 104
+          }
+        }
+      },
+      {
+        "value": "../Robo/RoboBehavior",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 29
+          },
+          "end": {
+            "line": 2,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Robo/RoboAnim",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/RoboController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 31
+          },
+          "end": {
+            "line": 5,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Robo/RoboLevel",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 32
+          },
+          "end": {
+            "line": 7,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 22
+          },
+          "end": {
+            "line": 8,
+            "column": 38
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboAnim.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/RoboController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboLevel.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/CONST.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboAnim.ts": {
+    "mTimestamp": {
+      "mtime": 1724815102066.4043,
+      "uuid": "85c31c83-e649-44ca-b0b8-0f667704c2ba"
+    },
+    "chunkId": "assets/Scripts/Robo/RoboAnim.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboLevel.ts": {
+    "mTimestamp": {
+      "mtime": 1725594434499.8064,
+      "uuid": "b3c0049f-efa4-439d-8385-e148a135cc53"
+    },
+    "chunkId": "assets/Scripts/Robo/RoboLevel.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 78
+          },
+          "end": {
+            "line": 1,
+            "column": 82
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboCollision.ts": {
+    "mTimestamp": {
+      "mtime": 1725597692410.38,
+      "uuid": "9f6dcb41-b5fe-4a3b-9e9c-20443da81acb"
+    },
+    "chunkId": "assets/Scripts/Robo/RoboCollision.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 176
+          },
+          "end": {
+            "line": 2,
+            "column": 180
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./RoboAnim",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./RoboBehavior",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 32
+          },
+          "end": {
+            "line": 6,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 22
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboAnim.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Robo/RoboBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_FullProject/assets/Scripts/Const/CONST.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/AdHelper/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1724814005268.486,
+      "uuid": "b6c66277-217f-4536-809a-48462fc2596e"
+    },
+    "chunkId": "assets/Scripts/AdHelper/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 22
+          },
+          "end": {
+            "line": 1,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1725597904016.9587,
+      "uuid": "9aa2e1c5-d023-4c31-a92d-0c1bf2005386"
+    },
+    "chunkId": "assets/Scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/AdHelper/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/RoboController.ts": {
+    "mTimestamp": {
+      "mtime": 1726456660710.2615,
+      "uuid": "7b73ae4f-6a8a-4c64-8160-45684891694d"
+    },
+    "chunkId": "assets/Scripts/Controller/RoboController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 89
+          },
+          "end": {
+            "line": 1,
+            "column": 93
+          }
+        }
+      },
+      {
+        "value": "../Utils/Singleton",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 22
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Utils/Singleton.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/GamePlay/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1726556040327.7783,
+      "uuid": "0b046e23-7738-4bb4-8619-f03ea3888146"
+    },
+    "chunkId": "assets/Scripts/GamePlay/GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/SoundController.ts": {
+    "mTimestamp": {
+      "mtime": 1725597916798.7878,
+      "uuid": "6b331de7-4b55-4a08-b095-681f437f548a"
+    },
+    "chunkId": "assets/Scripts/Controller/SoundController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../Utils/Singleton",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Utils/Singleton.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/AdHelper/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/UIGameController.ts": {
+    "mTimestamp": {
+      "mtime": 1726648073258.392,
+      "uuid": "eae0a180-6b6c-41fb-bf24-e054165f939c"
+    },
+    "chunkId": "assets/Scripts/Controller/UIGameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 82
+          },
+          "end": {
+            "line": 2,
+            "column": 86
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 5,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/GamePlay/HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1726655521979.0276,
+      "uuid": "f6c02d92-2a89-49d0-b14e-d4bba72e5a8f"
+    },
+    "chunkId": "assets/Scripts/GamePlay/HideMask.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 27
+          },
+          "end": {
+            "line": 2,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Utils/Utility",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 33
+          },
+          "end": {
+            "line": 5,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Controller/GameController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/AdHelper/IronSource.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Utils/Utility.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Others/vFx_FireLight.ts": {
+    "mTimestamp": {
+      "mtime": 1726458649096.9668,
+      "uuid": "6b4b36a0-ce3d-4ccf-90c2-4118dc72d332"
+    },
+    "chunkId": "assets/Scripts/Others/vFx_FireLight.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 94
+          },
+          "end": {
+            "line": 1,
+            "column": 98
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Robo/RoboBehavior.ts": {
+    "mTimestamp": {
+      "mtime": 1726458023865.4133,
+      "uuid": "41676923-f548-403c-a1fe-bc217c9b3e55"
+    },
+    "chunkId": "assets/Scripts/Robo/RoboBehavior.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 84
+          },
+          "end": {
+            "line": 2,
+            "column": 88
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Others/HandleLogicGamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1726456716196.3284,
+      "uuid": "45fe3322-0661-48ba-b1ba-b8f4ddcac881"
+    },
+    "chunkId": "assets/Scripts/Others/HandleLogicGamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 100
+          },
+          "end": {
+            "line": 1,
+            "column": 104
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Robo/RoboAnim.ts": {
+    "mTimestamp": {
+      "mtime": 1724815102066.4043,
+      "uuid": "85c31c83-e649-44ca-b0b8-0f667704c2ba"
+    },
+    "chunkId": "assets/Scripts/Robo/RoboAnim.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Robo/RoboCollision.ts": {
+    "mTimestamp": {
+      "mtime": 1726456799756.7966,
+      "uuid": "9f6dcb41-b5fe-4a3b-9e9c-20443da81acb"
+    },
+    "chunkId": "assets/Scripts/Robo/RoboCollision.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 176
+          },
+          "end": {
+            "line": 2,
+            "column": 180
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Robo/RoboLevel.ts": {
+    "mTimestamp": {
+      "mtime": 1726456757152.4192,
+      "uuid": "b3c0049f-efa4-439d-8385-e148a135cc53"
+    },
+    "chunkId": "assets/Scripts/Robo/RoboLevel.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 78
+          },
+          "end": {
+            "line": 1,
+            "column": 82
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Utils/EnablePhysics.ts": {
+    "mTimestamp": {
+      "mtime": 1724657484085.1707,
+      "uuid": "bcf6df5e-8eb1-488a-b217-771bcdc22457"
+    },
+    "chunkId": "assets/Scripts/Utils/EnablePhysics.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Utils/Utility.ts": {
+    "mTimestamp": {
+      "mtime": 1724750867128.071,
+      "uuid": "29ed240b-aa91-4932-a5a4-5ca3411d6bd9"
+    },
+    "chunkId": "assets/Scripts/Utils/Utility.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 45
+          },
+          "end": {
+            "line": 1,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Utils/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1726654669696.9727,
+      "uuid": "ff71ea16-94c0-487e-bf0d-6f6375515da5"
+    },
+    "chunkId": "assets/Scripts/Utils/Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Utils/Singleton.ts": {
+    "mTimestamp": {
+      "mtime": 1724656971714.6396,
+      "uuid": "68e71e46-300a-45c6-a436-7aa7acd49d56"
+    },
+    "chunkId": "assets/Scripts/Utils/Singleton.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Const/CONST.ts": {
+    "mTimestamp": {
+      "mtime": 1726456658395.75,
+      "uuid": "703629a5-5db0-4bf7-9720-84e49e17521d"
+    },
+    "chunkId": "assets/Scripts/Const/CONST.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Const/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1726642775610.4004,
+      "uuid": "8208e254-7f17-4f4e-8770-ae92221db73e"
+    },
+    "chunkId": "assets/Scripts/Const/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/GamePlay/AutoSpawnBricks.ts": {
+    "mTimestamp": {
+      "mtime": 1726628292022.032,
+      "uuid": "9a7cb84c-37c9-4fa8-8f7c-d9fcec6f0f73"
+    },
+    "chunkId": "assets/Scripts/GamePlay/AutoSpawnBricks.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 92
+          },
+          "end": {
+            "line": 2,
+            "column": 96
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/Controller/BrickController.ts": {
+    "mTimestamp": {
+      "mtime": 1726631810581.6206,
+      "uuid": "10387bc2-b06c-48b1-afb1-fc24c45ce25f"
+    },
+    "chunkId": "assets/Scripts/Controller/BrickController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/HexaSort/HexaSort_FullProject/assets/Scripts/GamePlay/BricksUI.ts": {
+    "mTimestamp": {
+      "mtime": 1726650563737.969,
+      "uuid": "c714e797-fb25-47c6-a7c2-c9f29e679d01"
+    },
+    "chunkId": "assets/Scripts/GamePlay/BricksUI.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Const/CONST.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093131.7014,
+      "uuid": "703629a5-5db0-4bf7-9720-84e49e17521d"
+    },
+    "chunkId": "assets/Scripts/Const/CONST.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/AdHelper/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093087.3064,
+      "uuid": "b6c66277-217f-4536-809a-48462fc2596e"
+    },
+    "chunkId": "assets/Scripts/AdHelper/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 22
+          },
+          "end": {
+            "line": 1,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Controller/BrickController.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093217.4617,
+      "uuid": "10387bc2-b06c-48b1-afb1-fc24c45ce25f"
+    },
+    "chunkId": "assets/Scripts/Controller/BrickController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/GamePlay/AutoSpawnBricks.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093382.512,
+      "uuid": "9a7cb84c-37c9-4fa8-8f7c-d9fcec6f0f73"
+    },
+    "chunkId": "assets/Scripts/GamePlay/AutoSpawnBricks.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 92
+          },
+          "end": {
+            "line": 2,
+            "column": 96
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093257.8037,
+      "uuid": "9aa2e1c5-d023-4c31-a92d-0c1bf2005386"
+    },
+    "chunkId": "assets/Scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/AdHelper/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Const/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093173.558,
+      "uuid": "8208e254-7f17-4f4e-8770-ae92221db73e"
+    },
+    "chunkId": "assets/Scripts/Const/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Controller/SoundController.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093297.3296,
+      "uuid": "6b331de7-4b55-4a08-b095-681f437f548a"
+    },
+    "chunkId": "assets/Scripts/Controller/SoundController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../Utils/Singleton",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Utils/Singleton.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/AdHelper/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/GamePlay/BricksUI.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093422.7544,
+      "uuid": "c714e797-fb25-47c6-a7c2-c9f29e679d01"
+    },
+    "chunkId": "assets/Scripts/GamePlay/BricksUI.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/GamePlay/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093462.4114,
+      "uuid": "0b046e23-7738-4bb4-8619-f03ea3888146"
+    },
+    "chunkId": "assets/Scripts/GamePlay/GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Utils/EnablePhysics.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093587.5125,
+      "uuid": "bcf6df5e-8eb1-488a-b217-771bcdc22457"
+    },
+    "chunkId": "assets/Scripts/Utils/EnablePhysics.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/GamePlay/HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093501.135,
+      "uuid": "f6c02d92-2a89-49d0-b14e-d4bba72e5a8f"
+    },
+    "chunkId": "assets/Scripts/GamePlay/HideMask.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../AdHelper/IronSource",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 27
+          },
+          "end": {
+            "line": 2,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Utils/Utility",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 33
+          },
+          "end": {
+            "line": 5,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Controller/GameController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/AdHelper/IronSource.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Utils/Utility.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Controller/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Others/HandleLogicGamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093543.5537,
+      "uuid": "45fe3322-0661-48ba-b1ba-b8f4ddcac881"
+    },
+    "chunkId": "assets/Scripts/Others/HandleLogicGamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 100
+          },
+          "end": {
+            "line": 1,
+            "column": 104
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Utils/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093625.5415,
+      "uuid": "ff71ea16-94c0-487e-bf0d-6f6375515da5"
+    },
+    "chunkId": "assets/Scripts/Utils/Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Utils/Singleton.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093665.614,
+      "uuid": "68e71e46-300a-45c6-a436-7aa7acd49d56"
+    },
+    "chunkId": "assets/Scripts/Utils/Singleton.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Controller/UIGameController.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093338.2175,
+      "uuid": "eae0a180-6b6c-41fb-bf24-e054165f939c"
+    },
+    "chunkId": "assets/Scripts/Controller/UIGameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 82
+          },
+          "end": {
+            "line": 2,
+            "column": 86
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 5,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Controller/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA/IceBear_PA_2024/3D/HexaSort_FullProject/HexaSort_FullProject/assets/Scripts/Utils/Utility.ts": {
+    "mTimestamp": {
+      "mtime": 1732287093704.3352,
+      "uuid": "29ed240b-aa91-4932-a5a4-5ca3411d6bd9"
+    },
+    "chunkId": "assets/Scripts/Utils/Utility.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 45
+          },
+          "end": {
+            "line": 1,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/AdHelper/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1732353086648.7483,
+      "uuid": "b6c66277-217f-4536-809a-48462fc2596e"
+    },
+    "chunkId": "assets/Scripts/AdHelper/IronSource.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1732355147468.932,
+      "uuid": "9aa2e1c5-d023-4c31-a92d-0c1bf2005386"
+    },
+    "chunkId": "assets/Scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 58
+          },
+          "end": {
+            "line": 2,
+            "column": 62
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 22
+          },
+          "end": {
+            "line": 4,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/SoundController.ts": {
+    "mTimestamp": {
+      "mtime": 1732353086851.798,
+      "uuid": "6b331de7-4b55-4a08-b095-681f437f548a"
+    },
+    "chunkId": "assets/Scripts/Controller/SoundController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../Utils/Singleton",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/Singleton.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/UIGameController.ts": {
+    "mTimestamp": {
+      "mtime": 1732353086883.068,
+      "uuid": "eae0a180-6b6c-41fb-bf24-e054165f939c"
+    },
+    "chunkId": "assets/Scripts/Controller/UIGameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 151
+          },
+          "end": {
+            "line": 2,
+            "column": 155
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 5,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Others/HandleLogicGamePlay",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 30
+          },
+          "end": {
+            "line": 7,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Others/HandleLogicGamePlay.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/GamePlay/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1732353086929.9036,
+      "uuid": "0b046e23-7738-4bb4-8619-f03ea3888146"
+    },
+    "chunkId": "assets/Scripts/GamePlay/GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/GamePlay/HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1732357226283.025,
+      "uuid": "f6c02d92-2a89-49d0-b14e-d4bba72e5a8f"
+    },
+    "chunkId": "assets/Scripts/GamePlay/HideMask.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 115
+          },
+          "end": {
+            "line": 1,
+            "column": 119
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 33
+          },
+          "end": {
+            "line": 6,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 22
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/GameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 31
+          },
+          "end": {
+            "line": 8,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 32
+          },
+          "end": {
+            "line": 9,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Money/MoneyBehavior.ts": {
+    "mTimestamp": {
+      "mtime": 1732353087023.66,
+      "uuid": "db6cfe8a-cbe0-4778-9f82-37ffa312a529"
+    },
+    "chunkId": "assets/Scripts/Money/MoneyBehavior.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 70
+          },
+          "end": {
+            "line": 2,
+            "column": 74
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 5,
+            "column": 38
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/CONST.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/EnablePhysics.ts": {
+    "mTimestamp": {
+      "mtime": 1732353087226.74,
+      "uuid": "bcf6df5e-8eb1-488a-b217-771bcdc22457"
+    },
+    "chunkId": "assets/Scripts/Utils/EnablePhysics.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Others/HandleLogicGamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1732357171888.4756,
+      "uuid": "45fe3322-0661-48ba-b1ba-b8f4ddcac881"
+    },
+    "chunkId": "assets/Scripts/Others/HandleLogicGamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 100
+          },
+          "end": {
+            "line": 1,
+            "column": 104
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Others/vFx_FireLight.ts": {
+    "mTimestamp": {
+      "mtime": 1732353087179.8728,
+      "uuid": "6b4b36a0-ce3d-4ccf-90c2-4118dc72d332"
+    },
+    "chunkId": "assets/Scripts/Others/vFx_FireLight.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 94
+          },
+          "end": {
+            "line": 1,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1732359874915.6604,
+      "uuid": "ff71ea16-94c0-487e-bf0d-6f6375515da5"
+    },
+    "chunkId": "assets/Scripts/Utils/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 33
+          },
+          "end": {
+            "line": 2,
+            "column": 65
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Controller/UIGameController.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1732353086726.8574,
+      "uuid": "8208e254-7f17-4f4e-8770-ae92221db73e"
+    },
+    "chunkId": "assets/Scripts/Const/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 33
+          },
+          "end": {
+            "line": 1,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/Singleton.ts": {
+    "mTimestamp": {
+      "mtime": 1732353087304.8435,
+      "uuid": "68e71e46-300a-45c6-a436-7aa7acd49d56"
+    },
+    "chunkId": "assets/Scripts/Utils/Singleton.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/CONST.ts": {
+    "mTimestamp": {
+      "mtime": 1732353086679.9902,
+      "uuid": "703629a5-5db0-4bf7-9720-84e49e17521d"
+    },
+    "chunkId": "assets/Scripts/Const/CONST.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Utils/Utility.ts": {
+    "mTimestamp": {
+      "mtime": 1732353087351.6807,
+      "uuid": "29ed240b-aa91-4932-a5a4-5ca3411d6bd9"
+    },
+    "chunkId": "assets/Scripts/Utils/Utility.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 45
+          },
+          "end": {
+            "line": 1,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Behavior.ts": {
+    "mTimestamp": {
+      "mtime": 1732353087070.4963,
+      "uuid": "d8c38fe6-6ba7-4787-b65f-0c23e085a38b"
+    },
+    "chunkId": "assets/Scripts/NPC/NPC_Behavior.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 83
+          },
+          "end": {
+            "line": 2,
+            "column": 87
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/interface.ts": {
+    "mTimestamp": {
+      "mtime": 1732353086773.7183,
+      "uuid": "773aae95-19d3-4de1-887d-f68b5fa67770"
+    },
+    "chunkId": "assets/Scripts/Const/interface.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Items.ts": {
+    "mTimestamp": {
+      "mtime": 1732298393556.6118,
+      "uuid": "a93c7d52-aebb-418e-a1be-7067a9b04c39"
+    },
+    "chunkId": "assets/Scripts/NPC/NPC_Items.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/CONST.ts": {
+    "mTimestamp": {
+      "mtime": 1732332889792.011,
+      "uuid": "703629a5-5db0-4bf7-9720-84e49e17521d"
+    },
+    "chunkId": "assets/Scripts/Const/CONST.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/AdHelper/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1732187916000,
+      "uuid": "b6c66277-217f-4536-809a-48462fc2596e"
+    },
+    "chunkId": "assets/Scripts/AdHelper/IronSource.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1732347061110.9329,
+      "uuid": "8208e254-7f17-4f4e-8770-ae92221db73e"
+    },
+    "chunkId": "assets/Scripts/Const/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 33
+          },
+          "end": {
+            "line": 1,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/interface.ts": {
+    "mTimestamp": {
+      "mtime": 1732297133000,
+      "uuid": "773aae95-19d3-4de1-887d-f68b5fa67770"
+    },
+    "chunkId": "assets/Scripts/Const/interface.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1732351395057.9011,
+      "uuid": "9aa2e1c5-d023-4c31-a92d-0c1bf2005386"
+    },
+    "chunkId": "assets/Scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 22
+          },
+          "end": {
+            "line": 4,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/SoundController.ts": {
+    "mTimestamp": {
+      "mtime": 1732350111760.1226,
+      "uuid": "6b331de7-4b55-4a08-b095-681f437f548a"
+    },
+    "chunkId": "assets/Scripts/Controller/SoundController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../Utils/Singleton",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Utils/Singleton.ts"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/UIGameController.ts": {
+    "mTimestamp": {
+      "mtime": 1732350115328.2368,
+      "uuid": "eae0a180-6b6c-41fb-bf24-e054165f939c"
+    },
+    "chunkId": "assets/Scripts/Controller/UIGameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 151
+          },
+          "end": {
+            "line": 2,
+            "column": 155
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 5,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Others/HandleLogicGamePlay",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 30
+          },
+          "end": {
+            "line": 7,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Others/HandleLogicGamePlay.ts"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/GamePlay/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1732327575240.1306,
+      "uuid": "0b046e23-7738-4bb4-8619-f03ea3888146"
+    },
+    "chunkId": "assets/Scripts/GamePlay/GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/GamePlay/HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1732349028759.7546,
+      "uuid": "f6c02d92-2a89-49d0-b14e-d4bba72e5a8f"
+    },
+    "chunkId": "assets/Scripts/GamePlay/HideMask.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 115
+          },
+          "end": {
+            "line": 1,
+            "column": 119
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 33
+          },
+          "end": {
+            "line": 6,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 22
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/GameController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 31
+          },
+          "end": {
+            "line": 8,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 32
+          },
+          "end": {
+            "line": 9,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/UIGameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/NPC/NPC_Behavior.ts": {
+    "mTimestamp": {
+      "mtime": 1732344039461.5352,
+      "uuid": "d8c38fe6-6ba7-4787-b65f-0c23e085a38b"
+    },
+    "chunkId": "assets/Scripts/NPC/NPC_Behavior.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 83
+          },
+          "end": {
+            "line": 2,
+            "column": 87
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Money/MoneyBehavior.ts": {
+    "mTimestamp": {
+      "mtime": 1732351254400.9421,
+      "uuid": "db6cfe8a-cbe0-4778-9f82-37ffa312a529"
+    },
+    "chunkId": "assets/Scripts/Money/MoneyBehavior.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 70
+          },
+          "end": {
+            "line": 2,
+            "column": 74
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Const/CONST",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 5,
+            "column": 38
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/CONST.ts"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Others/HandleLogicGamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1732349774416.3154,
+      "uuid": "45fe3322-0661-48ba-b1ba-b8f4ddcac881"
+    },
+    "chunkId": "assets/Scripts/Others/HandleLogicGamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 100
+          },
+          "end": {
+            "line": 1,
+            "column": 104
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Utils/EnablePhysics.ts": {
+    "mTimestamp": {
+      "mtime": 1732293806000,
+      "uuid": "bcf6df5e-8eb1-488a-b217-771bcdc22457"
+    },
+    "chunkId": "assets/Scripts/Utils/EnablePhysics.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Others/vFx_FireLight.ts": {
+    "mTimestamp": {
+      "mtime": 1732187375000,
+      "uuid": "6b4b36a0-ce3d-4ccf-90c2-4118dc72d332"
+    },
+    "chunkId": "assets/Scripts/Others/vFx_FireLight.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 94
+          },
+          "end": {
+            "line": 1,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Utils/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1732351986698.4597,
+      "uuid": "ff71ea16-94c0-487e-bf0d-6f6375515da5"
+    },
+    "chunkId": "assets/Scripts/Utils/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      },
+      {
+        "value": "../Controller/UIGameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 33
+          },
+          "end": {
+            "line": 2,
+            "column": 65
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Controller/UIGameController.ts"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Utils/Utility.ts": {
+    "mTimestamp": {
+      "mtime": 1732188368000,
+      "uuid": "29ed240b-aa91-4932-a5a4-5ca3411d6bd9"
+    },
+    "chunkId": "assets/Scripts/Utils/Utility.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 45
+          },
+          "end": {
+            "line": 1,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/Utils/Singleton.ts": {
+    "mTimestamp": {
+      "mtime": 1732187375000,
+      "uuid": "68e71e46-300a-45c6-a436-7aa7acd49d56"
+    },
+    "chunkId": "assets/Scripts/Utils/Singleton.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///G:/pa/ikame_pa_test/assets/Scripts/NPC/NPC_Controller.ts": {
+    "mTimestamp": {
+      "mtime": 1732350120912.7458,
+      "uuid": "734ed68a-2c14-4bc8-9a1e-61f0a0ad1f61"
+    },
+    "chunkId": "assets/Scripts/NPC/NPC_Controller.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./NPC_Behavior",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///G:/pa/ikame_pa_test/assets/Scripts/NPC/NPC_Behavior.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Controller.ts": {
+    "mTimestamp": {
+      "mtime": 1732353087101.7666,
+      "uuid": "734ed68a-2c14-4bc8-9a1e-61f0a0ad1f61"
+    },
+    "chunkId": "assets/Scripts/NPC/NPC_Controller.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Const/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./NPC_Behavior",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/Const/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Behavior.ts"
+      }
+    ]
+  },
+  "file:///C:/Users/PC%20GM/Desktop/Jobs/IkamePA/ikame_pa_test/assets/Scripts/NPC/NPC_Customer.ts": {
+    "mTimestamp": {
+      "mtime": 1732359018653.6262,
+      "uuid": "cf75c160-47e9-4bc6-9107-9179cf276d83"
+    },
+    "chunkId": "assets/Scripts/NPC/NPC_Customer.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 69
+          },
+          "end": {
+            "line": 2,
+            "column": 73
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  }
+}

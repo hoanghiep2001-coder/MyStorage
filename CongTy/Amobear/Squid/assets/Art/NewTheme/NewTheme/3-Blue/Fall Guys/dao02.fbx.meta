@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "59877fe2-558f-4b6b-99cd-649110942182",
+  "files": [],
+  "subMetas": {
+    "b5150": {
+      "importer": "gltf-mesh",
+      "uuid": "59877fe2-558f-4b6b-99cd-649110942182@b5150",
+      "displayName": "",
+      "id": "b5150",
+      "name": "dao02.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "59877fe2-558f-4b6b-99cd-649110942182@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "59877fe2-558f-4b6b-99cd-649110942182@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "59877fe2-558f-4b6b-99cd-649110942182@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7a3ca": {
+      "importer": "gltf-material",
+      "uuid": "59877fe2-558f-4b6b-99cd-649110942182@7a3ca",
+      "displayName": "",
+      "id": "7a3ca",
+      "name": "lambert2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c7c01": {
+      "importer": "gltf-scene",
+      "uuid": "59877fe2-558f-4b6b-99cd-649110942182@c7c01",
+      "displayName": "",
+      "id": "c7c01",
+      "name": "dao02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "59877fe2-558f-4b6b-99cd-649110942182@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "59877fe2-558f-4b6b-99cd-649110942182@c7c01",
+    "assetFinder": {
+      "meshes": [
+        "59877fe2-558f-4b6b-99cd-649110942182@b5150"
+      ],
+      "skeletons": [],
+      "textures": [
+        "59877fe2-558f-4b6b-99cd-649110942182@d20e9"
+      ],
+      "materials": [
+        "59877fe2-558f-4b6b-99cd-649110942182@7a3ca"
+      ],
+      "scenes": [
+        "59877fe2-558f-4b6b-99cd-649110942182@c7c01"
+      ]
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "imports": {
+    "cce:/internal/x/cc": "./mods/cce/internal/x/cc.js",
+    "cce:/internal/x/prerequisite-imports": "./mods/cce/internal/x/prerequisite-imports.js"
+  },
+  "scopes": {
+    "./mods/fs/0/assets/scripts/FreeCamera.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/ThirdPersonCamera.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/joystick/EasyController.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/camera/FreeCamera.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/UI/UI_HideMask.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/joystick/JoystickController.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/joystick/EasyController.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/CharacterController.js",
+      "__unresolved_3": "./mods/fs/0/assets/scripts/CTA.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Controller/CONST.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/Others/Singleton.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/Others/IronSource.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/GTA_PA_08.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_08_Moto.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_08_PoliceCar.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_08_Character.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_08_UI.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_08/PA_08_Moto.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_08/PA_08_PoliceCar.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_08/PA_08_Character.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_08/PA_08_UI.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/CharacterController.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_3": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/joystick/EasyController.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/camera/ThirdPersonCamera.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/joystick/EasyController.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/UI/UI_OnClick.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_UI.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Controller/SoundController.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/Others/Singleton.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Controller/GameController.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Others/Responsive.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_09/PA_09_UI.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_3": "./mods/fs/0/assets/scripts/Others/Responsive.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_09/PA_09_Character.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/camera/Cinematic.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CharacterController.js",
+      "__unresolved_3": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_4": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/joystick/JoystickController.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_09/PA_09_Responsive.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_Character.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_HideMask.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_3": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_4": "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_Character.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_UI.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_10/pa_10_Responsive.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_Responsive.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/CTA.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/Controller/GameController.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_GameController.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_11/PA_10_GameController.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_11/PA_10_Character.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/CONST/interfaces.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/CONST/GameInfo.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_11/PA_10_Responsive.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_UI.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_HideMask.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_4": "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_Character.js",
+      "__unresolved_3": "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_UI.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_Character.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_CharHealth.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_GameController.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_Responsive.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/cce/internal/x/cc.js": {
+      "__unresolved_0": "cce:/internal/x/cc-fu/base",
+      "__unresolved_1": "cce:/internal/x/cc-fu/gfx-webgl",
+      "__unresolved_2": "cce:/internal/x/cc-fu/gfx-webgl2",
+      "__unresolved_3": "cce:/internal/x/cc-fu/3d",
+      "__unresolved_4": "cce:/internal/x/cc-fu/2d",
+      "__unresolved_5": "cce:/internal/x/cc-fu/ui",
+      "__unresolved_6": "cce:/internal/x/cc-fu/particle",
+      "__unresolved_7": "cce:/internal/x/cc-fu/particle-2d",
+      "__unresolved_8": "cce:/internal/x/cc-fu/physics-framework",
+      "__unresolved_9": "cce:/internal/x/cc-fu/physics-2d-framework",
+      "__unresolved_10": "cce:/internal/x/cc-fu/intersection-2d",
+      "__unresolved_11": "cce:/internal/x/cc-fu/primitive",
+      "__unresolved_12": "cce:/internal/x/cc-fu/profiler",
+      "__unresolved_13": "cce:/internal/x/cc-fu/audio",
+      "__unresolved_14": "cce:/internal/x/cc-fu/video",
+      "__unresolved_15": "cce:/internal/x/cc-fu/terrain",
+      "__unresolved_16": "cce:/internal/x/cc-fu/webview",
+      "__unresolved_17": "cce:/internal/x/cc-fu/tween",
+      "__unresolved_18": "cce:/internal/x/cc-fu/tiled-map",
+      "__unresolved_19": "cce:/internal/x/cc-fu/spine",
+      "__unresolved_20": "cce:/internal/x/cc-fu/dragon-bones"
+    },
+    "./mods/cce/internal/x/prerequisite-imports.js": {
+      "__unresolved_0": "./mods/fs/0/assets/scripts/CONST/GameInfo.js",
+      "__unresolved_1": "./mods/fs/0/assets/scripts/CONST/interfaces.js",
+      "__unresolved_2": "./mods/fs/0/assets/scripts/CTA.js",
+      "__unresolved_3": "./mods/fs/0/assets/scripts/CharacterController.js",
+      "__unresolved_4": "./mods/fs/0/assets/scripts/Controller/CONST.js",
+      "__unresolved_6": "./mods/fs/0/assets/scripts/Controller/SoundController.js",
+      "__unresolved_5": "./mods/fs/0/assets/scripts/Controller/GameController.js",
+      "__unresolved_7": "./mods/fs/0/assets/scripts/Options/PA_08/PA_08_Character.js",
+      "__unresolved_8": "./mods/fs/0/assets/scripts/Options/PA_08/PA_08_Moto.js",
+      "__unresolved_10": "./mods/fs/0/assets/scripts/Options/PA_08/PA_08_UI.js",
+      "__unresolved_9": "./mods/fs/0/assets/scripts/Options/PA_08/PA_08_PoliceCar.js",
+      "__unresolved_11": "./mods/fs/0/assets/scripts/Options/PA_09/PA_09_Character.js",
+      "__unresolved_12": "./mods/fs/0/assets/scripts/Options/PA_09/PA_09_Responsive.js",
+      "__unresolved_13": "./mods/fs/0/assets/scripts/Options/PA_09/PA_09_UI.js",
+      "__unresolved_14": "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_Character.js",
+      "__unresolved_15": "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_GameController.js",
+      "__unresolved_16": "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_HideMask.js",
+      "__unresolved_17": "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_Responsive.js",
+      "__unresolved_18": "./mods/fs/0/assets/scripts/Options/PA_10/PA_10_UI.js",
+      "__unresolved_19": "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_CharHealth.js",
+      "__unresolved_20": "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_Character.js",
+      "__unresolved_21": "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_GameController.js",
+      "__unresolved_22": "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_HideMask.js",
+      "__unresolved_23": "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_Responsive.js",
+      "__unresolved_24": "./mods/fs/0/assets/scripts/Options/PA_11/PA_11_UI.js",
+      "__unresolved_25": "./mods/fs/0/assets/scripts/Others/IronSource.js",
+      "__unresolved_26": "./mods/fs/0/assets/scripts/Others/Responsive.js",
+      "__unresolved_27": "./mods/fs/0/assets/scripts/Others/Singleton.js",
+      "__unresolved_29": "./mods/fs/0/assets/scripts/UI/UI_OnClick.js",
+      "__unresolved_30": "./mods/fs/0/assets/scripts/camera/Cinematic.js",
+      "__unresolved_28": "./mods/fs/0/assets/scripts/UI/UI_HideMask.js",
+      "__unresolved_31": "./mods/fs/0/assets/scripts/camera/FreeCamera.js",
+      "__unresolved_32": "./mods/fs/0/assets/scripts/camera/ThirdPersonCamera.js",
+      "__unresolved_33": "./mods/fs/0/assets/scripts/joystick/EasyController.js",
+      "__unresolved_34": "./mods/fs/0/assets/scripts/joystick/JoystickController.js"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f2bb4854-327a-45a2-a26e-1704181321d7",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "f2bb4854-327a-45a2-a26e-1704181321d7@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8efcc": {
+      "importer": "gltf-mesh",
+      "uuid": "f2bb4854-327a-45a2-a26e-1704181321d7@8efcc",
+      "displayName": "",
+      "id": "8efcc",
+      "name": "laudai.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f2bb4854-327a-45a2-a26e-1704181321d7@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "f2bb4854-327a-45a2-a26e-1704181321d7@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f2bb4854-327a-45a2-a26e-1704181321d7@48b02"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e1f96": {
+      "importer": "gltf-scene",
+      "uuid": "f2bb4854-327a-45a2-a26e-1704181321d7@e1f96",
+      "displayName": "",
+      "id": "e1f96",
+      "name": "laudai.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "f2bb4854-327a-45a2-a26e-1704181321d7@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "f2bb4854-327a-45a2-a26e-1704181321d7@e1f96",
+    "assetFinder": {
+      "meshes": [
+        "f2bb4854-327a-45a2-a26e-1704181321d7@8efcc"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f2bb4854-327a-45a2-a26e-1704181321d7@7d6ab"
+      ],
+      "materials": [
+        "f2bb4854-327a-45a2-a26e-1704181321d7@33452"
+      ],
+      "scenes": [
+        "f2bb4854-327a-45a2-a26e-1704181321d7@e1f96"
+      ]
+    }
+  }
+}

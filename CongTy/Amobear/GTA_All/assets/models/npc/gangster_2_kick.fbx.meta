@@ -1,0 +1,122 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1d8872e5-286e-4595-9436-3574395dc371",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "1d8872e5-286e-4595-9436-3574395dc371@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "18d6f": {
+      "importer": "gltf-animation",
+      "uuid": "1d8872e5-286e-4595-9436-3574395dc371@18d6f",
+      "displayName": "",
+      "id": "18d6f",
+      "name": "mixamo.com.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5833333134651184
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "1d8872e5-286e-4595-9436-3574395dc371@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b5987": {
+      "importer": "gltf-scene",
+      "uuid": "1d8872e5-286e-4595-9436-3574395dc371@b5987",
+      "displayName": "",
+      "id": "b5987",
+      "name": "gangster_2_kick.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 0.5833333134651184,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "mixamo.com",
+            "from": 0,
+            "to": 0.5833333134651184,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "1d8872e5-286e-4595-9436-3574395dc371@b5987",
+    "assetFinder": {
+      "meshes": [
+        "1d8872e5-286e-4595-9436-3574395dc371@a62fe"
+      ],
+      "skeletons": [
+        "1d8872e5-286e-4595-9436-3574395dc371@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "fd0e5242-2ead-447b-8015-b5575dd26236"
+      ],
+      "scenes": [
+        "1d8872e5-286e-4595-9436-3574395dc371@b5987"
+      ]
+    },
+    "meshOptimizer": false,
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/models/npc/Materials_gangster_2_kick"
+  }
+}

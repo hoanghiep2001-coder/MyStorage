@@ -1,0 +1,79 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c01278cf-590f-42a7-bf00-e6e5079cf633",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "30ea8": {
+      "importer": "gltf-animation",
+      "uuid": "c01278cf-590f-42a7-bf00-e6e5079cf633@30ea8",
+      "displayName": "",
+      "id": "30ea8",
+      "name": "GunIdle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 7.699999809265137
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "82d07": {
+      "importer": "gltf-scene",
+      "uuid": "c01278cf-590f-42a7-bf00-e6e5079cf633@82d07",
+      "displayName": "",
+      "id": "82d07",
+      "name": "Rifle Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 7.699999809265137,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "GunIdle",
+            "from": 0,
+            "to": 7.699999809265137,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "c01278cf-590f-42a7-bf00-e6e5079cf633@82d07",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "c01278cf-590f-42a7-bf00-e6e5079cf633@82d07"
+      ]
+    }
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 3799,
+      "max": [
+        1.7296462059020996,
+        6.391855239868164,
+        0.6172366142272949
+      ],
+      "min": [
+        -1.7296462059020996,
+        -0.030581969767808914,
+        -0.6172369718551636
+      ],
+      "name": "AmongMineCraft/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 3799,
+      "name": "AmongMineCraft/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 3799,
+      "name": "AmongMineCraft/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 3799,
+      "name": "AmongMineCraft/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 3799,
+      "name": "AmongMineCraft/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 16608,
+      "name": "AmongMineCraft/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 11,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Bone002/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 11,
+      "name": "Bone002/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 27,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Bone003/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 27,
+      "name": "Bone003/rotation/Output",
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 3,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 4,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 7,
+          "output": 8
+        },
+        {
+          "input": 9,
+          "output": 10
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 212744,
+      "byteStride": 56,
+      "name": "AmongMineCraft",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 66432,
+      "byteOffset": 212744
+    },
+    {
+      "buffer": 0,
+      "byteLength": 896,
+      "byteOffset": 279176
+    },
+    {
+      "buffer": 0,
+      "byteLength": 44,
+      "byteOffset": 280072
+    },
+    {
+      "buffer": 0,
+      "byteLength": 176,
+      "byteOffset": 280116
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 280292
+    },
+    {
+      "buffer": 0,
+      "byteLength": 432,
+      "byteOffset": 280400
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 280832,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\CocosProjects\\Amobear\\Squid\\assets\\Art\\Models\\Models\\Characters\\Among.jpg",
+          "relativeFileName": "Among.jpg"
+        }
+      },
+      "name": "Map #1",
+      "uri": "Among.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "originalMaterial": {
+            "properties": {
+              "3dsMax": {
+                "ClassIDa": 1030429932,
+                "ClassIDb": -559038463,
+                "ORIGINAL_MTL": "PHYSICAL_MTL",
+                "Parameters": {
+                  "aniso_angle_map_on": true,
+                  "aniso_channel": 0,
+                  "aniso_mode": 0,
+                  "anisoangle": 0.25,
+                  "anisotropy": 0.0,
+                  "anisotropy_map_on": true,
+                  "base_color": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ],
+                  "base_color_map": {
+                    "index": 0
+                  },
+                  "base_color_map_on": true,
+                  "base_weight": 1.0,
+                  "base_weight_map_on": true,
+                  "brdf_curve": 5.0,
+                  "brdf_high": 1.0,
+                  "brdf_low": 0.05000000074505806,
+                  "brdf_mode": true,
+                  "coat_affect_color": 0.5,
+                  "coat_affect_roughness": 0.5,
+                  "coat_aniso_angle_map_on": true,
+                  "coat_aniso_map_on": true,
+                  "coat_anisoangle": 0.25,
+                  "coat_anisotropy": 0.0,
+                  "coat_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "coat_color_map_on": true,
+                  "coat_ior": 1.5199999809265137,
+                  "coat_map_on": true,
+                  "coat_rough_map_on": true,
+                  "coat_roughness": 0.0,
+                  "coat_roughness_inv": false,
+                  "coating": 0.0,
+                  "cutout_map_on": true,
+                  "diff_rough_map_on": true,
+                  "diff_roughness": 0.0,
+                  "dispersion": 0.0,
+                  "displacement_map_amt": 1.0,
+                  "displacement_map_on": true,
+                  "emission": 1.0,
+                  "emission_map_on": true,
+                  "emit_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "emit_color_map_on": true,
+                  "emit_kelvin": 6500.0,
+                  "emit_luminance": 1500.0,
+                  "material_mode": 2,
+                  "metalness": 0.0,
+                  "metalness_map_on": true,
+                  "refl_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "refl_color_map_on": true,
+                  "reflectivity": 1.0,
+                  "reflectivity_map_on": true,
+                  "roughness": 0.0,
+                  "roughness_inv": false,
+                  "roughness_map_on": true,
+                  "scattering": 0.0,
+                  "scattering_map_on": true,
+                  "sheen": 0.0,
+                  "sheen_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "sheen_color_map_on": true,
+                  "sheen_map_on": true,
+                  "sheen_rough_map_on": true,
+                  "sheen_roughness": 0.30000001192092896,
+                  "sss_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "sss_color_map_on": true,
+                  "sss_depth": 10.0,
+                  "sss_scale": 1.0,
+                  "sss_scale_map_on": true,
+                  "sss_scatter_color": [
+                    100.0,
+                    50.0,
+                    25.0,
+                    1.0
+                  ],
+                  "thin_film": 0.0,
+                  "thin_film_ior": 1.2999999523162842,
+                  "thin_film_ior_map_on": true,
+                  "thin_film_map_on": true,
+                  "thin_film_thickness": 0.0,
+                  "thin_walled": false,
+                  "trans_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "trans_color_map_on": true,
+                  "trans_depth": 0.0,
+                  "trans_ior": 1.5199999809265137,
+                  "trans_ior_map_on": true,
+                  "trans_rough_map_on": true,
+                  "trans_roughness": 0.0,
+                  "trans_roughness_inv": false,
+                  "trans_roughness_lock": true,
+                  "trans_scatter_aniso": 0.0,
+                  "trans_scatter_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "transparency": 0.0,
+                  "transparency_map_on": true
+                },
+                "SuperClassID": 3072
+              },
+              "AmbientColor": [
+                0.5,
+                0.5,
+                0.5
+              ],
+              "DiffuseColor": [
+                0.5,
+                0.5,
+                0.5
+              ],
+              "EmissiveColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "EmissiveFactor": 0.0,
+              "MultiLayer": false,
+              "ShadingModel": "unknown",
+              "ShininessExponent": 1024.0,
+              "SpecularColor": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "SpecularFactor": 2.0,
+              "TransparencyFactor": 0.0
+            }
+          }
+        }
+      },
+      "name": "Material #25",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.031234752386808395
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "AmongMineCraft",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "WEIGHTS_0": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "AmongMineCraft",
+      "scale": [
+        1.1739959716796875,
+        0.6592000126838684,
+        2.25799298286438
+      ],
+      "skin": 0
+    },
+    {
+      "children": [
+        2,
+        11,
+        13
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone001",
+      "rotation": [
+        -0.00037549747503362596,
+        0.00043090933468192816,
+        0.7071067094802856,
+        0.7071066498756409
+      ],
+      "translation": [
+        1.0839017461350409e-09,
+        1.149205207824707,
+        0.31676194071769714
+      ]
+    },
+    {
+      "children": [
+        3
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone006",
+      "rotation": [
+        3.910064697265625e-05,
+        2.3273184594774232e-12,
+        5.952121995278503e-08,
+        1.0
+      ],
+      "translation": [
+        0.052312470972537994,
+        1.907348590179936e-08,
+        -9.536743306171047e-08
+      ]
+    },
+    {
+      "children": [
+        4
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone002",
+      "rotation": [
+        -3.910064333467744e-05,
+        -0.0005702972412109375,
+        -2.2298996427139173e-08,
+        0.9999998211860657
+      ],
+      "translation": [
+        0.686678946018219,
+        -7.987488004346233e-08,
+        2.3822783987270668e-05
+      ]
+    },
+    {
+      "children": [
+        5,
+        7,
+        9
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone003",
+      "translation": [
+        0.4123684763908386,
+        -2.328306384496992e-12,
+        -1.335144048653092e-07
+      ]
+    },
+    {
+      "children": [
+        6
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone004",
+      "rotation": [
+        -1.6066478565335274e-06,
+        -8.94069742685133e-08,
+        -1.3654009834666164e-13,
+        1.0
+      ],
+      "translation": [
+        0.7921728491783142,
+        -6.396090412863487e-08,
+        3.0517577442878974e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone005",
+      "rotation": [
+        -9.116785122387228e-07,
+        -0.0008698560413904488,
+        -7.930293643987341e-10,
+        0.9999996423721313
+      ],
+      "translation": [
+        1.1190398931503296,
+        -6.452202683249197e-08,
+        -3.552713599391162e-17
+      ]
+    },
+    {
+      "children": [
+        8
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone010",
+      "rotation": [
+        -2.7054091333411634e-05,
+        2.7177738957107067e-05,
+        0.7071065902709961,
+        0.7071069478988647
+      ],
+      "translation": [
+        0.22564391791820526,
+        0.778881311416626,
+        0.017752056941390038
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone011",
+      "translation": [
+        0.6258589029312134,
+        1.5258788721439487e-07,
+        -7.629394360719743e-08
+      ]
+    },
+    {
+      "children": [
+        10
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone010(mirrored)",
+      "rotation": [
+        -2.7468526241136715e-05,
+        -2.7490958018461242e-05,
+        -0.7071068286895752,
+        0.7071067094802856
+      ],
+      "translation": [
+        0.22564345598220825,
+        -0.7788786888122559,
+        0.017872143536806107
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone011(mirrored)",
+      "translation": [
+        0.6258588433265686,
+        -1.5258788721439487e-07,
+        -3.814697180359872e-08
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone008",
+      "rotation": [
+        -0.0005649257800541818,
+        -8.269628597190604e-05,
+        0.9999641180038452,
+        -0.008451077155768871
+      ],
+      "translation": [
+        -0.06261177361011505,
+        0.3757719397544861,
+        -6.309509626589715e-05
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone009",
+      "rotation": [
+        0.00012758676894009113,
+        8.341626380570233e-05,
+        0.00011928061576327309,
+        1.0
+      ],
+      "translation": [
+        0.5757412910461426,
+        -3.814697180359872e-08,
+        -2.0217894416418858e-06
+      ]
+    },
+    {
+      "children": [
+        14
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone008(mirrored)",
+      "rotation": [
+        -0.0005655945278704166,
+        0.00015872871153987944,
+        0.9999641180038452,
+        0.008451678790152073
+      ],
+      "translation": [
+        -0.06261192262172699,
+        -0.3757719397544861,
+        -4.0435788832837716e-06
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone009(mirrored)",
+      "rotation": [
+        -0.00012754400086123496,
+        8.343710214830935e-05,
+        -0.00011920330143766478,
+        1.0
+      ],
+      "translation": [
+        0.5757411122322083,
+        1.5258788721439487e-07,
+        -2.212524350397871e-06
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 6,
+      "joints": [
+        1,
+        13,
+        5,
+        6,
+        9,
+        4,
+        10,
+        2,
+        3,
+        14,
+        11,
+        7,
+        8,
+        12
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Map #1",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

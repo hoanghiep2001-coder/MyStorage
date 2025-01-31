@@ -1,0 +1,150 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 411,
+      "max": [
+        0.6765490770339966,
+        1.8932262659072876,
+        -2.32363224029541
+      ],
+      "min": [
+        -0.6765502691268921,
+        0.5401269793510437,
+        -2.5141000747680664
+      ],
+      "name": "question/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 411,
+      "name": "question/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 411,
+      "name": "question/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 411,
+      "name": "question/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 831,
+      "name": "question/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 16440,
+      "byteStride": 40,
+      "name": "question",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3324,
+      "byteOffset": 16440
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 19764,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:\\CocosProjects\\PA\\SantaCall_Op2\\assets\\Image\\3D\\Models\\Texture\\ball2.png",
+          "relativeFileName": "..\\..\\Texture\\ball2.png"
+        }
+      },
+      "name": "file6",
+      "uri": "ball2.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "lambert14",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "question",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "question"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "file6",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

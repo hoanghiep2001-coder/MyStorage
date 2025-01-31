@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d249cdef-9676-4a4d-971b-ad269d52334e",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "d249cdef-9676-4a4d-971b-ad269d52334e@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0d7c1": {
+      "importer": "gltf-mesh",
+      "uuid": "d249cdef-9676-4a4d-971b-ad269d52334e@0d7c1",
+      "displayName": "",
+      "id": "0d7c1",
+      "name": "pPlane2.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "d249cdef-9676-4a4d-971b-ad269d52334e@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "d249cdef-9676-4a4d-971b-ad269d52334e@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d249cdef-9676-4a4d-971b-ad269d52334e@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cbd74": {
+      "importer": "gltf-scene",
+      "uuid": "d249cdef-9676-4a4d-971b-ad269d52334e@cbd74",
+      "displayName": "",
+      "id": "cbd74",
+      "name": "pPlane2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "d249cdef-9676-4a4d-971b-ad269d52334e@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "d249cdef-9676-4a4d-971b-ad269d52334e@cbd74",
+    "assetFinder": {
+      "meshes": [
+        "d249cdef-9676-4a4d-971b-ad269d52334e@0d7c1"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d249cdef-9676-4a4d-971b-ad269d52334e@d20e9"
+      ],
+      "materials": [
+        "d249cdef-9676-4a4d-971b-ad269d52334e@33452"
+      ],
+      "scenes": [
+        "d249cdef-9676-4a4d-971b-ad269d52334e@cbd74"
+      ]
+    }
+  }
+}

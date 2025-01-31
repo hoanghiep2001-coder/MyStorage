@@ -1,0 +1,187 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 306,
+      "max": [
+        0.006488649640232325,
+        0.006488660350441933,
+        0.14830957353115082
+      ],
+      "min": [
+        -0.006488649640232325,
+        -0.0064886389300227165,
+        -1.5053153219923843e-05
+      ],
+      "name": "BaseBall_Bat_01_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 306,
+      "name": "BaseBall_Bat_01_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 480,
+      "name": "BaseBall_Bat_01_Material0/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        0.002577449893578887,
+        0.0025774503592401743,
+        0.043911438435316086
+      ],
+      "min": [
+        -0.002577449893578887,
+        -0.0025774496607482433,
+        0.005017457529902458
+      ],
+      "name": "BaseBall_Bat_01_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 32,
+      "name": "BaseBall_Bat_01_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 48,
+      "name": "BaseBall_Bat_01_Material0/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 7344,
+      "byteStride": 24,
+      "name": "BaseBall_Bat_01_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1920,
+      "byteOffset": 7344
+    },
+    {
+      "buffer": 0,
+      "byteLength": 768,
+      "byteOffset": 9264,
+      "byteStride": 24,
+      "name": "BaseBall_Bat_01_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 10032
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 10224,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "materials": [
+    {
+      "name": "795548.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.1899999976158142,
+          0.09000000357627869,
+          0.05999999865889549,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.4150870442390442
+      }
+    },
+    {
+      "name": "1A1A1A.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.009999999776482582,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.4150870442390442
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "BaseBall_Bat_01_Material0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "BaseBall_Bat_01",
+      "rotation": [
+        -0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

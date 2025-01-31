@@ -1,0 +1,2144 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 5268.100299954414,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 15755867.99150002,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 107
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/InterFaces.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 123
+          },
+          "end": {
+            "line": 5,
+            "column": 197
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/constants.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 213
+          },
+          "end": {
+            "line": 5,
+            "column": 286
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/AudioManager.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 302
+          },
+          "end": {
+            "line": 5,
+            "column": 383
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/GameController.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 399
+          },
+          "end": {
+            "line": 5,
+            "column": 482
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/UIController.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 498
+          },
+          "end": {
+            "line": 5,
+            "column": 579
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Game/GamePlay.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 595
+          },
+          "end": {
+            "line": 5,
+            "column": 666
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Game/Responsive.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 682
+          },
+          "end": {
+            "line": 5,
+            "column": 755
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Box/BoxBehavior.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 771
+          },
+          "end": {
+            "line": 5,
+            "column": 858
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Character/Enemy.ts",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 874
+          },
+          "end": {
+            "line": 5,
+            "column": 961
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Character/MainCharacter.ts",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 977
+          },
+          "end": {
+            "line": 5,
+            "column": 1072
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Controller/PA_30_CameraController.ts",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1088
+          },
+          "end": {
+            "line": 5,
+            "column": 1193
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Controller/PA_30_UIController.ts",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1209
+          },
+          "end": {
+            "line": 5,
+            "column": 1310
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/GamePlay/PA_30_GamePlay.ts",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1326
+          },
+          "end": {
+            "line": 5,
+            "column": 1421
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/GamePlay/PA_30_HideMask.ts",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1437
+          },
+          "end": {
+            "line": 5,
+            "column": 1532
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/GamePlay/PA_30_LineRenderer.ts",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1548
+          },
+          "end": {
+            "line": 5,
+            "column": 1647
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/CTA.ts",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1663
+          },
+          "end": {
+            "line": 5,
+            "column": 1745
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/HayChonGiaDung.ts",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1761
+          },
+          "end": {
+            "line": 5,
+            "column": 1854
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/TimeCount.ts",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1870
+          },
+          "end": {
+            "line": 5,
+            "column": 1958
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Others/Utils.ts",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1974
+          },
+          "end": {
+            "line": 5,
+            "column": 2044
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/InterFaces.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/UIController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Game/GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Game/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Box/BoxBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Character/Enemy.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Character/MainCharacter.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Controller/PA_30_CameraController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Controller/PA_30_UIController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/GamePlay/PA_30_GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/GamePlay/PA_30_HideMask.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/GamePlay/PA_30_LineRenderer.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/CTA.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/HayChonGiaDung.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/TimeCount.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Others/Utils.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1735553921373.8152,
+      "uuid": "349840fa-650e-44dc-beef-d2900ba2d5f5"
+    },
+    "chunkId": "assets/Script/CONST/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/UIController.ts": {
+    "mTimestamp": {
+      "mtime": 1735369815011.768,
+      "uuid": "bbbeec11-a88c-4350-9c85-80551d0ab014"
+    },
+    "chunkId": "assets/Script/Controller/UIController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 72
+          },
+          "end": {
+            "line": 1,
+            "column": 76
+          }
+        }
+      },
+      {
+        "value": "../Game/GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Game/GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Game/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1735369923221.475,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/Game/GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 221
+          },
+          "end": {
+            "line": 1,
+            "column": 225
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1735555193821.586,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 94
+          },
+          "end": {
+            "line": 2,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1735292721560.9636,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/Controller/AudioManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/constants.ts": {
+    "mTimestamp": {
+      "mtime": 1735292680211.6555,
+      "uuid": "2561fd39-e8f6-4d9d-a953-e0bd0f0f1666"
+    },
+    "chunkId": "assets/Script/CONST/constants.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Game/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1735292663257.3948,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Game/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 102
+          },
+          "end": {
+            "line": 2,
+            "column": 106
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/InterFaces.ts": {
+    "mTimestamp": {
+      "mtime": 1735553915644.5547,
+      "uuid": "d7d2b4a4-5c5d-4cb4-b60a-33a538ff532d"
+    },
+    "chunkId": "assets/Script/CONST/InterFaces.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1735539628384,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Art/Models/Models/Characters/SkibidiCameratextures/Materials/NewComponent.ts": {
+    "mTimestamp": {
+      "mtime": 1735357606334.3086,
+      "uuid": "f50e51c9-8bdf-4baa-b9aa-bbf4ad3bbcd2"
+    },
+    "chunkId": "assets/Art/Models/Models/Characters/SkibidiCameratextures/Materials/NewComponent.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1735369934332.4436,
+      "uuid": "57b00dd8-5fae-4503-85fd-6fda2d0252e0"
+    },
+    "chunkId": "assets/Script/Controller/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1735369934332.4436,
+      "uuid": "57b00dd8-5fae-4503-85fd-6fda2d0252e0"
+    },
+    "chunkId": "assets/Script/Options/PA_30/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Controller/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1735369934332.4436,
+      "uuid": "57b00dd8-5fae-4503-85fd-6fda2d0252e0"
+    },
+    "chunkId": "assets/Script/Options/PA_30/Controller/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Controller/PA_30_UIController.ts": {
+    "mTimestamp": {
+      "mtime": 1735550851180.7356,
+      "uuid": "aa954067-fca1-4bff-b73f-05f3f5cf783b"
+    },
+    "chunkId": "assets/Script/Options/PA_30/Controller/PA_30_UIController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 72
+          },
+          "end": {
+            "line": 1,
+            "column": 76
+          }
+        }
+      },
+      {
+        "value": "../../../Game/GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../../../CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 50
+          }
+        }
+      },
+      {
+        "value": "./PA_30_CameraController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 39
+          },
+          "end": {
+            "line": 4,
+            "column": 65
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Game/GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Controller/PA_30_CameraController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Controller/PA_30_GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1735370076814.0437,
+      "uuid": "c2ea2e27-fdd2-4933-aad7-66c69d48ca88"
+    },
+    "chunkId": "assets/Script/Options/PA_30/Controller/PA_30_GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Controller/PA_30_CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1735553950789,
+      "uuid": "57b00dd8-5fae-4503-85fd-6fda2d0252e0"
+    },
+    "chunkId": "assets/Script/Options/PA_30/Controller/PA_30_CameraController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 50
+          }
+        }
+      },
+      {
+        "value": "../Others/TimeCount",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/TimeCount.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/GamePlay/PA_30_GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1735370189796.5771,
+      "uuid": "c2ea2e27-fdd2-4933-aad7-66c69d48ca88"
+    },
+    "chunkId": "assets/Script/Options/PA_30/GamePlay/PA_30_GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/GamePlay/PA_30_HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1735555337307.9705,
+      "uuid": "0cc3b99c-5252-48eb-a2f5-c0e00c420ea8"
+    },
+    "chunkId": "assets/Script/Options/PA_30/GamePlay/PA_30_HideMask.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 126
+          },
+          "end": {
+            "line": 1,
+            "column": 130
+          }
+        }
+      },
+      {
+        "value": "../../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 50
+          }
+        }
+      },
+      {
+        "value": "../../../Controller/GameController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../Box/BoxBehavior",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 28
+          },
+          "end": {
+            "line": 5,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Controller/PA_30_CameraController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 39
+          },
+          "end": {
+            "line": 6,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../Others/HayChonGiaDung",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 31
+          },
+          "end": {
+            "line": 7,
+            "column": 57
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Box/BoxBehavior.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Controller/PA_30_CameraController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/HayChonGiaDung.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Others/Utils.ts": {
+    "mTimestamp": {
+      "mtime": 1735372476899.819,
+      "uuid": "a07b7cb6-9f08-42f3-91da-8710c2e4f393"
+    },
+    "chunkId": "assets/Script/Others/Utils.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Box/BoxBehavior.ts": {
+    "mTimestamp": {
+      "mtime": 1735554132346.3352,
+      "uuid": "0edf2287-a516-45b2-b494-b14ecb14cfa1"
+    },
+    "chunkId": "assets/Script/Options/PA_30/Box/BoxBehavior.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 121
+          },
+          "end": {
+            "line": 2,
+            "column": 125
+          }
+        }
+      },
+      {
+        "value": "../../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/GamePlay/PA_30_LineRenderer.ts": {
+    "mTimestamp": {
+      "mtime": 1735378823536.604,
+      "uuid": "a84b389a-92f8-4cc5-b46d-16d12b9654a5"
+    },
+    "chunkId": "assets/Script/Options/PA_30/GamePlay/PA_30_LineRenderer.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 94
+          },
+          "end": {
+            "line": 2,
+            "column": 98
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/TimeCount.ts": {
+    "mTimestamp": {
+      "mtime": 1735546577406.9028,
+      "uuid": "7b04cf7e-7bd0-4f98-a341-9a511b360952"
+    },
+    "chunkId": "assets/Script/Options/PA_30/Others/TimeCount.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Character/MainCharacter.ts": {
+    "mTimestamp": {
+      "mtime": 1735548298117.5012,
+      "uuid": "2bb1b049-3393-4960-b923-607b4a6ff1cc"
+    },
+    "chunkId": "assets/Script/Options/PA_30/Character/MainCharacter.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 63
+          },
+          "end": {
+            "line": 2,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Character/Enemy.ts": {
+    "mTimestamp": {
+      "mtime": 1735548846363.9856,
+      "uuid": "48a73565-1fda-4632-8d30-00f789547c2c"
+    },
+    "chunkId": "assets/Script/Options/PA_30/Character/Enemy.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 69
+          },
+          "end": {
+            "line": 2,
+            "column": 73
+          }
+        }
+      },
+      {
+        "value": "../../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/CTA.ts": {
+    "mTimestamp": {
+      "mtime": 1735555382918.7117,
+      "uuid": "3aa2ab79-84c2-49a4-b859-6723088b53fd"
+    },
+    "chunkId": "assets/Script/Options/PA_30/Others/CTA.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 72
+          },
+          "end": {
+            "line": 1,
+            "column": 76
+          }
+        }
+      },
+      {
+        "value": "../../../Controller/GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 31
+          },
+          "end": {
+            "line": 2,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../../../CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/Squid/assets/Script/Options/PA_30/Others/HayChonGiaDung.ts": {
+    "mTimestamp": {
+      "mtime": 1735554178691.6606,
+      "uuid": "c7b395b7-cd25-49b2-b0f8-9a7ee18cac87"
+    },
+    "chunkId": "assets/Script/Options/PA_30/Others/HayChonGiaDung.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 90
+          },
+          "end": {
+            "line": 2,
+            "column": 94
+          }
+        }
+      },
+      {
+        "value": "../../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/Squid/assets/Script/CONST/GameInfo.ts"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 320,
+      "height": 480,
+      "fitHeight": true
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Car"
+      },
+      {
+        "index": 2,
+        "name": "Ground"
+      },
+      {
+        "index": 3,
+        "name": "PointA"
+      },
+      {
+        "index": 4,
+        "name": "CarTransporter"
+      },
+      {
+        "index": 5,
+        "name": "PointB"
+      },
+      {
+        "index": 6,
+        "name": "DestroyPoint"
+      },
+      {
+        "index": 7,
+        "name": "rmRigidbodyPoint"
+      },
+      {
+        "index": 8,
+        "name": "Car_Destroyer"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 286,
+      "2": 282,
+      "3": 262,
+      "4": 230,
+      "5": 272,
+      "6": 16,
+      "7": 16,
+      "8": 46
+    }
+  }
+}

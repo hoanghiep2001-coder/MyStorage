@@ -1,0 +1,142 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8",
+  "files": [],
+  "subMetas": {
+    "6b0c3": {
+      "importer": "gltf-mesh",
+      "uuid": "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@6b0c3",
+      "displayName": "",
+      "id": "6b0c3",
+      "name": "Borzoi.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 28
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2bdcd": {
+      "importer": "gltf-embeded-image",
+      "uuid": "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@2bdcd",
+      "displayName": "",
+      "id": "2bdcd",
+      "name": "base_color_texture2.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8fb9e": {
+      "importer": "texture",
+      "uuid": "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@8fb9e",
+      "displayName": "",
+      "id": "8fb9e",
+      "name": "base_color_texture2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@2bdcd"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cdb5d": {
+      "importer": "gltf-material",
+      "uuid": "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@cdb5d",
+      "displayName": "",
+      "id": "cdb5d",
+      "name": "Borzoi1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d527c": {
+      "importer": "gltf-scene",
+      "uuid": "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@d527c",
+      "displayName": "",
+      "id": "d527c",
+      "name": "BorzoiDog_Tpose.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture2",
+        "uri": "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@2bdcd"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@d527c",
+    "assetFinder": {
+      "meshes": [
+        "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@6b0c3"
+      ],
+      "skeletons": [
+        "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@438fe"
+      ],
+      "textures": [
+        "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@8fb9e"
+      ],
+      "materials": [
+        "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@cdb5d"
+      ],
+      "scenes": [
+        "bd9d89aa-4ad0-4e39-9d04-9ac9edca61e8@d527c"
+      ]
+    }
+  }
+}

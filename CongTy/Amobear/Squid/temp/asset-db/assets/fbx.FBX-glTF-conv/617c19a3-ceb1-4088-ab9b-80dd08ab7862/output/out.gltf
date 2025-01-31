@@ -1,0 +1,167 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4298,
+      "max": [
+        0.05995360389351845,
+        0.03700990974903107,
+        0.08961598575115204
+      ],
+      "min": [
+        -0.028674602508544922,
+        -0.027688555419445038,
+        -5.098582667173446e-10
+      ],
+      "name": "枯树/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 4298,
+      "name": "枯树/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 4298,
+      "name": "枯树/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 12585,
+      "name": "枯树/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 137536,
+      "byteStride": 32,
+      "name": "枯树",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 50340,
+      "byteOffset": 137536
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 187876,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 25.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\Fork\\456run\\Assets\\Game4\\modelsquid22\\envi\\AlbedoDryTree.png",
+          "relativeFileName": "D:\\Fork\\456run\\Assets\\Game4\\modelsquid22\\envi\\AlbedoDryTree.png"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\Fork\\456run\\Assets\\Game4\\modelsquid22\\envi\\DryTree_NRM.png",
+          "relativeFileName": "D:\\Fork\\456run\\Assets\\Game4\\modelsquid22\\envi\\DryTree_NRM.png"
+        }
+      },
+      "name": "normalmap_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "2414",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.30151134729385376
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "枯树",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "枯树",
+      "rotation": [
+        -0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "normalmap_texture",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

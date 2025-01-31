@@ -1,0 +1,103 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 82,
+      "max": [
+        0.06154012680053711,
+        0.20466721057891846,
+        0.061540111899375916
+      ],
+      "min": [
+        -0.061540067195892334,
+        0.0,
+        -0.061540111899375916
+      ],
+      "name": "Flour/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 82,
+      "name": "Flour/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 82,
+      "name": "Flour/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 180,
+      "name": "Flour/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2624,
+      "byteStride": 32,
+      "name": "Flour",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 720,
+      "byteOffset": 2624
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3344,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "meshes": [
+    {
+      "name": "Flour",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Flour"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

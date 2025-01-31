@@ -1,0 +1,7251 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 5171.539999961853,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 12887.544799923897,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 110
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/interfaces.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 126
+          },
+          "end": {
+            "line": 5,
+            "column": 203
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CTA.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 219
+          },
+          "end": {
+            "line": 5,
+            "column": 283
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CharacterController.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 299
+          },
+          "end": {
+            "line": 5,
+            "column": 379
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/CONST.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 395
+          },
+          "end": {
+            "line": 5,
+            "column": 472
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/GameController.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 488
+          },
+          "end": {
+            "line": 5,
+            "column": 574
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 590
+          },
+          "end": {
+            "line": 5,
+            "column": 677
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_Character.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 693
+          },
+          "end": {
+            "line": 5,
+            "column": 783
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_Moto.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 799
+          },
+          "end": {
+            "line": 5,
+            "column": 884
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_PoliceCar.ts",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 900
+          },
+          "end": {
+            "line": 5,
+            "column": 990
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_UI.ts",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1006
+          },
+          "end": {
+            "line": 5,
+            "column": 1089
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_09/PA_09_Character.ts",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1105
+          },
+          "end": {
+            "line": 5,
+            "column": 1195
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_09/PA_09_Responsive.ts",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1211
+          },
+          "end": {
+            "line": 5,
+            "column": 1302
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_09/PA_09_UI.ts",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1318
+          },
+          "end": {
+            "line": 5,
+            "column": 1401
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_Character.ts",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1417
+          },
+          "end": {
+            "line": 5,
+            "column": 1507
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_GameController.ts",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1523
+          },
+          "end": {
+            "line": 5,
+            "column": 1618
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_HideMask.ts",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1634
+          },
+          "end": {
+            "line": 5,
+            "column": 1723
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_Responsive.ts",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1739
+          },
+          "end": {
+            "line": 5,
+            "column": 1830
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_UI.ts",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1846
+          },
+          "end": {
+            "line": 5,
+            "column": 1929
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_CharHealth.ts",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1945
+          },
+          "end": {
+            "line": 5,
+            "column": 2036
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_Character.ts",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2052
+          },
+          "end": {
+            "line": 5,
+            "column": 2142
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_GameController.ts",
+        "rewritten": "__unresolved_21",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2158
+          },
+          "end": {
+            "line": 5,
+            "column": 2253
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_HideMask.ts",
+        "rewritten": "__unresolved_22",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2269
+          },
+          "end": {
+            "line": 5,
+            "column": 2358
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_Responsive.ts",
+        "rewritten": "__unresolved_23",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2374
+          },
+          "end": {
+            "line": 5,
+            "column": 2465
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_UI.ts",
+        "rewritten": "__unresolved_24",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2481
+          },
+          "end": {
+            "line": 5,
+            "column": 2564
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/IronSource.ts",
+        "rewritten": "__unresolved_25",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2580
+          },
+          "end": {
+            "line": 5,
+            "column": 2658
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/Responsive.ts",
+        "rewritten": "__unresolved_26",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2674
+          },
+          "end": {
+            "line": 5,
+            "column": 2752
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/Singleton.ts",
+        "rewritten": "__unresolved_27",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2768
+          },
+          "end": {
+            "line": 5,
+            "column": 2845
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/UI/UI_HideMask.ts",
+        "rewritten": "__unresolved_28",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2861
+          },
+          "end": {
+            "line": 5,
+            "column": 2936
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/UI/UI_OnClick.ts",
+        "rewritten": "__unresolved_29",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2952
+          },
+          "end": {
+            "line": 5,
+            "column": 3026
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/camera/Cinematic.ts",
+        "rewritten": "__unresolved_30",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3042
+          },
+          "end": {
+            "line": 5,
+            "column": 3119
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/camera/FreeCamera.ts",
+        "rewritten": "__unresolved_31",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3135
+          },
+          "end": {
+            "line": 5,
+            "column": 3213
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/camera/ThirdPersonCamera.ts",
+        "rewritten": "__unresolved_32",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3229
+          },
+          "end": {
+            "line": 5,
+            "column": 3314
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/joystick/EasyController.ts",
+        "rewritten": "__unresolved_33",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3330
+          },
+          "end": {
+            "line": 5,
+            "column": 3414
+          }
+        }
+      },
+      {
+        "value": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/joystick/JoystickController.ts",
+        "rewritten": "__unresolved_34",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3430
+          },
+          "end": {
+            "line": 5,
+            "column": 3518
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/interfaces.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CTA.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/CONST.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_Character.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_Moto.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_PoliceCar.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_UI.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_09/PA_09_Character.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_09/PA_09_Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_09/PA_09_UI.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_Character.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_HideMask.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_UI.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_CharHealth.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_Character.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_HideMask.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_UI.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/IronSource.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/Singleton.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/UI/UI_HideMask.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/UI/UI_OnClick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/camera/Cinematic.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/camera/FreeCamera.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/camera/ThirdPersonCamera.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/joystick/JoystickController.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/CTA.ts": {
+    "mTimestamp": {
+      "mtime": 1688979055319.4507,
+      "uuid": "45ecbccb-1b06-4f08-a0e2-84ccff0132b8"
+    },
+    "chunkId": "assets/scripts/CTA.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 64
+          },
+          "end": {
+            "line": 1,
+            "column": 68
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/CharacterController.ts": {
+    "mTimestamp": {
+      "mtime": 1688548763960.062,
+      "uuid": "97493d02-a0b1-4a0a-9b5b-20da4d4c2cba"
+    },
+    "chunkId": "assets/scripts/CharacterController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 192
+          },
+          "end": {
+            "line": 1,
+            "column": 196
+          }
+        }
+      },
+      {
+        "value": "./joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/joystick/EasyController.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/joystick/EasyController.ts": {
+    "mTimestamp": {
+      "mtime": 1688205578873.583,
+      "uuid": "296019e0-6468-4848-a45f-28e7879b954e"
+    },
+    "chunkId": "assets/scripts/joystick/EasyController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/FreeCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688205141109.8584,
+      "uuid": "76da586e-3166-4e71-8cdc-085a83c6534d"
+    },
+    "chunkId": "assets/scripts/FreeCamera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/joystick/JoystickController.ts": {
+    "mTimestamp": {
+      "mtime": 1688953459694.958,
+      "uuid": "e2614b2f-8453-4dd2-8e97-f60de2ec1a01"
+    },
+    "chunkId": "assets/scripts/joystick/JoystickController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 172
+          },
+          "end": {
+            "line": 2,
+            "column": 176
+          }
+        }
+      },
+      {
+        "value": "./EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 52
+          },
+          "end": {
+            "line": 3,
+            "column": 70
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/ThirdPersonCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688205230901.4216,
+      "uuid": "64f69a5c-e72c-4a2b-9e2e-51bd35ac0733"
+    },
+    "chunkId": "assets/scripts/ThirdPersonCamera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/camera/FreeCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688205940504.2915,
+      "uuid": "76da586e-3166-4e71-8cdc-085a83c6534d"
+    },
+    "chunkId": "assets/scripts/camera/FreeCamera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 106
+          },
+          "end": {
+            "line": 1,
+            "column": 110
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/camera/ThirdPersonCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688358877411.2383,
+      "uuid": "64f69a5c-e72c-4a2b-9e2e-51bd35ac0733"
+    },
+    "chunkId": "assets/scripts/camera/ThirdPersonCamera.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 54
+          },
+          "end": {
+            "line": 1,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "../joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/joystick/EasyController.ts"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1735299763798,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/camera/Cinematic.ts": {
+    "mTimestamp": {
+      "mtime": 1688979673634.1133,
+      "uuid": "c6ca0fe4-8bb7-441a-80d3-f7b900597433"
+    },
+    "chunkId": "assets/scripts/camera/Cinematic.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 76
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 36
+          },
+          "end": {
+            "line": 3,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../joystick/JoystickController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 35
+          },
+          "end": {
+            "line": 4,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/joystick/JoystickController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_1/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/CTA.ts": {
+    "mTimestamp": {
+      "mtime": 1688979055319.4507,
+      "uuid": "45ecbccb-1b06-4f08-a0e2-84ccff0132b8"
+    },
+    "chunkId": "assets/scripts/CTA.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 64
+          },
+          "end": {
+            "line": 1,
+            "column": 68
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/camera/Cinematic.ts": {
+    "mTimestamp": {
+      "mtime": 1689049746484.0244,
+      "uuid": "c6ca0fe4-8bb7-441a-80d3-f7b900597433"
+    },
+    "chunkId": "assets/scripts/camera/Cinematic.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 76
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 36
+          },
+          "end": {
+            "line": 3,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../joystick/JoystickController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 35
+          },
+          "end": {
+            "line": 4,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/joystick/JoystickController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/CharacterController.ts": {
+    "mTimestamp": {
+      "mtime": 1688984822806.2207,
+      "uuid": "97493d02-a0b1-4a0a-9b5b-20da4d4c2cba"
+    },
+    "chunkId": "assets/scripts/CharacterController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 192
+          },
+          "end": {
+            "line": 1,
+            "column": 196
+          }
+        }
+      },
+      {
+        "value": "./joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/joystick/EasyController.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/camera/FreeCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688205940504.2915,
+      "uuid": "76da586e-3166-4e71-8cdc-085a83c6534d"
+    },
+    "chunkId": "assets/scripts/camera/FreeCamera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 106
+          },
+          "end": {
+            "line": 1,
+            "column": 110
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/joystick/EasyController.ts": {
+    "mTimestamp": {
+      "mtime": 1688205578873.583,
+      "uuid": "296019e0-6468-4848-a45f-28e7879b954e"
+    },
+    "chunkId": "assets/scripts/joystick/EasyController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/joystick/JoystickController.ts": {
+    "mTimestamp": {
+      "mtime": 1689049765075.725,
+      "uuid": "e2614b2f-8453-4dd2-8e97-f60de2ec1a01"
+    },
+    "chunkId": "assets/scripts/joystick/JoystickController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 172
+          },
+          "end": {
+            "line": 2,
+            "column": 176
+          }
+        }
+      },
+      {
+        "value": "./EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 52
+          },
+          "end": {
+            "line": 3,
+            "column": 70
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/camera/ThirdPersonCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688358877411.2383,
+      "uuid": "64f69a5c-e72c-4a2b-9e2e-51bd35ac0733"
+    },
+    "chunkId": "assets/scripts/camera/ThirdPersonCamera.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 54
+          },
+          "end": {
+            "line": 1,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "../joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_2/assets/scripts/joystick/EasyController.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/CTA.ts": {
+    "mTimestamp": {
+      "mtime": 1688979055319.4507,
+      "uuid": "45ecbccb-1b06-4f08-a0e2-84ccff0132b8"
+    },
+    "chunkId": "assets/scripts/CTA.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 64
+          },
+          "end": {
+            "line": 1,
+            "column": 68
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/joystick/EasyController.ts": {
+    "mTimestamp": {
+      "mtime": 1688205578873.583,
+      "uuid": "296019e0-6468-4848-a45f-28e7879b954e"
+    },
+    "chunkId": "assets/scripts/joystick/EasyController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/camera/Cinematic.ts": {
+    "mTimestamp": {
+      "mtime": 1691568309398.8362,
+      "uuid": "c6ca0fe4-8bb7-441a-80d3-f7b900597433"
+    },
+    "chunkId": "assets/scripts/camera/Cinematic.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 76
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 36
+          },
+          "end": {
+            "line": 3,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../joystick/JoystickController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 35
+          },
+          "end": {
+            "line": 4,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/joystick/JoystickController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/CharacterController.ts": {
+    "mTimestamp": {
+      "mtime": 1689245569101.953,
+      "uuid": "97493d02-a0b1-4a0a-9b5b-20da4d4c2cba"
+    },
+    "chunkId": "assets/scripts/CharacterController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 192
+          },
+          "end": {
+            "line": 1,
+            "column": 196
+          }
+        }
+      },
+      {
+        "value": "./joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/joystick/EasyController.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/camera/FreeCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688205940504.2915,
+      "uuid": "76da586e-3166-4e71-8cdc-085a83c6534d"
+    },
+    "chunkId": "assets/scripts/camera/FreeCamera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 106
+          },
+          "end": {
+            "line": 1,
+            "column": 110
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/joystick/JoystickController.ts": {
+    "mTimestamp": {
+      "mtime": 1691568318931.9583,
+      "uuid": "e2614b2f-8453-4dd2-8e97-f60de2ec1a01"
+    },
+    "chunkId": "assets/scripts/joystick/JoystickController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 172
+          },
+          "end": {
+            "line": 2,
+            "column": 176
+          }
+        }
+      },
+      {
+        "value": "./EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 52
+          },
+          "end": {
+            "line": 3,
+            "column": 70
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/camera/ThirdPersonCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688358877411.2383,
+      "uuid": "64f69a5c-e72c-4a2b-9e2e-51bd35ac0733"
+    },
+    "chunkId": "assets/scripts/camera/ThirdPersonCamera.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 54
+          },
+          "end": {
+            "line": 1,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "../joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3/assets/scripts/joystick/EasyController.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/camera/Cinematic.ts": {
+    "mTimestamp": {
+      "mtime": 1691568309398.8362,
+      "uuid": "c6ca0fe4-8bb7-441a-80d3-f7b900597433"
+    },
+    "chunkId": "assets/scripts/camera/Cinematic.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 76
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 36
+          },
+          "end": {
+            "line": 3,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../joystick/JoystickController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 35
+          },
+          "end": {
+            "line": 4,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/joystick/JoystickController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/CharacterController.ts": {
+    "mTimestamp": {
+      "mtime": 1689245569101.953,
+      "uuid": "97493d02-a0b1-4a0a-9b5b-20da4d4c2cba"
+    },
+    "chunkId": "assets/scripts/CharacterController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 192
+          },
+          "end": {
+            "line": 1,
+            "column": 196
+          }
+        }
+      },
+      {
+        "value": "./joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/joystick/EasyController.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/camera/FreeCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688205940504.2915,
+      "uuid": "76da586e-3166-4e71-8cdc-085a83c6534d"
+    },
+    "chunkId": "assets/scripts/camera/FreeCamera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 106
+          },
+          "end": {
+            "line": 1,
+            "column": 110
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/CTA.ts": {
+    "mTimestamp": {
+      "mtime": 1688979055319.4507,
+      "uuid": "45ecbccb-1b06-4f08-a0e2-84ccff0132b8"
+    },
+    "chunkId": "assets/scripts/CTA.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 64
+          },
+          "end": {
+            "line": 1,
+            "column": 68
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/camera/ThirdPersonCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688358877411.2383,
+      "uuid": "64f69a5c-e72c-4a2b-9e2e-51bd35ac0733"
+    },
+    "chunkId": "assets/scripts/camera/ThirdPersonCamera.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 54
+          },
+          "end": {
+            "line": 1,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "../joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/joystick/EasyController.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/joystick/EasyController.ts": {
+    "mTimestamp": {
+      "mtime": 1688205578873.583,
+      "uuid": "296019e0-6468-4848-a45f-28e7879b954e"
+    },
+    "chunkId": "assets/scripts/joystick/EasyController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/joystick/JoystickController.ts": {
+    "mTimestamp": {
+      "mtime": 1691568318931.9583,
+      "uuid": "e2614b2f-8453-4dd2-8e97-f60de2ec1a01"
+    },
+    "chunkId": "assets/scripts/joystick/JoystickController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 172
+          },
+          "end": {
+            "line": 2,
+            "column": 176
+          }
+        }
+      },
+      {
+        "value": "./EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 52
+          },
+          "end": {
+            "line": 3,
+            "column": 70
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos-Studio-Playable/GTA_PlayableAds/GTA_Playable_3_v2/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/CharacterController.ts": {
+    "mTimestamp": {
+      "mtime": 1689245568000,
+      "uuid": "97493d02-a0b1-4a0a-9b5b-20da4d4c2cba"
+    },
+    "chunkId": "assets/scripts/CharacterController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 192
+          },
+          "end": {
+            "line": 1,
+            "column": 196
+          }
+        }
+      },
+      {
+        "value": "./joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/joystick/EasyController.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/camera/Cinematic.ts": {
+    "mTimestamp": {
+      "mtime": 1691568308000,
+      "uuid": "c6ca0fe4-8bb7-441a-80d3-f7b900597433"
+    },
+    "chunkId": "assets/scripts/camera/Cinematic.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 76
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 36
+          },
+          "end": {
+            "line": 3,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../joystick/JoystickController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 35
+          },
+          "end": {
+            "line": 4,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/joystick/JoystickController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/CTA.ts": {
+    "mTimestamp": {
+      "mtime": 1734429546600.4749,
+      "uuid": "45ecbccb-1b06-4f08-a0e2-84ccff0132b8"
+    },
+    "chunkId": "assets/scripts/CTA.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 64
+          },
+          "end": {
+            "line": 1,
+            "column": 68
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/camera/FreeCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688205940000,
+      "uuid": "76da586e-3166-4e71-8cdc-085a83c6534d"
+    },
+    "chunkId": "assets/scripts/camera/FreeCamera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 106
+          },
+          "end": {
+            "line": 1,
+            "column": 110
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/camera/ThirdPersonCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688358876000,
+      "uuid": "64f69a5c-e72c-4a2b-9e2e-51bd35ac0733"
+    },
+    "chunkId": "assets/scripts/camera/ThirdPersonCamera.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 54
+          },
+          "end": {
+            "line": 1,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "../joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/joystick/EasyController.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/joystick/JoystickController.ts": {
+    "mTimestamp": {
+      "mtime": 1691568318000,
+      "uuid": "e2614b2f-8453-4dd2-8e97-f60de2ec1a01"
+    },
+    "chunkId": "assets/scripts/joystick/JoystickController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 172
+          },
+          "end": {
+            "line": 2,
+            "column": 176
+          }
+        }
+      },
+      {
+        "value": "./EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 52
+          },
+          "end": {
+            "line": 3,
+            "column": 70
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA3_Playable_3_v2/assets/scripts/joystick/EasyController.ts": {
+    "mTimestamp": {
+      "mtime": 1688205578000,
+      "uuid": "296019e0-6468-4848-a45f-28e7879b954e"
+    },
+    "chunkId": "assets/scripts/joystick/EasyController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CharacterController.ts": {
+    "mTimestamp": {
+      "mtime": 1735093496963.6804,
+      "uuid": "97493d02-a0b1-4a0a-9b5b-20da4d4c2cba"
+    },
+    "chunkId": "assets/scripts/CharacterController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 197
+          },
+          "end": {
+            "line": 1,
+            "column": 201
+          }
+        }
+      },
+      {
+        "value": "./joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      },
+      {
+        "value": "./CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Controller/SoundController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 62
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/camera/Cinematic.ts": {
+    "mTimestamp": {
+      "mtime": 1735042198052.805,
+      "uuid": "c6ca0fe4-8bb7-441a-80d3-f7b900597433"
+    },
+    "chunkId": "assets/scripts/camera/Cinematic.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 81
+          },
+          "end": {
+            "line": 2,
+            "column": 85
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 36
+          },
+          "end": {
+            "line": 3,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../joystick/JoystickController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 35
+          },
+          "end": {
+            "line": 4,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 25
+          },
+          "end": {
+            "line": 6,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 32
+          },
+          "end": {
+            "line": 7,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/joystick/JoystickController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/camera/ThirdPersonCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1735022890130.1833,
+      "uuid": "64f69a5c-e72c-4a2b-9e2e-51bd35ac0733"
+    },
+    "chunkId": "assets/scripts/camera/ThirdPersonCamera.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 54
+          },
+          "end": {
+            "line": 1,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "../joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CTA.ts": {
+    "mTimestamp": {
+      "mtime": 1735042618933.4182,
+      "uuid": "45ecbccb-1b06-4f08-a0e2-84ccff0132b8"
+    },
+    "chunkId": "assets/scripts/CTA.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      },
+      {
+        "value": "./Controller/SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 62
+          }
+        }
+      },
+      {
+        "value": "./CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/joystick/EasyController.ts": {
+    "mTimestamp": {
+      "mtime": 1688205578000,
+      "uuid": "296019e0-6468-4848-a45f-28e7879b954e"
+    },
+    "chunkId": "assets/scripts/joystick/EasyController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/joystick/JoystickController.ts": {
+    "mTimestamp": {
+      "mtime": 1734949070115.482,
+      "uuid": "e2614b2f-8453-4dd2-8e97-f60de2ec1a01"
+    },
+    "chunkId": "assets/scripts/joystick/JoystickController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 177
+          },
+          "end": {
+            "line": 2,
+            "column": 181
+          }
+        }
+      },
+      {
+        "value": "./EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 52
+          },
+          "end": {
+            "line": 3,
+            "column": 70
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/camera/FreeCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688205940000,
+      "uuid": "76da586e-3166-4e71-8cdc-085a83c6534d"
+    },
+    "chunkId": "assets/scripts/camera/FreeCamera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 106
+          },
+          "end": {
+            "line": 1,
+            "column": 110
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/UI/UI_OnClick.ts": {
+    "mTimestamp": {
+      "mtime": 1735041105164.3357,
+      "uuid": "6b0a7cd0-f9b3-44eb-8bd1-e2ba6c403792"
+    },
+    "chunkId": "assets/scripts/UI/UI_OnClick.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 55
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/UI/UI_HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1734948248396.3518,
+      "uuid": "b839900c-5a68-40ba-a95f-fe71e2158946"
+    },
+    "chunkId": "assets/scripts/UI/UI_HideMask.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 49
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1735041000651.763,
+      "uuid": "78833c74-6e1c-4fea-b5a4-2adee173346f"
+    },
+    "chunkId": "assets/scripts/CONST/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Controller/SoundController.ts": {
+    "mTimestamp": {
+      "mtime": 1734956671802.4966,
+      "uuid": "a1fd3635-188c-4bec-8152-e3998ce59c4c"
+    },
+    "chunkId": "assets/scripts/Controller/SoundController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../Others/Singleton",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 43
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Others/Singleton.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Others/Singleton.ts": {
+    "mTimestamp": {
+      "mtime": 1734954953309.7068,
+      "uuid": "32a757fa-a3a4-4efb-b4cd-faeea9055aaa"
+    },
+    "chunkId": "assets/scripts/Others/Singleton.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Controller/CONST.ts": {
+    "mTimestamp": {
+      "mtime": 1734955448572.4585,
+      "uuid": "4d667d4f-0de0-4aac-abd9-03a49e8428b3"
+    },
+    "chunkId": "assets/scripts/Controller/CONST.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Others/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1734955687778.972,
+      "uuid": "f47feae7-11bc-442b-bd0e-3e3cbabd0786"
+    },
+    "chunkId": "assets/scripts/Others/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 32
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/GTA_PA_08.ts": {
+    "mTimestamp": {
+      "mtime": 1734959226234.6577,
+      "uuid": "c58776f8-bb86-4be5-84cd-ed3b2b34c2eb"
+    },
+    "chunkId": "assets/scripts/Options/GTA_PA_08.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/PA_08_Character.ts": {
+    "mTimestamp": {
+      "mtime": 1735034918070.3027,
+      "uuid": "c58776f8-bb86-4be5-84cd-ed3b2b34c2eb"
+    },
+    "chunkId": "assets/scripts/Options/PA_08_Character.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 136
+          },
+          "end": {
+            "line": 1,
+            "column": 140
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/PA_08_UI.ts": {
+    "mTimestamp": {
+      "mtime": 1735042698532.901,
+      "uuid": "82da545d-a26c-44ef-bb9e-c18ef3caa098"
+    },
+    "chunkId": "assets/scripts/Options/PA_08_UI.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 86
+          },
+          "end": {
+            "line": 1,
+            "column": 90
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/interfaces.ts": {
+    "mTimestamp": {
+      "mtime": 1735026298405.3066,
+      "uuid": "cf364b5f-28f3-4f0b-af88-7306d5b77fb5"
+    },
+    "chunkId": "assets/scripts/CONST/interfaces.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/PA_08_Moto.ts": {
+    "mTimestamp": {
+      "mtime": 1735023942297.4238,
+      "uuid": "12d6c443-2bdc-4021-98cb-ec2a94e5e71b"
+    },
+    "chunkId": "assets/scripts/Options/PA_08_Moto.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 91
+          },
+          "end": {
+            "line": 2,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/PA_08_PoliceCar.ts": {
+    "mTimestamp": {
+      "mtime": 1735028625779.9136,
+      "uuid": "2a576b34-7f1e-4de9-b459-8786378e7bda"
+    },
+    "chunkId": "assets/scripts/Options/PA_08_PoliceCar.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/PA_08/PA_08_Character.ts": {
+    "mTimestamp": {
+      "mtime": 1735092921621.0732,
+      "uuid": "c58776f8-bb86-4be5-84cd-ed3b2b34c2eb"
+    },
+    "chunkId": "assets/scripts/Options/PA_08/PA_08_Character.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 136
+          },
+          "end": {
+            "line": 1,
+            "column": 140
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/PA_08/PA_08_PoliceCar.ts": {
+    "mTimestamp": {
+      "mtime": 1735028625779.9136,
+      "uuid": "2a576b34-7f1e-4de9-b459-8786378e7bda"
+    },
+    "chunkId": "assets/scripts/Options/PA_08/PA_08_PoliceCar.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/PA_08/PA_08_Moto.ts": {
+    "mTimestamp": {
+      "mtime": 1735023942297.4238,
+      "uuid": "12d6c443-2bdc-4021-98cb-ec2a94e5e71b"
+    },
+    "chunkId": "assets/scripts/Options/PA_08/PA_08_Moto.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 91
+          },
+          "end": {
+            "line": 2,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/PA_08/PA_08_UI.ts": {
+    "mTimestamp": {
+      "mtime": 1735092936251.8467,
+      "uuid": "82da545d-a26c-44ef-bb9e-c18ef3caa098"
+    },
+    "chunkId": "assets/scripts/Options/PA_08/PA_08_UI.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 86
+          },
+          "end": {
+            "line": 1,
+            "column": 90
+          }
+        }
+      },
+      {
+        "value": "../../Controller/SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 66
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/PA_10/PA_10_UI.ts": {
+    "mTimestamp": {
+      "mtime": 1735093250651.5723,
+      "uuid": "d8257c71-2d53-4394-87a9-f31f9ea50d6d"
+    },
+    "chunkId": "assets/scripts/Options/PA_10/PA_10_UI.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///U:/CocosProjects/PA/GTA3_PlayableAds/GTA_All/assets/scripts/Options/PA_10/PA_10_Character.ts": {
+    "mTimestamp": {
+      "mtime": 1735093274648.9592,
+      "uuid": "f19aa7f6-c833-40cd-bfb5-9af599aa91b6"
+    },
+    "chunkId": "assets/scripts/Options/PA_10/PA_10_Character.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/CONST.ts": {
+    "mTimestamp": {
+      "mtime": 1734955448572.4585,
+      "uuid": "4d667d4f-0de0-4aac-abd9-03a49e8428b3"
+    },
+    "chunkId": "assets/scripts/Controller/CONST.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/interfaces.ts": {
+    "mTimestamp": {
+      "mtime": 1735209909177.127,
+      "uuid": "cf364b5f-28f3-4f0b-af88-7306d5b77fb5"
+    },
+    "chunkId": "assets/scripts/CONST/interfaces.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts": {
+    "mTimestamp": {
+      "mtime": 1735209921977.102,
+      "uuid": "78833c74-6e1c-4fea-b5a4-2adee173346f"
+    },
+    "chunkId": "assets/scripts/CONST/GameInfo.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CTA.ts": {
+    "mTimestamp": {
+      "mtime": 1735188215518.4087,
+      "uuid": "45ecbccb-1b06-4f08-a0e2-84ccff0132b8"
+    },
+    "chunkId": "assets/scripts/CTA.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 91
+          },
+          "end": {
+            "line": 1,
+            "column": 95
+          }
+        }
+      },
+      {
+        "value": "./Controller/GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 60
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_Character.ts": {
+    "mTimestamp": {
+      "mtime": 1735092921621.0732,
+      "uuid": "c58776f8-bb86-4be5-84cd-ed3b2b34c2eb"
+    },
+    "chunkId": "assets/scripts/Options/PA_08/PA_08_Character.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 136
+          },
+          "end": {
+            "line": 1,
+            "column": 140
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CharacterController.ts": {
+    "mTimestamp": {
+      "mtime": 1735093496963.6804,
+      "uuid": "97493d02-a0b1-4a0a-9b5b-20da4d4c2cba"
+    },
+    "chunkId": "assets/scripts/CharacterController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 197
+          },
+          "end": {
+            "line": 1,
+            "column": 201
+          }
+        }
+      },
+      {
+        "value": "./joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      },
+      {
+        "value": "./CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Controller/SoundController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 62
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts": {
+    "mTimestamp": {
+      "mtime": 1735178416038.3337,
+      "uuid": "a1fd3635-188c-4bec-8152-e3998ce59c4c"
+    },
+    "chunkId": "assets/scripts/Controller/SoundController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 73
+          },
+          "end": {
+            "line": 1,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "../Others/Singleton",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 43
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/Singleton.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_Character.ts": {
+    "mTimestamp": {
+      "mtime": 1735186581676.603,
+      "uuid": "f19aa7f6-c833-40cd-bfb5-9af599aa91b6"
+    },
+    "chunkId": "assets/scripts/Options/PA_10/PA_10_Character.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 63
+          },
+          "end": {
+            "line": 2,
+            "column": 67
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_Moto.ts": {
+    "mTimestamp": {
+      "mtime": 1735023942297.4238,
+      "uuid": "12d6c443-2bdc-4021-98cb-ec2a94e5e71b"
+    },
+    "chunkId": "assets/scripts/Options/PA_08/PA_08_Moto.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 91
+          },
+          "end": {
+            "line": 2,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_PoliceCar.ts": {
+    "mTimestamp": {
+      "mtime": 1735028625779.9136,
+      "uuid": "2a576b34-7f1e-4de9-b459-8786378e7bda"
+    },
+    "chunkId": "assets/scripts/Options/PA_08/PA_08_PoliceCar.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_08/PA_08_UI.ts": {
+    "mTimestamp": {
+      "mtime": 1735092936251.8467,
+      "uuid": "82da545d-a26c-44ef-bb9e-c18ef3caa098"
+    },
+    "chunkId": "assets/scripts/Options/PA_08/PA_08_UI.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 86
+          },
+          "end": {
+            "line": 1,
+            "column": 90
+          }
+        }
+      },
+      {
+        "value": "../../Controller/SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 66
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/UI/UI_HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1734948248396.3518,
+      "uuid": "b839900c-5a68-40ba-a95f-fe71e2158946"
+    },
+    "chunkId": "assets/scripts/UI/UI_HideMask.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 49
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_UI.ts": {
+    "mTimestamp": {
+      "mtime": 1735131934798.838,
+      "uuid": "d8257c71-2d53-4394-87a9-f31f9ea50d6d"
+    },
+    "chunkId": "assets/scripts/Options/PA_10/PA_10_UI.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 98
+          },
+          "end": {
+            "line": 1,
+            "column": 102
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 66
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1734955687778.972,
+      "uuid": "f47feae7-11bc-442b-bd0e-3e3cbabd0786"
+    },
+    "chunkId": "assets/scripts/Others/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 32
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/UI/UI_OnClick.ts": {
+    "mTimestamp": {
+      "mtime": 1735104311477.2588,
+      "uuid": "6b0a7cd0-f9b3-44eb-8bd1-e2ba6c403792"
+    },
+    "chunkId": "assets/scripts/UI/UI_OnClick.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 55
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/Singleton.ts": {
+    "mTimestamp": {
+      "mtime": 1734954953309.7068,
+      "uuid": "32a757fa-a3a4-4efb-b4cd-faeea9055aaa"
+    },
+    "chunkId": "assets/scripts/Others/Singleton.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/camera/ThirdPersonCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1735104134813.0637,
+      "uuid": "64f69a5c-e72c-4a2b-9e2e-51bd35ac0733"
+    },
+    "chunkId": "assets/scripts/camera/ThirdPersonCamera.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 59
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../joystick/EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/camera/Cinematic.ts": {
+    "mTimestamp": {
+      "mtime": 1735183396397.5442,
+      "uuid": "c6ca0fe4-8bb7-441a-80d3-f7b900597433"
+    },
+    "chunkId": "assets/scripts/camera/Cinematic.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 81
+          },
+          "end": {
+            "line": 1,
+            "column": 85
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 36
+          },
+          "end": {
+            "line": 2,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../joystick/JoystickController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 35
+          },
+          "end": {
+            "line": 3,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/SoundController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 32
+          },
+          "end": {
+            "line": 5,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/joystick/JoystickController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/joystick/EasyController.ts": {
+    "mTimestamp": {
+      "mtime": 1688205578000,
+      "uuid": "296019e0-6468-4848-a45f-28e7879b954e"
+    },
+    "chunkId": "assets/scripts/joystick/EasyController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/camera/FreeCamera.ts": {
+    "mTimestamp": {
+      "mtime": 1688205940000,
+      "uuid": "76da586e-3166-4e71-8cdc-085a83c6534d"
+    },
+    "chunkId": "assets/scripts/camera/FreeCamera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 106
+          },
+          "end": {
+            "line": 1,
+            "column": 110
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/joystick/JoystickController.ts": {
+    "mTimestamp": {
+      "mtime": 1734949070115.482,
+      "uuid": "e2614b2f-8453-4dd2-8e97-f60de2ec1a01"
+    },
+    "chunkId": "assets/scripts/joystick/JoystickController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 177
+          },
+          "end": {
+            "line": 2,
+            "column": 181
+          }
+        }
+      },
+      {
+        "value": "./EasyController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 52
+          },
+          "end": {
+            "line": 3,
+            "column": 70
+          }
+        }
+      },
+      {
+        "value": "../CharacterController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "../CTA",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/joystick/EasyController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CharacterController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CTA.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_09/PA_09_UI.ts": {
+    "mTimestamp": {
+      "mtime": 1735182654378.9702,
+      "uuid": "6a15ec2e-a376-4573-9882-7e3dac1aa030"
+    },
+    "chunkId": "assets/scripts/Options/PA_09/PA_09_UI.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 94
+          },
+          "end": {
+            "line": 1,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "../../Controller/SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 66
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../../Others/Responsive",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 52
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/Responsive.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_09/PA_09_Character.ts": {
+    "mTimestamp": {
+      "mtime": 1735182968055.2954,
+      "uuid": "9e4b7445-3b80-4b72-88c4-0f8ee8200b46"
+    },
+    "chunkId": "assets/scripts/Options/PA_09/PA_09_Character.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 147
+          },
+          "end": {
+            "line": 1,
+            "column": 151
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1735194453864.872,
+      "uuid": "afbbceef-59a0-4d3d-8c10-0250ee7e0d79"
+    },
+    "chunkId": "assets/scripts/Options/PA_10/PA_10_GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 87
+          },
+          "end": {
+            "line": 2,
+            "column": 91
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1735186612514.815,
+      "uuid": "6cb5f77f-5463-4036-b125-779a7d0cd217"
+    },
+    "chunkId": "assets/scripts/Options/PA_10/PA_10_HideMask.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 121
+          },
+          "end": {
+            "line": 2,
+            "column": 125
+          }
+        }
+      },
+      {
+        "value": "./PA_10_UI",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../../Controller/SoundController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 32
+          },
+          "end": {
+            "line": 5,
+            "column": 66
+          }
+        }
+      },
+      {
+        "value": "./PA_10_Character",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 32
+          },
+          "end": {
+            "line": 6,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_UI.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_Character.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1735179237436.5046,
+      "uuid": "5b00c0a7-76fc-423f-971d-1a91a2eba50f"
+    },
+    "chunkId": "assets/scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 49
+          },
+          "end": {
+            "line": 1,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "./SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Others/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1735181696413.4553,
+      "uuid": "3f16e336-5dca-4e4c-acc1-f8cab77b0d8c"
+    },
+    "chunkId": "assets/scripts/Others/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 56
+          }
+        }
+      },
+      {
+        "value": "../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_09/PA_09_Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1735185890161.2285,
+      "uuid": "77ed868a-2ba2-4145-be46-4f59470aee5a"
+    },
+    "chunkId": "assets/scripts/Options/PA_09/PA_09_Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 56
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/pa_10_Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1735187014528.195,
+      "uuid": "fffed0a9-5ecd-4fac-bfc1-6e5323c255d2"
+    },
+    "chunkId": "assets/scripts/Options/PA_10/pa_10_Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_10/PA_10_Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1735187582887.786,
+      "uuid": "fffed0a9-5ecd-4fac-bfc1-6e5323c255d2"
+    },
+    "chunkId": "assets/scripts/Options/PA_10/PA_10_Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 52
+          },
+          "end": {
+            "line": 1,
+            "column": 56
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_10_GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1735194453864.872,
+      "uuid": "8f4abc67-7867-48e9-8dcf-3bd288e33cc1"
+    },
+    "chunkId": "assets/scripts/Options/PA_11/PA_10_GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 87
+          },
+          "end": {
+            "line": 2,
+            "column": 91
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1735213828421.9763,
+      "uuid": "8f4abc67-7867-48e9-8dcf-3bd288e33cc1"
+    },
+    "chunkId": "assets/scripts/Options/PA_11/PA_11_GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 87
+          },
+          "end": {
+            "line": 2,
+            "column": 91
+          }
+        }
+      },
+      {
+        "value": "../../Controller/SoundController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 66
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_HideMask.ts": {
+    "mTimestamp": {
+      "mtime": 1735213107587.5896,
+      "uuid": "4b059f3b-6912-465c-b062-fe2c370343bb"
+    },
+    "chunkId": "assets/scripts/Options/PA_11/PA_11_HideMask.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 121
+          },
+          "end": {
+            "line": 2,
+            "column": 125
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 32
+          },
+          "end": {
+            "line": 5,
+            "column": 66
+          }
+        }
+      },
+      {
+        "value": "./PA_11_UI",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 25
+          },
+          "end": {
+            "line": 6,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./PA_11_Character",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 32
+          },
+          "end": {
+            "line": 7,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_UI.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_Character.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_UI.ts": {
+    "mTimestamp": {
+      "mtime": 1735212835997.8577,
+      "uuid": "e407360a-42e5-48fb-bcff-3f2a28d70344"
+    },
+    "chunkId": "assets/scripts/Options/PA_11/PA_11_UI.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 135
+          },
+          "end": {
+            "line": 1,
+            "column": 139
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 66
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_10_Character.ts": {
+    "mTimestamp": {
+      "mtime": 1735186581676.603,
+      "uuid": "5926e334-81e2-4908-a54a-4641736995de"
+    },
+    "chunkId": "assets/scripts/Options/PA_11/PA_10_Character.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 63
+          },
+          "end": {
+            "line": 2,
+            "column": 67
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_Character.ts": {
+    "mTimestamp": {
+      "mtime": 1735213300984.6897,
+      "uuid": "5926e334-81e2-4908-a54a-4641736995de"
+    },
+    "chunkId": "assets/scripts/Options/PA_11/PA_11_Character.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 84
+          },
+          "end": {
+            "line": 1,
+            "column": 88
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../../Controller/SoundController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 66
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Controller/SoundController.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_CharHealth.ts": {
+    "mTimestamp": {
+      "mtime": 1735213288216.2515,
+      "uuid": "3f4dfcb9-6ca8-4adb-91a4-e6dc0e74f118"
+    },
+    "chunkId": "assets/scripts/Options/PA_11/PA_11_CharHealth.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 63
+          },
+          "end": {
+            "line": 2,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_10_Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1735187582887.786,
+      "uuid": "276c3ce5-e9b2-4698-88c2-85c03b17d030"
+    },
+    "chunkId": "assets/scripts/Options/PA_11/PA_10_Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 52
+          },
+          "end": {
+            "line": 1,
+            "column": 56
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  },
+  "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/Options/PA_11/PA_11_Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1735214894358.3564,
+      "uuid": "276c3ce5-e9b2-4698-88c2-85c03b17d030"
+    },
+    "chunkId": "assets/scripts/Options/PA_11/PA_11_Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 52
+          },
+          "end": {
+            "line": 1,
+            "column": 56
+          }
+        }
+      },
+      {
+        "value": "../../CONST/GameInfo",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 25
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/CocosProjects/Amobear/GTA_All/assets/scripts/CONST/GameInfo.ts"
+      }
+    ]
+  }
+}

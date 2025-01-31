@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1e83eb29-232f-4813-b06a-8dd2e084f1a3",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "1e83eb29-232f-4813-b06a-8dd2e084f1a3@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dd2a5": {
+      "importer": "gltf-mesh",
+      "uuid": "1e83eb29-232f-4813-b06a-8dd2e084f1a3@dd2a5",
+      "displayName": "",
+      "id": "dd2a5",
+      "name": "rock_001.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "1e83eb29-232f-4813-b06a-8dd2e084f1a3@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "1e83eb29-232f-4813-b06a-8dd2e084f1a3@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1e83eb29-232f-4813-b06a-8dd2e084f1a3@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "92faf": {
+      "importer": "gltf-scene",
+      "uuid": "1e83eb29-232f-4813-b06a-8dd2e084f1a3@92faf",
+      "displayName": "",
+      "id": "92faf",
+      "name": "rock_001.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "1e83eb29-232f-4813-b06a-8dd2e084f1a3@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "1e83eb29-232f-4813-b06a-8dd2e084f1a3@92faf",
+    "assetFinder": {
+      "meshes": [
+        "1e83eb29-232f-4813-b06a-8dd2e084f1a3@dd2a5"
+      ],
+      "skeletons": [],
+      "textures": [
+        "1e83eb29-232f-4813-b06a-8dd2e084f1a3@d20e9"
+      ],
+      "materials": [
+        "1e83eb29-232f-4813-b06a-8dd2e084f1a3@33452"
+      ],
+      "scenes": [
+        "1e83eb29-232f-4813-b06a-8dd2e084f1a3@92faf"
+      ]
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 88,
+      "max": [
+        1.4469728469848633,
+        3.012779474258423,
+        0.0809173583984375
+      ],
+      "min": [
+        -1.4469728469848633,
+        0.32227832078933716,
+        -0.080917127430439
+      ],
+      "name": "A_Brick/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 88,
+      "name": "A_Brick/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 88,
+      "name": "A_Brick/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 168,
+      "name": "A_Brick/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2816,
+      "byteStride": 32,
+      "name": "A_Brick",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 672,
+      "byteOffset": 2816
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3488,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "U:\\CocosProjects\\PA\\SantaCall_Op2\\assets\\Image\\3D\\Models\\Texture\\Road_base.png",
+          "relativeFileName": "..\\Texture\\Road_base.png"
+        }
+      },
+      "name": "file3",
+      "uri": "Road_base.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Road1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "A_Brick",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "A_Brick"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "file3",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

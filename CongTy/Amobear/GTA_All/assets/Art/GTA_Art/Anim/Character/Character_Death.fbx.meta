@@ -1,0 +1,79 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5d75fd82-9931-41a7-9b37-2d77595d392f",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "ca7e4": {
+      "importer": "gltf-animation",
+      "uuid": "5d75fd82-9931-41a7-9b37-2d77595d392f@ca7e4",
+      "displayName": "",
+      "id": "ca7e4",
+      "name": "Death.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.299999952316284
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a21d1": {
+      "importer": "gltf-scene",
+      "uuid": "5d75fd82-9931-41a7-9b37-2d77595d392f@a21d1",
+      "displayName": "",
+      "id": "a21d1",
+      "name": "Character_Death.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 2.299999952316284,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Death",
+            "from": 0,
+            "to": 2.299999952316284,
+            "wrapMode": 1
+          }
+        ]
+      }
+    ],
+    "redirect": "5d75fd82-9931-41a7-9b37-2d77595d392f@a21d1",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "5d75fd82-9931-41a7-9b37-2d77595d392f@a21d1"
+      ]
+    }
+  }
+}

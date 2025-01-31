@@ -1,0 +1,116 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bb66a1d2-eea6-4681-9a45-724abb6887ae",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "3f54e": {
+      "importer": "gltf-mesh",
+      "uuid": "bb66a1d2-eea6-4681-9a45-724abb6887ae@3f54e",
+      "displayName": "",
+      "id": "3f54e",
+      "name": "san.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "bb66a1d2-eea6-4681-9a45-724abb6887ae@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "55b43": {
+      "importer": "gltf-material",
+      "uuid": "bb66a1d2-eea6-4681-9a45-724abb6887ae@55b43",
+      "displayName": "",
+      "id": "55b43",
+      "name": "lambert3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8cc1": {
+      "importer": "gltf-scene",
+      "uuid": "bb66a1d2-eea6-4681-9a45-724abb6887ae@c8cc1",
+      "displayName": "",
+      "id": "c8cc1",
+      "name": "san.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "bb66a1d2-eea6-4681-9a45-724abb6887ae@c8cc1",
+    "assetFinder": {
+      "meshes": [
+        "bb66a1d2-eea6-4681-9a45-724abb6887ae@3f54e"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "bb66a1d2-eea6-4681-9a45-724abb6887ae@55b43"
+      ],
+      "scenes": [
+        "bb66a1d2-eea6-4681-9a45-724abb6887ae@c8cc1"
+      ]
+    }
+  }
+}

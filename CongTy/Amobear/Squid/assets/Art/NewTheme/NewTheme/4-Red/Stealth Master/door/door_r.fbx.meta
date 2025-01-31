@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "755388d1-ed05-4db4-ab23-b4dc9e80a404",
+  "files": [],
+  "subMetas": {
+    "33452": {
+      "importer": "gltf-material",
+      "uuid": "755388d1-ed05-4db4-ab23-b4dc9e80a404@33452",
+      "displayName": "",
+      "id": "33452",
+      "name": "color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "61e1c": {
+      "importer": "gltf-mesh",
+      "uuid": "755388d1-ed05-4db4-ab23-b4dc9e80a404@61e1c",
+      "displayName": "",
+      "id": "61e1c",
+      "name": "door_r.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "755388d1-ed05-4db4-ab23-b4dc9e80a404@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "755388d1-ed05-4db4-ab23-b4dc9e80a404@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "755388d1-ed05-4db4-ab23-b4dc9e80a404@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3d6c8": {
+      "importer": "gltf-scene",
+      "uuid": "755388d1-ed05-4db4-ab23-b4dc9e80a404@3d6c8",
+      "displayName": "",
+      "id": "3d6c8",
+      "name": "door_r.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "755388d1-ed05-4db4-ab23-b4dc9e80a404@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "755388d1-ed05-4db4-ab23-b4dc9e80a404@3d6c8",
+    "assetFinder": {
+      "meshes": [
+        "755388d1-ed05-4db4-ab23-b4dc9e80a404@61e1c"
+      ],
+      "skeletons": [],
+      "textures": [
+        "755388d1-ed05-4db4-ab23-b4dc9e80a404@d20e9"
+      ],
+      "materials": [
+        "755388d1-ed05-4db4-ab23-b4dc9e80a404@33452"
+      ],
+      "scenes": [
+        "755388d1-ed05-4db4-ab23-b4dc9e80a404@3d6c8"
+      ]
+    }
+  }
+}

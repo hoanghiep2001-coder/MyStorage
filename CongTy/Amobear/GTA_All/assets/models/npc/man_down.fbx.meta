@@ -1,0 +1,121 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a4da9952-ec00-493b-9a11-600b04f5a311",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "a4da9952-ec00-493b-9a11-600b04f5a311@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "18d6f": {
+      "importer": "gltf-animation",
+      "uuid": "a4da9952-ec00-493b-9a11-600b04f5a311@18d6f",
+      "displayName": "",
+      "id": "18d6f",
+      "name": "mixamo.com.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.25
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "a4da9952-ec00-493b-9a11-600b04f5a311@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "849aa": {
+      "importer": "gltf-scene",
+      "uuid": "a4da9952-ec00-493b-9a11-600b04f5a311@849aa",
+      "displayName": "",
+      "id": "849aa",
+      "name": "man_down.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 1.25,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "mixamo.com",
+            "from": 0,
+            "to": 1.25,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "a4da9952-ec00-493b-9a11-600b04f5a311@849aa",
+    "assetFinder": {
+      "meshes": [
+        "a4da9952-ec00-493b-9a11-600b04f5a311@a62fe"
+      ],
+      "skeletons": [
+        "a4da9952-ec00-493b-9a11-600b04f5a311@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "fa314110-6a5e-44e3-9c48-a08a5885a274"
+      ],
+      "scenes": [
+        "a4da9952-ec00-493b-9a11-600b04f5a311@849aa"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/models/npc/Materials_man_down"
+  }
+}
