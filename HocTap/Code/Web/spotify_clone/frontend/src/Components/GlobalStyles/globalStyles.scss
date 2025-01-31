@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Inter_Light";
+    src: url('../../Assets/font/static/Inter-Light.ttf');
+}
+@font-face {
+    font-family: "Inter_Regular";
+    src: url('../../Assets/font/static/Inter-Regular.ttf');
+}
+@font-face {
+    font-family: "Inter_Medium";
+    src: url('../../Assets/font/static/Inter-Medium.ttf');
+}
+@font-face {
+    font-family: "Inter_Bold";
+    src: url('../../Assets/font/static/Inter-Bold.ttf');
+}
+
+.main-bgColor {
+    background-color: #121212;
+}
+
+.cur-pointer {
+    cursor: pointer;
+}
+
+.text {
+    color: #e6e6e6;
+    transition: all 0.3s ease;
+    &:hover {
+        color: #fff;
+    }
+}
+
+
+
+
+@media (min-width: 1400px) {
+    .container {
+        background-color: #121212;
+        padding: 12px 20px !important;
+    }
+
+    .item {
+        background-color: #121212 !important;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: "Inter_Bold";
+        display: flex !important;
+        align-items: center;
+        gap: 24px;
+        padding: 8px 0;
+        color: #b3b3b3 !important;
+        transition: all 0.4s ease;
+        border: none !important;
+        outline: none;
+
+        &:hover {
+            color: #fff !important;
+        }
+    }
+
+    .icon {}
+}

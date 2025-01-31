@@ -1,0 +1,563 @@
+
+.body {
+  padding-top: 80px;
+  position: relative;
+  .body__hero {
+    background: url(../image/thumb/Banner_TrangChu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    .body__hero-logo {
+      width: 100px;
+    }
+    .body__hero-slogan {
+      color: $color-white;
+      font-size: 50px;
+      margin: 10px 0;
+      max-width: 60%;
+      line-height: 1.3;
+      font-family: "BeVietnamPro-Bold";
+      // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      z-index: 1;
+      position: relative;
+    }
+    .body__hero-desc {
+      color: $color-white;
+      font-size: 16px;
+      margin: 20px 0px 30px;
+      max-width: 60%;
+      position: relative;
+      line-height: 1.7;
+      z-index: 1;
+    }
+  }
+  .body__filter {
+    height: 154px;
+    position: absolute;
+    top: calc(400px + 77px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 28px;
+    &.is-scrollDown {
+      position: fixed;
+      top: 88px;
+      height: auto;
+      z-index: 1000;
+      // left: 0;
+      // transform: unset;
+      background-color: rgba(255, 255, 255, 0.85);
+      // transition: 0.3s ease-out;
+      .body__filter-form {
+        margin: 10px 0;
+        padding: 0;
+      }
+    }
+    .body__filter-form {
+      margin-top: 48px;
+      max-height: 67px;
+      border: 1px solid #aeaeb2;
+      background-color: $color-white;
+      border-radius: 28px;
+      padding: 0 8px;
+      .filter__search {
+        padding-left: 12px;
+        .filter__search-icon {
+          font-size: 24px;
+          margin: 0 8px 0 0;
+        }
+        .filter__search-input {
+          border: none;
+          outline: none;
+          color: $color-placeholder;
+          &::placeholder {
+            color: $color-placeholder;
+          }
+        }
+      }
+      .filter__nav {
+        .filter__nav-button {
+          border: none;
+          outline: none;
+          padding: 10px 20px;
+          &.Search-button {
+            background-color: $color-button;
+            border-radius: 28px;
+            &::before {
+              display: none;
+            }
+          }
+          &::after {
+            display: none;
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            height: 100%;
+            top: 0;
+            left: 0;
+            width: 1px;
+            background-color: rgb(207, 207, 207);
+          }
+          .arrowDown-icon {
+            margin-left: 4px;
+          }
+          .Search-button-icon {
+            color: $color-white;
+          }
+        }
+      }
+    }
+  }
+  .body__listRoom {
+    background-color: $color-background;
+    padding: 150px 0 100px;
+    .body__listRoom-title {
+      text-align: center;
+    }
+    .listRoom__item {
+      margin-top: 28px;
+      background-color: $color-white;
+      border-radius: 20px;
+      
+      cursor: pointer;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        .listRoom__item-wrapper {
+          .listRoom__item-img {
+            transform: scale(1.1);
+          }
+        }
+      }
+      .listRoom__item-wrapper {
+        overflow: hidden;
+        border-start-start-radius: 20px;
+        border-start-end-radius: 20px;
+        .listRoom__item-img {
+          width: 100%;
+          height: 174px;
+          border-start-start-radius: 20px;
+          border-start-end-radius: 20px;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+      .listRoom__item-content {
+        padding: 20px 12px;
+        background-color: #fff; 
+        border-end-end-radius: 20px;
+        border-end-start-radius: 20px;
+        .listRoom__content-place {
+          color: $color-title-grey;
+          font-size: 16px;
+        }
+        .listRoom__content-title {
+          font-size: 16px;
+          line-height: 24px;
+          color: $color-title;
+          font-family: "BeVietnamPro-SemiBold";
+          display: block;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;  /* số dòng hiển thị */
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .listRoom__content-rating {
+          color: #000;
+          margin-bottom: 8px;
+        }
+        .listRoom__content-address {
+          color: $color-title-grey;
+          font-size: 14px;
+          margin-bottom: 12px;
+          display: block;
+          display: -webkit-box;
+          // height: 16px*1.3*3;
+          -webkit-line-clamp: 1;  /* số dòng hiển thị */
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .listRoom__item-price {
+          font-family: "BeVietnamPro-SemiBold";
+          color: $color-title;
+          font-size: 18px;
+        }
+        .listRoom__item-mark {
+          font-family: "BeVietnamPro-SemiBold";
+          color: $color-title;
+          font-size: 18px;
+        }
+      }
+    }
+    .pagination_Container {
+      justify-content: center;
+      .page-link {
+        color: #000;
+      }
+      .active {
+        .page-link {
+          background-color: #eabd4d;
+          border: 1px solid #eabd4d;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .body__aboutUs {
+    padding: 40px 0 70px;
+    .aboutUs__title {
+      font-size: 30px;
+      text-align: center;
+      position: relative;
+      // &::after {
+      //     position: absolute;
+      //     content: "";
+      //     bottom: 0;
+      //     left: 0;
+      //     width: 50%;
+      //     height: 2px;
+      //     background-color: ;
+      // }
+    }
+    .row {
+      .aboutUs__item {
+        margin-top: 30px;
+        text-align: center;
+        .aboutUs__item-image {
+        }
+
+        .aboutUs__item-title {
+          margin: 16px 0;
+          font-size: 16px;
+          font-family: "BeVietnamPro-SemiBold";
+        }
+
+        .aboutUs__item-desc {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .body__subAboutUs {
+    background-color: $color-background-footer;
+    padding: 62px 0 50px;
+    .body__subAboutUs-desc {
+      .body__subAboutUs-title {
+        text-align: center;
+        margin-bottom: 100px;
+      }
+      .body__subAboutUs-content {
+        text-indent: 70px;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 1.2px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .body__convenient {
+    background-color: $color-background;
+    padding: 62px 0 50px;
+    .body__convenient-title {
+      text-align: center;
+
+      margin-bottom: 100px;
+    }
+    .body__convenient-content {
+      display: flex;
+      background-color: $color-white;
+      border: 1.5px solid $color-border-main;
+      padding: 30px 4px;
+      border-radius: 4px;
+      position: relative;
+      z-index: 1;
+      &::after {
+        position: absolute;
+        content: "";
+        left: -10px;
+        top: -10px;
+        width: calc(100% + 20px);
+        height: calc(100% + 20px);
+        background-color: rgba(255, 255, 255, 0.6);
+        z-index: -1;
+      }
+      .convenient__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        cursor: pointer;
+        transition: 0.3s all ease-in-out;
+        &:hover {
+          .convenient__item-icon,
+          .convenient__item-title {
+            color: $color-underline;
+          }
+        }
+        &:nth-child(5) {
+          .convenient__item-icon {
+            width: 40px;
+            height: 40px;
+          }
+        }
+        &:last-child {
+          .convenient__item-icon {
+            font-size: 32px;
+          }
+        }
+        &:nth-child(3) {
+          .convenient__item-icon {
+            font-size: 40px;
+          }
+        }
+        &:nth-child(1) {
+          &::after {
+            display: none;
+          }
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          height: 100%;
+          top: 0;
+          left: 0;
+          width: 1px;
+          background-color: rgb(207, 207, 207);
+        }
+
+        .convenient__item-icon {
+          font-size: 46px;
+          margin-right: 12px;
+          color: $color-title;
+          transition: 0.3s all ease-in-out;
+        }
+        .convenient__item-title {
+          font-size: 14px;
+          margin-bottom: 0;
+          color: $color-title;
+          font-family: "BeVietnamPro-SemiBold";
+          transition: 0.3s all ease-in-out;
+
+          // text-align: ju;
+        }
+      }
+    }
+  }
+  .body__service {
+    background: url("../image/thumb/Nen_LienHe.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-white;
+    .body__service-wrapper {
+      padding: 140px 0;
+
+      .body__service-row {
+        border-radius: 16px;
+        background-color: rgb(52 51 51 / 50%);
+        padding: 40px 20px;
+        align-items: center;
+
+        .body__service-actions {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .service_actions-contact {
+          }
+          .service_actions-icon {
+            font-size: 26px;
+            cursor: pointer;
+            color: $color-white;
+            &:last-child {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+
+      .service__warpper {
+        margin-top: 20px;
+        h3 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .service__title {
+        font-family: "BeVietnamPro-SemiBold";
+      }
+      .service__form-control {
+        padding: 8px 12px;
+        border: none;
+        border-bottom: 1px solid $color-text;
+        outline: none;
+        border-radius: 0px;
+        background-color: rgba(255, 255, 255, 0.15);
+        color: $color-white;
+        border-radius: 12px;
+        &::placeholder {
+          color: $color-white;
+        }
+        &:focus {
+          border: none;
+          border-bottom: 1px solid $color-text;
+          outline: none;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+
+  // filter Page
+  &.filter-page {
+    padding-top: 100px;
+    .body__filterPage {
+      padding: 34px 0;
+      min-height: 240px;
+      background-color: $color-background-footer;
+      .body__filterPage-form {
+        .body__filterPage-list {
+          margin: 0;
+          border: 1px solid $color-title-black;
+          border-radius: 8px;
+          background-color: $color-white;
+          padding: 2px 0;
+          .btn-group {
+            .filter__nav-button {
+              &::before {
+                position: absolute;
+                content: "";
+                width: 1px;
+                height: 100%;
+                top: 0;
+                left: -38px;
+                background-color: rgb(207, 207, 207);
+              }
+            }
+            &:first-child {
+              .filter__nav-button {
+                &::before {
+                  position: unset;
+                }
+              }
+            }
+          }
+        }
+        .filter__search-wrapper {
+          border: 1px solid $color-title-black;
+          background-color: $color-white;
+          border-radius: 8px;
+          .filter__search-icon {
+            font-size: 20px;
+            margin: 0 12px;
+          }
+          .filter__search-input {
+            width: 100%;
+            height: 42px;
+            border: none;
+            outline: none;
+            border-end-end-radius: 8px;
+            border-end-start-radius: 8px;
+            padding: 6px 12px;
+            background-color: transparent;
+            &::placeholder {
+              color: $color-placeholder;
+            }
+          }
+        }
+        .filterPage-search {
+          width: 100%;
+          border: 1px solid $color-button;
+          border-radius: 8px !important;
+        }
+      }
+    }
+  }
+}
+
+
+.bg-main {
+  background-color: $color-background-footer !important;
+}
+
+.filter__nav-dropdownMenu {
+  min-width: 200px;
+  max-width: 250px;
+  padding: 8px 12px;
+
+  .filter__nav-dropdownItem {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .dropdownItem_desc  {
+      max-width: 70%;
+      text-wrap: wrap;
+      line-height:32px;
+      font-size: 16px;
+      display: block;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+
+.modal_isShowing  {
+  .body {
+    .body__filter {
+      &.is-scrollDown {
+        z-index: unset;
+      }
+    }
+  }
+  #scrollToTopButton {
+    z-index: unset;
+  }
+}
+
+
+
+/* PC */
+@media (min-width: 1114px) {}
+
+/* PC low resolution */
+@media (min-width: 1024px) and (max-width: 1113px) {}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+
+/* Phone */
+@media (max-width: 576px) {
+    .mobile-filter {
+      &.body__filter {
+          top: 650px;
+          width: 95%;
+        }
+        &.is-scrollDown {
+            position: sticky;
+            top: 88px;
+            height: auto;
+            z-index: 1000;
+            left: 50% !important; 
+            transform: translateX(-50%) !important;
+            background-color: rgba(255, 255, 255, 0.85);
+        }
+    }
+}
+
+

@@ -1,0 +1,95 @@
+
+.header {
+  background-color: $color-white;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  animation-name: sticky; 
+  animation-duration: 0.5s; 
+  animation-timing-function: ease; 
+  animation-delay: 0s; 
+  animation-iteration-count: 1; 
+  animation-direction: normal; 
+  animation-fill-mode: forwards; 
+  box-shadow: 0 0 5px 0px rgb(0 0 0 / 20%);
+  &.is-sticky {
+    animation-name: noSticky;
+    animation-duration: 0.5s; 
+    animation-timing-function: ease; 
+    animation-delay: 0s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards; 
+    .header__container {
+      padding: 10px 12px;
+      .header__homePage {
+        .icon-LOGO_demo {
+          width: $logo-default-width-is-sticky;
+          color: $color-button;
+        }
+      }
+    }
+  }
+  .header__container {
+    .header__homePage {
+      .icon-LOGO_demo {
+        width: $logo-default-width;
+        color: $color-button;
+        transition: 0.3s all ease-in-out;
+      }
+    }
+    .header__nav-item {
+      &.user-action:last-child {
+        .header__nav-link {
+          border: 1px solid $color-title-black;
+          color: $color-title-black;
+          border-radius: 8px;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            color: $color-white;
+            background-color: $color-button;
+            border: 1px solid $color-button;
+          }
+        }
+      }
+    }
+    .header__nav-link {
+      color: $color-title-black;
+      font-family: "BeVietnamPro-SemiBold";
+      font-size: 14px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        color: $color-title-blue;
+      }
+    }
+
+    .header__user {
+      .header__user-link {
+
+        .header__user-img {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@keyframes sticky {
+  from {
+    padding: 0;
+  } to {
+    padding: 10px 0;
+  }
+}
+
+@keyframes noSticky {
+  from {
+      padding: 0;
+  } to {
+      padding: 0;
+  }
+}

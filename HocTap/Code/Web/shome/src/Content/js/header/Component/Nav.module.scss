@@ -1,0 +1,47 @@
+/* PC */
+@media (min-width: 1114px) {
+
+}
+
+/* PC low resolution */
+@media (min-width: 1024px) and (max-width: 1113px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+
+/* Phone */
+@media (max-width: 576px) {
+    .mobile_container {
+        justify-content: space-between;
+    }
+
+    .canvas-config {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        width: 100% !important;
+    }
+
+
+    .canvasHeader-config {
+        background-color: black;
+    }
+
+
+    .listGroup-config {
+        // background-color: rgba(0, 0, 0, 0.8);;
+        background: none;
+        border: none;
+    }
+
+    .header__nav-item {
+        background-color: unset;
+        color: #fff;
+        border: none;
+        margin: 12px 0;
+    }
+}

@@ -1,0 +1,11 @@
+@media (min-width: 1400px) {
+    .item {
+        gap: 0;
+        justify-content: space-between;
+        margin-top: 8px;
+        // color: #b3b3b3 !important;
+        &:hover {
+            color: unset !important;
+        }
+    }
+}

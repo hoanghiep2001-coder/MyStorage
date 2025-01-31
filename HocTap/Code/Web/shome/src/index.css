@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "BeVietnamPro-Thin";
+  src: url(./Content/font/BeVietnamPro-Thin.ttf);
+}
+
+@font-face {
+  font-family: "BeVietnamPro-ThinItalic";
+  src: url(./Content/font/BeVietnamPro-ThinItalic.ttf);
+}
+
+@font-face {
+  font-family: "BeVietnamPro-SemiBold";
+  src: url(./Content/font/BeVietnamPro-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "BeVietnamPro-Regular";
+  src: url(./Content/font/BeVietnamPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "BeVietnamPro-Medium";
+  src: url(./Content/font/BeVietnamPro-Medium.ttf);
+}
+
+@font-face {
+  font-family: "BeVietnamPro-Bold";
+  src: url(./Content/font/BeVietnamPro-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "BeVietnamPro-Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #7c7878;
+}
