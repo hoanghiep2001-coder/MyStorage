@@ -1,0 +1,124 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1",
+  "files": [],
+  "subMetas": {
+    "c31f8": {
+      "importer": "gltf-mesh",
+      "uuid": "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@c31f8",
+      "displayName": "",
+      "id": "c31f8",
+      "name": "conveyor_belt.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "37cdd": {
+      "importer": "gltf-material",
+      "uuid": "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@37cdd",
+      "displayName": "",
+      "id": "37cdd",
+      "name": "Mat_Environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c15bf": {
+      "importer": "gltf-scene",
+      "uuid": "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@c15bf",
+      "displayName": "",
+      "id": "c15bf",
+      "name": "conveyor_belt.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@c15bf",
+    "assetFinder": {
+      "meshes": [
+        "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@c31f8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@7d6ab"
+      ],
+      "materials": [
+        "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@37cdd"
+      ],
+      "scenes": [
+        "d60a6f9a-cb1e-4af6-9b73-1fa1727543a1@c15bf"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

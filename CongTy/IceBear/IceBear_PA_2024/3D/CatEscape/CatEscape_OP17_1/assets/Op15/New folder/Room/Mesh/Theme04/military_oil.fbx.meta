@@ -1,0 +1,124 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e0f11db5-0e82-4d1c-918b-20262ebe1641",
+  "files": [],
+  "subMetas": {
+    "3933d": {
+      "importer": "gltf-mesh",
+      "uuid": "e0f11db5-0e82-4d1c-918b-20262ebe1641@3933d",
+      "displayName": "",
+      "id": "3933d",
+      "name": "military_streetmap.013.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "e0f11db5-0e82-4d1c-918b-20262ebe1641@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "e0f11db5-0e82-4d1c-918b-20262ebe1641@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e0f11db5-0e82-4d1c-918b-20262ebe1641@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "37cdd": {
+      "importer": "gltf-material",
+      "uuid": "e0f11db5-0e82-4d1c-918b-20262ebe1641@37cdd",
+      "displayName": "",
+      "id": "37cdd",
+      "name": "Mat_Environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "79fb3": {
+      "importer": "gltf-scene",
+      "uuid": "e0f11db5-0e82-4d1c-918b-20262ebe1641@79fb3",
+      "displayName": "",
+      "id": "79fb3",
+      "name": "military_oil.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "e0f11db5-0e82-4d1c-918b-20262ebe1641@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "e0f11db5-0e82-4d1c-918b-20262ebe1641@79fb3",
+    "assetFinder": {
+      "meshes": [
+        "e0f11db5-0e82-4d1c-918b-20262ebe1641@3933d"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e0f11db5-0e82-4d1c-918b-20262ebe1641@7d6ab"
+      ],
+      "materials": [
+        "e0f11db5-0e82-4d1c-918b-20262ebe1641@37cdd"
+      ],
+      "scenes": [
+        "e0f11db5-0e82-4d1c-918b-20262ebe1641@79fb3"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

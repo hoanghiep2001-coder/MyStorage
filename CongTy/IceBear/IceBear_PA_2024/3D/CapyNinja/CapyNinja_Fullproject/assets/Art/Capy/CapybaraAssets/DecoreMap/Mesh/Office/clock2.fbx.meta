@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6de5ac47-3ea2-4263-be66-45b979f36a7f",
+  "files": [],
+  "subMetas": {
+    "66662": {
+      "importer": "gltf-mesh",
+      "uuid": "6de5ac47-3ea2-4263-be66-45b979f36a7f@66662",
+      "displayName": "",
+      "id": "66662",
+      "name": "clock2.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6de5ac47-3ea2-4263-be66-45b979f36a7f@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "6de5ac47-3ea2-4263-be66-45b979f36a7f@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6de5ac47-3ea2-4263-be66-45b979f36a7f@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b1826": {
+      "importer": "gltf-material",
+      "uuid": "6de5ac47-3ea2-4263-be66-45b979f36a7f@b1826",
+      "displayName": "",
+      "id": "b1826",
+      "name": "Room_1_PC_Monitor_1SG.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "875f4": {
+      "importer": "gltf-scene",
+      "uuid": "6de5ac47-3ea2-4263-be66-45b979f36a7f@875f4",
+      "displayName": "",
+      "id": "875f4",
+      "name": "clock2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "6de5ac47-3ea2-4263-be66-45b979f36a7f@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "6de5ac47-3ea2-4263-be66-45b979f36a7f@875f4",
+    "assetFinder": {
+      "meshes": [
+        "6de5ac47-3ea2-4263-be66-45b979f36a7f@66662"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6de5ac47-3ea2-4263-be66-45b979f36a7f@d20e9"
+      ],
+      "materials": [
+        "6de5ac47-3ea2-4263-be66-45b979f36a7f@b1826"
+      ],
+      "scenes": [
+        "6de5ac47-3ea2-4263-be66-45b979f36a7f@875f4"
+      ]
+    }
+  }
+}

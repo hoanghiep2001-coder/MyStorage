@@ -1,0 +1,412 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 77988,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 6042,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 11916,
+            "byteOffset": 6044,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 11916,
+            "byteOffset": 17960,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 15888,
+            "byteOffset": 29876,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7944,
+            "byteOffset": 45764,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7944,
+            "byteOffset": 53708,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 15888,
+            "byteOffset": 61652,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 448,
+            "byteOffset": 77540
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 3021,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 993,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -0.00921307690441608,
+                2.34865744630497e-08,
+                -0.00928897503763437
+            ],
+            "max": [
+                0.00921309646219015,
+                0.0186104141175747,
+                0.00921306945383549
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 993,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 993,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 993,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "VEC4",
+            "count": 993,
+            "bufferView": 5,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 993,
+            "bufferView": 6,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "MAT4",
+            "count": 7,
+            "bufferView": 7,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "photo_2023-02-03_17-17-18.jpg",
+            "uri": "photo_2023-02-03_17-17-18.jpg"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "base_color_texture",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "materials": [
+        {
+            "name": "hiding_box",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.301511347293854
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "hiding_box",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "JOINTS_0": 5,
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4,
+                        "WEIGHTS_0": 6
+                    },
+                    "indices": 0
+                }
+            ]
+        }
+    ],
+    "skins": [
+        {
+            "joints": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "inverseBindMatrices": 7,
+            "skeleton": 2
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1,
+                2
+            ]
+        },
+        {
+            "name": "hiding_box",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0,
+            "skin": 0
+        },
+        {
+            "name": "Root_M",
+            "translation": [
+                1.32244135583905e-17,
+                0.0,
+                -4.31558840530274e-19
+            ],
+            "rotation": [
+                -0.5,
+                -0.5,
+                0.5,
+                0.5
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "Tail1_M",
+            "translation": [
+                0.00300345197319984,
+                1.58388824933062e-17,
+                -8.92463050664208e-19
+            ],
+            "rotation": [
+                -2.1878564168239e-31,
+                1.11022302462516e-16,
+                -2.77555756156289e-17,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                4
+            ]
+        },
+        {
+            "name": "Tail2_M",
+            "translation": [
+                0.00300345197319984,
+                1.06704049088074e-17,
+                -2.19974890671763e-18
+            ],
+            "rotation": [
+                -2.12622665860351e-31,
+                1.11022302462516e-16,
+                -2.77555756156289e-17,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                5
+            ]
+        },
+        {
+            "name": "Tail3_M",
+            "translation": [
+                0.00300345197319984,
+                -4.26816196352298e-17,
+                -2.32942228903482e-18
+            ],
+            "rotation": [
+                5.8359101820234e-19,
+                1.11342639735255e-16,
+                0.00525652058422565,
+                0.999986171722412
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                6
+            ]
+        },
+        {
+            "name": "Tail4_M",
+            "translation": [
+                0.00300361798144877,
+                1.43843267451623e-16,
+                -1.18883069720369e-18
+            ],
+            "rotation": [
+                5.8359101820234e-19,
+                1.10698901312787e-16,
+                -0.00525652058422565,
+                0.999986171722412
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                7
+            ]
+        },
+        {
+            "name": "Tail5_M",
+            "translation": [
+                0.00300345197319984,
+                -8.6558363054366e-17,
+                -1.0416055762639e-18
+            ],
+            "rotation": [
+                -2.12622665860351e-31,
+                1.11022302462516e-16,
+                -2.77555756156289e-17,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                8
+            ]
+        },
+        {
+            "name": "Tail6_M",
+            "translation": [
+                0.00300345197319984,
+                4.25440909322255e-18,
+                -2.96315585859678e-19
+            ],
+            "rotation": [
+                -2.06459690038312e-31,
+                1.11022302462516e-16,
+                -2.77555756156289e-17,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

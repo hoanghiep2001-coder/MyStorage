@@ -1,0 +1,316 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1197,
+      "max": [
+        0.00015573912241961807,
+        0.015507982112467289,
+        0.0007926379330456257
+      ],
+      "min": [
+        -0.015754783526062965,
+        -1.792928685517836e-07,
+        -0.0012312217149883509
+      ],
+      "name": "Mesh.057/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1197,
+      "name": "Mesh.057/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1197,
+      "name": "Mesh.057/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 1980,
+      "name": "Mesh.057/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 621,
+      "max": [
+        0.007088955491781235,
+        0.004727735184133053,
+        0.0005001708050258458
+      ],
+      "min": [
+        -3.0142036848701537e-06,
+        -0.004891011863946915,
+        -0.0004577742947731167
+      ],
+      "name": "Mesh.058/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 621,
+      "name": "Mesh.058/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 621,
+      "name": "Mesh.058/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 1308,
+      "name": "Mesh.058/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.03999999910593033
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "door/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 2,
+      "name": "door/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 2,
+      "name": "door/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 2,
+      "name": "door/scale/Output",
+      "type": "VEC3"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 2,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 2,
+            "path": "scale"
+          }
+        }
+      ],
+      "name": "door|door|Take 001|BaseLayer",
+      "samplers": [
+        {
+          "input": 8,
+          "output": 9
+        },
+        {
+          "input": 8,
+          "output": 10
+        },
+        {
+          "input": 8,
+          "output": 11
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 38304,
+      "byteStride": 32,
+      "name": "Mesh.057",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7920,
+      "byteOffset": 38304
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19872,
+      "byteOffset": 46224,
+      "byteStride": 32,
+      "name": "Mesh.058",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5232,
+      "byteOffset": 66096
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 71328
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 71336
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32,
+      "byteOffset": 71360
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 71392
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 71416,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 25.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "C:\\Users\\Admin\\Desktop\\Cat Escape\\Texture.jpg",
+          "relativeFileName": "C:\\Users\\Admin\\Desktop\\Cat Escape\\Texture.jpg"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "Mat_Environment",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh.057",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Mesh.058",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "name": "DoorTribal"
+    },
+    {
+      "mesh": 0,
+      "name": "lattice1"
+    },
+    {
+      "mesh": 1,
+      "name": "door",
+      "translation": [
+        -0.011332685127854347,
+        0.004882031586021185,
+        -7.293993985513225e-05
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

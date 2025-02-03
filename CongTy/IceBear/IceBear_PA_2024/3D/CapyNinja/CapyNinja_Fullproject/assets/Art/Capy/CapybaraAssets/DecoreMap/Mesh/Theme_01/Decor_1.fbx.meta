@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "aa81e369-52cf-4ebe-b651-0a718d58c0ee",
+  "files": [],
+  "subMetas": {
+    "b8e5e": {
+      "importer": "gltf-mesh",
+      "uuid": "aa81e369-52cf-4ebe-b651-0a718d58c0ee@b8e5e",
+      "displayName": "",
+      "id": "b8e5e",
+      "name": "decor_1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "aa81e369-52cf-4ebe-b651-0a718d58c0ee@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "aa81e369-52cf-4ebe-b651-0a718d58c0ee@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "aa81e369-52cf-4ebe-b651-0a718d58c0ee@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6240a": {
+      "importer": "gltf-material",
+      "uuid": "aa81e369-52cf-4ebe-b651-0a718d58c0ee@6240a",
+      "displayName": "",
+      "id": "6240a",
+      "name": "Room_1_Photos_1SG.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "51c0e": {
+      "importer": "gltf-scene",
+      "uuid": "aa81e369-52cf-4ebe-b651-0a718d58c0ee@51c0e",
+      "displayName": "",
+      "id": "51c0e",
+      "name": "Decor_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "aa81e369-52cf-4ebe-b651-0a718d58c0ee@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "aa81e369-52cf-4ebe-b651-0a718d58c0ee@51c0e",
+    "assetFinder": {
+      "meshes": [
+        "aa81e369-52cf-4ebe-b651-0a718d58c0ee@b8e5e"
+      ],
+      "skeletons": [],
+      "textures": [
+        "aa81e369-52cf-4ebe-b651-0a718d58c0ee@d20e9"
+      ],
+      "materials": [
+        "aa81e369-52cf-4ebe-b651-0a718d58c0ee@6240a"
+      ],
+      "scenes": [
+        "aa81e369-52cf-4ebe-b651-0a718d58c0ee@51c0e"
+      ]
+    }
+  }
+}

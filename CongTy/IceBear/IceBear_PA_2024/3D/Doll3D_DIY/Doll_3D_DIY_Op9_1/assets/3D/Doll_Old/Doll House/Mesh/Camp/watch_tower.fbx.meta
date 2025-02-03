@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "13e1e468-5959-481c-9734-8b6a851efc92",
+  "files": [],
+  "subMetas": {
+    "7068e": {
+      "importer": "gltf-mesh",
+      "uuid": "13e1e468-5959-481c-9734-8b6a851efc92@7068e",
+      "displayName": "",
+      "id": "7068e",
+      "name": "watch_tower.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "13e1e468-5959-481c-9734-8b6a851efc92@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "13e1e468-5959-481c-9734-8b6a851efc92@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "13e1e468-5959-481c-9734-8b6a851efc92@48b02"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9f3c": {
+      "importer": "gltf-material",
+      "uuid": "13e1e468-5959-481c-9734-8b6a851efc92@c9f3c",
+      "displayName": "",
+      "id": "c9f3c",
+      "name": "environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b75f9": {
+      "importer": "gltf-scene",
+      "uuid": "13e1e468-5959-481c-9734-8b6a851efc92@b75f9",
+      "displayName": "",
+      "id": "b75f9",
+      "name": "watch_tower.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "13e1e468-5959-481c-9734-8b6a851efc92@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "13e1e468-5959-481c-9734-8b6a851efc92@b75f9",
+    "assetFinder": {
+      "meshes": [
+        "13e1e468-5959-481c-9734-8b6a851efc92@7068e"
+      ],
+      "skeletons": [],
+      "textures": [
+        "13e1e468-5959-481c-9734-8b6a851efc92@7d6ab"
+      ],
+      "materials": [
+        "13e1e468-5959-481c-9734-8b6a851efc92@c9f3c"
+      ],
+      "scenes": [
+        "13e1e468-5959-481c-9734-8b6a851efc92@b75f9"
+      ]
+    }
+  }
+}

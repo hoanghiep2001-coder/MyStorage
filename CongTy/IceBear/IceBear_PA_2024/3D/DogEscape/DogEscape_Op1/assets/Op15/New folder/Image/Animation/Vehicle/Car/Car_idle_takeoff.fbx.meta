@@ -1,0 +1,82 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1d530a0c-cd67-4580-bad2-5d2ec6877e9e",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "b327d": {
+      "importer": "gltf-animation",
+      "uuid": "1d530a0c-cd67-4580-bad2-5d2ec6877e9e@b327d",
+      "displayName": "",
+      "id": "b327d",
+      "name": "Car_idle_takeoff.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7916666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "eecf5": {
+      "importer": "gltf-scene",
+      "uuid": "1d530a0c-cd67-4580-bad2-5d2ec6877e9e@eecf5",
+      "displayName": "",
+      "id": "eecf5",
+      "name": "Car_idle_takeoff.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "animationImportSettings": [
+      {
+        "name": "Car_idle_takeoff",
+        "duration": 0.7916666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Car_idle_takeoff",
+            "from": 0,
+            "to": 0.7916666865348816,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "1d530a0c-cd67-4580-bad2-5d2ec6877e9e@eecf5",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "1d530a0c-cd67-4580-bad2-5d2ec6877e9e@eecf5"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

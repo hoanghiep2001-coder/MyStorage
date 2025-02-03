@@ -1,0 +1,909 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 444,
+      "max": [
+        0.03721405193209648,
+        0.020809592679142952,
+        -0.03676765412092209
+      ],
+      "min": [
+        -0.03721405193209648,
+        0.0002762603689916432,
+        -0.05730096995830536
+      ],
+      "name": "Wheels1/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 444,
+      "name": "Wheels1/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 444,
+      "name": "Wheels1/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 444,
+      "name": "Wheels1/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 444,
+      "name": "Wheels1/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 1440,
+      "name": "Wheels1/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 444,
+      "max": [
+        0.03594970703125,
+        0.020201854407787323,
+        0.056941911578178406
+      ],
+      "min": [
+        -0.0360606387257576,
+        0.00033554076799191535,
+        0.03707561641931534
+      ],
+      "name": "Wheels2/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 444,
+      "name": "Wheels2/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 444,
+      "name": "Wheels2/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 444,
+      "name": "Wheels2/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 444,
+      "name": "Wheels2/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 1440,
+      "name": "Wheels2/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 2,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 2341,
+      "max": [
+        0.03403717279434204,
+        0.07931549102067947,
+        0.07192368805408478
+      ],
+      "min": [
+        -0.034016236662864685,
+        0.009794659912586212,
+        -0.10343006998300552
+      ],
+      "name": "body/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 2341,
+      "name": "body/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2341,
+      "name": "body/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 2341,
+      "name": "body/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 2341,
+      "name": "body/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 6906,
+      "name": "body/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 132,
+      "max": [
+        0.021893519908189774,
+        0.0704369843006134,
+        -0.09981619566679001
+      ],
+      "min": [
+        1.0471343557583168e-05,
+        0.017097651958465576,
+        -0.10198529064655304
+      ],
+      "name": "door_01/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 132,
+      "name": "door_01/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 132,
+      "name": "door_01/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 132,
+      "name": "door_01/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 132,
+      "name": "door_01/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5125,
+      "count": 330,
+      "name": "door_01/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 1,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 132,
+      "max": [
+        1.0471343557583168e-05,
+        0.0704369843006134,
+        -0.09981618821620941
+      ],
+      "min": [
+        -0.021872572600841522,
+        0.017097653821110725,
+        -0.10198529064655304
+      ],
+      "name": "door_02/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 132,
+      "name": "door_02/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 132,
+      "name": "door_02/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 132,
+      "name": "door_02/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 132,
+      "name": "door_02/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5125,
+      "count": 330,
+      "name": "door_02/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 1,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 24864,
+      "byteStride": 56,
+      "name": "Wheels1",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5760,
+      "byteOffset": 24864
+    },
+    {
+      "buffer": 0,
+      "byteLength": 128,
+      "byteOffset": 30624
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24864,
+      "byteOffset": 30752,
+      "byteStride": 56,
+      "name": "Wheels2",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5760,
+      "byteOffset": 55616
+    },
+    {
+      "buffer": 0,
+      "byteLength": 128,
+      "byteOffset": 61376
+    },
+    {
+      "buffer": 0,
+      "byteLength": 131096,
+      "byteOffset": 61504,
+      "byteStride": 56,
+      "name": "body",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 27624,
+      "byteOffset": 192600
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 220224
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7392,
+      "byteOffset": 220288,
+      "byteStride": 56,
+      "name": "door_01",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1320,
+      "byteOffset": 227680
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 229000
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7392,
+      "byteOffset": 229064,
+      "byteStride": 56,
+      "name": "door_02",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1320,
+      "byteOffset": 236456
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 237776
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 237840,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\Unity_Project\\CatEscape\\Assets\\Assets2\\Texture2D\\color_map_resized.png",
+          "relativeFileName": "..\\..\\..\\..\\..\\Unity_Project\\CatEscape\\Assets\\Assets2\\Texture2D\\color_map_resized.png"
+        }
+      },
+      "name": "model:DiffuseColor_Texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\PA_2024\\3D\\CatEscape\\CatEscape_OP16\\temp\\asset-db\\assets\\fbx.FBX-glTF-conv\\6b814a16-fdbe-4c03-af66-eca20555e46a\\output\\.fbm\\A7911E66\\Car_Base_Up.fbm/Megatexture.png",
+          "relativeFileName": "..\\..\\..\\..\\temp\\asset-db\\assets\\fbx.FBX-glTF-conv\\6b814a16-fdbe-4c03-af66-eca20555e46a\\output\\.fbm\\A7911E66\\Car_Base_Up.fbm\\Megatexture.png"
+        }
+      },
+      "name": "model:file1",
+      "uri": "Megatexture.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "model:EnvironmentColor_optimized",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    },
+    {
+      "name": "model:Car_texture",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Wheels1",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "WEIGHTS_0": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Wheels2",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 10,
+            "NORMAL": 8,
+            "POSITION": 7,
+            "TEXCOORD_0": 9,
+            "WEIGHTS_0": 11
+          },
+          "indices": 12,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "body",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 17,
+            "NORMAL": 15,
+            "POSITION": 14,
+            "TEXCOORD_0": 16,
+            "WEIGHTS_0": 18
+          },
+          "indices": 19,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "door_01",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 24,
+            "NORMAL": 22,
+            "POSITION": 21,
+            "TEXCOORD_0": 23,
+            "WEIGHTS_0": 25
+          },
+          "indices": 26,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "door_02",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 31,
+            "NORMAL": 29,
+            "POSITION": 28,
+            "TEXCOORD_0": 30,
+            "WEIGHTS_0": 32
+          },
+          "indices": 33,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        3,
+        5,
+        9,
+        11
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Root_M",
+      "rotation": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        0.0,
+        0.019999999552965164,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "frontWheel_R",
+      "rotation": [
+        0.6873052716255188,
+        -0.16616690158843994,
+        -0.6873052716255188,
+        -0.16616690158843994
+      ],
+      "translation": [
+        -0.008112533949315548,
+        0.04690692573785782,
+        -0.03011426143348217
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "frontWheelEnd_R",
+      "translation": [
+        0.006229385733604431,
+        8.881783998477905e-18,
+        4.6629365578418697e-17
+      ]
+    },
+    {
+      "children": [
+        4
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "backWheel_R",
+      "rotation": [
+        0.5224469900131226,
+        0.47649675607681274,
+        -0.5224469900131226,
+        0.47649675607681274
+      ],
+      "translation": [
+        -0.008112533949315548,
+        -0.047158777713775635,
+        -0.03011426143348217
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "backWheelEnd_R",
+      "translation": [
+        0.006229385733604431,
+        4.440891999238953e-18,
+        -3.552713599391162e-17
+      ]
+    },
+    {
+      "children": [
+        6,
+        7,
+        8
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Body_M",
+      "translation": [
+        0.019999999552965164,
+        -4.6398988333197165e-18,
+        -2.618459254190698e-18
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "BodyEnd_M",
+      "translation": [
+        0.040453020483255386,
+        7.888608875885965e-33,
+        -1.3923985845025543e-17
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Door_R",
+      "rotation": [
+        0.4950704872608185,
+        0.5048813819885254,
+        0.5048813819885254,
+        -0.4950704872608185
+      ],
+      "translation": [
+        0.0046603865921497345,
+        -0.09981140494346619,
+        -0.02108263596892357
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Door_L",
+      "rotation": [
+        0.5048813819885254,
+        -0.4950704872608185,
+        0.4950704872608185,
+        0.5048813819885254
+      ],
+      "translation": [
+        0.0046603865921497345,
+        -0.09981140494346619,
+        0.02108263596892357
+      ]
+    },
+    {
+      "children": [
+        10
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "frontWheel_L",
+      "rotation": [
+        0.6977834701538086,
+        0.11444780975580215,
+        -0.6977834105491638,
+        0.11444781720638275
+      ],
+      "translation": [
+        -0.008112533949315548,
+        0.04690692573785782,
+        0.03011426143348217
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "frontWheelEnd_L",
+      "translation": [
+        -0.006229385733604431,
+        -5.445902062639618e-10,
+        -3.552713599391162e-17
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "backWheel_L",
+      "rotation": [
+        0.6923518776893616,
+        -0.1436973512172699,
+        -0.6923518180847168,
+        -0.1436973512172699
+      ],
+      "translation": [
+        -0.008112533949315548,
+        -0.047158777713775635,
+        0.03011426143348217
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "backWheelEnd_L",
+      "translation": [
+        -0.006229385733604431,
+        -5.445902062639618e-10,
+        5.329070399086743e-17
+      ]
+    },
+    {
+      "children": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "name": "Car1"
+    },
+    {
+      "mesh": 0,
+      "name": "Wheels1",
+      "skin": 0
+    },
+    {
+      "mesh": 1,
+      "name": "Wheels2",
+      "skin": 1
+    },
+    {
+      "mesh": 2,
+      "name": "body",
+      "skin": 2
+    },
+    {
+      "mesh": 3,
+      "name": "door_01",
+      "skin": 3
+    },
+    {
+      "mesh": 4,
+      "name": "door_02",
+      "skin": 4
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        13
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 6,
+      "joints": [
+        3,
+        11
+      ]
+    },
+    {
+      "inverseBindMatrices": 13,
+      "joints": [
+        9,
+        1
+      ]
+    },
+    {
+      "inverseBindMatrices": 20,
+      "joints": [
+        5
+      ]
+    },
+    {
+      "inverseBindMatrices": 27,
+      "joints": [
+        8
+      ]
+    },
+    {
+      "inverseBindMatrices": 34,
+      "joints": [
+        7
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "model:DiffuseColor_Texture",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "model:file1",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

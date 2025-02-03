@@ -1,0 +1,142 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a5e044cc-2516-4a15-870c-47f5a2a37060",
+  "files": [],
+  "subMetas": {
+    "b53d7": {
+      "importer": "gltf-mesh",
+      "uuid": "a5e044cc-2516-4a15-870c-47f5a2a37060@b53d7",
+      "displayName": "",
+      "id": "b53d7",
+      "name": "Dog_05_Dog_05.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "a5e044cc-2516-4a15-870c-47f5a2a37060@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 40
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5e08c": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a5e044cc-2516-4a15-870c-47f5a2a37060@5e08c",
+      "displayName": "",
+      "id": "5e08c",
+      "name": "Dog_05_cream.png.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e3597": {
+      "importer": "texture",
+      "uuid": "a5e044cc-2516-4a15-870c-47f5a2a37060@e3597",
+      "displayName": "",
+      "id": "e3597",
+      "name": "Dog_05_cream.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a5e044cc-2516-4a15-870c-47f5a2a37060@5e08c"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a20c5": {
+      "importer": "gltf-material",
+      "uuid": "a5e044cc-2516-4a15-870c-47f5a2a37060@a20c5",
+      "displayName": "",
+      "id": "a20c5",
+      "name": "Dog_05_@cream.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4191b": {
+      "importer": "gltf-scene",
+      "uuid": "a5e044cc-2516-4a15-870c-47f5a2a37060@4191b",
+      "displayName": "",
+      "id": "4191b",
+      "name": "Dog05_base.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Dog_05_cream.png",
+        "uri": "a5e044cc-2516-4a15-870c-47f5a2a37060@5e08c"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "a5e044cc-2516-4a15-870c-47f5a2a37060@4191b",
+    "assetFinder": {
+      "meshes": [
+        "a5e044cc-2516-4a15-870c-47f5a2a37060@b53d7"
+      ],
+      "skeletons": [
+        "a5e044cc-2516-4a15-870c-47f5a2a37060@438fe"
+      ],
+      "textures": [
+        "a5e044cc-2516-4a15-870c-47f5a2a37060@e3597"
+      ],
+      "materials": [
+        "a5e044cc-2516-4a15-870c-47f5a2a37060@a20c5"
+      ],
+      "scenes": [
+        "a5e044cc-2516-4a15-870c-47f5a2a37060@4191b"
+      ]
+    }
+  }
+}

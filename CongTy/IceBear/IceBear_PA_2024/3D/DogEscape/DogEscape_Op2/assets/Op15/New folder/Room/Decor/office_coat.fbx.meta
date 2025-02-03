@@ -1,0 +1,110 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f0a9b0ff-3f84-4174-a57f-053dbc478320",
+  "files": [],
+  "subMetas": {
+    "ffa6a": {
+      "importer": "gltf-mesh",
+      "uuid": "f0a9b0ff-3f84-4174-a57f-053dbc478320@ffa6a",
+      "displayName": "",
+      "id": "ffa6a",
+      "name": "coat.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f0a9b0ff-3f84-4174-a57f-053dbc478320@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "f0a9b0ff-3f84-4174-a57f-053dbc478320@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f0a9b0ff-3f84-4174-a57f-053dbc478320@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "3979f": {
+      "importer": "gltf-scene",
+      "uuid": "f0a9b0ff-3f84-4174-a57f-053dbc478320@3979f",
+      "displayName": "",
+      "id": "3979f",
+      "name": "office_coat.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "f0a9b0ff-3f84-4174-a57f-053dbc478320@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "f0a9b0ff-3f84-4174-a57f-053dbc478320@3979f",
+    "assetFinder": {
+      "meshes": [
+        "f0a9b0ff-3f84-4174-a57f-053dbc478320@ffa6a"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f0a9b0ff-3f84-4174-a57f-053dbc478320@7d6ab"
+      ],
+      "materials": [
+        "6c6b1a30-0168-404f-803f-ccd3c1fd3540"
+      ],
+      "scenes": [
+        "f0a9b0ff-3f84-4174-a57f-053dbc478320@3979f"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/Room/Decor/Materials_office_coat",
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_all_json",
+    "platform": "web-mobile",
+    "name": "DogEscape"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1718089507135": {
+        "id": "1718089507135",
+        "progress": 1,
+        "state": "success",
+        "message": "6-17-2024 10:45 Build success in 9618 ms!",
+        "options": {
+          "name": "DogEscape",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "a184fbc7-d813-4b9c-9a45-299f6fc90a46",
+          "scenes": [
+            {
+              "url": "db://assets/Dog.scene",
+              "uuid": "a184fbc7-d813-4b9c-9a45-299f6fc90a46",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-mobile",
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "f4e2e7",
+              "services": []
+            },
+            "super-html": null
+          }
+        },
+        "time": "6-17-2024 10:45",
+        "dirty": false
+      }
+    }
+  }
+}

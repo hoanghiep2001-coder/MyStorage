@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "02a7c3f7-b225-4551-90c1-8461f41b6d11",
+  "files": [],
+  "subMetas": {
+    "27411": {
+      "importer": "gltf-mesh",
+      "uuid": "02a7c3f7-b225-4551-90c1-8461f41b6d11@27411",
+      "displayName": "",
+      "id": "27411",
+      "name": "livingroom_bookshelf.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "02a7c3f7-b225-4551-90c1-8461f41b6d11@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "02a7c3f7-b225-4551-90c1-8461f41b6d11@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "02a7c3f7-b225-4551-90c1-8461f41b6d11@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9f3c": {
+      "importer": "gltf-material",
+      "uuid": "02a7c3f7-b225-4551-90c1-8461f41b6d11@c9f3c",
+      "displayName": "",
+      "id": "c9f3c",
+      "name": "environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "280b2": {
+      "importer": "gltf-scene",
+      "uuid": "02a7c3f7-b225-4551-90c1-8461f41b6d11@280b2",
+      "displayName": "",
+      "id": "280b2",
+      "name": "livingroom_bookshelf.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "02a7c3f7-b225-4551-90c1-8461f41b6d11@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "02a7c3f7-b225-4551-90c1-8461f41b6d11@280b2",
+    "assetFinder": {
+      "meshes": [
+        "02a7c3f7-b225-4551-90c1-8461f41b6d11@27411"
+      ],
+      "skeletons": [],
+      "textures": [
+        "02a7c3f7-b225-4551-90c1-8461f41b6d11@d20e9"
+      ],
+      "materials": [
+        "02a7c3f7-b225-4551-90c1-8461f41b6d11@c9f3c"
+      ],
+      "scenes": [
+        "02a7c3f7-b225-4551-90c1-8461f41b6d11@280b2"
+      ]
+    }
+  }
+}

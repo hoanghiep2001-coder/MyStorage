@@ -1,0 +1,225 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 260,
+      "max": [
+        0.019027747213840485,
+        0.007291050627827644,
+        0.0016704918816685677
+      ],
+      "min": [
+        -0.0016748126363381743,
+        -0.007465453818440437,
+        -0.0030989127699285746
+      ],
+      "name": "Door/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 260,
+      "name": "Door/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 260,
+      "name": "Door/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 480,
+      "name": "Door/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 260,
+      "max": [
+        0.0016748126363381743,
+        0.007291050627827644,
+        0.0016704918816685677
+      ],
+      "min": [
+        -0.019027747213840485,
+        -0.007465453818440437,
+        -0.003098907880485058
+      ],
+      "name": "Door.002/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 260,
+      "name": "Door.002/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 260,
+      "name": "Door.002/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 480,
+      "name": "Door.002/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 8320,
+      "byteStride": 32,
+      "name": "Door",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1920,
+      "byteOffset": 8320
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8320,
+      "byteOffset": 10240,
+      "byteStride": 32,
+      "name": "Door.002",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1920,
+      "byteOffset": 18560
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 20480,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 25.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "C:\\Users\\Admin\\Desktop\\Cat Escape\\Texture.jpg",
+          "relativeFileName": "C:\\Users\\Admin\\Desktop\\Cat Escape\\Texture.jpg"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "Mat_Environment",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Door",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Door.002",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "name": "exit_door"
+    },
+    {
+      "mesh": 0,
+      "name": "ExitDoor_L",
+      "translation": [
+        -0.019050396978855133,
+        0.0074655115604400635,
+        -0.00011989556514890864
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "ExitDoor_R",
+      "translation": [
+        0.019050396978855133,
+        0.0074655115604400635,
+        -0.00011989721679128706
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

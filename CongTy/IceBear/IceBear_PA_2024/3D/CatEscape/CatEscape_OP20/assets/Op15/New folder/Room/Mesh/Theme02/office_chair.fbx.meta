@@ -1,0 +1,124 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2827c675-ae5b-4754-bdf4-ea7a128f411e",
+  "files": [],
+  "subMetas": {
+    "8230e": {
+      "importer": "gltf-mesh",
+      "uuid": "2827c675-ae5b-4754-bdf4-ea7a128f411e@8230e",
+      "displayName": "",
+      "id": "8230e",
+      "name": "office_chair.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "2827c675-ae5b-4754-bdf4-ea7a128f411e@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "2827c675-ae5b-4754-bdf4-ea7a128f411e@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2827c675-ae5b-4754-bdf4-ea7a128f411e@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "37cdd": {
+      "importer": "gltf-material",
+      "uuid": "2827c675-ae5b-4754-bdf4-ea7a128f411e@37cdd",
+      "displayName": "",
+      "id": "37cdd",
+      "name": "Mat_Environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5e009": {
+      "importer": "gltf-scene",
+      "uuid": "2827c675-ae5b-4754-bdf4-ea7a128f411e@5e009",
+      "displayName": "",
+      "id": "5e009",
+      "name": "office_chair.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "2827c675-ae5b-4754-bdf4-ea7a128f411e@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "2827c675-ae5b-4754-bdf4-ea7a128f411e@5e009",
+    "assetFinder": {
+      "meshes": [
+        "2827c675-ae5b-4754-bdf4-ea7a128f411e@8230e"
+      ],
+      "skeletons": [],
+      "textures": [
+        "2827c675-ae5b-4754-bdf4-ea7a128f411e@7d6ab"
+      ],
+      "materials": [
+        "2827c675-ae5b-4754-bdf4-ea7a128f411e@37cdd"
+      ],
+      "scenes": [
+        "2827c675-ae5b-4754-bdf4-ea7a128f411e@5e009"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

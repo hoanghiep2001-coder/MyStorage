@@ -1,0 +1,124 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7934f171-3cc5-4b8d-9757-47e32b51528b",
+  "files": [],
+  "subMetas": {
+    "aaa20": {
+      "importer": "gltf-mesh",
+      "uuid": "7934f171-3cc5-4b8d-9757-47e32b51528b@aaa20",
+      "displayName": "",
+      "id": "aaa20",
+      "name": "nordic_tv.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7934f171-3cc5-4b8d-9757-47e32b51528b@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "7934f171-3cc5-4b8d-9757-47e32b51528b@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7934f171-3cc5-4b8d-9757-47e32b51528b@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "2a0e3": {
+      "importer": "gltf-material",
+      "uuid": "7934f171-3cc5-4b8d-9757-47e32b51528b@2a0e3",
+      "displayName": "",
+      "id": "2a0e3",
+      "name": "Enviroment1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "be422": {
+      "importer": "gltf-scene",
+      "uuid": "7934f171-3cc5-4b8d-9757-47e32b51528b@be422",
+      "displayName": "",
+      "id": "be422",
+      "name": "livingroom_tv.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "7934f171-3cc5-4b8d-9757-47e32b51528b@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "7934f171-3cc5-4b8d-9757-47e32b51528b@be422",
+    "assetFinder": {
+      "meshes": [
+        "7934f171-3cc5-4b8d-9757-47e32b51528b@aaa20"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7934f171-3cc5-4b8d-9757-47e32b51528b@7d6ab"
+      ],
+      "materials": [
+        "7934f171-3cc5-4b8d-9757-47e32b51528b@2a0e3"
+      ],
+      "scenes": [
+        "7934f171-3cc5-4b8d-9757-47e32b51528b@be422"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

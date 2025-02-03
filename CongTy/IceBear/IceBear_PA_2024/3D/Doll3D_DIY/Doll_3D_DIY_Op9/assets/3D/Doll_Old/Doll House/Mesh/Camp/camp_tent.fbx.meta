@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1e323112-4d87-4e12-b3f8-599631234f54",
+  "files": [],
+  "subMetas": {
+    "4b278": {
+      "importer": "gltf-mesh",
+      "uuid": "1e323112-4d87-4e12-b3f8-599631234f54@4b278",
+      "displayName": "",
+      "id": "4b278",
+      "name": "camp_tent.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "1e323112-4d87-4e12-b3f8-599631234f54@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "1e323112-4d87-4e12-b3f8-599631234f54@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1e323112-4d87-4e12-b3f8-599631234f54@48b02"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9f3c": {
+      "importer": "gltf-material",
+      "uuid": "1e323112-4d87-4e12-b3f8-599631234f54@c9f3c",
+      "displayName": "",
+      "id": "c9f3c",
+      "name": "environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5c78c": {
+      "importer": "gltf-scene",
+      "uuid": "1e323112-4d87-4e12-b3f8-599631234f54@5c78c",
+      "displayName": "",
+      "id": "5c78c",
+      "name": "camp_tent.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "1e323112-4d87-4e12-b3f8-599631234f54@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "1e323112-4d87-4e12-b3f8-599631234f54@5c78c",
+    "assetFinder": {
+      "meshes": [
+        "1e323112-4d87-4e12-b3f8-599631234f54@4b278"
+      ],
+      "skeletons": [],
+      "textures": [
+        "1e323112-4d87-4e12-b3f8-599631234f54@7d6ab"
+      ],
+      "materials": [
+        "1e323112-4d87-4e12-b3f8-599631234f54@c9f3c"
+      ],
+      "scenes": [
+        "1e323112-4d87-4e12-b3f8-599631234f54@5c78c"
+      ]
+    }
+  }
+}

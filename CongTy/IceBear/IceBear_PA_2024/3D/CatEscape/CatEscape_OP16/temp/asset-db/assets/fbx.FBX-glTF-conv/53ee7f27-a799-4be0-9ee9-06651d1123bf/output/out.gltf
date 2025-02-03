@@ -1,0 +1,137 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 263,
+      "max": [
+        0.004683719016611576,
+        0.00480310246348381,
+        1.4534445869074375e-09
+      ],
+      "min": [
+        -0.004683718550950289,
+        -0.004803100135177374,
+        -0.0012913182144984603
+      ],
+      "name": "bulletportal_exit/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 263,
+      "name": "bulletportal_exit/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 263,
+      "name": "bulletportal_exit/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 798,
+      "name": "bulletportal_exit/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 8416,
+      "byteStride": 32,
+      "name": "bulletportal_exit",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3192,
+      "byteOffset": 8416
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 11608,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 25.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "C:\\Users\\Admin\\Desktop\\Cat Escape\\Texture.jpg",
+          "relativeFileName": "C:\\Users\\Admin\\Desktop\\Cat Escape\\Texture.jpg"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "Mat_Environment",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "bulletportal_exit",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "bulletportal_exit"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

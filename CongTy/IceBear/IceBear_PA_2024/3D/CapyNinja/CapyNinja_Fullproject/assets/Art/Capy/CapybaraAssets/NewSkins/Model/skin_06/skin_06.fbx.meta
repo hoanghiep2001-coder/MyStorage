@@ -1,0 +1,142 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "101fa8c9-d2f0-4eff-83f9-e9e16026afc2",
+  "files": [],
+  "subMetas": {
+    "49758": {
+      "importer": "gltf-material",
+      "uuid": "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@49758",
+      "displayName": "",
+      "id": "49758",
+      "name": "lambert16.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6859d": {
+      "importer": "gltf-mesh",
+      "uuid": "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@6859d",
+      "displayName": "",
+      "id": "6859d",
+      "name": "skin_06.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 58
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f945a": {
+      "importer": "gltf-embeded-image",
+      "uuid": "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@f945a",
+      "displayName": "",
+      "id": "f945a",
+      "name": "file18.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a59ea": {
+      "importer": "texture",
+      "uuid": "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@a59ea",
+      "displayName": "",
+      "id": "a59ea",
+      "name": "file18.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@f945a"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a5fd1": {
+      "importer": "gltf-scene",
+      "uuid": "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@a5fd1",
+      "displayName": "",
+      "id": "a5fd1",
+      "name": "skin_06.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file18",
+        "uri": "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@f945a"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@a5fd1",
+    "assetFinder": {
+      "meshes": [
+        "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@6859d"
+      ],
+      "skeletons": [
+        "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@438fe"
+      ],
+      "textures": [
+        "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@a59ea"
+      ],
+      "materials": [
+        "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@49758"
+      ],
+      "scenes": [
+        "101fa8c9-d2f0-4eff-83f9-e9e16026afc2@a5fd1"
+      ]
+    }
+  }
+}

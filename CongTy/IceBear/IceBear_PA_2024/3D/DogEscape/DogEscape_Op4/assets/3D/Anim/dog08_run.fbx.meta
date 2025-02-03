@@ -1,0 +1,79 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "32f25c0b-6f40-434a-83bc-69bb6026c9de",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "df17a": {
+      "importer": "gltf-animation",
+      "uuid": "32f25c0b-6f40-434a-83bc-69bb6026c9de@df17a",
+      "displayName": "",
+      "id": "df17a",
+      "name": "dog08_run.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "7fa40": {
+      "importer": "gltf-scene",
+      "uuid": "32f25c0b-6f40-434a-83bc-69bb6026c9de@7fa40",
+      "displayName": "",
+      "id": "7fa40",
+      "name": "dog08_run.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "dog08_run",
+        "duration": 0.6666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "dog08_run",
+            "from": 0,
+            "to": 0.6666666865348816,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "32f25c0b-6f40-434a-83bc-69bb6026c9de@7fa40",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "32f25c0b-6f40-434a-83bc-69bb6026c9de@7fa40"
+      ]
+    }
+  }
+}

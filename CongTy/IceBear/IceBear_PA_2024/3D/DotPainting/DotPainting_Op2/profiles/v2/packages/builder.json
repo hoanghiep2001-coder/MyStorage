@@ -1,0 +1,67 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "name": "DotPainting",
+    "scenes": [
+      {
+        "url": "db://assets/Grimmise.scene",
+        "uuid": "e7973f3c-cbce-4a8a-9dbb-89db64b73708",
+        "inBundle": false
+      }
+    ]
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1704434852322": {
+        "id": "1704434852322",
+        "progress": 1,
+        "state": "success",
+        "message": "1-5-2024 16:43 Build success in 7663 ms!",
+        "options": {
+          "name": "DotPainting",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "789652c0-15c0-4f24-a994-f09d84d4e2ab",
+          "scenes": [
+            {
+              "url": "db://assets/Game.scene",
+              "uuid": "789652c0-15c0-4f24-a994-f09d84d4e2ab",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-mobile",
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "c00b60",
+              "services": []
+            },
+            "super-html": null
+          }
+        },
+        "time": "1-5-2024 16:43",
+        "dirty": false
+      }
+    }
+  }
+}

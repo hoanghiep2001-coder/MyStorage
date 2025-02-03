@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a827d02c-1034-4717-80c3-17af8632820d",
+  "files": [],
+  "subMetas": {
+    "49970": {
+      "importer": "gltf-scene",
+      "uuid": "a827d02c-1034-4717-80c3-17af8632820d@49970",
+      "displayName": "",
+      "id": "49970",
+      "name": "wedding_chair.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac62e": {
+      "importer": "gltf-mesh",
+      "uuid": "a827d02c-1034-4717-80c3-17af8632820d@ac62e",
+      "displayName": "",
+      "id": "ac62e",
+      "name": "wedding_chair.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a827d02c-1034-4717-80c3-17af8632820d@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "a827d02c-1034-4717-80c3-17af8632820d@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a827d02c-1034-4717-80c3-17af8632820d@48b02"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9f3c": {
+      "importer": "gltf-material",
+      "uuid": "a827d02c-1034-4717-80c3-17af8632820d@c9f3c",
+      "displayName": "",
+      "id": "c9f3c",
+      "name": "environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "a827d02c-1034-4717-80c3-17af8632820d@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "a827d02c-1034-4717-80c3-17af8632820d@49970",
+    "assetFinder": {
+      "meshes": [
+        "a827d02c-1034-4717-80c3-17af8632820d@ac62e"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a827d02c-1034-4717-80c3-17af8632820d@7d6ab"
+      ],
+      "materials": [
+        "a827d02c-1034-4717-80c3-17af8632820d@c9f3c"
+      ],
+      "scenes": [
+        "a827d02c-1034-4717-80c3-17af8632820d@49970"
+      ]
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "46d84630-42e8-4599-91ed-a7e476809d47",
+  "files": [],
+  "subMetas": {
+    "88b8d": {
+      "importer": "gltf-mesh",
+      "uuid": "46d84630-42e8-4599-91ed-a7e476809d47@88b8d",
+      "displayName": "",
+      "id": "88b8d",
+      "name": "Dog_06.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "46d84630-42e8-4599-91ed-a7e476809d47@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 27
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6f0f9": {
+      "importer": "gltf-embeded-image",
+      "uuid": "46d84630-42e8-4599-91ed-a7e476809d47@6f0f9",
+      "displayName": "",
+      "id": "6f0f9",
+      "name": "doberman_brown.png.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7a4fd": {
+      "importer": "texture",
+      "uuid": "46d84630-42e8-4599-91ed-a7e476809d47@7a4fd",
+      "displayName": "",
+      "id": "7a4fd",
+      "name": "doberman_brown.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "46d84630-42e8-4599-91ed-a7e476809d47@6f0f9"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b6b11": {
+      "importer": "gltf-material",
+      "uuid": "46d84630-42e8-4599-91ed-a7e476809d47@b6b11",
+      "displayName": "",
+      "id": "b6b11",
+      "name": "@brown3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b872b": {
+      "importer": "gltf-scene",
+      "uuid": "46d84630-42e8-4599-91ed-a7e476809d47@b872b",
+      "displayName": "",
+      "id": "b872b",
+      "name": "Dog06_Base.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "doberman_brown.png",
+        "uri": "46d84630-42e8-4599-91ed-a7e476809d47@6f0f9"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "46d84630-42e8-4599-91ed-a7e476809d47@b872b",
+    "assetFinder": {
+      "meshes": [
+        "46d84630-42e8-4599-91ed-a7e476809d47@88b8d"
+      ],
+      "skeletons": [
+        "46d84630-42e8-4599-91ed-a7e476809d47@438fe"
+      ],
+      "textures": [
+        "46d84630-42e8-4599-91ed-a7e476809d47@7a4fd"
+      ],
+      "materials": [
+        "46d84630-42e8-4599-91ed-a7e476809d47@b6b11"
+      ],
+      "scenes": [
+        "46d84630-42e8-4599-91ed-a7e476809d47@b872b"
+      ]
+    }
+  }
+}

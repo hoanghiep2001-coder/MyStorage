@@ -1,0 +1,324 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 967,
+      "max": [
+        0.009213096462190151,
+        0.01861041598021984,
+        0.009213069453835487
+      ],
+      "min": [
+        -0.009213076904416084,
+        2.3486574463049692e-08,
+        -0.009288975037634373
+      ],
+      "name": "hiding_box/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 967,
+      "name": "hiding_box/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 967,
+      "name": "hiding_box/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 967,
+      "name": "hiding_box/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 967,
+      "name": "hiding_box/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 3021,
+      "name": "hiding_box/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 54152,
+      "byteStride": 56,
+      "name": "hiding_box",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12084,
+      "byteOffset": 54152
+    },
+    {
+      "buffer": 0,
+      "byteLength": 448,
+      "byteOffset": 66236
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 66684,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\PA_2024\\3D\\CatEscape\\CatEscape_OP15\\temp\\asset-db\\assets\\fbx.FBX-glTF-conv\\a00a0910-0947-4c59-a3ee-b35853aa7356\\output\\.fbm\\BD8E1B1F\\CE_Box_Base.fbm/photo_2023-02-03_17-17-18.jpg",
+          "relativeFileName": "..\\..\\..\\temp\\asset-db\\assets\\fbx.FBX-glTF-conv\\a00a0910-0947-4c59-a3ee-b35853aa7356\\output\\.fbm\\BD8E1B1F\\CE_Box_Base.fbm\\photo_2023-02-03_17-17-18.jpg"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "photo_2023-02-03_17-17-18.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "hiding_box",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.30151134729385376
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "hiding_box",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "WEIGHTS_0": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "hiding_box",
+      "skin": 0
+    },
+    {
+      "children": [
+        2
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Root_M",
+      "rotation": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        1.3224414385571071e-17,
+        0.0,
+        -4.315588663796677e-19
+      ]
+    },
+    {
+      "children": [
+        3
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Tail1_M",
+      "translation": [
+        0.003003452206030488,
+        1.58388824933062e-17,
+        -8.92463050664208e-19
+      ]
+    },
+    {
+      "children": [
+        4
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Tail2_M",
+      "translation": [
+        0.003003452206030488,
+        1.0670405735988055e-17,
+        -2.199748906717634e-18
+      ]
+    },
+    {
+      "children": [
+        5
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Tail3_M",
+      "rotation": [
+        5.835910182023401e-19,
+        1.113426397352554e-16,
+        0.005256520584225655,
+        0.9999861717224121
+      ],
+      "translation": [
+        0.003003452206030488,
+        -4.268162294395222e-17,
+        -2.3294222890348155e-18
+      ]
+    },
+    {
+      "children": [
+        6
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Tail4_M",
+      "rotation": [
+        5.835910182023401e-19,
+        1.1069890131278702e-16,
+        -0.005256520584225655,
+        0.9999861717224121
+      ],
+      "translation": [
+        0.0030036182142794132,
+        1.438432674516233e-16,
+        -1.1888306972036884e-18
+      ]
+    },
+    {
+      "children": [
+        7
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Tail5_M",
+      "translation": [
+        0.003003452206030488,
+        -8.655836305436596e-17,
+        -1.0416055762638972e-18
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Tail6_M",
+      "translation": [
+        0.003003452206030488,
+        4.254409506812854e-18,
+        -2.9631556001028365e-19
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 6,
+      "joints": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

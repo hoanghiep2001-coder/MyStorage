@@ -1,0 +1,7751 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 6195.906800031662,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 54
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-cannon",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-cannon",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 143209.06180000305,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 7
+          },
+          "end": {
+            "line": 4,
+            "column": 88
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/BossAction.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 90
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/CatController.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 93
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/CubeController.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 94
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/Game.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 84
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/GameController.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 94
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/JoyStick.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 88
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/LaserController.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 95
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/AudioManager.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 94
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/Responsive.ts",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 7
+          },
+          "end": {
+            "line": 13,
+            "column": 92
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/BossAction.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/CatController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/CubeController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/LaserController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/Responsive.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP1/assets/Script/NewComponent.ts": {
+    "mTimestamp": {
+      "mtime": 1676434490884.0283,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/NewComponent.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP1/assets/Script/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1677116925143.028,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP1/assets/NewComponent-001.ts": {
+    "mTimestamp": {
+      "mtime": 1676435824360.2693,
+      "uuid": "fa7e305b-3565-44d3-b80f-23447a5c68e7"
+    },
+    "chunkId": "assets/NewComponent-001.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP1/assets/Script/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1677033474749.0386,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 18,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP1/assets/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1676876246124.2576,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP1/assets/Script/NewComponent-001.ts": {
+    "mTimestamp": {
+      "mtime": 1676885526296.344,
+      "uuid": "a71ae01f-3062-45c4-a7a7-0b07b7a0723a"
+    },
+    "chunkId": "assets/Script/NewComponent-001.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP1/assets/Script/character.ts": {
+    "mTimestamp": {
+      "mtime": 1676970838713.5488,
+      "uuid": "a71ae01f-3062-45c4-a7a7-0b07b7a0723a"
+    },
+    "chunkId": "assets/Script/character.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 25
+          },
+          "end": {
+            "line": 13,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos2dx/CatEscape_OP1/assets/Script/JoyStick.ts"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1709895924968,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP1/assets/Script/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1677053079970.917,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/BossAction.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 63
+          },
+          "end": {
+            "line": 1,
+            "column": 67
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP1/assets/Script/controlCubeBox.ts": {
+    "mTimestamp": {
+      "mtime": 1677039690597.5454,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/controlCubeBox.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos2dx/CatEscape_OP1/assets/Script/JoyStick.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP3/assets/Script/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1677053079970.917,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/BossAction.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 63
+          },
+          "end": {
+            "line": 1,
+            "column": 67
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP3/assets/Script/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1677033474749.0386,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 18,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP3/assets/Script/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1677121204154.2698,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP3/assets/Script/controlCubeBox.ts": {
+    "mTimestamp": {
+      "mtime": 1677039690597.5454,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/controlCubeBox.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos2dx/CatEscape_OP3/assets/Script/JoyStick.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP2/assets/Script/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1677136427093.7893,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/BossAction.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 63
+          },
+          "end": {
+            "line": 1,
+            "column": 67
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP2/assets/Script/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1677139968945.3325,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP2/assets/Script/controlCubeBox.ts": {
+    "mTimestamp": {
+      "mtime": 1677039690597.5454,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/controlCubeBox.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Cocos2dx/CatEscape_OP2/assets/Script/JoyStick.ts"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP2/assets/Script/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1677033474749.0386,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 18,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP2/assets/Script/NewComponent.ts": {
+    "mTimestamp": {
+      "mtime": 1677124723278.337,
+      "uuid": "1a50a34b-9a84-4b14-8236-1aad90a5fdcf"
+    },
+    "chunkId": "assets/Script/NewComponent.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Cocos2dx/CatEscape_OP2/assets/Script/NextScene.ts": {
+    "mTimestamp": {
+      "mtime": 1677139804650.0852,
+      "uuid": "1a50a34b-9a84-4b14-8236-1aad90a5fdcf"
+    },
+    "chunkId": "assets/Script/NextScene.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/Monkey.D.Luffy/Downloads/playable-ads/Cocos2dx/CatEscape_OP2/assets/Script/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1677139970000,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/Monkey.D.Luffy/Downloads/playable-ads/Cocos2dx/CatEscape_OP2/assets/Script/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1677136428000,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/BossAction.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 63
+          },
+          "end": {
+            "line": 1,
+            "column": 67
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/Monkey.D.Luffy/Downloads/playable-ads/Cocos2dx/CatEscape_OP2/assets/Script/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1677033476000,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 18,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/Monkey.D.Luffy/Downloads/playable-ads/Cocos2dx/CatEscape_OP2/assets/Script/NextScene.ts": {
+    "mTimestamp": {
+      "mtime": 1677139806000,
+      "uuid": "1a50a34b-9a84-4b14-8236-1aad90a5fdcf"
+    },
+    "chunkId": "assets/Script/NextScene.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Users/Monkey.D.Luffy/Downloads/playable-ads/Cocos2dx/CatEscape_OP2/assets/Script/controlCubeBox.ts": {
+    "mTimestamp": {
+      "mtime": 1677039692000,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/controlCubeBox.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Users/Monkey.D.Luffy/Downloads/playable-ads/Cocos2dx/CatEscape_OP2/assets/Script/JoyStick.ts"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/CatEscape/CatEscape_OP2/assets/Script/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1686558056363.0525,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/CatEscape/CatEscape_OP2/assets/Script/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1688975775882.2002,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 18,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/CatEscape/CatEscape_OP2/assets/Script/controlCubeBox.ts": {
+    "mTimestamp": {
+      "mtime": 1686737312641.5625,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/controlCubeBox.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/CatEscape/CatEscape_OP2/assets/Script/JoyStick.ts"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/CatEscape/CatEscape_OP2/assets/Script/NextScene.ts": {
+    "mTimestamp": {
+      "mtime": 1677139806000,
+      "uuid": "1a50a34b-9a84-4b14-8236-1aad90a5fdcf"
+    },
+    "chunkId": "assets/Script/NextScene.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/CatEscape/CatEscape_OP2/assets/Script/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1677136428000,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/BossAction.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 63
+          },
+          "end": {
+            "line": 1,
+            "column": 67
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/CatEscape/CatEscape_OP12/assets/Script/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1699323199373.0837,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/BossAction.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 63
+          },
+          "end": {
+            "line": 1,
+            "column": 67
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/CatEscape/CatEscape_OP12/assets/Script/controlCubeBox.ts": {
+    "mTimestamp": {
+      "mtime": 1699330835119.0334,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/controlCubeBox.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 25
+          },
+          "end": {
+            "line": 16,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 21
+          },
+          "end": {
+            "line": 17,
+            "column": 29
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/CatEscape/CatEscape_OP12/assets/Script/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/CatEscape/CatEscape_OP12/assets/Script/Game.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/CatEscape/CatEscape_OP12/assets/Script/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1699265702378.6396,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 7
+          },
+          "end": {
+            "line": 22,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/CatEscape/CatEscape_OP12/assets/Script/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1699330826028.0198,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 25
+          },
+          "end": {
+            "line": 17,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/CatEscape/CatEscape_OP12/assets/Script/JoyStick.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/CatEscape/CatEscape_OP12/assets/Script/NextScene.ts": {
+    "mTimestamp": {
+      "mtime": 1698985885240.4417,
+      "uuid": "1a50a34b-9a84-4b14-8236-1aad90a5fdcf"
+    },
+    "chunkId": "assets/Script/NextScene.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 31
+          },
+          "end": {
+            "line": 13,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/CatEscape/CatEscape_OP12/assets/Script/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/CatEscape/CatEscape_OP12/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1698985327649.991,
+      "uuid": "cf8e169e-b668-4ef4-8c67-dee951a14489"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1699323199373.0837,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/BossAction.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 63
+          },
+          "end": {
+            "line": 1,
+            "column": 67
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1704945017449.9844,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 7
+          },
+          "end": {
+            "line": 16,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 25
+          },
+          "end": {
+            "line": 18,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/JoyStick.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1698985327649.991,
+      "uuid": "cf8e169e-b668-4ef4-8c67-dee951a14489"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1704954203665.8003,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 7
+          },
+          "end": {
+            "line": 22,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/NextScene.ts": {
+    "mTimestamp": {
+      "mtime": 1698985885240.4417,
+      "uuid": "1a50a34b-9a84-4b14-8236-1aad90a5fdcf"
+    },
+    "chunkId": "assets/Script/NextScene.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 31
+          },
+          "end": {
+            "line": 13,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/controlCubeBox.ts": {
+    "mTimestamp": {
+      "mtime": 1701076326083.629,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/controlCubeBox.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 25
+          },
+          "end": {
+            "line": 16,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 21
+          },
+          "end": {
+            "line": 17,
+            "column": 29
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1705260236000,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/Game/BossAction.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 153
+          },
+          "end": {
+            "line": 1,
+            "column": 157
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 21
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1705301747312.0212,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/Game/JoyStick.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 26
+          },
+          "end": {
+            "line": 10,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1705301772191.6396,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game/Game.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 31
+          },
+          "end": {
+            "line": 12,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 25
+          },
+          "end": {
+            "line": 13,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 26
+          },
+          "end": {
+            "line": 14,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 25
+          },
+          "end": {
+            "line": 15,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/NextScene.ts": {
+    "mTimestamp": {
+      "mtime": 1698985885240.4417,
+      "uuid": "1a50a34b-9a84-4b14-8236-1aad90a5fdcf"
+    },
+    "chunkId": "assets/Script/Game/NextScene.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 31
+          },
+          "end": {
+            "line": 13,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/GameController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1705259964000,
+      "uuid": "cf8e169e-b668-4ef4-8c67-dee951a14489"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/controlCubeBox.ts": {
+    "mTimestamp": {
+      "mtime": 1705048181549.2283,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/Game/controlCubeBox.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 25
+          },
+          "end": {
+            "line": 16,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 21
+          },
+          "end": {
+            "line": 17,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 26
+          },
+          "end": {
+            "line": 18,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1704967178389.5256,
+      "uuid": "a31f8e9f-a772-4909-b593-18cf5a8b9728"
+    },
+    "chunkId": "assets/Script/Game/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 72
+          },
+          "end": {
+            "line": 2,
+            "column": 76
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/LaserController.ts": {
+    "mTimestamp": {
+      "mtime": 1705259782000,
+      "uuid": "a31f8e9f-a772-4909-b593-18cf5a8b9728"
+    },
+    "chunkId": "assets/Script/Game/LaserController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 60
+          },
+          "end": {
+            "line": 2,
+            "column": 64
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CatController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 30
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/CatController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1705290776780.5742,
+      "uuid": "ad635aa5-c582-4a3b-bcc0-dd9df8f23e96"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 69
+          },
+          "end": {
+            "line": 1,
+            "column": 73
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/CubeController.ts": {
+    "mTimestamp": {
+      "mtime": 1705250912000,
+      "uuid": "9d69f03b-6173-4574-9dec-3bb71e73dd2c"
+    },
+    "chunkId": "assets/Script/Game/CubeController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 55
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/CatController.ts": {
+    "mTimestamp": {
+      "mtime": 1705300015962.4888,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/Game/CatController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 25
+          },
+          "end": {
+            "line": 15,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 21
+          },
+          "end": {
+            "line": 16,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 26
+          },
+          "end": {
+            "line": 17,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 25
+          },
+          "end": {
+            "line": 18,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1705260751425.8667,
+      "uuid": "ad635aa5-c582-4a3b-bcc0-dd9df8f23e96"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 69
+          },
+          "end": {
+            "line": 1,
+            "column": 73
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1705260234847.194,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/Game/BossAction.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 153
+          },
+          "end": {
+            "line": 1,
+            "column": 157
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 21
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/CubeController.ts": {
+    "mTimestamp": {
+      "mtime": 1705250910717.4443,
+      "uuid": "9d69f03b-6173-4574-9dec-3bb71e73dd2c"
+    },
+    "chunkId": "assets/Script/Game/CubeController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 55
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1705259963212.3281,
+      "uuid": "cf8e169e-b668-4ef4-8c67-dee951a14489"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1705260038718.168,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game/Game.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 31
+          },
+          "end": {
+            "line": 12,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 25
+          },
+          "end": {
+            "line": 13,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 26
+          },
+          "end": {
+            "line": 14,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 25
+          },
+          "end": {
+            "line": 15,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/CatController.ts": {
+    "mTimestamp": {
+      "mtime": 1705261269004.035,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/Game/CatController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 25
+          },
+          "end": {
+            "line": 15,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 21
+          },
+          "end": {
+            "line": 16,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 26
+          },
+          "end": {
+            "line": 17,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 25
+          },
+          "end": {
+            "line": 18,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/LaserController.ts": {
+    "mTimestamp": {
+      "mtime": 1705259780323.873,
+      "uuid": "a31f8e9f-a772-4909-b593-18cf5a8b9728"
+    },
+    "chunkId": "assets/Script/Game/LaserController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 60
+          },
+          "end": {
+            "line": 2,
+            "column": 64
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CatController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 30
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/CatController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Game/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1705260737150.6162,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/Game/JoyStick.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 26
+          },
+          "end": {
+            "line": 10,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1705259015523.2788,
+      "uuid": "d948bda0-32a7-400f-a091-cd304914088d"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Plugin/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1705261631624.2966,
+      "uuid": "2fa13e99-39ff-4597-9957-8211fca82acc"
+    },
+    "chunkId": "assets/Script/Plugin/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 188
+          },
+          "end": {
+            "line": 4,
+            "column": 192
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1705291417779.375,
+      "uuid": "d948bda0-32a7-400f-a091-cd304914088d"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Plugin/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1705289568080.5366,
+      "uuid": "2fa13e99-39ff-4597-9957-8211fca82acc"
+    },
+    "chunkId": "assets/Script/Plugin/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 188
+          },
+          "end": {
+            "line": 4,
+            "column": 192
+          }
+        }
+      },
+      {
+        "value": "../Game/Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 21
+          },
+          "end": {
+            "line": 5,
+            "column": 35
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP15/assets/Script/Game/Game.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "ad635aa5-c582-4a3b-bcc0-dd9df8f23e96"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 69
+          },
+          "end": {
+            "line": 1,
+            "column": 73
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/CatController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/Game/CatController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 25
+          },
+          "end": {
+            "line": 15,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 21
+          },
+          "end": {
+            "line": 16,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 26
+          },
+          "end": {
+            "line": 17,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 25
+          },
+          "end": {
+            "line": 18,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1709828810000,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/Game/BossAction.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 153
+          },
+          "end": {
+            "line": 1,
+            "column": 157
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 21
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1709829354000,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game/Game.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 31
+          },
+          "end": {
+            "line": 13,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 25
+          },
+          "end": {
+            "line": 14,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 26
+          },
+          "end": {
+            "line": 15,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 25
+          },
+          "end": {
+            "line": 16,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/CubeController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "9d69f03b-6173-4574-9dec-3bb71e73dd2c"
+    },
+    "chunkId": "assets/Script/Game/CubeController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 55
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "cf8e169e-b668-4ef4-8c67-dee951a14489"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/LaserController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "a31f8e9f-a772-4909-b593-18cf5a8b9728"
+    },
+    "chunkId": "assets/Script/Game/LaserController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 60
+          },
+          "end": {
+            "line": 2,
+            "column": 64
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CatController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 30
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/CatController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "d948bda0-32a7-400f-a091-cd304914088d"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1709829362000,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/Game/JoyStick.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 26
+          },
+          "end": {
+            "line": 10,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "2fa13e99-39ff-4597-9957-8211fca82acc"
+    },
+    "chunkId": "assets/Script/Plugin/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 188
+          },
+          "end": {
+            "line": 4,
+            "column": 192
+          }
+        }
+      },
+      {
+        "value": "../Game/Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 21
+          },
+          "end": {
+            "line": 5,
+            "column": 35
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/Game.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1709826736552.5964,
+      "uuid": "ad635aa5-c582-4a3b-bcc0-dd9df8f23e96"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 69
+          },
+          "end": {
+            "line": 1,
+            "column": 73
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826736754.7874,
+      "uuid": "cf8e169e-b668-4ef4-8c67-dee951a14489"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/CubeController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826736674.14,
+      "uuid": "9d69f03b-6173-4574-9dec-3bb71e73dd2c"
+    },
+    "chunkId": "assets/Script/Game/CubeController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 55
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1709828808707.593,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/Game/BossAction.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 153
+          },
+          "end": {
+            "line": 1,
+            "column": 157
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 21
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/CatController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826736636.3423,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/Game/CatController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 25
+          },
+          "end": {
+            "line": 15,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 21
+          },
+          "end": {
+            "line": 16,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 26
+          },
+          "end": {
+            "line": 17,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 25
+          },
+          "end": {
+            "line": 18,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1709829352869.178,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game/Game.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 31
+          },
+          "end": {
+            "line": 13,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 25
+          },
+          "end": {
+            "line": 14,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 26
+          },
+          "end": {
+            "line": 15,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 25
+          },
+          "end": {
+            "line": 16,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1709829360466.2744,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/Game/JoyStick.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 26
+          },
+          "end": {
+            "line": 10,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1709826736875.053,
+      "uuid": "d948bda0-32a7-400f-a091-cd304914088d"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/LaserController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826736832.5283,
+      "uuid": "a31f8e9f-a772-4909-b593-18cf5a8b9728"
+    },
+    "chunkId": "assets/Script/Game/LaserController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 60
+          },
+          "end": {
+            "line": 2,
+            "column": 64
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CatController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 30
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/CatController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Plugin/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1709826736919.8975,
+      "uuid": "2fa13e99-39ff-4597-9957-8211fca82acc"
+    },
+    "chunkId": "assets/Script/Plugin/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 188
+          },
+          "end": {
+            "line": 4,
+            "column": 192
+          }
+        }
+      },
+      {
+        "value": "../Game/Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 21
+          },
+          "end": {
+            "line": 5,
+            "column": 35
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/CatEscape/CatEscape_OP16/assets/Script/Game/Game.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1709890813981.472,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/Game/BossAction.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 153
+          },
+          "end": {
+            "line": 1,
+            "column": 157
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 21
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/CubeController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "9d69f03b-6173-4574-9dec-3bb71e73dd2c"
+    },
+    "chunkId": "assets/Script/Game/CubeController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 55
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/CatController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/Game/CatController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 25
+          },
+          "end": {
+            "line": 15,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 21
+          },
+          "end": {
+            "line": 16,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 26
+          },
+          "end": {
+            "line": 17,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 25
+          },
+          "end": {
+            "line": 18,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1709889999497.9856,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game/Game.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 31
+          },
+          "end": {
+            "line": 13,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 25
+          },
+          "end": {
+            "line": 14,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 26
+          },
+          "end": {
+            "line": 15,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 25
+          },
+          "end": {
+            "line": 16,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1709868637187.4448,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/Game/JoyStick.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 26
+          },
+          "end": {
+            "line": 10,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/LaserController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "a31f8e9f-a772-4909-b593-18cf5a8b9728"
+    },
+    "chunkId": "assets/Script/Game/LaserController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 60
+          },
+          "end": {
+            "line": 2,
+            "column": 64
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CatController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 30
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/CatController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "2fa13e99-39ff-4597-9957-8211fca82acc"
+    },
+    "chunkId": "assets/Script/Plugin/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 188
+          },
+          "end": {
+            "line": 4,
+            "column": 192
+          }
+        }
+      },
+      {
+        "value": "../Game/Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 21
+          },
+          "end": {
+            "line": 5,
+            "column": 35
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/Game.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1709887161761.4126,
+      "uuid": "d948bda0-32a7-400f-a091-cd304914088d"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "cf8e169e-b668-4ef4-8c67-dee951a14489"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "ad635aa5-c582-4a3b-bcc0-dd9df8f23e96"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 69
+          },
+          "end": {
+            "line": 1,
+            "column": 73
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/BossAction.ts": {
+    "mTimestamp": {
+      "mtime": 1709894666028.2244,
+      "uuid": "d3ead8a7-4fa7-4775-8f94-a61050016863"
+    },
+    "chunkId": "assets/Script/Game/BossAction.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 153
+          },
+          "end": {
+            "line": 1,
+            "column": 157
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 21
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/CatController.ts": {
+    "mTimestamp": {
+      "mtime": 1709894611946.8936,
+      "uuid": "502264de-30b3-4a12-acee-60c1500523a6"
+    },
+    "chunkId": "assets/Script/Game/CatController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 25
+          },
+          "end": {
+            "line": 15,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 21
+          },
+          "end": {
+            "line": 16,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 26
+          },
+          "end": {
+            "line": 17,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 25
+          },
+          "end": {
+            "line": 18,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/Game.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/CubeController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "9d69f03b-6173-4574-9dec-3bb71e73dd2c"
+    },
+    "chunkId": "assets/Script/Game/CubeController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 55
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/Game.ts": {
+    "mTimestamp": {
+      "mtime": 1709896047881.5056,
+      "uuid": "ab7fd72a-74c2-4195-b544-23f23c628884"
+    },
+    "chunkId": "assets/Script/Game/Game.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 31
+          },
+          "end": {
+            "line": 13,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 25
+          },
+          "end": {
+            "line": 14,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 26
+          },
+          "end": {
+            "line": 15,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 25
+          },
+          "end": {
+            "line": 16,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/LaserController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "a31f8e9f-a772-4909-b593-18cf5a8b9728"
+    },
+    "chunkId": "assets/Script/Game/LaserController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 60
+          },
+          "end": {
+            "line": 2,
+            "column": 64
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./CatController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 30
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/CatController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1709894563574.4211,
+      "uuid": "ad635aa5-c582-4a3b-bcc0-dd9df8f23e96"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 69
+          },
+          "end": {
+            "line": 1,
+            "column": 73
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "cf8e169e-b668-4ef4-8c67-dee951a14489"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1709887161761.4126,
+      "uuid": "d948bda0-32a7-400f-a091-cd304914088d"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1709826738000,
+      "uuid": "2fa13e99-39ff-4597-9957-8211fca82acc"
+    },
+    "chunkId": "assets/Script/Plugin/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 188
+          },
+          "end": {
+            "line": 4,
+            "column": 192
+          }
+        }
+      },
+      {
+        "value": "../Game/Game",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 21
+          },
+          "end": {
+            "line": 5,
+            "column": 35
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/Game.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Game/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1709896065690.1533,
+      "uuid": "c3658a8e-41a7-4461-9b7c-d04a8fa6ae67"
+    },
+    "chunkId": "assets/Script/Game/JoyStick.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 11
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 26
+          },
+          "end": {
+            "line": 10,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17_1/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  }
+}

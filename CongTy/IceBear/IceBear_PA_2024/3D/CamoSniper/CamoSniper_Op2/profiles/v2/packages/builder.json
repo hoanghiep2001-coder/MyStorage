@@ -1,0 +1,67 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "name": "SantaCall",
+    "scenes": [
+      {
+        "url": "db://assets/Grimmise.scene",
+        "uuid": "e7973f3c-cbce-4a8a-9dbb-89db64b73708",
+        "inBundle": false
+      }
+    ]
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1705648907904": {
+        "id": "1705648907904",
+        "progress": 1,
+        "state": "success",
+        "message": "3-25-2024 18:25 Build success in 5730 ms!",
+        "options": {
+          "name": "SantaCall",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "b56d3a42-c5e3-458d-b82b-6104930090fa",
+          "scenes": [
+            {
+              "url": "db://assets/GameScene.scene",
+              "uuid": "b56d3a42-c5e3-458d-b82b-6104930090fa",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-mobile",
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "c00b60",
+              "services": []
+            },
+            "super-html": null
+          }
+        },
+        "time": "3-25-2024 18:25",
+        "dirty": false
+      }
+    }
+  }
+}

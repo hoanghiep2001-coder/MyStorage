@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "49cc520b-db8a-415f-aa0d-bfa7dab747ba",
+  "files": [],
+  "subMetas": {
+    "36884": {
+      "importer": "gltf-embeded-image",
+      "uuid": "49cc520b-db8a-415f-aa0d-bfa7dab747ba@36884",
+      "displayName": "",
+      "id": "36884",
+      "name": "Megatexture.png.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4e0b9": {
+      "importer": "gltf-mesh",
+      "uuid": "49cc520b-db8a-415f-aa0d-bfa7dab747ba@4e0b9",
+      "displayName": "",
+      "id": "4e0b9",
+      "name": "bathtube.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba42f": {
+      "importer": "texture",
+      "uuid": "49cc520b-db8a-415f-aa0d-bfa7dab747ba@ba42f",
+      "displayName": "",
+      "id": "ba42f",
+      "name": "Megatexture.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "49cc520b-db8a-415f-aa0d-bfa7dab747ba@36884"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d54d8": {
+      "importer": "gltf-material",
+      "uuid": "49cc520b-db8a-415f-aa0d-bfa7dab747ba@d54d8",
+      "displayName": "",
+      "id": "d54d8",
+      "name": "Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2c731": {
+      "importer": "gltf-scene",
+      "uuid": "49cc520b-db8a-415f-aa0d-bfa7dab747ba@2c731",
+      "displayName": "",
+      "id": "2c731",
+      "name": "bathtube.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Megatexture.png",
+        "uri": "49cc520b-db8a-415f-aa0d-bfa7dab747ba@36884"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "49cc520b-db8a-415f-aa0d-bfa7dab747ba@2c731",
+    "assetFinder": {
+      "meshes": [
+        "49cc520b-db8a-415f-aa0d-bfa7dab747ba@4e0b9"
+      ],
+      "skeletons": [],
+      "textures": [
+        "49cc520b-db8a-415f-aa0d-bfa7dab747ba@ba42f"
+      ],
+      "materials": [
+        "49cc520b-db8a-415f-aa0d-bfa7dab747ba@d54d8"
+      ],
+      "scenes": [
+        "49cc520b-db8a-415f-aa0d-bfa7dab747ba@2c731"
+      ]
+    }
+  }
+}

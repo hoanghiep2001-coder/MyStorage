@@ -1,0 +1,428 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 58536,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 3960,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8820,
+            "byteOffset": 3960,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8820,
+            "byteOffset": 12780,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 5880,
+            "byteOffset": 21600,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3960,
+            "byteOffset": 27480,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8820,
+            "byteOffset": 31440,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8820,
+            "byteOffset": 40260,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 5880,
+            "byteOffset": 49080,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 504,
+            "byteOffset": 54960,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1152,
+            "byteOffset": 55464,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1152,
+            "byteOffset": 56616,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 768,
+            "byteOffset": 57768,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 1980,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 735,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -0.007146873511374,
+                -1.22512375244632e-10,
+                -0.00174738746136427
+            ],
+            "max": [
+                0.00263350503519177,
+                0.0157799627631903,
+                0.000705773767549545
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 735,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 735,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 1980,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 735,
+            "bufferView": 5,
+            "byteOffset": 0,
+            "min": [
+                -0.007146873511374,
+                -1.22512375244632e-10,
+                -0.000705773651134223
+            ],
+            "max": [
+                0.00263350503519177,
+                0.0157799627631903,
+                0.00174738897476345
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 735,
+            "bufferView": 6,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 735,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 252,
+            "bufferView": 8,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 96,
+            "bufferView": 9,
+            "byteOffset": 0,
+            "min": [
+                -0.00082376366481185,
+                -0.00616240408271551,
+                -0.0146347172558308
+            ],
+            "max": [
+                0.00082376366481185,
+                0.00616240315139294,
+                0.0146347172558308
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 96,
+            "bufferView": 10,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 96,
+            "bufferView": 11,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "base_color_texture",
+            "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "base_color_texture",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "materials": [
+        {
+            "name": "Laser_vfx_mesh",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.641509413719177,
+                    0.641509413719177,
+                    0.641509413719177,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.301511347293854
+            }
+        },
+        {
+            "name": "Mat_Environment",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "laser_base2",
+            "primitives": [
+                {
+                    "material": 1,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0
+                }
+            ]
+        },
+        {
+            "name": "laser_base1",
+            "primitives": [
+                {
+                    "material": 1,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 5,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4
+                }
+            ]
+        },
+        {
+            "name": "laser_vfx_mesh",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9,
+                        "TEXCOORD_0": 11
+                    },
+                    "indices": 8
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "laser",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "name": "laser_vfx_mesh",
+            "translation": [
+                -2.10922941334957e-08,
+                0.00788113754242659,
+                2.02031529283886e-07
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 2
+        },
+        {
+            "name": "laser_base2",
+            "translation": [
+                -2.07817176800518e-08,
+                1.68999349625665e-06,
+                0.0143051445484161
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0
+        },
+        {
+            "name": "laser_base1",
+            "translation": [
+                -2.20323137511969e-08,
+                1.68999349625665e-06,
+                -0.0143051445484161
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 1
+        }
+    ]
+}

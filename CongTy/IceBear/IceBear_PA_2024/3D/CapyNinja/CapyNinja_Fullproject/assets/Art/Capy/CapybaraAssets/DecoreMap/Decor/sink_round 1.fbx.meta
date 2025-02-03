@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b",
+  "files": [],
+  "subMetas": {
+    "8dea8": {
+      "importer": "gltf-mesh",
+      "uuid": "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@8dea8",
+      "displayName": "",
+      "id": "8dea8",
+      "name": "sink_round_1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9f3c": {
+      "importer": "gltf-material",
+      "uuid": "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@c9f3c",
+      "displayName": "",
+      "id": "c9f3c",
+      "name": "environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1f14": {
+      "importer": "gltf-scene",
+      "uuid": "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@d1f14",
+      "displayName": "",
+      "id": "d1f14",
+      "name": "sink_round 1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@d1f14",
+    "assetFinder": {
+      "meshes": [
+        "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@8dea8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@d20e9"
+      ],
+      "materials": [
+        "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@c9f3c"
+      ],
+      "scenes": [
+        "1144ad9d-dacf-42f0-8d27-a6dd6b4f9b3b@d1f14"
+      ]
+    }
+  }
+}

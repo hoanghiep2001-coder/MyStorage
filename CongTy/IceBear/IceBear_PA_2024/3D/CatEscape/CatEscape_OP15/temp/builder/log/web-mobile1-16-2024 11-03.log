@@ -1,0 +1,258 @@
+1-16-2024 11:03-debug: Start record console... {file(D:\PA_2024\3D\CatEscape\CatEscape_OP15\temp\builder\log\web-mobile1-16-2024 11-03.log)}
+1-16-2024 11:03-debug: =================================== Build Task (web-mobile) Start ================================
+1-16-2024 11:03-debug: Build with Cocos Creator 3.4.2
+1-16-2024 11:03-debug: cocos-service:(onBeforeBuild) start...0%
+1-16-2024 11:03-debug: // ---- cocos-service:(onBeforeBuild) ----
+1-16-2024 11:03-debug: Start build task, options:{"name":"CapEscape_OP2","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"sourceMaps":false,"replaceSplashScreen":false,"mainBundleCompressionType":"merge_all_json","mainBundleIsRemote":false,"mergeStartScene":false,"experimentalEraseModules":false,"compressTexture":true,"packAutoAtlas":true,"startScene":"f82590ab-7475-4b63-9a96-e8c0a6a65b85","scenes":[{"url":"db://assets/CatEscape.scene","uuid":"f82590ab-7475-4b63-9a96-e8c0a6a65b85","inBundle":false}],"outputName":"web-mobile","packages":{"web-mobile":{"orientation":"auto","polyfills":{"asyncFunctions":true}},"cocos-service":{"configID":"f4e2e7","services":[]},"super-html":null}}
+1-16-2024 11:03-debug: Process: heapTotal 192.40MB heapUsed 181.68MB rss 443.48MB
+1-16-2024 11:03-debug: // ---- cocos-service:(onBeforeBuild) success ----
+1-16-2024 11:03-debug: cocos-service:(onBeforeBuild)3%
+1-16-2024 11:03-debug: Query all assets info in project
+1-16-2024 11:03-debug: init custom config: keepNodeUuid: false, useCache: true
+1-16-2024 11:03-debug: BuildAssetLibrary query-assets with assets 965
+1-16-2024 11:03-debug: BuildAssetLibrary initialized with asset 2837!
+1-16-2024 11:03-debug:   Number of all scenes: 1
+1-16-2024 11:03-debug:   Number of all scripts: 10
+1-16-2024 11:03-debug:   Number of other assets: 3890
+1-16-2024 11:03-debug: web-mobile:(onAfterInit) start...3%
+1-16-2024 11:03-debug: // ---- web-mobile:(onAfterInit) ----
+1-16-2024 11:03-debug: Process: heapTotal 205.40MB heapUsed 185.30MB rss 451.70MB
+1-16-2024 11:03-debug: // ---- web-mobile:(onAfterInit) success ----
+1-16-2024 11:03-debug: web-mobile:(onAfterInit)5%
+1-16-2024 11:03-debug: cocos-service:(onAfterInit) start...5%
+1-16-2024 11:03-debug: // ---- cocos-service:(onAfterInit) ----
+1-16-2024 11:03-debug: Process: heapTotal 205.40MB heapUsed 185.33MB rss 451.42MB
+1-16-2024 11:03-debug: // ---- cocos-service:(onAfterInit) success ----
+1-16-2024 11:03-debug: cocos-service:(onAfterInit)8%
+1-16-2024 11:03-debug: Reload project scripts start8%
+1-16-2024 11:03-log: // ---- Reload project scripts ----
+1-16-2024 11:03-debug: reload all scripts.
+1-16-2024 11:03-debug: Process: heapTotal 205.40MB heapUsed 185.39MB rss 449.70MB
+1-16-2024 11:03-debug: Incremental keys: 
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/cce/internal/x/cc.js" loaded.
+1-16-2024 11:03-debug: Invalidating 'pack:///mods/cce/internal/x/cc.js'
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/cce/internal/x/cc.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Script/Data/Constant.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/cce/internal/code-quality/cr.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Register AudioManager
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Script/Plugin/AudioManager.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Register GameController
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Script/Game/GameController.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Register JoyStick
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Script/Game/JoyStick.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Register Game
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Script/Game/Game.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Register BossAction
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Script/Game/BossAction.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Register CatController
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Script/Game/CatController.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Register CubeController
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Script/Game/CubeController.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Register LaserController
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Script/Game/LaserController.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Register Responsive
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/fs/0/assets/Script/Plugin/Responsive.js" loaded.
+1-16-2024 11:03-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+1-16-2024 11:03-debug: Reload project scripts √9%
+1-16-2024 11:03-debug: Query asset bundle start9%
+1-16-2024 11:03-log: // ---- Query asset bundle ----
+1-16-2024 11:03-debug: Process: heapTotal 205.90MB heapUsed 188.08MB rss 450.29MB
+1-16-2024 11:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+1-16-2024 11:03-debug: Query asset bundle √10%
+1-16-2024 11:03-debug: Query and organize assets start10%
+1-16-2024 11:03-log: // ---- Query and organize assets ----
+1-16-2024 11:03-debug: Process: heapTotal 205.90MB heapUsed 188.14MB rss 450.48MB
+1-16-2024 11:03-debug: Number of scenes: 1
+1-16-2024 11:03-debug: Number of assets: 190
+1-16-2024 11:03-debug: Number of asset bundle: 1
+1-16-2024 11:03-debug: Query and organize assets √11%
+1-16-2024 11:03-debug: Organize scripts start11%
+1-16-2024 11:03-log: // ---- Organize scripts ----
+1-16-2024 11:03-debug: Process: heapTotal 196.32MB heapUsed 186.75MB rss 449.39MB
+1-16-2024 11:03-debug: sort script group...
+1-16-2024 11:03-debug: Organize scripts √13%
+1-16-2024 11:03-debug: Organize texture compression tasks start13%
+1-16-2024 11:03-log: // ---- Organize texture compression tasks ----
+1-16-2024 11:03-debug: Process: heapTotal 196.32MB heapUsed 186.98MB rss 449.43MB
+1-16-2024 11:03-debug: Number of image-compress task: 0
+1-16-2024 11:03-debug: Organize texture compression tasks √14%
+1-16-2024 11:03-debug: Group json start14%
+1-16-2024 11:03-log: // ---- Group json ----
+1-16-2024 11:03-debug: Process: heapTotal 196.32MB heapUsed 187.18MB rss 449.63MB
+1-16-2024 11:03-debug: Number of json group: 1
+1-16-2024 11:03-debug: Group json √15%
+1-16-2024 11:03-debug: Merging Texture2D json start15%
+1-16-2024 11:03-log: // ---- Merging Texture2D json ----
+1-16-2024 11:03-debug: Process: heapTotal 196.32MB heapUsed 187.20MB rss 449.66MB
+1-16-2024 11:03-debug: Merging Texture2D json √16%
+1-16-2024 11:03-debug:  start16%
+1-16-2024 11:03-log: // ----  ----
+1-16-2024 11:03-debug: Process: heapTotal 196.32MB heapUsed 187.22MB rss 449.68MB
+1-16-2024 11:03-debug:  √18%
+1-16-2024 11:03-debug: web-mobile:(onBeforeBuildAssets) start...18%
+1-16-2024 11:03-debug: // ---- web-mobile:(onBeforeBuildAssets) ----
+1-16-2024 11:03-debug: Process: heapTotal 196.32MB heapUsed 187.24MB rss 449.71MB
+1-16-2024 11:03-debug: // ---- web-mobile:(onBeforeBuildAssets) success ----
+1-16-2024 11:03-debug: web-mobile:(onBeforeBuildAssets)20%
+1-16-2024 11:03-debug:  start20%
+1-16-2024 11:03-log: // ----  ----
+1-16-2024 11:03-debug: Process: heapTotal 196.32MB heapUsed 187.28MB rss 449.75MB
+1-16-2024 11:03-warn: Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+1-16-2024 11:03-warn: Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+1-16-2024 11:03-debug: Build script20%
+1-16-2024 11:03-debug: Process: heapTotal 217.32MB heapUsed 201.58MB rss 466.72MB
+1-16-2024 11:03-debug: Copy externalScripts success!
+1-16-2024 11:03-debug: Build script√20%
+1-16-2024 11:03-debug: Process: heapTotal 241.93MB heapUsed 209.93MB rss 481.85MB
+1-16-2024 11:03-debug: Build engine20%
+1-16-2024 11:03-debug: Use cache engine: {link(C:\Users\Admin\AppData\Local\Temp\CocosCreator\3.4.2\builder\engine\20ba7c6106c7813ca7377f752f8273b3)}
+1-16-2024 11:03-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","3d","audio","base","gfx-webgl","gfx-webgl2","intersection-2d","marionette","particle","particle-2d","physics-2d-box2d","physics-cannon","primitive","profiler","spine","terrain","tween","ui","video","webview"],"engineVersion":"3.4.2","platform":"HTML5","md5Map":[],"engineName":"cocos-js","useCache":true,"split":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.4.2\\resources\\resources\\3d\\engine"}
+1-16-2024 11:03-debug: Build engine√20%
+1-16-2024 11:03-debug:  √27%
+1-16-2024 11:03-debug: Build auto-atlas start27%
+1-16-2024 11:03-log: // ---- Build auto-atlas ----
+1-16-2024 11:03-debug: Process: heapTotal 241.93MB heapUsed 212.77MB rss 483.37MB
+1-16-2024 11:03-debug: Build auto-atlas √33%
+1-16-2024 11:03-debug: Compress Image start33%
+1-16-2024 11:03-log: // ---- Compress Image ----
+1-16-2024 11:03-debug: Process: heapTotal 241.93MB heapUsed 212.86MB rss 483.46MB
+1-16-2024 11:03-debug: Copy the resource start40%
+1-16-2024 11:03-log: // ---- Copy the resource ----
+1-16-2024 11:03-debug: Process: heapTotal 241.93MB heapUsed 212.88MB rss 483.48MB
+1-16-2024 11:03-debug: Compress Image √40%
+1-16-2024 11:03-debug: Asset Bundle(main) handle assets: 190
+1-16-2024 11:03-debug: Copy the resource √47%
+1-16-2024 11:03-debug: Build the grouped json and scatter files to the specified location start47%
+1-16-2024 11:03-log: // ---- Build the grouped json and scatter files to the specified location ----
+1-16-2024 11:03-debug: Process: heapTotal 241.93MB heapUsed 212.40MB rss 485.07MB
+1-16-2024 11:03-debug: Json group(build-task/json) compile success，json number: 6
+1-16-2024 11:03-debug: Build the grouped json and scatter files to the specified location √53%
+1-16-2024 11:03-debug: Compress zip bundle start53%
+1-16-2024 11:03-log: // ---- Compress zip bundle ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.09MB rss 497.97MB
+1-16-2024 11:03-debug: Compress zip bundle √60%
+1-16-2024 11:03-debug: Add md5 suffix to assets start60%
+1-16-2024 11:03-log: // ---- Add md5 suffix to assets ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.12MB rss 497.97MB
+1-16-2024 11:03-debug: Add md5 suffix to assets √70%
+1-16-2024 11:03-debug: Init settings and config start70%
+1-16-2024 11:03-log: // ---- Init settings and config ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.14MB rss 497.97MB
+1-16-2024 11:03-debug: Init settings and config √71%
+1-16-2024 11:03-debug: tasks.settings.macro does not defined in i18n
+1-16-2024 11:03-debug: tasks.settings.macro start71%
+1-16-2024 11:03-log: // ---- tasks.settings.macro ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.17MB rss 497.98MB
+1-16-2024 11:03-debug: tasks.settings.macro √71%
+1-16-2024 11:03-debug: Use cached settings start71%
+1-16-2024 11:03-log: // ---- Use cached settings ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.22MB rss 497.96MB
+1-16-2024 11:03-debug: Use cached settings √72%
+1-16-2024 11:03-debug: custom joint texture layouts start72%
+1-16-2024 11:03-log: // ---- custom joint texture layouts ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.30MB rss 497.93MB
+1-16-2024 11:03-debug: custom joint texture layouts √72%
+1-16-2024 11:03-debug: custom joint physics start72%
+1-16-2024 11:03-log: // ---- custom joint physics ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.33MB rss 497.93MB
+1-16-2024 11:03-debug: custom joint physics √73%
+1-16-2024 11:03-log: // ---- Fill script data to settings ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.34MB rss 497.93MB
+1-16-2024 11:03-debug: Fill scene data to settings start73%
+1-16-2024 11:03-log: // ---- Fill scene data to settings ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.36MB rss 497.93MB
+1-16-2024 11:03-debug: Organize assets groups，generate packedAssets and rawAssets data start74%
+1-16-2024 11:03-log: // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.38MB rss 497.94MB
+1-16-2024 11:03-debug: Organize assets groups，generate packedAssets and rawAssets data √74%
+1-16-2024 11:03-debug: Generate md5AssetsMap from suffixMap to settings start74%
+1-16-2024 11:03-log: // ---- Generate md5AssetsMap from suffixMap to settings ----
+1-16-2024 11:03-debug: Fill scene data to settings √74%
+1-16-2024 11:03-debug: Fill script data to settings √73%
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.43MB rss 497.94MB
+1-16-2024 11:03-debug: options.md5Cache is false.
+1-16-2024 11:03-debug: Fill script data to settings start73%
+1-16-2024 11:03-debug: web-mobile:(onBeforeCompressSettings) start...75%
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.45MB rss 497.95MB
+1-16-2024 11:03-debug: web-mobile:(onBeforeCompressSettings)77%
+1-16-2024 11:03-debug: // ---- web-mobile:(onBeforeCompressSettings) success ----
+1-16-2024 11:03-debug: cocos-service:(onBeforeCompressSettings) start...77%
+1-16-2024 11:03-debug: // ---- cocos-service:(onBeforeCompressSettings) ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.48MB rss 497.95MB
+1-16-2024 11:03-debug: Generate md5AssetsMap from suffixMap to settings √75%
+1-16-2024 11:03-debug: // ---- web-mobile:(onBeforeCompressSettings) ----
+1-16-2024 11:03-debug: // ---- cocos-service:(onBeforeCompressSettings) success ----
+1-16-2024 11:03-debug: cocos-service:(onBeforeCompressSettings)80%
+1-16-2024 11:03-debug:  start80%
+1-16-2024 11:03-log: // ----  ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.58MB rss 497.95MB
+1-16-2024 11:03-debug:  √81%
+1-16-2024 11:03-debug: Compress settings.json and config.json start81%
+1-16-2024 11:03-log: // ---- Compress settings.json and config.json ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.62MB rss 497.96MB
+1-16-2024 11:03-debug: Compress settings.json and config.json √82%
+1-16-2024 11:03-debug: Save config.json start82%
+1-16-2024 11:03-log: // ---- Save config.json ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.79MB rss 497.96MB
+1-16-2024 11:03-debug: Save config.json √83%
+1-16-2024 11:03-debug: Save Settings.json start83%
+1-16-2024 11:03-log: // ---- Save Settings.json ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.83MB rss 497.94MB
+1-16-2024 11:03-debug: Save Settings.json √84%
+1-16-2024 11:03-debug: Sort build template start84%
+1-16-2024 11:03-log: // ---- Sort build template ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 218.94MB rss 497.95MB
+1-16-2024 11:03-debug: Sort build template √85%
+1-16-2024 11:03-debug: cocos-service:(onAfterCompressSettings) start...85%
+1-16-2024 11:03-debug: // ---- cocos-service:(onAfterCompressSettings) ----
+1-16-2024 11:03-debug: Process: heapTotal 244.09MB heapUsed 224.18MB rss 498.31MB
+1-16-2024 11:03-debug: // ---- cocos-service:(onAfterCompressSettings) success ----
+1-16-2024 11:03-debug: cocos-service:(onAfterCompressSettings)87%
+1-16-2024 11:03-debug: // ---- web-mobile:(onAfterBuild) ----
+1-16-2024 11:03-debug: Process: heapTotal 243.00MB heapUsed 218.11MB rss 497.41MB
+1-16-2024 11:03-debug: Use build-template {link(D:\PA_2024\3D\CatEscape\CatEscape_OP15\build-templates\web-mobile)}.
+1-16-2024 11:03-debug: web-mobile:(onAfterBuild)90%
+1-16-2024 11:03-debug: web-mobile:(onAfterBuild) start...87%
+1-16-2024 11:03-debug: cocos-service:(onAfterBuild) start...90%
+1-16-2024 11:03-debug: // ---- cocos-service:(onAfterBuild) ----
+1-16-2024 11:03-debug: Process: heapTotal 243.00MB heapUsed 220.38MB rss 497.02MB
+1-16-2024 11:03-debug: // ---- web-mobile:(onAfterBuild) success ----
+1-16-2024 11:03-debug: // ---- cocos-service:(onAfterBuild) success ----
+1-16-2024 11:03-debug: cocos-service:(onAfterBuild)93%
+1-16-2024 11:03-debug: super-html:(onAfterBuild) start...93%
+1-16-2024 11:03-debug: // ---- super-html:(onAfterBuild) ----
+1-16-2024 11:03-debug: Process: heapTotal 243.00MB heapUsed 220.44MB rss 497.00MB
+1-16-2024 11:03-log: super-html : -- start --
+1-16-2024 11:03-log: super-html : engine version 3.4.2
+1-16-2024 11:03-debug: // ---- super-html:(onAfterBuild) success ----
+1-16-2024 11:03-log: super-html : file count 120
+1-16-2024 11:03-log: task config{"l_custom_script":["D:\\PA_2024\\3D\\CatEscape\\CatEscape_OP15\\extensions\\super-html\\dist\\custom_script\\34x\\custom-34x.js","D:\\PA_2024\\3D\\CatEscape\\CatEscape_OP15\\extensions\\super-html\\dist\\custom_script\\34x\\index-34x.js"],"path_input_dir":"D:\\PA_2024\\3D\\CatEscape\\CatEscape_OP15\\build\\web-mobile","path_html":"D:\\PA_2024\\3D\\CatEscape\\CatEscape_OP15\\build\\web-mobile\\index.html","path_out_file":"D:\\PA_2024\\3D\\CatEscape\\CatEscape_OP15\\build\\index.html","enable_obfuscator":true,"max_size":2097152}
+1-16-2024 11:03-debug: super-html:(onAfterBuild)95%
+1-16-2024 11:03-debug: build success in 13518 ms!
+1-16-2024 11:03-debug: Stop record console. {file(D:\PA_2024\3D\CatEscape\CatEscape_OP15\temp\builder\log\web-mobile1-16-2024 11-03.log)}

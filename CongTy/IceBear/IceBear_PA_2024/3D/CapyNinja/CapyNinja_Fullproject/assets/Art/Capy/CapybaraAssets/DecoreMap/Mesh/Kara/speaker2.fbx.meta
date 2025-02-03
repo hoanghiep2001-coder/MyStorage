@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bc9cb5b5-c425-4862-8845-73bceb23eb03",
+  "files": [],
+  "subMetas": {
+    "50d38": {
+      "importer": "gltf-mesh",
+      "uuid": "bc9cb5b5-c425-4862-8845-73bceb23eb03@50d38",
+      "displayName": "",
+      "id": "50d38",
+      "name": "loa2.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "bc9cb5b5-c425-4862-8845-73bceb23eb03@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "bc9cb5b5-c425-4862-8845-73bceb23eb03@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "bc9cb5b5-c425-4862-8845-73bceb23eb03@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d883": {
+      "importer": "gltf-material",
+      "uuid": "bc9cb5b5-c425-4862-8845-73bceb23eb03@8d883",
+      "displayName": "",
+      "id": "8d883",
+      "name": "lambert1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cbebc": {
+      "importer": "gltf-scene",
+      "uuid": "bc9cb5b5-c425-4862-8845-73bceb23eb03@cbebc",
+      "displayName": "",
+      "id": "cbebc",
+      "name": "speaker2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "bc9cb5b5-c425-4862-8845-73bceb23eb03@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "bc9cb5b5-c425-4862-8845-73bceb23eb03@cbebc",
+    "assetFinder": {
+      "meshes": [
+        "bc9cb5b5-c425-4862-8845-73bceb23eb03@50d38"
+      ],
+      "skeletons": [],
+      "textures": [
+        "bc9cb5b5-c425-4862-8845-73bceb23eb03@d20e9"
+      ],
+      "materials": [
+        "bc9cb5b5-c425-4862-8845-73bceb23eb03@8d883"
+      ],
+      "scenes": [
+        "bc9cb5b5-c425-4862-8845-73bceb23eb03@cbebc"
+      ]
+    }
+  }
+}

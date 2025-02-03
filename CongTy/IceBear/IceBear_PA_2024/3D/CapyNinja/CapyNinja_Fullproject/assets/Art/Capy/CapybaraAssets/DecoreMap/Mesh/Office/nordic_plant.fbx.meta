@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9dbfe697-cd14-4eb7-91e1-044bb366cc41",
+  "files": [],
+  "subMetas": {
+    "3ec21": {
+      "importer": "gltf-mesh",
+      "uuid": "9dbfe697-cd14-4eb7-91e1-044bb366cc41@3ec21",
+      "displayName": "",
+      "id": "3ec21",
+      "name": "livingroom_plant.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9dbfe697-cd14-4eb7-91e1-044bb366cc41@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "9dbfe697-cd14-4eb7-91e1-044bb366cc41@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9dbfe697-cd14-4eb7-91e1-044bb366cc41@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9f3c": {
+      "importer": "gltf-material",
+      "uuid": "9dbfe697-cd14-4eb7-91e1-044bb366cc41@c9f3c",
+      "displayName": "",
+      "id": "c9f3c",
+      "name": "environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "faa71": {
+      "importer": "gltf-scene",
+      "uuid": "9dbfe697-cd14-4eb7-91e1-044bb366cc41@faa71",
+      "displayName": "",
+      "id": "faa71",
+      "name": "nordic_plant.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "9dbfe697-cd14-4eb7-91e1-044bb366cc41@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "9dbfe697-cd14-4eb7-91e1-044bb366cc41@faa71",
+    "assetFinder": {
+      "meshes": [
+        "9dbfe697-cd14-4eb7-91e1-044bb366cc41@3ec21"
+      ],
+      "skeletons": [],
+      "textures": [
+        "9dbfe697-cd14-4eb7-91e1-044bb366cc41@d20e9"
+      ],
+      "materials": [
+        "9dbfe697-cd14-4eb7-91e1-044bb366cc41@c9f3c"
+      ],
+      "scenes": [
+        "9dbfe697-cd14-4eb7-91e1-044bb366cc41@faa71"
+      ]
+    }
+  }
+}

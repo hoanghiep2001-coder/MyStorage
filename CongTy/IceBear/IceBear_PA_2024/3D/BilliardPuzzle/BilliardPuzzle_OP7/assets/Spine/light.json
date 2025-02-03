@@ -1,0 +1,608 @@
+{
+    "skeleton": {
+        "hash": "jJ9uGv7P3bk",
+        "spine": "3.8-from-4.0.64",
+        "x": -313.4,
+        "y": 49.89,
+        "width": 613.32,
+        "height": 128,
+        "images": "./images/",
+        "audio": "C:/Users/Admin/Desktop/Billard 3D/Combo"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "combo",
+            "parent": "bone",
+            "x": 1.71,
+            "y": 118.14
+        },
+        {
+            "name": "wave",
+            "parent": "bone",
+            "x": 1.71,
+            "y": 118.14
+        },
+        {
+            "name": "light",
+            "parent": "bone",
+            "y": 116.62
+        }
+    ],
+    "slots": [
+        {
+            "name": "combo",
+            "bone": "combo",
+            "attachment": "combo"
+        },
+        {
+            "name": "wave",
+            "bone": "wave",
+            "blend": "additive"
+        },
+        {
+            "name": "x",
+            "bone": "combo",
+            "attachment": "1"
+        },
+        {
+            "name": "y",
+            "bone": "combo",
+            "attachment": "0"
+        },
+        {
+            "name": "light",
+            "bone": "light",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "light": {
+                    "light": {
+                        "x": -7.21,
+                        "y": -2.77,
+                        "width": 578,
+                        "height": 29
+                    }
+                },
+                "wave": {
+                    "wave": {
+                        "x": -3.6,
+                        "y": -3.72,
+                        "width": 247,
+                        "height": 247
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 1",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -79.27,
+                        "y": -4.28,
+                        "rotation": -0.32,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "name": "1",
+                        "x": 233.71,
+                        "y": -4.25,
+                        "width": 129,
+                        "height": 128
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 2",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -79.27,
+                        "y": -4.28,
+                        "rotation": -0.32,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "name": "2",
+                        "x": 233.71,
+                        "y": -4.25,
+                        "width": 129,
+                        "height": 128
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 3",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -79.27,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "name": "3",
+                        "x": 233.71,
+                        "y": -4.25,
+                        "width": 125,
+                        "height": 133
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 4",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -79.27,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "name": "4",
+                        "x": 233.71,
+                        "y": -4.25,
+                        "width": 121,
+                        "height": 127
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 5",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -79.27,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "name": "5",
+                        "x": 233.71,
+                        "y": -4.25,
+                        "width": 124,
+                        "height": 129
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 6",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -79.27,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "name": "6",
+                        "x": 233.71,
+                        "y": -4.25,
+                        "width": 121,
+                        "height": 129
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 7",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -79.27,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "name": "7",
+                        "x": 233.71,
+                        "y": -4.25,
+                        "width": 116,
+                        "height": 127
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 8",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -79.27,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "name": "8",
+                        "x": 233.71,
+                        "y": -4.25,
+                        "width": 124,
+                        "height": 131
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 9",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -79.27,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "name": "9",
+                        "x": 233.71,
+                        "y": -4.25,
+                        "width": 119,
+                        "height": 132
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 10",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -123.63,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "x": 189.35,
+                        "y": -4.25,
+                        "width": 93,
+                        "height": 127
+                    }
+                },
+                "y": {
+                    "0": {
+                        "x": 249.43,
+                        "y": -4.25,
+                        "width": 118,
+                        "height": 132
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 11",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -123.63,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "x": 189.35,
+                        "y": -4.25,
+                        "width": 93,
+                        "height": 127
+                    }
+                },
+                "y": {
+                    "0": {
+                        "name": "1",
+                        "x": 241.24,
+                        "y": -4.25,
+                        "width": 93,
+                        "height": 127
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 12",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -123.63,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "x": 189.35,
+                        "y": -4.25,
+                        "width": 93,
+                        "height": 127
+                    }
+                },
+                "y": {
+                    "0": {
+                        "name": "2",
+                        "x": 251.3,
+                        "y": -4.25,
+                        "width": 129,
+                        "height": 128
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 13",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -123.63,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "x": 189.35,
+                        "y": -4.25,
+                        "width": 93,
+                        "height": 127
+                    }
+                },
+                "y": {
+                    "0": {
+                        "name": "3",
+                        "x": 251.3,
+                        "y": -4.25,
+                        "width": 125,
+                        "height": 133
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 14",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -123.63,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "x": 189.35,
+                        "y": -4.25,
+                        "width": 93,
+                        "height": 127
+                    }
+                },
+                "y": {
+                    "0": {
+                        "name": "4",
+                        "x": 251.3,
+                        "y": -4.25,
+                        "width": 121,
+                        "height": 127
+                    }
+                }
+            }
+        },
+        {
+            "name": "Combo 15",
+            "attachments": {
+                "combo": {
+                    "combo": {
+                        "x": -123.63,
+                        "y": -4.28,
+                        "width": 471,
+                        "height": 124
+                    }
+                },
+                "x": {
+                    "1": {
+                        "x": 189.35,
+                        "y": -4.25,
+                        "width": 93,
+                        "height": 127
+                    }
+                },
+                "y": {
+                    "0": {
+                        "name": "5",
+                        "x": 251.3,
+                        "y": -4.25,
+                        "width": 124,
+                        "height": 129
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "action": {
+            "slots": {
+                "combo": {
+                    "color": [
+                        {
+                            "time": 0.1667,
+                            "color": "ff922bff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "light": {
+                    "attachment": [
+                        {
+                            "time": 0.1333,
+                            "name": "light"
+                        }
+                    ]
+                },
+                "wave": {
+                    "color": [
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.1333,
+                            "name": "wave"
+                        }
+                    ]
+                },
+                "x": {
+                    "color": [
+                        {
+                            "time": 0.1667,
+                            "color": "ff922bff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "y": {
+                    "color": [
+                        {
+                            "time": 0.1667,
+                            "color": "ff922bff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "combo": {
+                    "scale": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "light": {
+                    "scale": [
+                        {
+                            "time": 0.1333,
+                            "x": 2.223,
+                            "y": 2.617
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 0.762,
+                            "y": 3.522
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 0,
+                            "y": 3
+                        }
+                    ]
+                },
+                "wave": {
+                    "scale": [
+                        {
+                            "time": 0.1333,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 2,
+                            "y": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

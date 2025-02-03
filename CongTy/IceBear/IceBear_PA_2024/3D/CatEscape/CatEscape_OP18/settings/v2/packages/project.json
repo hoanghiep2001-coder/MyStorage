@@ -1,0 +1,54 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 320,
+      "height": 480,
+      "fitHeight": true,
+      "fitWidth": true
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Wall"
+      },
+      {
+        "index": 2,
+        "name": "Cube"
+      },
+      {
+        "index": 3,
+        "name": "Door"
+      },
+      {
+        "index": 4,
+        "name": "Boss"
+      },
+      {
+        "index": 5,
+        "name": "BossVision"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 63,
+      "1": 13,
+      "2": 31,
+      "3": 23,
+      "4": 13,
+      "5": 1
+    },
+    "defaultMaterial": {
+      "friction": 1,
+      "rollingFriction": 0.1,
+      "spinningFriction": 0.1,
+      "restitution": 0.1
+    }
+  },
+  "layer": [
+    {
+      "name": "Background",
+      "value": 1
+    }
+  ]
+}

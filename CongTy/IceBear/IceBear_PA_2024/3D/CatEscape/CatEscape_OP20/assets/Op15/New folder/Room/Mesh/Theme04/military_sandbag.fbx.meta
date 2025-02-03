@@ -1,0 +1,124 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e02de267-0a06-4b17-b7d9-6454305606f2",
+  "files": [],
+  "subMetas": {
+    "013d7": {
+      "importer": "gltf-mesh",
+      "uuid": "e02de267-0a06-4b17-b7d9-6454305606f2@013d7",
+      "displayName": "",
+      "id": "013d7",
+      "name": "military_streetmap.004.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "e02de267-0a06-4b17-b7d9-6454305606f2@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "e02de267-0a06-4b17-b7d9-6454305606f2@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e02de267-0a06-4b17-b7d9-6454305606f2@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "37cdd": {
+      "importer": "gltf-material",
+      "uuid": "e02de267-0a06-4b17-b7d9-6454305606f2@37cdd",
+      "displayName": "",
+      "id": "37cdd",
+      "name": "Mat_Environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4d137": {
+      "importer": "gltf-scene",
+      "uuid": "e02de267-0a06-4b17-b7d9-6454305606f2@4d137",
+      "displayName": "",
+      "id": "4d137",
+      "name": "military_sandbag.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "e02de267-0a06-4b17-b7d9-6454305606f2@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "e02de267-0a06-4b17-b7d9-6454305606f2@4d137",
+    "assetFinder": {
+      "meshes": [
+        "e02de267-0a06-4b17-b7d9-6454305606f2@013d7"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e02de267-0a06-4b17-b7d9-6454305606f2@7d6ab"
+      ],
+      "materials": [
+        "e02de267-0a06-4b17-b7d9-6454305606f2@37cdd"
+      ],
+      "scenes": [
+        "e02de267-0a06-4b17-b7d9-6454305606f2@4d137"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

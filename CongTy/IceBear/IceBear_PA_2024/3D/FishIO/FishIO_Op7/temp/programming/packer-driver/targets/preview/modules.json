@@ -1,0 +1,5499 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 6893.181899964809,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 50
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 54
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-cannon",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "rewritten": "__unresolved_21",
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 14
+          },
+          "end": {
+            "line": 22,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_22",
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 14
+          },
+          "end": {
+            "line": 23,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-cannon",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 5553157.325800002,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/AudioManager.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 7
+          },
+          "end": {
+            "line": 4,
+            "column": 90
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/CameraController.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 94
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/EnemiesController.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 95
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/GameController.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 92
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/PlayerController.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 94
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/SkiingController.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 94
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/TouchAreaController.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 97
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/UI_Controller.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 91
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/IronSource.ts",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 7
+          },
+          "end": {
+            "line": 13,
+            "column": 82
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/TypeScript/Enemy.ts",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 83
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/TypeScript/Responsive.ts",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 88
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/CameraController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/EnemiesController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/PlayerController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/SkiingController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/TouchAreaController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/UI_Controller.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/IronSource.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/TypeScript/Enemy.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/TypeScript/Responsive.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/PowerController.ts": {
+    "mTimestamp": {
+      "mtime": 1702562562000,
+      "uuid": "63b6cd43-c65a-4a17-aa9e-59a1371c0d46"
+    },
+    "chunkId": "assets/scripts/Controller/PowerController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../TypeScript/JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 25
+          },
+          "end": {
+            "line": 1,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../TypeScript/PlayerMount",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 19
+          },
+          "end": {
+            "line": 2,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 150
+          },
+          "end": {
+            "line": 4,
+            "column": 154
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/TypeScript/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/TypeScript/PlayerMount.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/PlayerController.ts": {
+    "mTimestamp": {
+      "mtime": 1703154007533.034,
+      "uuid": "3b7e3554-33b1-41b5-9d83-7aea1ab80d02"
+    },
+    "chunkId": "assets/scripts/Controller/PlayerController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 175
+          },
+          "end": {
+            "line": 1,
+            "column": 179
+          }
+        }
+      },
+      {
+        "value": "./TouchAreaController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 36
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../TypeScript/Enemy",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 5,
+            "column": 39
+          }
+        }
+      },
+      {
+        "value": "./EnemiesController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 30
+          },
+          "end": {
+            "line": 6,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/TouchAreaController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/TypeScript/Enemy.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/EnemiesController.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1703058851463.542,
+      "uuid": "4f504285-3fec-47cf-99f4-297329e9ab06"
+    },
+    "chunkId": "assets/scripts/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 43
+          },
+          "end": {
+            "line": 1,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/TypeScript/Enemy.ts": {
+    "mTimestamp": {
+      "mtime": 1703154019388.9434,
+      "uuid": "a264df74-198c-409a-bab8-5a5d28405fc9"
+    },
+    "chunkId": "assets/scripts/TypeScript/Enemy.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/EnemiesController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 30
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 165
+          },
+          "end": {
+            "line": 4,
+            "column": 169
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/EnemiesController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/TypeScript/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1702566200000,
+      "uuid": "3b52775c-24cc-4a12-83df-11764673b763"
+    },
+    "chunkId": "assets/scripts/TypeScript/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 180
+          },
+          "end": {
+            "line": 3,
+            "column": 184
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/TypeScript/PowerScale.ts": {
+    "mTimestamp": {
+      "mtime": 1702562562000,
+      "uuid": "f5770777-5241-4f9b-bd3c-1e1363ddb044"
+    },
+    "chunkId": "assets/scripts/TypeScript/PowerScale.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/PowerController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 28
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "./Enemy",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 18
+          },
+          "end": {
+            "line": 2,
+            "column": 27
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 179
+          },
+          "end": {
+            "line": 4,
+            "column": 183
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/PowerController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/TypeScript/Enemy.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/TypeScript/PlayerMount.ts": {
+    "mTimestamp": {
+      "mtime": 1702562562000,
+      "uuid": "b6863657-88a2-44b9-a501-221055e3a99f"
+    },
+    "chunkId": "assets/scripts/TypeScript/PlayerMount.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 180
+          },
+          "end": {
+            "line": 2,
+            "column": 184
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/TypeScript/test.ts": {
+    "mTimestamp": {
+      "mtime": 1702562562000,
+      "uuid": "cef06c5d-9abf-4a21-9778-be949af534e0"
+    },
+    "chunkId": "assets/scripts/TypeScript/test.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/EnemiesController.ts": {
+    "mTimestamp": {
+      "mtime": 1702982111824.0825,
+      "uuid": "d1d1a78c-dbc0-445d-9e47-55306b4a2e9a"
+    },
+    "chunkId": "assets/scripts/Controller/EnemiesController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 65
+          },
+          "end": {
+            "line": 1,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/TypeScript/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1702982493399.138,
+      "uuid": "630d5b04-bdfa-45f5-a83e-98ffb4bcec70"
+    },
+    "chunkId": "assets/scripts/TypeScript/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/UI_Controller",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 30
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Controller/VideoController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 52
+          },
+          "end": {
+            "line": 7,
+            "column": 56
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/UI_Controller.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/VideoController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1709193328463,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/TouchAreaController.ts": {
+    "mTimestamp": {
+      "mtime": 1703154627179.976,
+      "uuid": "ff172c66-d8e4-4485-ae9a-61b5c30b460f"
+    },
+    "chunkId": "assets/scripts/Controller/TouchAreaController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 162
+          },
+          "end": {
+            "line": 1,
+            "column": 166
+          }
+        }
+      },
+      {
+        "value": "./PlayerController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 33
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Data/IronSource",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 27
+          },
+          "end": {
+            "line": 6,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/PlayerController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1702982104374.5105,
+      "uuid": "dc1e76ac-7694-4a14-bf8d-999940a5ef4d"
+    },
+    "chunkId": "assets/scripts/Controller/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 87
+          },
+          "end": {
+            "line": 1,
+            "column": 91
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Controller/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1702562560181.1228,
+      "uuid": "dc1e76ac-7694-4a14-bf8d-999940a5ef4d"
+    },
+    "chunkId": "assets/scripts/Controller/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 75
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Controller/EnemiesController.ts": {
+    "mTimestamp": {
+      "mtime": 1702569125261.0125,
+      "uuid": "d1d1a78c-dbc0-445d-9e47-55306b4a2e9a"
+    },
+    "chunkId": "assets/scripts/Controller/EnemiesController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 65
+          },
+          "end": {
+            "line": 3,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1702562560568.4055,
+      "uuid": "4f504285-3fec-47cf-99f4-297329e9ab06"
+    },
+    "chunkId": "assets/scripts/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 137
+          },
+          "end": {
+            "line": 1,
+            "column": 141
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Controller/PlayerController.ts": {
+    "mTimestamp": {
+      "mtime": 1702562560325.9177,
+      "uuid": "3b7e3554-33b1-41b5-9d83-7aea1ab80d02"
+    },
+    "chunkId": "assets/scripts/Controller/PlayerController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 69
+          },
+          "end": {
+            "line": 1,
+            "column": 73
+          }
+        }
+      },
+      {
+        "value": "./TouchAreaController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 36
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Controller/TouchAreaController.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/TypeScript/Enemy.ts": {
+    "mTimestamp": {
+      "mtime": 1702570169858.6824,
+      "uuid": "a264df74-198c-409a-bab8-5a5d28405fc9"
+    },
+    "chunkId": "assets/scripts/TypeScript/Enemy.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/EnemiesController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 30
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 147
+          },
+          "end": {
+            "line": 5,
+            "column": 151
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Controller/EnemiesController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Controller/PowerController.ts": {
+    "mTimestamp": {
+      "mtime": 1702562560399.8472,
+      "uuid": "63b6cd43-c65a-4a17-aa9e-59a1371c0d46"
+    },
+    "chunkId": "assets/scripts/Controller/PowerController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../TypeScript/JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 25
+          },
+          "end": {
+            "line": 1,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../TypeScript/PlayerMount",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 19
+          },
+          "end": {
+            "line": 2,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 150
+          },
+          "end": {
+            "line": 4,
+            "column": 154
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/TypeScript/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/TypeScript/PlayerMount.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Controller/TouchAreaController.ts": {
+    "mTimestamp": {
+      "mtime": 1702567589606.5127,
+      "uuid": "ff172c66-d8e4-4485-ae9a-61b5c30b460f"
+    },
+    "chunkId": "assets/scripts/Controller/TouchAreaController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 107
+          },
+          "end": {
+            "line": 2,
+            "column": 111
+          }
+        }
+      },
+      {
+        "value": "./PlayerController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 33
+          },
+          "end": {
+            "line": 3,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Controller/PlayerController.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/TypeScript/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1702566199128.097,
+      "uuid": "3b52775c-24cc-4a12-83df-11764673b763"
+    },
+    "chunkId": "assets/scripts/TypeScript/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 180
+          },
+          "end": {
+            "line": 3,
+            "column": 184
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/TypeScript/PlayerMount.ts": {
+    "mTimestamp": {
+      "mtime": 1702562560831.4324,
+      "uuid": "b6863657-88a2-44b9-a501-221055e3a99f"
+    },
+    "chunkId": "assets/scripts/TypeScript/PlayerMount.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 180
+          },
+          "end": {
+            "line": 2,
+            "column": 184
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/TypeScript/test.ts": {
+    "mTimestamp": {
+      "mtime": 1702562561026.8462,
+      "uuid": "cef06c5d-9abf-4a21-9778-be949af534e0"
+    },
+    "chunkId": "assets/scripts/TypeScript/test.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/TypeScript/PowerScale.ts": {
+    "mTimestamp": {
+      "mtime": 1702562560920.4631,
+      "uuid": "f5770777-5241-4f9b-bd3c-1e1363ddb044"
+    },
+    "chunkId": "assets/scripts/TypeScript/PowerScale.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/PowerController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 28
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "./Enemy",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 18
+          },
+          "end": {
+            "line": 2,
+            "column": 27
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 179
+          },
+          "end": {
+            "line": 4,
+            "column": 183
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Controller/PowerController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/TypeScript/Enemy.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/TypeScript/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1702562560977.1885,
+      "uuid": "630d5b04-bdfa-45f5-a83e-98ffb4bcec70"
+    },
+    "chunkId": "assets/scripts/TypeScript/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 188
+          },
+          "end": {
+            "line": 4,
+            "column": 192
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1702562562000,
+      "uuid": "dc1e76ac-7694-4a14-bf8d-999940a5ef4d"
+    },
+    "chunkId": "assets/scripts/Controller/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 75
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/PlayerController.ts": {
+    "mTimestamp": {
+      "mtime": 1702627895447.8403,
+      "uuid": "3b7e3554-33b1-41b5-9d83-7aea1ab80d02"
+    },
+    "chunkId": "assets/scripts/Controller/PlayerController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 69
+          },
+          "end": {
+            "line": 1,
+            "column": 73
+          }
+        }
+      },
+      {
+        "value": "./TouchAreaController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 36
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/TouchAreaController.ts"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/EnemiesController.ts": {
+    "mTimestamp": {
+      "mtime": 1702625949685.1304,
+      "uuid": "d1d1a78c-dbc0-445d-9e47-55306b4a2e9a"
+    },
+    "chunkId": "assets/scripts/Controller/EnemiesController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 65
+          },
+          "end": {
+            "line": 3,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/TouchAreaController.ts": {
+    "mTimestamp": {
+      "mtime": 1702637058176.2256,
+      "uuid": "ff172c66-d8e4-4485-ae9a-61b5c30b460f"
+    },
+    "chunkId": "assets/scripts/Controller/TouchAreaController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 118
+          },
+          "end": {
+            "line": 2,
+            "column": 122
+          }
+        }
+      },
+      {
+        "value": "./PlayerController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 33
+          },
+          "end": {
+            "line": 3,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 31
+          },
+          "end": {
+            "line": 5,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/PlayerController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1702635292739.3752,
+      "uuid": "4f504285-3fec-47cf-99f4-297329e9ab06"
+    },
+    "chunkId": "assets/scripts/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 137
+          },
+          "end": {
+            "line": 1,
+            "column": 141
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/PowerController.ts": {
+    "mTimestamp": {
+      "mtime": 1702562562000,
+      "uuid": "63b6cd43-c65a-4a17-aa9e-59a1371c0d46"
+    },
+    "chunkId": "assets/scripts/Controller/PowerController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../TypeScript/JoyStick",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 25
+          },
+          "end": {
+            "line": 1,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../TypeScript/PlayerMount",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 19
+          },
+          "end": {
+            "line": 2,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 150
+          },
+          "end": {
+            "line": 4,
+            "column": 154
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/TypeScript/JoyStick.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/TypeScript/PlayerMount.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/TypeScript/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1702566200000,
+      "uuid": "3b52775c-24cc-4a12-83df-11764673b763"
+    },
+    "chunkId": "assets/scripts/TypeScript/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 180
+          },
+          "end": {
+            "line": 3,
+            "column": 184
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/TypeScript/Enemy.ts": {
+    "mTimestamp": {
+      "mtime": 1702627874904.2307,
+      "uuid": "a264df74-198c-409a-bab8-5a5d28405fc9"
+    },
+    "chunkId": "assets/scripts/TypeScript/Enemy.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/EnemiesController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 30
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 165
+          },
+          "end": {
+            "line": 5,
+            "column": 169
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/EnemiesController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/TypeScript/PlayerMount.ts": {
+    "mTimestamp": {
+      "mtime": 1702562562000,
+      "uuid": "b6863657-88a2-44b9-a501-221055e3a99f"
+    },
+    "chunkId": "assets/scripts/TypeScript/PlayerMount.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 180
+          },
+          "end": {
+            "line": 2,
+            "column": 184
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/TypeScript/test.ts": {
+    "mTimestamp": {
+      "mtime": 1702562562000,
+      "uuid": "cef06c5d-9abf-4a21-9778-be949af534e0"
+    },
+    "chunkId": "assets/scripts/TypeScript/test.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/TypeScript/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1702638761902.699,
+      "uuid": "630d5b04-bdfa-45f5-a83e-98ffb4bcec70"
+    },
+    "chunkId": "assets/scripts/TypeScript/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/TouchAreaController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 36
+          },
+          "end": {
+            "line": 1,
+            "column": 71
+          }
+        }
+      },
+      {
+        "value": "../Controller/UI_Controller",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 30
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Controller/VideoController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 188
+          },
+          "end": {
+            "line": 7,
+            "column": 192
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/TouchAreaController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/UI_Controller.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/VideoController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/TypeScript/PowerScale.ts": {
+    "mTimestamp": {
+      "mtime": 1702562562000,
+      "uuid": "f5770777-5241-4f9b-bd3c-1e1363ddb044"
+    },
+    "chunkId": "assets/scripts/TypeScript/PowerScale.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/PowerController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 28
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "./Enemy",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 18
+          },
+          "end": {
+            "line": 2,
+            "column": 27
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 179
+          },
+          "end": {
+            "line": 4,
+            "column": 183
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/PowerController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/TypeScript/Enemy.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1702639181123.6543,
+      "uuid": "ee8c5852-af42-406e-95fc-21eebe2a3f3d"
+    },
+    "chunkId": "assets/scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 55
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/VideoController.ts": {
+    "mTimestamp": {
+      "mtime": 1702635449583.716,
+      "uuid": "77b91aae-fd8c-46eb-b3cb-c2e7ce057796"
+    },
+    "chunkId": "assets/scripts/Controller/VideoController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/UI_Controller.ts": {
+    "mTimestamp": {
+      "mtime": 1702633133290.3867,
+      "uuid": "dd890c96-713f-49f2-baab-2c8a9535c160"
+    },
+    "chunkId": "assets/scripts/Controller/UI_Controller.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestFish/Test_Fish/assets/scripts/Controller/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1702636950383.9817,
+      "uuid": "a32131f2-8160-4d1f-8795-9294d7e6bcbf"
+    },
+    "chunkId": "assets/scripts/Controller/AudioManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1703061537193.6504,
+      "uuid": "a32131f2-8160-4d1f-8795-9294d7e6bcbf"
+    },
+    "chunkId": "assets/scripts/Controller/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1703154956565.182,
+      "uuid": "ee8c5852-af42-406e-95fc-21eebe2a3f3d"
+    },
+    "chunkId": "assets/scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 117
+          },
+          "end": {
+            "line": 1,
+            "column": 121
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/UI_Controller.ts": {
+    "mTimestamp": {
+      "mtime": 1703060501499.5664,
+      "uuid": "dd890c96-713f-49f2-baab-2c8a9535c160"
+    },
+    "chunkId": "assets/scripts/Controller/UI_Controller.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 55
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/VideoController.ts": {
+    "mTimestamp": {
+      "mtime": 1703068994636.006,
+      "uuid": "77b91aae-fd8c-46eb-b3cb-c2e7ce057796"
+    },
+    "chunkId": "assets/scripts/Controller/VideoController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1703154573812.6755,
+      "uuid": "ff4e2f31-9630-484e-9191-129c777a0ffd"
+    },
+    "chunkId": "assets/scripts/Data/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 57
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/FishIO/FishIO_Op6/assets/scripts/Controller/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1703061537193.6504,
+      "uuid": "a32131f2-8160-4d1f-8795-9294d7e6bcbf"
+    },
+    "chunkId": "assets/scripts/Controller/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/EnemiesController.ts": {
+    "mTimestamp": {
+      "mtime": 1702982111824.0825,
+      "uuid": "d1d1a78c-dbc0-445d-9e47-55306b4a2e9a"
+    },
+    "chunkId": "assets/scripts/Controller/EnemiesController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 65
+          },
+          "end": {
+            "line": 1,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1702982104374.5105,
+      "uuid": "dc1e76ac-7694-4a14-bf8d-999940a5ef4d"
+    },
+    "chunkId": "assets/scripts/Controller/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 87
+          },
+          "end": {
+            "line": 1,
+            "column": 91
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/TouchAreaController.ts": {
+    "mTimestamp": {
+      "mtime": 1703154627179.976,
+      "uuid": "ff172c66-d8e4-4485-ae9a-61b5c30b460f"
+    },
+    "chunkId": "assets/scripts/Controller/TouchAreaController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 162
+          },
+          "end": {
+            "line": 1,
+            "column": 166
+          }
+        }
+      },
+      {
+        "value": "./PlayerController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 33
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Data/IronSource",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 27
+          },
+          "end": {
+            "line": 6,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/PlayerController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/PlayerController.ts": {
+    "mTimestamp": {
+      "mtime": 1703154007533.034,
+      "uuid": "3b7e3554-33b1-41b5-9d83-7aea1ab80d02"
+    },
+    "chunkId": "assets/scripts/Controller/PlayerController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 175
+          },
+          "end": {
+            "line": 1,
+            "column": 179
+          }
+        }
+      },
+      {
+        "value": "./TouchAreaController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 36
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../TypeScript/Enemy",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 5,
+            "column": 39
+          }
+        }
+      },
+      {
+        "value": "./EnemiesController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 30
+          },
+          "end": {
+            "line": 6,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/TouchAreaController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/TypeScript/Enemy.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/EnemiesController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1703154956565.182,
+      "uuid": "ee8c5852-af42-406e-95fc-21eebe2a3f3d"
+    },
+    "chunkId": "assets/scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 117
+          },
+          "end": {
+            "line": 1,
+            "column": 121
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1703058851463.542,
+      "uuid": "4f504285-3fec-47cf-99f4-297329e9ab06"
+    },
+    "chunkId": "assets/scripts/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 43
+          },
+          "end": {
+            "line": 1,
+            "column": 47
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/UI_Controller.ts": {
+    "mTimestamp": {
+      "mtime": 1703060501499.5664,
+      "uuid": "dd890c96-713f-49f2-baab-2c8a9535c160"
+    },
+    "chunkId": "assets/scripts/Controller/UI_Controller.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 55
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1703154573812.6755,
+      "uuid": "ff4e2f31-9630-484e-9191-129c777a0ffd"
+    },
+    "chunkId": "assets/scripts/Data/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 57
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/TypeScript/Enemy.ts": {
+    "mTimestamp": {
+      "mtime": 1703154019388.9434,
+      "uuid": "a264df74-198c-409a-bab8-5a5d28405fc9"
+    },
+    "chunkId": "assets/scripts/TypeScript/Enemy.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/EnemiesController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 30
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 165
+          },
+          "end": {
+            "line": 4,
+            "column": 169
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/EnemiesController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/TypeScript/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1702982493399.138,
+      "uuid": "630d5b04-bdfa-45f5-a83e-98ffb4bcec70"
+    },
+    "chunkId": "assets/scripts/TypeScript/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/UI_Controller",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 30
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Controller/VideoController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 52
+          },
+          "end": {
+            "line": 7,
+            "column": 56
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/UI_Controller.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/VideoController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Controller/VideoController.ts": {
+    "mTimestamp": {
+      "mtime": 1703068994636.006,
+      "uuid": "77b91aae-fd8c-46eb-b3cb-c2e7ce057796"
+    },
+    "chunkId": "assets/scripts/Controller/VideoController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2023/2D/FishIO/FishIO_Op6/assets/scripts/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1709195486594.9382,
+      "uuid": "a32131f2-8160-4d1f-8795-9294d7e6bcbf"
+    },
+    "chunkId": "assets/scripts/Controller/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1709198523112.7012,
+      "uuid": "ee8c5852-af42-406e-95fc-21eebe2a3f3d"
+    },
+    "chunkId": "assets/scripts/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 117
+          },
+          "end": {
+            "line": 1,
+            "column": 121
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/PlayerController.ts": {
+    "mTimestamp": {
+      "mtime": 1708938379388.9517,
+      "uuid": "3b7e3554-33b1-41b5-9d83-7aea1ab80d02"
+    },
+    "chunkId": "assets/scripts/Controller/PlayerController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 175
+          },
+          "end": {
+            "line": 1,
+            "column": 179
+          }
+        }
+      },
+      {
+        "value": "./TouchAreaController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 36
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../TypeScript/Enemy",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 5,
+            "column": 39
+          }
+        }
+      },
+      {
+        "value": "./EnemiesController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 30
+          },
+          "end": {
+            "line": 6,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/TouchAreaController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/TypeScript/Enemy.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/EnemiesController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/UI_Controller.ts": {
+    "mTimestamp": {
+      "mtime": 1703060501499.5664,
+      "uuid": "dd890c96-713f-49f2-baab-2c8a9535c160"
+    },
+    "chunkId": "assets/scripts/Controller/UI_Controller.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 55
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1709195506432.7673,
+      "uuid": "4f504285-3fec-47cf-99f4-297329e9ab06"
+    },
+    "chunkId": "assets/scripts/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/TouchAreaController.ts": {
+    "mTimestamp": {
+      "mtime": 1709198776086.1729,
+      "uuid": "ff172c66-d8e4-4485-ae9a-61b5c30b460f"
+    },
+    "chunkId": "assets/scripts/Controller/TouchAreaController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 107
+          },
+          "end": {
+            "line": 1,
+            "column": 111
+          }
+        }
+      },
+      {
+        "value": "./PlayerController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 33
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Data/IronSource",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 27
+          },
+          "end": {
+            "line": 6,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "./SkiingController",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 33
+          },
+          "end": {
+            "line": 7,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/PlayerController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/IronSource.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/SkiingController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1709198879818.3801,
+      "uuid": "ff4e2f31-9630-484e-9191-129c777a0ffd"
+    },
+    "chunkId": "assets/scripts/Data/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "../Controller/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 57
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/EnemiesController.ts": {
+    "mTimestamp": {
+      "mtime": 1702982111824.0825,
+      "uuid": "d1d1a78c-dbc0-445d-9e47-55306b4a2e9a"
+    },
+    "chunkId": "assets/scripts/Controller/EnemiesController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 65
+          },
+          "end": {
+            "line": 1,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/VideoController.ts": {
+    "mTimestamp": {
+      "mtime": 1708922300796.217,
+      "uuid": "77b91aae-fd8c-46eb-b3cb-c2e7ce057796"
+    },
+    "chunkId": "assets/scripts/Controller/VideoController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/TypeScript/Enemy.ts": {
+    "mTimestamp": {
+      "mtime": 1703154019388.9434,
+      "uuid": "a264df74-198c-409a-bab8-5a5d28405fc9"
+    },
+    "chunkId": "assets/scripts/TypeScript/Enemy.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/EnemiesController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 30
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 165
+          },
+          "end": {
+            "line": 4,
+            "column": 169
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/EnemiesController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/TypeScript/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1709187994828.4878,
+      "uuid": "630d5b04-bdfa-45f5-a83e-98ffb4bcec70"
+    },
+    "chunkId": "assets/scripts/TypeScript/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../Controller/UI_Controller",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 30
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 58
+          },
+          "end": {
+            "line": 7,
+            "column": 62
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/UI_Controller.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1702982104374.5105,
+      "uuid": "dc1e76ac-7694-4a14-bf8d-999940a5ef4d"
+    },
+    "chunkId": "assets/scripts/Controller/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 87
+          },
+          "end": {
+            "line": 1,
+            "column": 91
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/SkiingController.ts": {
+    "mTimestamp": {
+      "mtime": 1709198575491.701,
+      "uuid": "1adfb9df-9fb3-4f59-b73c-5d08ac37eda9"
+    },
+    "chunkId": "assets/scripts/Controller/SkiingController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 110
+          },
+          "end": {
+            "line": 2,
+            "column": 114
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op7/assets/scripts/Controller/AudioManager.ts"
+      }
+    ]
+  }
+}

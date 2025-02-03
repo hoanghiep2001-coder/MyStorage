@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0af5e3ec-11ab-4b61-822a-5c43c91cea04",
+  "files": [],
+  "subMetas": {
+    "36884": {
+      "importer": "gltf-embeded-image",
+      "uuid": "0af5e3ec-11ab-4b61-822a-5c43c91cea04@36884",
+      "displayName": "",
+      "id": "36884",
+      "name": "Megatexture.png.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e2b36": {
+      "importer": "gltf-mesh",
+      "uuid": "0af5e3ec-11ab-4b61-822a-5c43c91cea04@e2b36",
+      "displayName": "",
+      "id": "e2b36",
+      "name": "TV.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba42f": {
+      "importer": "texture",
+      "uuid": "0af5e3ec-11ab-4b61-822a-5c43c91cea04@ba42f",
+      "displayName": "",
+      "id": "ba42f",
+      "name": "Megatexture.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0af5e3ec-11ab-4b61-822a-5c43c91cea04@36884"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d54d8": {
+      "importer": "gltf-material",
+      "uuid": "0af5e3ec-11ab-4b61-822a-5c43c91cea04@d54d8",
+      "displayName": "",
+      "id": "d54d8",
+      "name": "Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "65ad5": {
+      "importer": "gltf-scene",
+      "uuid": "0af5e3ec-11ab-4b61-822a-5c43c91cea04@65ad5",
+      "displayName": "",
+      "id": "65ad5",
+      "name": "TV.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Megatexture.png",
+        "uri": "0af5e3ec-11ab-4b61-822a-5c43c91cea04@36884"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "0af5e3ec-11ab-4b61-822a-5c43c91cea04@65ad5",
+    "assetFinder": {
+      "meshes": [
+        "0af5e3ec-11ab-4b61-822a-5c43c91cea04@e2b36"
+      ],
+      "skeletons": [],
+      "textures": [
+        "0af5e3ec-11ab-4b61-822a-5c43c91cea04@ba42f"
+      ],
+      "materials": [
+        "0af5e3ec-11ab-4b61-822a-5c43c91cea04@d54d8"
+      ],
+      "scenes": [
+        "0af5e3ec-11ab-4b61-822a-5c43c91cea04@65ad5"
+      ]
+    }
+  }
+}

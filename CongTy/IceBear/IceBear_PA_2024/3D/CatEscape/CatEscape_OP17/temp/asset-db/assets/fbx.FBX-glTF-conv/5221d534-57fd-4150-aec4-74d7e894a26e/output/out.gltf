@@ -1,0 +1,1002 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.5
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Root_M/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2,
+      "name": "Root_M/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2,
+      "name": "Root_M/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2,
+      "name": "Root_M/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.5
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "frontWheel_R/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 16,
+      "name": "frontWheel_R/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 16,
+      "name": "frontWheel_R/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 16,
+      "name": "frontWheel_R/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.5
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "backWheel_R/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 16,
+      "name": "backWheel_R/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 16,
+      "name": "backWheel_R/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 16,
+      "name": "backWheel_R/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.5
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Body_M/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Body_M/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Body_M/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Body_M/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.5
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Door_R/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Door_R/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Door_R/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Door_R/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.5
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Door_L/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Door_L/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Door_L/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Door_L/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.5
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "frontWheel_L/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 16,
+      "name": "frontWheel_L/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 16,
+      "name": "frontWheel_L/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 16,
+      "name": "frontWheel_L/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.5
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "backWheel_L/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5126,
+      "count": 16,
+      "name": "backWheel_L/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 16,
+      "name": "backWheel_L/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 16,
+      "name": "backWheel_L/scale/Output",
+      "type": "VEC3"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 0,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "node": 1,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 4,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 5,
+          "target": {
+            "node": 1,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 6,
+          "target": {
+            "node": 3,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 7,
+          "target": {
+            "node": 3,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 8,
+          "target": {
+            "node": 3,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 9,
+          "target": {
+            "node": 5,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 10,
+          "target": {
+            "node": 5,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 11,
+          "target": {
+            "node": 5,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 12,
+          "target": {
+            "node": 7,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 13,
+          "target": {
+            "node": 7,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 14,
+          "target": {
+            "node": 7,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 15,
+          "target": {
+            "node": 8,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 16,
+          "target": {
+            "node": 8,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 17,
+          "target": {
+            "node": 8,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 18,
+          "target": {
+            "node": 9,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 19,
+          "target": {
+            "node": 9,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 20,
+          "target": {
+            "node": 9,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 21,
+          "target": {
+            "node": 11,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 22,
+          "target": {
+            "node": 11,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 23,
+          "target": {
+            "node": 11,
+            "path": "scale"
+          }
+        }
+      ],
+      "name": "Car_run",
+      "samplers": [
+        {
+          "input": 0,
+          "output": 1
+        },
+        {
+          "input": 0,
+          "output": 2
+        },
+        {
+          "input": 0,
+          "output": 3
+        },
+        {
+          "input": 4,
+          "output": 5
+        },
+        {
+          "input": 4,
+          "output": 6
+        },
+        {
+          "input": 4,
+          "output": 7
+        },
+        {
+          "input": 8,
+          "output": 9
+        },
+        {
+          "input": 8,
+          "output": 10
+        },
+        {
+          "input": 8,
+          "output": 11
+        },
+        {
+          "input": 12,
+          "output": 13
+        },
+        {
+          "input": 12,
+          "output": 14
+        },
+        {
+          "input": 12,
+          "output": 15
+        },
+        {
+          "input": 16,
+          "output": 17
+        },
+        {
+          "input": 16,
+          "output": 18
+        },
+        {
+          "input": 16,
+          "output": 19
+        },
+        {
+          "input": 20,
+          "output": 21
+        },
+        {
+          "input": 20,
+          "output": 22
+        },
+        {
+          "input": 20,
+          "output": 23
+        },
+        {
+          "input": 24,
+          "output": 25
+        },
+        {
+          "input": 24,
+          "output": 26
+        },
+        {
+          "input": 24,
+          "output": 27
+        },
+        {
+          "input": 28,
+          "output": 29
+        },
+        {
+          "input": 28,
+          "output": 30
+        },
+        {
+          "input": 28,
+          "output": 31
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32,
+      "byteOffset": 32
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 64
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 88
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 152
+    },
+    {
+      "buffer": 0,
+      "byteLength": 256,
+      "byteOffset": 344
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 600
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 792
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 856
+    },
+    {
+      "buffer": 0,
+      "byteLength": 256,
+      "byteOffset": 1048
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 1304
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 1496
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 1560
+    },
+    {
+      "buffer": 0,
+      "byteLength": 256,
+      "byteOffset": 1752
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 2008
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 2200
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 2264
+    },
+    {
+      "buffer": 0,
+      "byteLength": 256,
+      "byteOffset": 2456
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 2712
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 2904
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 2968
+    },
+    {
+      "buffer": 0,
+      "byteLength": 256,
+      "byteOffset": 3160
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 3416
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 3608
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 3672
+    },
+    {
+      "buffer": 0,
+      "byteLength": 256,
+      "byteOffset": 3864
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 4120
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 4312
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 4376
+    },
+    {
+      "buffer": 0,
+      "byteLength": 256,
+      "byteOffset": 4568
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 4824
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5016,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "nodes": [
+    {
+      "children": [
+        1,
+        3,
+        5,
+        9,
+        11
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Root_M",
+      "rotation": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        0.0,
+        0.019999999552965164,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "frontWheel_R",
+      "rotation": [
+        0.10963818430900574,
+        0.6985552906990051,
+        -0.10963818430900574,
+        0.6985552906990051
+      ],
+      "translation": [
+        -0.008112533949315548,
+        0.04690692573785782,
+        -0.03011426143348217
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "frontWheelEnd_R",
+      "translation": [
+        0.006229385733604431,
+        8.881783998477905e-18,
+        4.440892164675075e-17
+      ]
+    },
+    {
+      "children": [
+        4
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "backWheel_R",
+      "rotation": [
+        0.6987676620483398,
+        0.10827634483575821,
+        -0.6987676620483398,
+        0.10827634483575821
+      ],
+      "translation": [
+        -0.008112533949315548,
+        -0.04715878143906593,
+        -0.03011426143348217
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "backWheelEnd_R",
+      "translation": [
+        0.006229385733604431,
+        0.0,
+        -3.552713599391162e-17
+      ]
+    },
+    {
+      "children": [
+        6,
+        7,
+        8
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Body_M",
+      "rotation": [
+        3.9411744197476894e-31,
+        7.25945696908222e-32,
+        0.004363309126347303,
+        0.9999904632568359
+      ],
+      "translation": [
+        0.019999999552965164,
+        -1.3092297304929255e-18,
+        -2.618459460985851e-18
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "BodyEnd_M",
+      "translation": [
+        0.040453020483255386,
+        0.0,
+        -1.3923985845025543e-17
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Door_R",
+      "rotation": [
+        0.5077586770057678,
+        0.5173167586326599,
+        0.4921189844608307,
+        -0.48206156492233276
+      ],
+      "translation": [
+        0.0046603865921497345,
+        -0.09981141239404678,
+        -0.021082637831568718
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Door_L",
+      "rotation": [
+        0.4872732162475586,
+        -0.47712546586990356,
+        0.5124107599258423,
+        0.521872878074646
+      ],
+      "translation": [
+        0.0046603865921497345,
+        -0.09981141239404678,
+        0.021082637831568718
+      ]
+    },
+    {
+      "children": [
+        10
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "frontWheel_L",
+      "rotation": [
+        0.6672518849372864,
+        0.23404043912887573,
+        -0.6672518253326416,
+        0.23404045403003693
+      ],
+      "translation": [
+        -0.008112533949315548,
+        0.04690692573785782,
+        0.03011426143348217
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "frontWheelEnd_L",
+      "translation": [
+        -0.006229385733604431,
+        -5.445902062639618e-10,
+        -3.552713599391162e-17
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "backWheel_L",
+      "rotation": [
+        -0.44227656722068787,
+        0.5517168045043945,
+        0.4422765374183655,
+        0.5517168641090393
+      ],
+      "translation": [
+        -0.008112533949315548,
+        -0.04715878143906593,
+        0.03011426143348217
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "backWheelEnd_L",
+      "translation": [
+        -0.006229385733604431,
+        -5.445902062639618e-10,
+        5.329070399086743e-17
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

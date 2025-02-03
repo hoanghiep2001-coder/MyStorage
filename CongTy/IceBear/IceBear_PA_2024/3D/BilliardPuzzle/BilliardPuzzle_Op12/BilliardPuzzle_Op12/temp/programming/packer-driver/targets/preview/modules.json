@@ -1,0 +1,4800 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 6697.618000000715,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 50
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-builtin",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 56
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-ammo",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 50
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_21",
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 14
+          },
+          "end": {
+            "line": 22,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_22",
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 14
+          },
+          "end": {
+            "line": 23,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-builtin",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-ammo",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 143709.54780000448,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Controller/GeomtryController.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 7
+          },
+          "end": {
+            "line": 4,
+            "column": 111
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Controller/OtherBall.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 103
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Data/Constant.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 96
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Main.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 87
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/MainBall.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 91
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/AudioManager.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 102
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/IronSource.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 100
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/Utils.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 95
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Responsive.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 93
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/ToStore.ts",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 7
+          },
+          "end": {
+            "line": 13,
+            "column": 90
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Controller/GeomtryController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Controller/OtherBall.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Main.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/MainBall.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/IronSource.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/Utils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/ToStore.ts"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BabyEscape/BilliardPuzzle_OP5/assets/Main_control.ts": {
+    "mTimestamp": {
+      "mtime": 1692257899145.8567,
+      "uuid": "af16ed7d-716a-4c0d-9cc2-c8e54f07506d"
+    },
+    "chunkId": "assets/Main_control.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BabyEscape/BilliardPuzzle_OP5/assets/Script/Main_control.ts": {
+    "mTimestamp": {
+      "mtime": 1692593081897.2083,
+      "uuid": "af16ed7d-716a-4c0d-9cc2-c8e54f07506d"
+    },
+    "chunkId": "assets/Script/Main_control.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 104
+          },
+          "end": {
+            "line": 2,
+            "column": 108
+          }
+        }
+      },
+      {
+        "value": "./Canva_control",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 30
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BabyEscape/BilliardPuzzle_OP5/assets/Script/Canva_control.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BabyEscape/BilliardPuzzle_OP5/assets/Script/Responsive.ts"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BabyEscape/BilliardPuzzle_OP5/assets/Script/StartGravety.ts": {
+    "mTimestamp": {
+      "mtime": 1692325172153.1035,
+      "uuid": "e6c22285-ea7c-486a-88ed-02728ac0c14f"
+    },
+    "chunkId": "assets/Script/StartGravety.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1716810217520,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///C:/Cocos_Creator_3D/BabyEscape/BilliardPuzzle_OP5/assets/Script/Canva_control.ts": {
+    "mTimestamp": {
+      "mtime": 1692602605039.0388,
+      "uuid": "9445229c-005c-4e36-ae6b-95f9a9fb72c6"
+    },
+    "chunkId": "assets/Script/Canva_control.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 131
+          },
+          "end": {
+            "line": 2,
+            "column": 135
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BabyEscape/BilliardPuzzle_OP5/assets/Script/Responsive.ts"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BabyEscape/BilliardPuzzle_OP5/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1692602509276.8538,
+      "uuid": "f86e6996-d9f3-4ad9-92c9-da292bc636c0"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 91
+          },
+          "end": {
+            "line": 2,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BabyEscape/BilliardPuzzle_OP5/assets/Script/ToStore.ts": {
+    "mTimestamp": {
+      "mtime": 1692592445028.458,
+      "uuid": "3b44dbc7-83b0-4306-9ca7-08849b5b5dc1"
+    },
+    "chunkId": "assets/Script/ToStore.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BabyEscape/BilliardPuzzle_OP5/assets/Script/Responsive.ts"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Main_control.ts": {
+    "mTimestamp": {
+      "mtime": 1692593081897.2083,
+      "uuid": "af16ed7d-716a-4c0d-9cc2-c8e54f07506d"
+    },
+    "chunkId": "assets/Script/Main_control.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 104
+          },
+          "end": {
+            "line": 2,
+            "column": 108
+          }
+        }
+      },
+      {
+        "value": "./Canva_control",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 30
+          },
+          "end": {
+            "line": 4,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Canva_control.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Responsive.ts"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Canva_control.ts": {
+    "mTimestamp": {
+      "mtime": 1692602605039.0388,
+      "uuid": "9445229c-005c-4e36-ae6b-95f9a9fb72c6"
+    },
+    "chunkId": "assets/Script/Canva_control.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 131
+          },
+          "end": {
+            "line": 2,
+            "column": 135
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Responsive.ts"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/ToStore.ts": {
+    "mTimestamp": {
+      "mtime": 1705483144079.93,
+      "uuid": "3b44dbc7-83b0-4306-9ca7-08849b5b5dc1"
+    },
+    "chunkId": "assets/Script/ToStore.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Responsive.ts"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1705483151043.3708,
+      "uuid": "f86e6996-d9f3-4ad9-92c9-da292bc636c0"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 91
+          },
+          "end": {
+            "line": 2,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/StartGravety.ts": {
+    "mTimestamp": {
+      "mtime": 1692325172153.1035,
+      "uuid": "e6c22285-ea7c-486a-88ed-02728ac0c14f"
+    },
+    "chunkId": "assets/Script/StartGravety.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Main.ts": {
+    "mTimestamp": {
+      "mtime": 1705482805517.0635,
+      "uuid": "db8b0e5a-c6b0-4ce6-be01-4acd5d1967c3"
+    },
+    "chunkId": "assets/Script/Main.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 141
+          },
+          "end": {
+            "line": 2,
+            "column": 145
+          }
+        }
+      },
+      {
+        "value": "./ToStore",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/ToStore.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Responsive.ts"
+      }
+    ]
+  },
+  "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Ball.ts": {
+    "mTimestamp": {
+      "mtime": 1705475461442.1548,
+      "uuid": "19e47107-2491-4f7d-aeaf-4208a85a22b5"
+    },
+    "chunkId": "assets/Script/Ball.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 106
+          },
+          "end": {
+            "line": 2,
+            "column": 110
+          }
+        }
+      },
+      {
+        "value": "./Main",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 21
+          },
+          "end": {
+            "line": 4,
+            "column": 29
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///C:/Cocos_Creator_3D/BilliardPuzzle/BilliardPuzzle_OP7/assets/Script/Main.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Ball.ts": {
+    "mTimestamp": {
+      "mtime": 1708593812976.3303,
+      "uuid": "19e47107-2491-4f7d-aeaf-4208a85a22b5"
+    },
+    "chunkId": "assets/Script/Ball.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 106
+          },
+          "end": {
+            "line": 2,
+            "column": 110
+          }
+        }
+      },
+      {
+        "value": "./Main",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 21
+          },
+          "end": {
+            "line": 4,
+            "column": 29
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Main.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/ToStore.ts": {
+    "mTimestamp": {
+      "mtime": 1708600424929.6648,
+      "uuid": "3b44dbc7-83b0-4306-9ca7-08849b5b5dc1"
+    },
+    "chunkId": "assets/Script/ToStore.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Responsive.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1708600394252.1736,
+      "uuid": "767d010a-83d2-40ac-85e6-9be5d1cc62c6"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 91
+          },
+          "end": {
+            "line": 2,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Main.ts": {
+    "mTimestamp": {
+      "mtime": 1708605078532.6448,
+      "uuid": "db8b0e5a-c6b0-4ce6-be01-4acd5d1967c3"
+    },
+    "chunkId": "assets/Script/Main.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 166
+          },
+          "end": {
+            "line": 2,
+            "column": 170
+          }
+        }
+      },
+      {
+        "value": "./ToStore",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 29
+          },
+          "end": {
+            "line": 7,
+            "column": 52
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/ToStore.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Controller/OtherBall.ts": {
+    "mTimestamp": {
+      "mtime": 1708596619965.1501,
+      "uuid": "fa7ca63f-fb16-46fe-9e1c-dd33c8a3fce2"
+    },
+    "chunkId": "assets/Script/Controller/OtherBall.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 71
+          },
+          "end": {
+            "line": 2,
+            "column": 75
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/MainBall.ts": {
+    "mTimestamp": {
+      "mtime": 1708602205275.618,
+      "uuid": "19e47107-2491-4f7d-aeaf-4208a85a22b5"
+    },
+    "chunkId": "assets/Script/MainBall.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 106
+          },
+          "end": {
+            "line": 2,
+            "column": 110
+          }
+        }
+      },
+      {
+        "value": "./Main",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 21
+          },
+          "end": {
+            "line": 4,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 43
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Main.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1708599045335.3083,
+      "uuid": "003cfefe-2225-4de7-bc86-7bcf4bf104ad"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 50
+          },
+          "end": {
+            "line": 1,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1706742374000,
+      "uuid": "9e7af473-762c-45f5-ac80-bd1c22bf0a73"
+    },
+    "chunkId": "assets/Script/Plugin/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1708594924008.3713,
+      "uuid": "96cd1ff9-d056-4476-96e7-fe8e718a0f37"
+    },
+    "chunkId": "assets/Script/Plugin/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 108
+          },
+          "end": {
+            "line": 1,
+            "column": 112
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/Utils.ts": {
+    "mTimestamp": {
+      "mtime": 1708599006270.0862,
+      "uuid": "3b82aa2d-e03d-467c-8b54-78b515fc355b"
+    },
+    "chunkId": "assets/Script/Plugin/Utils.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1708598638900.0713,
+      "uuid": "dd163cee-3040-430d-ad54-1e8022b471fd"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/MainBall.ts": {
+    "mTimestamp": {
+      "mtime": 1708626052311.2603,
+      "uuid": "19e47107-2491-4f7d-aeaf-4208a85a22b5"
+    },
+    "chunkId": "assets/Script/MainBall.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 116
+          },
+          "end": {
+            "line": 2,
+            "column": 120
+          }
+        }
+      },
+      {
+        "value": "./Main",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 21
+          },
+          "end": {
+            "line": 4,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 43
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Main.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Controller/OtherBall.ts": {
+    "mTimestamp": {
+      "mtime": 1708623059272.7512,
+      "uuid": "fa7ca63f-fb16-46fe-9e1c-dd33c8a3fce2"
+    },
+    "chunkId": "assets/Script/Controller/OtherBall.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 71
+          },
+          "end": {
+            "line": 2,
+            "column": 75
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1708623819196.6028,
+      "uuid": "003cfefe-2225-4de7-bc86-7bcf4bf104ad"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 50
+          },
+          "end": {
+            "line": 1,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Main.ts": {
+    "mTimestamp": {
+      "mtime": 1708626114854.5325,
+      "uuid": "db8b0e5a-c6b0-4ce6-be01-4acd5d1967c3"
+    },
+    "chunkId": "assets/Script/Main.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 192
+          },
+          "end": {
+            "line": 2,
+            "column": 196
+          }
+        }
+      },
+      {
+        "value": "./ToStore",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 29
+          },
+          "end": {
+            "line": 7,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "./Plugin/IronSource",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 27
+          },
+          "end": {
+            "line": 8,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/ToStore.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1708625755506.7852,
+      "uuid": "dd163cee-3040-430d-ad54-1e8022b471fd"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1708618235351.8418,
+      "uuid": "767d010a-83d2-40ac-85e6-9be5d1cc62c6"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 91
+          },
+          "end": {
+            "line": 2,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1708625951066.1536,
+      "uuid": "9e7af473-762c-45f5-ac80-bd1c22bf0a73"
+    },
+    "chunkId": "assets/Script/Plugin/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/Utils.ts": {
+    "mTimestamp": {
+      "mtime": 1708612535874.5867,
+      "uuid": "3b82aa2d-e03d-467c-8b54-78b515fc355b"
+    },
+    "chunkId": "assets/Script/Plugin/Utils.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/ToStore.ts": {
+    "mTimestamp": {
+      "mtime": 1708622463813.5256,
+      "uuid": "3b44dbc7-83b0-4306-9ca7-08849b5b5dc1"
+    },
+    "chunkId": "assets/Script/ToStore.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 52
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_OP9/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Controller/OtherBall.ts": {
+    "mTimestamp": {
+      "mtime": 1708623059272.7512,
+      "uuid": "fa7ca63f-fb16-46fe-9e1c-dd33c8a3fce2"
+    },
+    "chunkId": "assets/Script/Controller/OtherBall.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 71
+          },
+          "end": {
+            "line": 2,
+            "column": 75
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1708623819196.6028,
+      "uuid": "003cfefe-2225-4de7-bc86-7bcf4bf104ad"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 50
+          },
+          "end": {
+            "line": 1,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1708625951066.1536,
+      "uuid": "9e7af473-762c-45f5-ac80-bd1c22bf0a73"
+    },
+    "chunkId": "assets/Script/Plugin/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/MainBall.ts": {
+    "mTimestamp": {
+      "mtime": 1708626052311.2603,
+      "uuid": "19e47107-2491-4f7d-aeaf-4208a85a22b5"
+    },
+    "chunkId": "assets/Script/MainBall.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 116
+          },
+          "end": {
+            "line": 2,
+            "column": 120
+          }
+        }
+      },
+      {
+        "value": "./Main",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 21
+          },
+          "end": {
+            "line": 4,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 43
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Main.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Main.ts": {
+    "mTimestamp": {
+      "mtime": 1708629037211.035,
+      "uuid": "db8b0e5a-c6b0-4ce6-be01-4acd5d1967c3"
+    },
+    "chunkId": "assets/Script/Main.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 192
+          },
+          "end": {
+            "line": 2,
+            "column": 196
+          }
+        }
+      },
+      {
+        "value": "./ToStore",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 29
+          },
+          "end": {
+            "line": 7,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "./Plugin/IronSource",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 27
+          },
+          "end": {
+            "line": 8,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/ToStore.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1708629051019.0474,
+      "uuid": "dd163cee-3040-430d-ad54-1e8022b471fd"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/Utils.ts": {
+    "mTimestamp": {
+      "mtime": 1708612535874.5867,
+      "uuid": "3b82aa2d-e03d-467c-8b54-78b515fc355b"
+    },
+    "chunkId": "assets/Script/Plugin/Utils.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/ToStore.ts": {
+    "mTimestamp": {
+      "mtime": 1708622463813.5256,
+      "uuid": "3b44dbc7-83b0-4306-9ca7-08849b5b5dc1"
+    },
+    "chunkId": "assets/Script/ToStore.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 52
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1708618235351.8418,
+      "uuid": "767d010a-83d2-40ac-85e6-9be5d1cc62c6"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 91
+          },
+          "end": {
+            "line": 2,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1708663072704.3706,
+      "uuid": "dd163cee-3040-430d-ad54-1e8022b471fd"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/MainBall.ts": {
+    "mTimestamp": {
+      "mtime": 1708626052311.2603,
+      "uuid": "19e47107-2491-4f7d-aeaf-4208a85a22b5"
+    },
+    "chunkId": "assets/Script/MainBall.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 116
+          },
+          "end": {
+            "line": 2,
+            "column": 120
+          }
+        }
+      },
+      {
+        "value": "./Main",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 21
+          },
+          "end": {
+            "line": 4,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 43
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Main.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Controller/OtherBall.ts": {
+    "mTimestamp": {
+      "mtime": 1708623059272.7512,
+      "uuid": "fa7ca63f-fb16-46fe-9e1c-dd33c8a3fce2"
+    },
+    "chunkId": "assets/Script/Controller/OtherBall.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 71
+          },
+          "end": {
+            "line": 2,
+            "column": 75
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1708625951066.1536,
+      "uuid": "9e7af473-762c-45f5-ac80-bd1c22bf0a73"
+    },
+    "chunkId": "assets/Script/Plugin/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Main.ts": {
+    "mTimestamp": {
+      "mtime": 1708663065765.9973,
+      "uuid": "db8b0e5a-c6b0-4ce6-be01-4acd5d1967c3"
+    },
+    "chunkId": "assets/Script/Main.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 199
+          },
+          "end": {
+            "line": 2,
+            "column": 203
+          }
+        }
+      },
+      {
+        "value": "./ToStore",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 29
+          },
+          "end": {
+            "line": 7,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "./Plugin/IronSource",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 27
+          },
+          "end": {
+            "line": 8,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/ToStore.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1708659910100.8096,
+      "uuid": "767d010a-83d2-40ac-85e6-9be5d1cc62c6"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 91
+          },
+          "end": {
+            "line": 2,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1708658799523.9497,
+      "uuid": "003cfefe-2225-4de7-bc86-7bcf4bf104ad"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 50
+          },
+          "end": {
+            "line": 1,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/Utils.ts": {
+    "mTimestamp": {
+      "mtime": 1708612535874.5867,
+      "uuid": "3b82aa2d-e03d-467c-8b54-78b515fc355b"
+    },
+    "chunkId": "assets/Script/Plugin/Utils.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/ToStore.ts": {
+    "mTimestamp": {
+      "mtime": 1708622463813.5256,
+      "uuid": "3b44dbc7-83b0-4306-9ca7-08849b5b5dc1"
+    },
+    "chunkId": "assets/Script/ToStore.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 52
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op10/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Controller/OtherBall.ts": {
+    "mTimestamp": {
+      "mtime": 1713257146162.0942,
+      "uuid": "fa7ca63f-fb16-46fe-9e1c-dd33c8a3fce2"
+    },
+    "chunkId": "assets/Script/Controller/OtherBall.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 71
+          },
+          "end": {
+            "line": 2,
+            "column": 75
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1713254716905.037,
+      "uuid": "003cfefe-2225-4de7-bc86-7bcf4bf104ad"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 50
+          },
+          "end": {
+            "line": 1,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1708625951066.1536,
+      "uuid": "9e7af473-762c-45f5-ac80-bd1c22bf0a73"
+    },
+    "chunkId": "assets/Script/Plugin/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/MainBall.ts": {
+    "mTimestamp": {
+      "mtime": 1713261548703.057,
+      "uuid": "19e47107-2491-4f7d-aeaf-4208a85a22b5"
+    },
+    "chunkId": "assets/Script/MainBall.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 163
+          },
+          "end": {
+            "line": 1,
+            "column": 167
+          }
+        }
+      },
+      {
+        "value": "./Main",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 21
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 43
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Main.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Main.ts": {
+    "mTimestamp": {
+      "mtime": 1716810357501.3894,
+      "uuid": "db8b0e5a-c6b0-4ce6-be01-4acd5d1967c3"
+    },
+    "chunkId": "assets/Script/Main.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 224
+          },
+          "end": {
+            "line": 2,
+            "column": 228
+          }
+        }
+      },
+      {
+        "value": "./ToStore",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 35
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 29
+          },
+          "end": {
+            "line": 7,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "./Plugin/IronSource",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 27
+          },
+          "end": {
+            "line": 8,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/ToStore.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1708663072704.3706,
+      "uuid": "dd163cee-3040-430d-ad54-1e8022b471fd"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1713262456388.136,
+      "uuid": "767d010a-83d2-40ac-85e6-9be5d1cc62c6"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 91
+          },
+          "end": {
+            "line": 2,
+            "column": 95
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/ToStore.ts": {
+    "mTimestamp": {
+      "mtime": 1713256479722.9395,
+      "uuid": "3b44dbc7-83b0-4306-9ca7-08849b5b5dc1"
+    },
+    "chunkId": "assets/Script/ToStore.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "./Responsive",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./Data/Constant",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 52
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Plugin/Utils.ts": {
+    "mTimestamp": {
+      "mtime": 1708612535874.5867,
+      "uuid": "3b82aa2d-e03d-467c-8b54-78b515fc355b"
+    },
+    "chunkId": "assets/Script/Plugin/Utils.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/BilliardPuzzle/BilliardPuzzle_Op12/assets/Script/Controller/GeomtryController.ts": {
+    "mTimestamp": {
+      "mtime": 1713237728548.0095,
+      "uuid": "0acc37f5-2173-430f-98f5-5b4f085e6077"
+    },
+    "chunkId": "assets/Script/Controller/GeomtryController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b9d591c1-db93-43fc-ab70-c9208e5faa5f",
+  "files": [],
+  "subMetas": {
+    "36884": {
+      "importer": "gltf-embeded-image",
+      "uuid": "b9d591c1-db93-43fc-ab70-c9208e5faa5f@36884",
+      "displayName": "",
+      "id": "36884",
+      "name": "Megatexture.png.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bbcec": {
+      "importer": "gltf-mesh",
+      "uuid": "b9d591c1-db93-43fc-ab70-c9208e5faa5f@bbcec",
+      "displayName": "",
+      "id": "bbcec",
+      "name": "Bed_lamp.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba42f": {
+      "importer": "texture",
+      "uuid": "b9d591c1-db93-43fc-ab70-c9208e5faa5f@ba42f",
+      "displayName": "",
+      "id": "ba42f",
+      "name": "Megatexture.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b9d591c1-db93-43fc-ab70-c9208e5faa5f@36884"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d54d8": {
+      "importer": "gltf-material",
+      "uuid": "b9d591c1-db93-43fc-ab70-c9208e5faa5f@d54d8",
+      "displayName": "",
+      "id": "d54d8",
+      "name": "Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ae685": {
+      "importer": "gltf-scene",
+      "uuid": "b9d591c1-db93-43fc-ab70-c9208e5faa5f@ae685",
+      "displayName": "",
+      "id": "ae685",
+      "name": "Bed_lamp.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Megatexture.png",
+        "uri": "b9d591c1-db93-43fc-ab70-c9208e5faa5f@36884"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "b9d591c1-db93-43fc-ab70-c9208e5faa5f@ae685",
+    "assetFinder": {
+      "meshes": [
+        "b9d591c1-db93-43fc-ab70-c9208e5faa5f@bbcec"
+      ],
+      "skeletons": [],
+      "textures": [
+        "b9d591c1-db93-43fc-ab70-c9208e5faa5f@ba42f"
+      ],
+      "materials": [
+        "b9d591c1-db93-43fc-ab70-c9208e5faa5f@d54d8"
+      ],
+      "scenes": [
+        "b9d591c1-db93-43fc-ab70-c9208e5faa5f@ae685"
+      ]
+    }
+  }
+}

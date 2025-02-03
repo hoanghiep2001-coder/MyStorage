@@ -1,0 +1,962 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 6372,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 108,
+            "byteOffset": 0
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 108
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 540
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 972
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 1404
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 1836
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 2268
+        },
+        {
+            "buffer": 0,
+            "byteLength": 324,
+            "byteOffset": 2700
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 3024
+        },
+        {
+            "buffer": 0,
+            "byteLength": 324,
+            "byteOffset": 3456
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 3780
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 4212
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 4644
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 5076
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 5508
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 5940
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5126,
+            "type": "SCALAR",
+            "count": 27,
+            "bufferView": 0,
+            "byteOffset": 0,
+            "min": [
+                0.0
+            ],
+            "max": [
+                1.08333337306976
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 1,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 5,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 6,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 27,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 8,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 27,
+            "bufferView": 9,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 10,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 11,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 12,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 13,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 14,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 27,
+            "bufferView": 15,
+            "byteOffset": 0
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "animations": [
+        {
+            "name": "Train_takeoff",
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 1,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 2,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 4,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 3,
+                    "target": {
+                        "node": 8,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 4,
+                    "target": {
+                        "node": 10,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 5,
+                    "target": {
+                        "node": 12,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 6,
+                    "target": {
+                        "node": 14,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 7,
+                    "target": {
+                        "node": 14,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 8,
+                    "target": {
+                        "node": 15,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 9,
+                    "target": {
+                        "node": 15,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 10,
+                    "target": {
+                        "node": 16,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 11,
+                    "target": {
+                        "node": 18,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 12,
+                    "target": {
+                        "node": 20,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 13,
+                    "target": {
+                        "node": 22,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 14,
+                    "target": {
+                        "node": 24,
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "samplers": [
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 1
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 2
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 3
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 4
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 5
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 6
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 7
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 8
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 9
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 10
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 11
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 12
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 13
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 14
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 15
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Root_M",
+            "translation": [
+                -5.56242266611662e-05,
+                0.0206600036472082,
+                0.0
+            ],
+            "rotation": [
+                0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                15,
+                16,
+                18,
+                20,
+                22,
+                24
+            ]
+        },
+        {
+            "name": "frontWheel_R",
+            "translation": [
+                -0.00290584517642856,
+                -0.00166527181863785,
+                -0.0223442669957876
+            ],
+            "rotation": [
+                0.0403705425560474,
+                0.705953419208527,
+                -0.0403705425560474,
+                0.705953419208527
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "frontWheelEnd_R",
+            "translation": [
+                0.00999999977648258,
+                1.9984013582985e-17,
+                5.32907039908674e-17
+            ],
+            "rotation": [
+                6.93889390390723e-18,
+                1.72563323017096e-31,
+                -0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "backWheel_R",
+            "translation": [
+                -0.0063953148201108,
+                -0.0696750581264496,
+                -0.0247286576777697
+            ],
+            "rotation": [
+                0.226439118385315,
+                0.663844227790833,
+                -0.243538185954094,
+                0.669869661331177
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                5
+            ]
+        },
+        {
+            "name": "backWheelEnd_R",
+            "translation": [
+                0.010003287345171,
+                2.66453519954337e-17,
+                -1.77635679969558e-17
+            ],
+            "rotation": [
+                -2.77555756156289e-17,
+                -1.73472347597681e-18,
+                3.46944695195361e-18,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Body_M",
+            "translation": [
+                0.0199999995529652,
+                -1.30922973049293e-18,
+                -2.61075882307329e-18
+            ],
+            "rotation": [
+                1.97215226305253e-31,
+                1.4937399331012e-31,
+                3.08148791101958e-33,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                7
+            ]
+        },
+        {
+            "name": "BodyEnd_M",
+            "translation": [
+                0.0199999995529652,
+                4.93038054742873e-34,
+                -4.84855183411377e-18
+            ],
+            "rotation": [
+                1.97215226305253e-31,
+                1.4937399331012e-31,
+                3.08148791101958e-33,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "backWheel1_R",
+            "translation": [
+                -0.00720995478332043,
+                -0.109441630542278,
+                -0.0247286576777697
+            ],
+            "rotation": [
+                0.671656489372253,
+                -0.25519722700119,
+                -0.659450054168701,
+                -0.221082746982574
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                9
+            ]
+        },
+        {
+            "name": "backWheelEnd3_R",
+            "translation": [
+                0.0100131453946233,
+                0.0,
+                -3.55271359939116e-17
+            ],
+            "rotation": [
+                2.77555756156289e-17,
+                3.46944695195361e-18,
+                -9.62964972193618e-35,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "backWheel2_R",
+            "translation": [
+                -0.00720995478332043,
+                -0.18331304192543,
+                -0.0247286576777697
+            ],
+            "rotation": [
+                -0.00702726095914841,
+                0.705783665180206,
+                0.0432368442416191,
+                0.707071840763092
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                11
+            ]
+        },
+        {
+            "name": "backWheelEnd2_R",
+            "translation": [
+                0.0100131453946233,
+                -3.55271359939116e-17,
+                -3.996802716597e-17
+            ],
+            "rotation": [
+                6.93889390390723e-18,
+                -2.40741243048404e-35,
+                -3.46944695195361e-18,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "backWheel3_R",
+            "translation": [
+                -0.00720995478332043,
+                -0.223159581422806,
+                -0.0247286576777697
+            ],
+            "rotation": [
+                0.0494500249624252,
+                0.705375552177429,
+                -0.0494500249624252,
+                0.705375552177429
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                13
+            ]
+        },
+        {
+            "name": "backWheelEnd1_R",
+            "translation": [
+                0.00999999977648258,
+                0.0,
+                -1.42108543975646e-16
+            ],
+            "rotation": [
+                -1.38777878078145e-17,
+                4.68386162474976e-31,
+                3.94430452610506e-31,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "joint1_L",
+            "translation": [
+                0.0494458563625813,
+                -0.101025827229023,
+                0.0389508828520775
+            ],
+            "rotation": [
+                0.500288963317871,
+                0.500288963317871,
+                0.499710857868195,
+                -0.499710857868195
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "joint2_L",
+            "translation": [
+                0.0493922419846058,
+                -0.193476840853691,
+                0.0389554239809513
+            ],
+            "rotation": [
+                0.500288963317871,
+                0.500288963317871,
+                0.499710857868195,
+                -0.499710857868195
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "frontWheel_L",
+            "translation": [
+                -0.00290584517642856,
+                -0.00166527181863785,
+                0.0223442669957876
+            ],
+            "rotation": [
+                0.694142699241638,
+                0.134781047701836,
+                -0.694142639636993,
+                0.134781062602997
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                17
+            ]
+        },
+        {
+            "name": "frontWheelEnd_L",
+            "translation": [
+                -0.00999999977648258,
+                -8.74227801261895e-10,
+                -3.996802716597e-17
+            ],
+            "rotation": [
+                -0.0,
+                5.71324661440311e-24,
+                5.69083625937714e-24,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "backWheel_L",
+            "translation": [
+                -0.0063953148201108,
+                -0.0696750581264496,
+                0.0247286576777697
+            ],
+            "rotation": [
+                0.7061967253685,
+                0.0539568848907948,
+                -0.705045163631439,
+                0.0358638614416122
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                19
+            ]
+        },
+        {
+            "name": "backWheelEnd_L",
+            "translation": [
+                -0.010003287345171,
+                -1.77635679969558e-17,
+                9.99200679149249e-18
+            ],
+            "rotation": [
+                -1.38777878078145e-17,
+                4.33680868994202e-19,
+                1.73472347597681e-18,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "backWheel1_L",
+            "translation": [
+                -0.00720995478332043,
+                -0.109441630542278,
+                0.0247286576777697
+            ],
+            "rotation": [
+                0.0829336270689964,
+                0.705552756786346,
+                -0.0468541383743286,
+                0.702226459980011
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                21
+            ]
+        },
+        {
+            "name": "backWheelEnd3_L",
+            "translation": [
+                -0.0100131453946233,
+                -1.77635679969558e-17,
+                2.22044591690142e-17
+            ],
+            "rotation": [
+                -2.77555756156289e-17,
+                8.67361737988404e-19,
+                3.46944695195361e-18,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "backWheel2_L",
+            "translation": [
+                -0.00720995478332043,
+                -0.18331304192543,
+                0.0247286576777697
+            ],
+            "rotation": [
+                -0.16611559689045,
+                0.694924414157867,
+                0.130690604448318,
+                0.687317669391632
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                23
+            ]
+        },
+        {
+            "name": "backWheelEnd2_L",
+            "translation": [
+                -0.0100131453946233,
+                0.0,
+                7.10542719878232e-17
+            ],
+            "rotation": [
+                -2.77555756156289e-17,
+                3.46944695195361e-18,
+                9.62964972193618e-35,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "backWheel3_L",
+            "translation": [
+                -0.00720995478332043,
+                -0.223159581422806,
+                0.0247286576777697
+            ],
+            "rotation": [
+                0.697595298290253,
+                0.115589141845703,
+                -0.697595238685608,
+                0.115589149296284
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                25
+            ]
+        },
+        {
+            "name": "backWheelEnd1_L",
+            "translation": [
+                -0.00999999977648258,
+                -8.74227912284198e-10,
+                1.50990332937208e-16
+            ],
+            "rotation": [
+                -2.77555756156289e-17,
+                -1.4000054507768e-24,
+                -2.63324866441827e-24,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

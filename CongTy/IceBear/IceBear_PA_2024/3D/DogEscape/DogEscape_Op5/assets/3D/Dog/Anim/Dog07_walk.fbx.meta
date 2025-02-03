@@ -1,0 +1,79 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e30507dd-70da-40cc-a936-60564e02a4d2",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "ccd3f": {
+      "importer": "gltf-animation",
+      "uuid": "e30507dd-70da-40cc-a936-60564e02a4d2@ccd3f",
+      "displayName": "",
+      "id": "ccd3f",
+      "name": "Dog07_walk.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.1333333253860474
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "15b55": {
+      "importer": "gltf-scene",
+      "uuid": "e30507dd-70da-40cc-a936-60564e02a4d2@15b55",
+      "displayName": "",
+      "id": "15b55",
+      "name": "Dog07_walk.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Dog07_walk",
+        "duration": 1.1333333253860474,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Dog07_walk",
+            "from": 0,
+            "to": 1.1333333253860474,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "e30507dd-70da-40cc-a936-60564e02a4d2@15b55",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "e30507dd-70da-40cc-a936-60564e02a4d2@15b55"
+      ]
+    }
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 770,
+      "max": [
+        0.001871500862762332,
+        0.013806384056806564,
+        0.0010497719049453735
+      ],
+      "min": [
+        -0.0018714733887463808,
+        -2.382876118645072e-10,
+        -0.0029920602682977915
+      ],
+      "name": "Electro_wall1/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 770,
+      "name": "Electro_wall1/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 770,
+      "name": "Electro_wall1/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 1260,
+      "name": "Electro_wall1/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 42,
+      "max": [
+        0.0009921706514433026,
+        0.005100778304040432,
+        0.018094660714268684
+      ],
+      "min": [
+        -0.0009921710006892681,
+        -0.005100779701024294,
+        -0.018094662576913834
+      ],
+      "name": "Electro_vfx_mesh/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 42,
+      "name": "Electro_vfx_mesh/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 42,
+      "name": "Electro_vfx_mesh/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 108,
+      "name": "Electro_vfx_mesh/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 770,
+      "max": [
+        0.001871500862762332,
+        0.013806384056806564,
+        0.0029920602682977915
+      ],
+      "min": [
+        -0.0018714733887463808,
+        -2.382876118645072e-10,
+        -0.0010497719049453735
+      ],
+      "name": "Electro_wall2/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 770,
+      "name": "Electro_wall2/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 770,
+      "name": "Electro_wall2/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 1260,
+      "name": "Electro_wall2/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 24640,
+      "byteStride": 32,
+      "name": "Electro_wall1",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5040,
+      "byteOffset": 24640
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1344,
+      "byteOffset": 29680,
+      "byteStride": 32,
+      "name": "Electro_vfx_mesh",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 432,
+      "byteOffset": 31024
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24640,
+      "byteOffset": 31456,
+      "byteStride": 32,
+      "name": "Electro_wall2",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5040,
+      "byteOffset": 56096
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 61136,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:/Project_CatEscape/update/Texture.jpg",
+          "relativeFileName": "..\\..\\..\\..\\..\\..\\..\\Project_CatEscape\\update\\Texture.jpg"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "Mat_Environment.001",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    },
+    {
+      "name": "Electro_vfx_mesh.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.27216553688049316
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Electro_wall1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Electro_vfx_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Electro_wall2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3
+      ],
+      "name": "Electro"
+    },
+    {
+      "mesh": 0,
+      "name": "Electro_wall1",
+      "translation": [
+        2.452812566389184e-07,
+        1.882825199572835e-05,
+        0.021018020808696747
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "Electro_vfx_mesh",
+      "translation": [
+        2.410281751963339e-07,
+        0.007962931878864765,
+        1.182999476156965e-09
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "Electro_wall2",
+      "translation": [
+        2.452812566389184e-07,
+        1.882825199572835e-05,
+        -0.021018020808696747
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

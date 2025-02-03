@@ -1,0 +1,35 @@
+{
+  "general": {
+    "designResolution": {
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Ball"
+      },
+      {
+        "index": 2,
+        "name": "Cube"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 3,
+      "1": 7,
+      "2": 2
+    },
+    "gravity": {
+      "y": -10
+    },
+    "defaultMaterial": {
+      "friction": 0.5,
+      "rollingFriction": 0.1,
+      "spinningFriction": 0.1,
+      "restitution": 0.9
+    },
+    "maxSubSteps": 1
+  }
+}

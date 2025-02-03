@@ -1,0 +1,436 @@
+debug: Fri, 22 Mar 2024 02:04:07 GMT
+debug: Project: D:\PA_2024\3D\CamoSniper\CamoSniper_Op1
+debug: Targets: editor,preview
+debug: Incremental file seems great.
+debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.4.2\resources\resources\3d\engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Loading cache costs 2.543500006198883ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Loading cache costs 3.289599984884262ms.
+debug: Sync engine features: 2d,3d,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,primitive,profiler,terrain,tiled-map,tween,ui,video,webview
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 59.04170000553131ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 6
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:41:51 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:33 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts. Last mtime: Tue Jan 23 2024 14:47:40 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666, Current mtime: Fri Mar 22 2024 03:12:48 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts. Last mtime: Fri Jan 19 2024 14:12:06 GMT+0700 (Indochina Time)@8852cac8-7f8f-4b50-b5c9-a58f695e2a89, Current mtime: Fri Mar 22 2024 01:47:38 GMT+0700 (Indochina Time)@8852cac8-7f8f-4b50-b5c9-a58f695e2a89
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts. Last mtime: Tue Jan 23 2024 15:46:28 GMT+0700 (Indochina Time)@068c9111-01f2-45d5-be3e-7ec5abc94b07, Current mtime: Fri Mar 22 2024 00:55:16 GMT+0700 (Indochina Time)@068c9111-01f2-45d5-be3e-7ec5abc94b07
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts. Last mtime: Thu Mar 21 2024 18:09:32 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Fri Mar 22 2024 03:15:16 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts. Last mtime: Thu Mar 21 2024 17:48:06 GMT+0700 (Indochina Time)@bbbeec11-a88c-4350-9c85-80551d0ab014, Current mtime: Fri Mar 22 2024 01:42:18 GMT+0700 (Indochina Time)@bbbeec11-a88c-4350-9c85-80551d0ab014
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts. Last mtime: Thu Mar 21 2024 17:47:44 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Fri Mar 22 2024 02:44:26 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts as cce:/internal/x/cc.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Mar 21 2024 22:33:25 GMT+0700 (Indochina Time), Current mtime: Fri Mar 22 2024 09:04:01 GMT+0700 (Indochina Time)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(editor) ends with cost 1610.8759000003338ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:41:51 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:35 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts. Last mtime: Tue Jan 23 2024 14:47:40 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666, Current mtime: Fri Mar 22 2024 03:12:48 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts. Last mtime: Fri Jan 19 2024 14:12:06 GMT+0700 (Indochina Time)@8852cac8-7f8f-4b50-b5c9-a58f695e2a89, Current mtime: Fri Mar 22 2024 01:47:38 GMT+0700 (Indochina Time)@8852cac8-7f8f-4b50-b5c9-a58f695e2a89
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts. Last mtime: Thu Mar 21 2024 18:09:32 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Fri Mar 22 2024 03:15:16 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts. Last mtime: Tue Jan 23 2024 15:46:28 GMT+0700 (Indochina Time)@068c9111-01f2-45d5-be3e-7ec5abc94b07, Current mtime: Fri Mar 22 2024 00:55:16 GMT+0700 (Indochina Time)@068c9111-01f2-45d5-be3e-7ec5abc94b07
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts. Last mtime: Thu Mar 21 2024 17:47:44 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Fri Mar 22 2024 02:44:26 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts. Last mtime: Thu Mar 21 2024 17:48:06 GMT+0700 (Indochina Time)@bbbeec11-a88c-4350-9c85-80551d0ab014, Current mtime: Fri Mar 22 2024 01:42:18 GMT+0700 (Indochina Time)@bbbeec11-a88c-4350-9c85-80551d0ab014
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts as cce:/internal/x/cc.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Mar 21 2024 22:33:25 GMT+0700 (Indochina Time), Current mtime: Fri Mar 22 2024 09:04:01 GMT+0700 (Indochina Time)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Target(preview) ends with cost 1425.907900005579ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:33 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:02:56 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts. Last mtime: Fri Mar 22 2024 02:44:26 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Fri Mar 22 2024 09:06:56 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(editor) ends with cost 101.18489998579025ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:35 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:02:56 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts. Last mtime: Fri Mar 22 2024 02:44:26 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Fri Mar 22 2024 09:06:56 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(preview) ends with cost 89.66589999198914ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:02:56 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:03:32 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts. Last mtime: Fri Mar 22 2024 09:06:56 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Fri Mar 22 2024 09:07:32 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(editor) ends with cost 189.34990000724792ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:02:56 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:03:32 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts. Last mtime: Fri Mar 22 2024 09:06:56 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Fri Mar 22 2024 09:07:32 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(preview) ends with cost 154.83940002322197ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:32 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:05:02 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts. Last mtime: Fri Mar 22 2024 03:12:48 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666, Current mtime: Fri Mar 22 2024 09:09:03 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 42.95260000228882ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:32 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:05:02 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts. Last mtime: Fri Mar 22 2024 03:12:48 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666, Current mtime: Fri Mar 22 2024 09:09:03 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 51.6671000123024ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:02 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:05:45 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts. Last mtime: Fri Mar 22 2024 03:15:16 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Fri Mar 22 2024 09:09:45 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(editor) ends with cost 96.01390001177788ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:02 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:05:45 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts. Last mtime: Fri Mar 22 2024 03:15:16 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Fri Mar 22 2024 09:09:45 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(preview) ends with cost 97.44760000705719ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:45 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:07:44 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts. Last mtime: Fri Mar 22 2024 09:09:45 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Fri Mar 22 2024 09:11:42 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(editor) ends with cost 79.208899974823ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:45 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:07:44 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts. Last mtime: Fri Mar 22 2024 09:09:45 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Fri Mar 22 2024 09:11:42 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(preview) ends with cost 92.34990000724792ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:44 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:10:07 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts. Last mtime: Fri Mar 22 2024 09:09:03 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666, Current mtime: Fri Mar 22 2024 09:13:43 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts. Last mtime: Fri Mar 22 2024 09:11:42 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Fri Mar 22 2024 09:14:05 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(editor) ends with cost 160.9728000164032ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:44 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:10:07 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts. Last mtime: Fri Mar 22 2024 09:09:03 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666, Current mtime: Fri Mar 22 2024 09:13:43 GMT+0700 (Indochina Time)@2561fd39-e8f6-4d9d-a953-e0bd0f0f1666
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts. Last mtime: Fri Mar 22 2024 09:11:42 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Fri Mar 22 2024 09:14:05 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(preview) ends with cost 129.50459998846054ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:10:37 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts. Last mtime: Fri Mar 22 2024 09:14:05 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Fri Mar 22 2024 09:14:37 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Target(editor) ends with cost 110.2930999994278ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:10:38 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Detected change: file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts. Last mtime: Fri Mar 22 2024 09:14:05 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Fri Mar 22 2024 09:14:37 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/AudioManager.ts.
+debug: Resolve ./UIController from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/UIController.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/CamoSniper/CamoSniper_Op1/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 103.77070000767708ms.

@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f5e0d55f-65fe-4541-84cf-02632057d339",
+  "files": [],
+  "subMetas": {
+    "16491": {
+      "importer": "texture",
+      "uuid": "f5e0d55f-65fe-4541-84cf-02632057d339@16491",
+      "displayName": "",
+      "id": "16491",
+      "name": "Map #18.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f5e0d55f-65fe-4541-84cf-02632057d339@eb30c"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f6660": {
+      "importer": "gltf-mesh",
+      "uuid": "f5e0d55f-65fe-4541-84cf-02632057d339@f6660",
+      "displayName": "",
+      "id": "f6660",
+      "name": "projectile_launcher_grenade.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eb30c": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f5e0d55f-65fe-4541-84cf-02632057d339@eb30c",
+      "displayName": "",
+      "id": "eb30c",
+      "name": "Map #18.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6db00": {
+      "importer": "gltf-material",
+      "uuid": "f5e0d55f-65fe-4541-84cf-02632057d339@6db00",
+      "displayName": "",
+      "id": "6db00",
+      "name": "ToonSoldiers_weapons.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5a533": {
+      "importer": "gltf-scene",
+      "uuid": "f5e0d55f-65fe-4541-84cf-02632057d339@5a533",
+      "displayName": "",
+      "id": "5a533",
+      "name": "projectile_launcher_grenade.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #18",
+        "uri": "f5e0d55f-65fe-4541-84cf-02632057d339@eb30c"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "f5e0d55f-65fe-4541-84cf-02632057d339@5a533",
+    "assetFinder": {
+      "meshes": [
+        "f5e0d55f-65fe-4541-84cf-02632057d339@f6660"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f5e0d55f-65fe-4541-84cf-02632057d339@16491"
+      ],
+      "materials": [
+        "f5e0d55f-65fe-4541-84cf-02632057d339@6db00"
+      ],
+      "scenes": [
+        "f5e0d55f-65fe-4541-84cf-02632057d339@5a533"
+      ]
+    }
+  }
+}

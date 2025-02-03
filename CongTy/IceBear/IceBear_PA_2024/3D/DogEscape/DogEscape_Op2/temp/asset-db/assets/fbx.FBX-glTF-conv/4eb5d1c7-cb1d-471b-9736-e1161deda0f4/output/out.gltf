@@ -1,0 +1,302 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 873,
+      "max": [
+        0.003143413458019495,
+        0.009157135151326656,
+        0.0032064870465546846
+      ],
+      "min": [
+        -0.0031629367731511593,
+        -5.375113687478006e-10,
+        -0.0031950967386364937
+      ],
+      "name": "Amphora_2/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 873,
+      "name": "Amphora_2/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 873,
+      "name": "Amphora_2/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 1512,
+      "name": "Amphora_2/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1023,
+      "max": [
+        0.0028131739236414433,
+        0.013091416098177433,
+        0.0026183321606367826
+      ],
+      "min": [
+        -0.002862484659999609,
+        -8.603819878771901e-10,
+        -0.0026183323934674263
+      ],
+      "name": "Amphora_3/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1023,
+      "name": "Amphora_3/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1023,
+      "name": "Amphora_3/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 1536,
+      "name": "Amphora_3/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 829,
+      "max": [
+        0.0031553274020552635,
+        0.009874465875327587,
+        0.0030831745825707912
+      ],
+      "min": [
+        -0.003178230719640851,
+        -4.658886609831825e-10,
+        -0.0030782828107476234
+      ],
+      "name": "Amphora_1/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 829,
+      "name": "Amphora_1/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 829,
+      "name": "Amphora_1/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 1464,
+      "name": "Amphora_1/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 27936,
+      "byteStride": 32,
+      "name": "Amphora_2",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6048,
+      "byteOffset": 27936
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32736,
+      "byteOffset": 33984,
+      "byteStride": 32,
+      "name": "Amphora_3",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6144,
+      "byteOffset": 66720
+    },
+    {
+      "buffer": 0,
+      "byteLength": 26528,
+      "byteOffset": 72864,
+      "byteStride": 32,
+      "name": "Amphora_1",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5856,
+      "byteOffset": 99392
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 105248,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 25.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "C:\\Users\\Admin\\Desktop\\Cat Escape\\Texture.jpg",
+          "relativeFileName": "C:\\Users\\Admin\\Desktop\\Cat Escape\\Texture.jpg"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "Mat_Environment",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Amphora_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Amphora_3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Amphora_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3
+      ],
+      "name": "amphora"
+    },
+    {
+      "mesh": 0,
+      "name": "Amphora_2",
+      "translation": [
+        2.8182521418784745e-05,
+        8.001995411177631e-06,
+        -0.003606090322136879
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "Amphora_3",
+      "translation": [
+        -0.0037304663565009832,
+        1.2596066881087609e-05,
+        0.0025489882100373507
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "Amphora_1",
+      "translation": [
+        0.0034932075068354607,
+        3.676396090668277e-06,
+        0.0035614878870546818
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

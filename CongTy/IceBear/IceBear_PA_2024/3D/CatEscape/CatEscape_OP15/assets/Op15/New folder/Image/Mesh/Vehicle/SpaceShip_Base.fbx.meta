@@ -1,0 +1,179 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7b3c4453-19d1-4347-9ae1-61156184e074",
+  "files": [],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "7b3c4453-19d1-4347-9ae1-61156184e074@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 14
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ce0c9": {
+      "importer": "gltf-mesh",
+      "uuid": "7b3c4453-19d1-4347-9ae1-61156184e074@ce0c9",
+      "displayName": "",
+      "id": "ce0c9",
+      "name": "Spaceship.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ecf2": {
+      "importer": "gltf-mesh",
+      "uuid": "7b3c4453-19d1-4347-9ae1-61156184e074@6ecf2",
+      "displayName": "",
+      "id": "6ecf2",
+      "name": "SM_Ship_Fighter_Heavy_02.001.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "7b3c4453-19d1-4347-9ae1-61156184e074@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 14
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4807": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7b3c4453-19d1-4347-9ae1-61156184e074@d4807",
+      "displayName": "",
+      "id": "d4807",
+      "name": "Scene_Atlas.png.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2ce41": {
+      "importer": "texture",
+      "uuid": "7b3c4453-19d1-4347-9ae1-61156184e074@2ce41",
+      "displayName": "",
+      "id": "2ce41",
+      "name": "DiffuseColor_Texture3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7b3c4453-19d1-4347-9ae1-61156184e074@d4807"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "8a6bd": {
+      "importer": "gltf-material",
+      "uuid": "7b3c4453-19d1-4347-9ae1-61156184e074@8a6bd",
+      "displayName": "",
+      "id": "8a6bd",
+      "name": "Spaceship.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5b659": {
+      "importer": "gltf-scene",
+      "uuid": "7b3c4453-19d1-4347-9ae1-61156184e074@5b659",
+      "displayName": "",
+      "id": "5b659",
+      "name": "SpaceShip_Base.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Scene_Atlas.png",
+        "uri": "7b3c4453-19d1-4347-9ae1-61156184e074@d4807"
+      }
+    ],
+    "legacyFbxImporter": true,
+    "redirect": "7b3c4453-19d1-4347-9ae1-61156184e074@5b659",
+    "assetFinder": {
+      "meshes": [
+        "7b3c4453-19d1-4347-9ae1-61156184e074@ce0c9",
+        "7b3c4453-19d1-4347-9ae1-61156184e074@6ecf2"
+      ],
+      "skeletons": [
+        "7b3c4453-19d1-4347-9ae1-61156184e074@30732",
+        "7b3c4453-19d1-4347-9ae1-61156184e074@f1394"
+      ],
+      "textures": [
+        "7b3c4453-19d1-4347-9ae1-61156184e074@2ce41"
+      ],
+      "materials": [
+        "7b3c4453-19d1-4347-9ae1-61156184e074@8a6bd"
+      ],
+      "scenes": [
+        "7b3c4453-19d1-4347-9ae1-61156184e074@5b659"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e601737e-de5d-44b5-a594-9712b67c70e3",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "e4227": {
+      "importer": "gltf-animation",
+      "uuid": "e601737e-de5d-44b5-a594-9712b67c70e3@e4227",
+      "displayName": "",
+      "id": "e4227",
+      "name": "capy_idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "c3260": {
+      "importer": "gltf-scene",
+      "uuid": "e601737e-de5d-44b5-a594-9712b67c70e3@c3260",
+      "displayName": "",
+      "id": "c3260",
+      "name": "capy_idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "capy_idle",
+        "duration": 4,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "capy_idle",
+            "from": 0,
+            "to": 4,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "e601737e-de5d-44b5-a594-9712b67c70e3@c3260",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "e601737e-de5d-44b5-a594-9712b67c70e3@c3260"
+      ]
+    }
+  }
+}

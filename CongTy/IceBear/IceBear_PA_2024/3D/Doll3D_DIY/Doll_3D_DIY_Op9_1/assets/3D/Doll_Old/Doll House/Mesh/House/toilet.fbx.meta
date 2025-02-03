@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bb9b1234-c990-48cc-b12d-f169ff3bf31f",
+  "files": [],
+  "subMetas": {
+    "36884": {
+      "importer": "gltf-embeded-image",
+      "uuid": "bb9b1234-c990-48cc-b12d-f169ff3bf31f@36884",
+      "displayName": "",
+      "id": "36884",
+      "name": "Megatexture.png.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1ce07": {
+      "importer": "gltf-mesh",
+      "uuid": "bb9b1234-c990-48cc-b12d-f169ff3bf31f@1ce07",
+      "displayName": "",
+      "id": "1ce07",
+      "name": "toilet.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba42f": {
+      "importer": "texture",
+      "uuid": "bb9b1234-c990-48cc-b12d-f169ff3bf31f@ba42f",
+      "displayName": "",
+      "id": "ba42f",
+      "name": "Megatexture.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "bb9b1234-c990-48cc-b12d-f169ff3bf31f@36884"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d54d8": {
+      "importer": "gltf-material",
+      "uuid": "bb9b1234-c990-48cc-b12d-f169ff3bf31f@d54d8",
+      "displayName": "",
+      "id": "d54d8",
+      "name": "Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1b079": {
+      "importer": "gltf-scene",
+      "uuid": "bb9b1234-c990-48cc-b12d-f169ff3bf31f@1b079",
+      "displayName": "",
+      "id": "1b079",
+      "name": "toilet.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Megatexture.png",
+        "uri": "bb9b1234-c990-48cc-b12d-f169ff3bf31f@36884"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "bb9b1234-c990-48cc-b12d-f169ff3bf31f@1b079",
+    "assetFinder": {
+      "meshes": [
+        "bb9b1234-c990-48cc-b12d-f169ff3bf31f@1ce07"
+      ],
+      "skeletons": [],
+      "textures": [
+        "bb9b1234-c990-48cc-b12d-f169ff3bf31f@ba42f"
+      ],
+      "materials": [
+        "bb9b1234-c990-48cc-b12d-f169ff3bf31f@d54d8"
+      ],
+      "scenes": [
+        "bb9b1234-c990-48cc-b12d-f169ff3bf31f@1b079"
+      ]
+    }
+  }
+}

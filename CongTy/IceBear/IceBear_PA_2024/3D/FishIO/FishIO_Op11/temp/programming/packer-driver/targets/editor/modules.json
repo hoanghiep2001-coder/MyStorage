@@ -1,0 +1,4990 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 5942.292599976063,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 586188.2318999767,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 109
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/AudioManager.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 125
+          },
+          "end": {
+            "line": 5,
+            "column": 202
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GameController.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 218
+          },
+          "end": {
+            "line": 5,
+            "column": 297
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GamePlay.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 313
+          },
+          "end": {
+            "line": 5,
+            "column": 386
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/Responsive.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 402
+          },
+          "end": {
+            "line": 5,
+            "column": 477
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/UIController.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 493
+          },
+          "end": {
+            "line": 5,
+            "column": 570
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/Responsive.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/UIController.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op1/assets/Script/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1688708640443.1387,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 148
+          },
+          "end": {
+            "line": 1,
+            "column": 152
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op1/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1688653720000,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op1/assets/Script/CharacterControl.ts": {
+    "mTimestamp": {
+      "mtime": 1688698630771.818,
+      "uuid": "7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280"
+    },
+    "chunkId": "assets/Script/CharacterControl.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 107
+          },
+          "end": {
+            "line": 2,
+            "column": 111
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op1/assets/Script/RangerControl.ts": {
+    "mTimestamp": {
+      "mtime": 1688698598865.6006,
+      "uuid": "51538585-730d-4fe9-b6a8-c8135576ab86"
+    },
+    "chunkId": "assets/Script/RangerControl.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 126
+          },
+          "end": {
+            "line": 2,
+            "column": 130
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeDino/MergeDino_Op6/assets/Script/CharacterControl.ts": {
+    "mTimestamp": {
+      "mtime": 1688789873509.2256,
+      "uuid": "7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280"
+    },
+    "chunkId": "assets/Script/CharacterControl.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 107
+          },
+          "end": {
+            "line": 2,
+            "column": 111
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeDino/MergeDino_Op6/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1688715258043.187,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeDino/MergeDino_Op6/assets/Script/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1688792108094.464,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 148
+          },
+          "end": {
+            "line": 1,
+            "column": 152
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeDino/MergeDino_Op6/assets/Script/RangerControl.ts": {
+    "mTimestamp": {
+      "mtime": 1688789843805.0122,
+      "uuid": "51538585-730d-4fe9-b6a8-c8135576ab86"
+    },
+    "chunkId": "assets/Script/RangerControl.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 126
+          },
+          "end": {
+            "line": 2,
+            "column": 130
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeDino/MergeDino_Op6/assets/Script/TestClick.ts": {
+    "mTimestamp": {
+      "mtime": 1690533004813.6853,
+      "uuid": "64cc7d0a-7be8-4689-a11b-666ab9b98b49"
+    },
+    "chunkId": "assets/Script/TestClick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/RangerControl.ts": {
+    "mTimestamp": {
+      "mtime": 1691528220000,
+      "uuid": "51538585-730d-4fe9-b6a8-c8135576ab86"
+    },
+    "chunkId": "assets/Script/RangerControl.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 126
+          },
+          "end": {
+            "line": 2,
+            "column": 130
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/CharacterControl.ts": {
+    "mTimestamp": {
+      "mtime": 1691528220000,
+      "uuid": "7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280"
+    },
+    "chunkId": "assets/Script/CharacterControl.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 107
+          },
+          "end": {
+            "line": 2,
+            "column": 111
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1692182538087.1614,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 256
+          },
+          "end": {
+            "line": 1,
+            "column": 260
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1692170172009.4707,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/TestClick.ts": {
+    "mTimestamp": {
+      "mtime": 1691528220000,
+      "uuid": "64cc7d0a-7be8-4689-a11b-666ab9b98b49"
+    },
+    "chunkId": "assets/Script/TestClick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/MergeGrimise_Op1/assets/Script/RangerControl.ts": {
+    "mTimestamp": {
+      "mtime": 1691528220000,
+      "uuid": "51538585-730d-4fe9-b6a8-c8135576ab86"
+    },
+    "chunkId": "assets/Script/RangerControl.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 126
+          },
+          "end": {
+            "line": 2,
+            "column": 130
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/MergeGrimise_Op1/assets/Script/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1692074560678.1123,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/GamePlay.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 240
+          },
+          "end": {
+            "line": 1,
+            "column": 244
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/MergeGrimise_Op1/assets/Script/CharacterControl.ts": {
+    "mTimestamp": {
+      "mtime": 1691528220000,
+      "uuid": "7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280"
+    },
+    "chunkId": "assets/Script/CharacterControl.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 107
+          },
+          "end": {
+            "line": 2,
+            "column": 111
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/MergeGrimise_Op1/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1691528220000,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/MergeGrimise_Op1/assets/Script/TEst.ts": {
+    "mTimestamp": {
+      "mtime": 1692065478852.6643,
+      "uuid": "3dfc0aac-3b68-4408-a89e-9366c4b97688"
+    },
+    "chunkId": "assets/Script/TEst.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 94
+          },
+          "end": {
+            "line": 2,
+            "column": 98
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/TEst.ts": {
+    "mTimestamp": {
+      "mtime": 1692065478852.6643,
+      "uuid": "3dfc0aac-3b68-4408-a89e-9366c4b97688"
+    },
+    "chunkId": "assets/Script/TEst.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 94
+          },
+          "end": {
+            "line": 2,
+            "column": 98
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1692158068322.5417,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/AudioManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1692179338622.5278,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 81
+          },
+          "end": {
+            "line": 3,
+            "column": 85
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op1/assets/Script/GamePlay.ts"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1711339674012,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op3/assets/Script/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1692158068322.5417,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/AudioManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op3/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1692170172009.4707,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op3/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1694425836246.6917,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 81
+          },
+          "end": {
+            "line": 2,
+            "column": 85
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op3/assets/Script/GamePlay.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op3/assets/Script/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1694502610357.8271,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 152
+          },
+          "end": {
+            "line": 1,
+            "column": 156
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "./BulletController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 33
+          },
+          "end": {
+            "line": 6,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op3/assets/Script/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op3/assets/Script/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op3/assets/Script/BulletController.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op3/assets/Script/BulletController.ts": {
+    "mTimestamp": {
+      "mtime": 1694426024798.2195,
+      "uuid": "5c4f1c03-e727-4d5b-b061-282967729318"
+    },
+    "chunkId": "assets/Script/BulletController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 107
+          },
+          "end": {
+            "line": 2,
+            "column": 111
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeGrimise/MergeGrimise_Op3/assets/Script/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/MergeGrimise_Op3/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1692170172009.4707,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/MergeGrimise_Op3/assets/Script/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1692158068322.5417,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/AudioManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/MergeGrimise_Op3/assets/Script/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1694407093928.7773,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 142
+          },
+          "end": {
+            "line": 1,
+            "column": 146
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/MergeGrimise_Op3/assets/Script/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/MergeGrimise_Op3/assets/Script/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/MergeGrimise_Op3/assets/Script/BulletController.ts": {
+    "mTimestamp": {
+      "mtime": 1693451018538.841,
+      "uuid": "5c4f1c03-e727-4d5b-b061-282967729318"
+    },
+    "chunkId": "assets/Script/BulletController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/MergeGrimise_Op3/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1694143174635.306,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 81
+          },
+          "end": {
+            "line": 2,
+            "column": 85
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/MergeGrimise_Op3/assets/Script/GamePlay.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1695939716000,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/AudioManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/BulletController.ts": {
+    "mTimestamp": {
+      "mtime": 1694426024798.2195,
+      "uuid": "5c4f1c03-e727-4d5b-b061-282967729318"
+    },
+    "chunkId": "assets/Script/BulletController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 107
+          },
+          "end": {
+            "line": 2,
+            "column": 111
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1695982208158.9185,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 81
+          },
+          "end": {
+            "line": 2,
+            "column": 85
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/GamePlay.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1695939716000,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1697180169083.7012,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 190
+          },
+          "end": {
+            "line": 1,
+            "column": 194
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "./JoyStick",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/JoyStick.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/MergeToilet/MergeToilet_Op8/assets/Script/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1697180140827.046,
+      "uuid": "7bdaddf0-21d9-4297-b8f7-db0312e41faf"
+    },
+    "chunkId": "assets/Script/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 18,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestVideo_2/assets/Script/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1700040332946.7505,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/AudioManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestVideo_2/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1700042329319.2007,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 81
+          },
+          "end": {
+            "line": 2,
+            "column": 85
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestVideo_2/assets/Script/GamePlay.ts"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestVideo_2/assets/Script/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1700039258505.8337,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 203
+          },
+          "end": {
+            "line": 1,
+            "column": 207
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestVideo_2/assets/Script/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/HiepIntern/Test/TestVideo_2/assets/Script/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestVideo_2/assets/Script/JoyStick.ts": {
+    "mTimestamp": {
+      "mtime": 1698994901383.8506,
+      "uuid": "7bdaddf0-21d9-4297-b8f7-db0312e41faf"
+    },
+    "chunkId": "assets/Script/JoyStick.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 18,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/HiepIntern/Test/TestVideo_2/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1700034288774.4685,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/RopeTangle/RopeTangle_Op2/assets/Script/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1700062120576.0652,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/AudioManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/RopeTangle/RopeTangle_Op2/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1700065277718.786,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 94
+          },
+          "end": {
+            "line": 2,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/RopeTangle/RopeTangle_Op2/assets/Script/GamePlay.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/RopeTangle/RopeTangle_Op2/assets/Script/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1700064898751.4443,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 203
+          },
+          "end": {
+            "line": 1,
+            "column": 207
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/RopeTangle/RopeTangle_Op2/assets/Script/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/RopeTangle/RopeTangle_Op2/assets/Script/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/RopeTangle/RopeTangle_Op2/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1700062120607.3108,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1700064900000,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 203
+          },
+          "end": {
+            "line": 1,
+            "column": 207
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1700062122000,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/AudioManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1700062122000,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/GameController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1700065278000,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 94
+          },
+          "end": {
+            "line": 2,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/GamePlay.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Data/constants.ts": {
+    "mTimestamp": {
+      "mtime": 1700121618014.871,
+      "uuid": "2561fd39-e8f6-4d9d-a953-e0bd0f0f1666"
+    },
+    "chunkId": "assets/Script/Data/constants.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1700220667694.3772,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 80
+          },
+          "end": {
+            "line": 2,
+            "column": 84
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Game/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1700471116783.948,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/Game/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 203
+          },
+          "end": {
+            "line": 1,
+            "column": 207
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Game/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Game/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1700062122000,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/Game/AudioManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Game/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1700200611188.1003,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Game/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 94
+          },
+          "end": {
+            "line": 2,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Game/GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/playable-ads-hiepdh/RopeTangle/RopeTangle_Op2/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Data/constants.ts": {
+    "mTimestamp": {
+      "mtime": 1704445884175.4878,
+      "uuid": "2561fd39-e8f6-4d9d-a953-e0bd0f0f1666"
+    },
+    "chunkId": "assets/Script/Data/constants.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Game/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1704447794247.0454,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/Game/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Game/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1704445515346.9292,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Game/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 94
+          },
+          "end": {
+            "line": 2,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Game/GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1704444277521.5056,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 80
+          },
+          "end": {
+            "line": 2,
+            "column": 84
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Game/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1704447752200.8235,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/Game/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 221
+          },
+          "end": {
+            "line": 1,
+            "column": 225
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Game/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/DotPainting/DotPainting_Op2/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1705648326813.8408,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/Game/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Data/constants.ts": {
+    "mTimestamp": {
+      "mtime": 1705996060634.7087,
+      "uuid": "2561fd39-e8f6-4d9d-a953-e0bd0f0f1666"
+    },
+    "chunkId": "assets/Script/Data/constants.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1706000062143.3452,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/Game/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 221
+          },
+          "end": {
+            "line": 1,
+            "column": 225
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "./UIController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/UIController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1705999389821.1267,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Game/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 102
+          },
+          "end": {
+            "line": 2,
+            "column": 106
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "./UIController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/UIController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1705999588514.4197,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 80
+          },
+          "end": {
+            "line": 2,
+            "column": 84
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/SantaCall/SantaCall_Op2/assets/Script/Game/UIController.ts": {
+    "mTimestamp": {
+      "mtime": 1705977783273.5464,
+      "uuid": "bbbeec11-a88c-4350-9c85-80551d0ab014"
+    },
+    "chunkId": "assets/Script/Game/UIController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts": {
+    "mTimestamp": {
+      "mtime": 1711293348000,
+      "uuid": "2561fd39-e8f6-4d9d-a953-e0bd0f0f1666"
+    },
+    "chunkId": "assets/Script/Data/constants.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1711332886156.1619,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 80
+          },
+          "end": {
+            "line": 2,
+            "column": 84
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1711340258224.723,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/Game/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 221
+          },
+          "end": {
+            "line": 1,
+            "column": 225
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "./UIController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/UIController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1711339665902.6355,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Game/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 108
+          },
+          "end": {
+            "line": 2,
+            "column": 112
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "./UIController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/UIController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1711295672000,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/Game/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/UIController.ts": {
+    "mTimestamp": {
+      "mtime": 1711297426000,
+      "uuid": "bbbeec11-a88c-4350-9c85-80551d0ab014"
+    },
+    "chunkId": "assets/Script/Game/UIController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1711293346687.9775,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/Game/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 80
+          },
+          "end": {
+            "line": 2,
+            "column": 84
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts": {
+    "mTimestamp": {
+      "mtime": 1711293346609.4807,
+      "uuid": "2561fd39-e8f6-4d9d-a953-e0bd0f0f1666"
+    },
+    "chunkId": "assets/Script/Data/constants.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1711295670173.6658,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/Game/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1711293346766.087,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Game/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 102
+          },
+          "end": {
+            "line": 2,
+            "column": 106
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/UIController.ts": {
+    "mTimestamp": {
+      "mtime": 1711297424612.611,
+      "uuid": "bbbeec11-a88c-4350-9c85-80551d0ab014"
+    },
+    "chunkId": "assets/Script/Game/UIController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1711301253741.7512,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/Game/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 221
+          },
+          "end": {
+            "line": 1,
+            "column": 225
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Data/constants",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "./UIController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PlayableAds/PA_2024/3D/FishIO/FishIO_Op11/assets/Script/Game/UIController.ts"
+      }
+    ]
+  }
+}

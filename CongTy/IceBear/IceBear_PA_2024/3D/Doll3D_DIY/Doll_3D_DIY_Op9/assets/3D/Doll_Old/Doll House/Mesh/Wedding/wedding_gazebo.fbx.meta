@@ -1,0 +1,159 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "eae3f8db-1bf4-4bac-806f-7c4712781137",
+  "files": [],
+  "subMetas": {
+    "ac436": {
+      "importer": "gltf-mesh",
+      "uuid": "eae3f8db-1bf4-4bac-806f-7c4712781137@ac436",
+      "displayName": "",
+      "id": "ac436",
+      "name": "cloth.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b7f17": {
+      "importer": "gltf-mesh",
+      "uuid": "eae3f8db-1bf4-4bac-806f-7c4712781137@b7f17",
+      "displayName": "",
+      "id": "b7f17",
+      "name": "flowercl.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d6573": {
+      "importer": "gltf-mesh",
+      "uuid": "eae3f8db-1bf4-4bac-806f-7c4712781137@d6573",
+      "displayName": "",
+      "id": "d6573",
+      "name": "10073_Gazebo_V2_L3.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "eae3f8db-1bf4-4bac-806f-7c4712781137@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "eae3f8db-1bf4-4bac-806f-7c4712781137@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "eae3f8db-1bf4-4bac-806f-7c4712781137@48b02"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9f3c": {
+      "importer": "gltf-material",
+      "uuid": "eae3f8db-1bf4-4bac-806f-7c4712781137@c9f3c",
+      "displayName": "",
+      "id": "c9f3c",
+      "name": "environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c7696": {
+      "importer": "gltf-scene",
+      "uuid": "eae3f8db-1bf4-4bac-806f-7c4712781137@c7696",
+      "displayName": "",
+      "id": "c7696",
+      "name": "wedding_gazebo.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "eae3f8db-1bf4-4bac-806f-7c4712781137@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "eae3f8db-1bf4-4bac-806f-7c4712781137@c7696",
+    "assetFinder": {
+      "meshes": [
+        "eae3f8db-1bf4-4bac-806f-7c4712781137@ac436",
+        "eae3f8db-1bf4-4bac-806f-7c4712781137@b7f17",
+        "eae3f8db-1bf4-4bac-806f-7c4712781137@d6573"
+      ],
+      "skeletons": [],
+      "textures": [
+        "eae3f8db-1bf4-4bac-806f-7c4712781137@7d6ab"
+      ],
+      "materials": [
+        "eae3f8db-1bf4-4bac-806f-7c4712781137@c9f3c"
+      ],
+      "scenes": [
+        "eae3f8db-1bf4-4bac-806f-7c4712781137@c7696"
+      ]
+    }
+  }
+}

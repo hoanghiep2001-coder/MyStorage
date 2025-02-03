@@ -1,0 +1,82 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3c9c976f-2a86-4f56-a7c3-11908ca6e519",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "4cd96": {
+      "importer": "gltf-animation",
+      "uuid": "3c9c976f-2a86-4f56-a7c3-11908ca6e519@4cd96",
+      "displayName": "",
+      "id": "4cd96",
+      "name": "submarine_idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b73a5": {
+      "importer": "gltf-scene",
+      "uuid": "3c9c976f-2a86-4f56-a7c3-11908ca6e519@b73a5",
+      "displayName": "",
+      "id": "b73a5",
+      "name": "submarine_idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "animationImportSettings": [
+      {
+        "name": "submarine_idle",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "submarine_idle",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "3c9c976f-2a86-4f56-a7c3-11908ca6e519@b73a5",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "3c9c976f-2a86-4f56-a7c3-11908ca6e519@b73a5"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

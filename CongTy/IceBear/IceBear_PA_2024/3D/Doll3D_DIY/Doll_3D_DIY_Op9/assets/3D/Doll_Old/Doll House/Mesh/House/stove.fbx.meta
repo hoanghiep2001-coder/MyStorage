@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "537aed81-a9ba-4e83-88f6-29b213258790",
+  "files": [],
+  "subMetas": {
+    "91771": {
+      "importer": "gltf-embeded-image",
+      "uuid": "537aed81-a9ba-4e83-88f6-29b213258790@91771",
+      "displayName": "",
+      "id": "91771",
+      "name": "Megatexture.png9.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fee47": {
+      "importer": "gltf-mesh",
+      "uuid": "537aed81-a9ba-4e83-88f6-29b213258790@fee47",
+      "displayName": "",
+      "id": "fee47",
+      "name": "stove.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0e472": {
+      "importer": "texture",
+      "uuid": "537aed81-a9ba-4e83-88f6-29b213258790@0e472",
+      "displayName": "",
+      "id": "0e472",
+      "name": "Megatexture.png9.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "537aed81-a9ba-4e83-88f6-29b213258790@91771"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8ecdb": {
+      "importer": "gltf-material",
+      "uuid": "537aed81-a9ba-4e83-88f6-29b213258790@8ecdb",
+      "displayName": "",
+      "id": "8ecdb",
+      "name": "Default9.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7fd0": {
+      "importer": "gltf-scene",
+      "uuid": "537aed81-a9ba-4e83-88f6-29b213258790@a7fd0",
+      "displayName": "",
+      "id": "a7fd0",
+      "name": "stove.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Megatexture.png9",
+        "uri": "537aed81-a9ba-4e83-88f6-29b213258790@91771"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "537aed81-a9ba-4e83-88f6-29b213258790@a7fd0",
+    "assetFinder": {
+      "meshes": [
+        "537aed81-a9ba-4e83-88f6-29b213258790@fee47"
+      ],
+      "skeletons": [],
+      "textures": [
+        "537aed81-a9ba-4e83-88f6-29b213258790@0e472"
+      ],
+      "materials": [
+        "537aed81-a9ba-4e83-88f6-29b213258790@8ecdb"
+      ],
+      "scenes": [
+        "537aed81-a9ba-4e83-88f6-29b213258790@a7fd0"
+      ]
+    }
+  }
+}

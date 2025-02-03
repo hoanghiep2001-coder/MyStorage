@@ -1,0 +1,68 @@
+{
+  "log": {
+    "level": 4
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1721038831805": {
+        "id": "1721038831805",
+        "progress": 1,
+        "state": "success",
+        "message": "11-8-2024 09:27 Build success in 70865 ms!",
+        "options": {
+          "name": "Billiard_Op9",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "a7e96b27-704f-4703-a914-7cf862373a31",
+          "scenes": [
+            {
+              "url": "db://assets/Ops/Op9/OP9.scene",
+              "uuid": "a7e96b27-704f-4703-a914-7cf862373a31",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-mobile",
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "25c675",
+              "services": []
+            },
+            "super-html": null
+          }
+        },
+        "time": "11-8-2024 09:26",
+        "dirty": false
+      }
+    }
+  },
+  "common": {
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "startScene": "a7e96b27-704f-4703-a914-7cf862373a31",
+    "scenes": [
+      {
+        "url": "db://assets/Scene/OP13.scene",
+        "uuid": "945d636b-62ea-43b8-9529-d5c698dbfb13",
+        "inBundle": false
+      }
+    ],
+    "name": "Billiard_Op9"
+  }
+}

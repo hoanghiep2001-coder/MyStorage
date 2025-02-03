@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "84a10c5d-d685-4771-8426-717d783d85b6",
+  "files": [],
+  "subMetas": {
+    "be6cb": {
+      "importer": "gltf-mesh",
+      "uuid": "84a10c5d-d685-4771-8426-717d783d85b6@be6cb",
+      "displayName": "",
+      "id": "be6cb",
+      "name": "kayak.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "84a10c5d-d685-4771-8426-717d783d85b6@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "84a10c5d-d685-4771-8426-717d783d85b6@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "84a10c5d-d685-4771-8426-717d783d85b6@48b02"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9f3c": {
+      "importer": "gltf-material",
+      "uuid": "84a10c5d-d685-4771-8426-717d783d85b6@c9f3c",
+      "displayName": "",
+      "id": "c9f3c",
+      "name": "environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ccb7a": {
+      "importer": "gltf-scene",
+      "uuid": "84a10c5d-d685-4771-8426-717d783d85b6@ccb7a",
+      "displayName": "",
+      "id": "ccb7a",
+      "name": "kayak.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "84a10c5d-d685-4771-8426-717d783d85b6@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "84a10c5d-d685-4771-8426-717d783d85b6@ccb7a",
+    "assetFinder": {
+      "meshes": [
+        "84a10c5d-d685-4771-8426-717d783d85b6@be6cb"
+      ],
+      "skeletons": [],
+      "textures": [
+        "84a10c5d-d685-4771-8426-717d783d85b6@7d6ab"
+      ],
+      "materials": [
+        "84a10c5d-d685-4771-8426-717d783d85b6@c9f3c"
+      ],
+      "scenes": [
+        "84a10c5d-d685-4771-8426-717d783d85b6@ccb7a"
+      ]
+    }
+  }
+}

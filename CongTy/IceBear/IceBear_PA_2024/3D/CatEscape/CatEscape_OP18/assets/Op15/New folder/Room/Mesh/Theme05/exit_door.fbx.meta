@@ -1,0 +1,128 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6097938f-e1e5-426a-b9f7-d864fdf570df",
+  "files": [],
+  "subMetas": {
+    "96715": {
+      "importer": "gltf-mesh",
+      "uuid": "6097938f-e1e5-426a-b9f7-d864fdf570df@96715",
+      "displayName": "",
+      "id": "96715",
+      "name": "Door.002.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "18cc7": {
+      "importer": "gltf-mesh",
+      "uuid": "6097938f-e1e5-426a-b9f7-d864fdf570df@18cc7",
+      "displayName": "",
+      "id": "18cc7",
+      "name": "Door.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6097938f-e1e5-426a-b9f7-d864fdf570df@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "6097938f-e1e5-426a-b9f7-d864fdf570df@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6097938f-e1e5-426a-b9f7-d864fdf570df@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "f127d": {
+      "importer": "gltf-scene",
+      "uuid": "6097938f-e1e5-426a-b9f7-d864fdf570df@f127d",
+      "displayName": "",
+      "id": "f127d",
+      "name": "exit_door.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "6097938f-e1e5-426a-b9f7-d864fdf570df@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "6097938f-e1e5-426a-b9f7-d864fdf570df@f127d",
+    "assetFinder": {
+      "meshes": [
+        "6097938f-e1e5-426a-b9f7-d864fdf570df@18cc7",
+        "6097938f-e1e5-426a-b9f7-d864fdf570df@96715"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6097938f-e1e5-426a-b9f7-d864fdf570df@7d6ab"
+      ],
+      "materials": [
+        "32ec46ae-de9d-4aa0-8d4e-20ba77ef97f3"
+      ],
+      "scenes": [
+        "6097938f-e1e5-426a-b9f7-d864fdf570df@f127d"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/Room/Mesh/Theme05/Materials_exit_door",
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

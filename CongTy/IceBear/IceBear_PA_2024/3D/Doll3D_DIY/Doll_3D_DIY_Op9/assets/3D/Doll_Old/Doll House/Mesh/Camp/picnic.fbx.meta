@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8dcf31c6-eab2-491c-81da-da1fac39e7e4",
+  "files": [],
+  "subMetas": {
+    "40d49": {
+      "importer": "gltf-mesh",
+      "uuid": "8dcf31c6-eab2-491c-81da-da1fac39e7e4@40d49",
+      "displayName": "",
+      "id": "40d49",
+      "name": "picnic.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "8dcf31c6-eab2-491c-81da-da1fac39e7e4@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "8dcf31c6-eab2-491c-81da-da1fac39e7e4@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8dcf31c6-eab2-491c-81da-da1fac39e7e4@48b02"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9f3c": {
+      "importer": "gltf-material",
+      "uuid": "8dcf31c6-eab2-491c-81da-da1fac39e7e4@c9f3c",
+      "displayName": "",
+      "id": "c9f3c",
+      "name": "environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1c984": {
+      "importer": "gltf-scene",
+      "uuid": "8dcf31c6-eab2-491c-81da-da1fac39e7e4@1c984",
+      "displayName": "",
+      "id": "1c984",
+      "name": "picnic.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "8dcf31c6-eab2-491c-81da-da1fac39e7e4@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "8dcf31c6-eab2-491c-81da-da1fac39e7e4@1c984",
+    "assetFinder": {
+      "meshes": [
+        "8dcf31c6-eab2-491c-81da-da1fac39e7e4@40d49"
+      ],
+      "skeletons": [],
+      "textures": [
+        "8dcf31c6-eab2-491c-81da-da1fac39e7e4@7d6ab"
+      ],
+      "materials": [
+        "8dcf31c6-eab2-491c-81da-da1fac39e7e4@c9f3c"
+      ],
+      "scenes": [
+        "8dcf31c6-eab2-491c-81da-da1fac39e7e4@1c984"
+      ]
+    }
+  }
+}

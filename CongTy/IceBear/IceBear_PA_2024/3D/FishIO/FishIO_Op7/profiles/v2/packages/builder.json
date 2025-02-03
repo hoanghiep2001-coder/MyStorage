@@ -1,0 +1,59 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1702637417232": {
+        "id": "1702637417232",
+        "progress": 1,
+        "state": "success",
+        "message": "2-29-2024 16:28 Build success in 6977 ms!",
+        "options": {
+          "name": "FishIO_Op6",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "fa58af6a-e12c-499a-96bb-f85799927461",
+          "scenes": [
+            {
+              "url": "db://assets/Game.scene",
+              "uuid": "fa58af6a-e12c-499a-96bb-f85799927461",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-mobile",
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "69ca62",
+              "services": []
+            },
+            "super-html": null
+          }
+        },
+        "time": "2-29-2024 16:28",
+        "dirty": false
+      }
+    }
+  }
+}

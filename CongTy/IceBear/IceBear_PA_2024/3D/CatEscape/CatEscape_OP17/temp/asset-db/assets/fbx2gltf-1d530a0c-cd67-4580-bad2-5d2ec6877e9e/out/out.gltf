@@ -1,0 +1,542 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 2560,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 80,
+            "byteOffset": 0
+        },
+        {
+            "buffer": 0,
+            "byteLength": 240,
+            "byteOffset": 80
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 320
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 640
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 960
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 1280
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 1600
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 1920
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 2240
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5126,
+            "type": "SCALAR",
+            "count": 20,
+            "bufferView": 0,
+            "byteOffset": 0,
+            "min": [
+                0.0
+            ],
+            "max": [
+                0.791666686534882
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 20,
+            "bufferView": 1,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 20,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 20,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 20,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 20,
+            "bufferView": 5,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 20,
+            "bufferView": 6,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 20,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 20,
+            "bufferView": 8,
+            "byteOffset": 0
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "animations": [
+        {
+            "name": "Car_idle_takeoff",
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 1,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 1,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 2,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 3,
+                    "target": {
+                        "node": 4,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 4,
+                    "target": {
+                        "node": 8,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 5,
+                    "target": {
+                        "node": 9,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 6,
+                    "target": {
+                        "node": 10,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 7,
+                    "target": {
+                        "node": 12,
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "samplers": [
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 1
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 2
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 3
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 4
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 5
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 6
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 7
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 8
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Root_M",
+            "translation": [
+                0.0,
+                0.0196683146059513,
+                0.0
+            ],
+            "rotation": [
+                0.502155601978302,
+                0.495198756456375,
+                0.501460671424866,
+                0.501153767108917
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                2,
+                4,
+                6,
+                10,
+                12
+            ]
+        },
+        {
+            "name": "frontWheel_R",
+            "translation": [
+                -0.00811253394931555,
+                0.0469069220125675,
+                -0.0301142614334822
+            ],
+            "rotation": [
+                0.702206432819366,
+                0.083103246986866,
+                -0.702206432819366,
+                0.083103246986866
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "frontWheelEnd_R",
+            "translation": [
+                0.00622938573360443,
+                8.88178399847791e-18,
+                4.44089183380283e-17
+            ],
+            "rotation": [
+                8.46355932592047e-37,
+                -6.50521303491303e-19,
+                1.30104260698261e-18,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "backWheel_R",
+            "translation": [
+                -0.00811253394931555,
+                -0.0471587777137756,
+                -0.0301142614334822
+            ],
+            "rotation": [
+                0.523703873157501,
+                0.475114971399307,
+                -0.523703873157501,
+                0.475114971399307
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                5
+            ]
+        },
+        {
+            "name": "backWheelEnd_R",
+            "translation": [
+                0.00622938573360443,
+                6.66133799885843e-18,
+                -3.55271359939116e-17
+            ],
+            "rotation": [
+                1.38777878078145e-17,
+                -4.33680868994202e-19,
+                -5.6920614055489e-19,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Body_M",
+            "translation": [
+                0.0199999995529652,
+                -4.11129443954169e-17,
+                1.47451489254174e-18
+            ],
+            "rotation": [
+                -4.3157747794345e-19,
+                -4.83002443595865e-19,
+                0.0043633091263473,
+                0.999990463256836
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                7,
+                8,
+                9
+            ]
+        },
+        {
+            "name": "BodyEnd_M",
+            "translation": [
+                0.0404530167579651,
+                -2.08166812464326e-19,
+                -1.39471766806791e-17
+            ],
+            "rotation": [
+                0.0,
+                -5.42101086242752e-20,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Door_R",
+            "translation": [
+                0.00466038612648845,
+                -0.0998114123940468,
+                -0.0210826359689236
+            ],
+            "rotation": [
+                0.0614995323121548,
+                0.0476661920547485,
+                -0.704427301883698,
+                0.705498337745667
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Door_L",
+            "translation": [
+                0.00466038612648845,
+                -0.0998114123940468,
+                0.0210826359689236
+            ],
+            "rotation": [
+                -0.133008182048798,
+                0.146608978509903,
+                0.69448459148407,
+                0.691741168498993
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "frontWheel_L",
+            "translation": [
+                -0.00811253394931555,
+                0.0469069220125675,
+                0.0301142614334822
+            ],
+            "rotation": [
+                0.696960151195526,
+                -0.119359202682972,
+                -0.696960091590881,
+                -0.119359210133553
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                11
+            ]
+        },
+        {
+            "name": "frontWheelEnd_L",
+            "translation": [
+                -0.00622938573360443,
+                -5.44590206263962e-10,
+                -3.55271359939116e-17
+            ],
+            "rotation": [
+                -2.77555756156289e-17,
+                -2.16840434497101e-19,
+                -8.67361737988404e-19,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "backWheel_L",
+            "translation": [
+                -0.00811253394931555,
+                -0.0471587777137756,
+                0.0301142614334822
+            ],
+            "rotation": [
+                0.691969215869904,
+                -0.145528748631477,
+                -0.691969156265259,
+                -0.145528763532639
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                13
+            ]
+        },
+        {
+            "name": "backWheelEnd_L",
+            "translation": [
+                -0.00622938573360443,
+                -5.44590206263962e-10,
+                5.32907039908674e-17
+            ],
+            "rotation": [
+                5.55111512312578e-17,
+                -2.16840434497101e-19,
+                -4.33680868994202e-19,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

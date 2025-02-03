@@ -1,0 +1,124 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7162b218-d1b0-46a1-bb91-309657681e3a",
+  "files": [],
+  "subMetas": {
+    "b2bd6": {
+      "importer": "gltf-mesh",
+      "uuid": "7162b218-d1b0-46a1-bb91-309657681e3a@b2bd6",
+      "displayName": "",
+      "id": "b2bd6",
+      "name": "military_streetmap.015.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7162b218-d1b0-46a1-bb91-309657681e3a@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "7162b218-d1b0-46a1-bb91-309657681e3a@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7162b218-d1b0-46a1-bb91-309657681e3a@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "37cdd": {
+      "importer": "gltf-material",
+      "uuid": "7162b218-d1b0-46a1-bb91-309657681e3a@37cdd",
+      "displayName": "",
+      "id": "37cdd",
+      "name": "Mat_Environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7c554": {
+      "importer": "gltf-scene",
+      "uuid": "7162b218-d1b0-46a1-bb91-309657681e3a@7c554",
+      "displayName": "",
+      "id": "7c554",
+      "name": "military_stopbar.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "7162b218-d1b0-46a1-bb91-309657681e3a@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "7162b218-d1b0-46a1-bb91-309657681e3a@7c554",
+    "assetFinder": {
+      "meshes": [
+        "7162b218-d1b0-46a1-bb91-309657681e3a@b2bd6"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7162b218-d1b0-46a1-bb91-309657681e3a@7d6ab"
+      ],
+      "materials": [
+        "7162b218-d1b0-46a1-bb91-309657681e3a@37cdd"
+      ],
+      "scenes": [
+        "7162b218-d1b0-46a1-bb91-309657681e3a@7c554"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

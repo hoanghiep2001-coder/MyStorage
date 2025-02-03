@@ -1,0 +1,231 @@
+[
+    1,
+    0,
+    0,
+    [
+        [
+            "cc.EffectAsset",
+            [
+                "_name",
+                "combinations",
+                "shaders",
+                "techniques"
+            ],
+            -1
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    ],
+    [
+        [
+            0,
+            "DissolveSpirte",
+            [
+                {
+                    "USE_TEXTURE": [
+                        true
+                    ]
+                }
+            ],
+            [
+                {
+                    "hash": 1576047608,
+                    "name": "DissolveSpirte|vs:vert|fs:frag",
+                    "blocks": [
+                        {
+                            "name": "Dissolve",
+                            "stageFlags": 16,
+                            "binding": 0,
+                            "members": [
+                                {
+                                    "name": "dissolveThreshold",
+                                    "type": 13,
+                                    "count": 1
+                                }
+                            ],
+                            "defines": []
+                        }
+                    ],
+                    "samplerTextures": [
+                        {
+                            "name": "u_dissolveMap",
+                            "type": 28,
+                            "count": 1,
+                            "stageFlags": 16,
+                            "binding": 1,
+                            "defines": [
+                                "USE_TEXTURE"
+                            ]
+                        }
+                    ],
+                    "samplers": [],
+                    "textures": [],
+                    "buffers": [],
+                    "images": [],
+                    "subpassInputs": [],
+                    "attributes": [
+                        {
+                            "name": "a_position",
+                            "format": 32,
+                            "location": 0,
+                            "defines": []
+                        },
+                        {
+                            "name": "a_texCoord",
+                            "format": 21,
+                            "location": 1,
+                            "defines": []
+                        },
+                        {
+                            "name": "a_color",
+                            "format": 44,
+                            "location": 2,
+                            "defines": []
+                        }
+                    ],
+                    "varyings": [
+                        {
+                            "name": "color",
+                            "type": 16,
+                            "count": 1,
+                            "stageFlags": 17,
+                            "location": 0,
+                            "defines": []
+                        },
+                        {
+                            "name": "uv0",
+                            "type": 14,
+                            "count": 1,
+                            "stageFlags": 17,
+                            "location": 1,
+                            "defines": []
+                        }
+                    ],
+                    "fragColors": [
+                        {
+                            "name": "cc_FragColor",
+                            "typename": "vec4",
+                            "type": 16,
+                            "count": 1,
+                            "stageFlags": 16,
+                            "location": 0,
+                            "defines": []
+                        }
+                    ],
+                    "glsl4": {
+                        "vert": "\nprecision highp float;\nlayout(set = 0, binding = 0) uniform CCGlobal {\n  highp   vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_nativeSize;\n};\nlayout(set = 0, binding = 1) uniform CCCamera {\n  highp   mat4 cc_matView;\n  highp   mat4 cc_matViewInv;\n  highp   mat4 cc_matProj;\n  highp   mat4 cc_matProjInv;\n  highp   mat4 cc_matViewProj;\n  highp   mat4 cc_matViewProjInv;\n  highp   vec4 cc_cameraPos;\n  mediump vec4 cc_screenScale;\n  mediump vec4 cc_exposure;\n  mediump vec4 cc_mainLitDir;\n  mediump vec4 cc_mainLitColor;\n  mediump vec4 cc_ambientSky;\n  mediump vec4 cc_ambientGround;\n  mediump vec4 cc_fogColor;\n  mediump vec4 cc_fogBase;\n  mediump vec4 cc_fogAdd;\n  mediump vec4 cc_nearFar;\n  mediump vec4 cc_viewPort;\n};\nlayout(location = 0) in vec3 a_position;\nlayout(location = 1) in vec2 a_texCoord;\nlayout(location = 2) in vec4 a_color;\nlayout(location = 0) out vec4 color;\nlayout(location = 1) out vec2 uv0;\nvec4 vert() {\n  vec4 pos = vec4(a_position, 1);\n  pos = cc_matViewProj * pos;\n  uv0 = a_texCoord;\n  color = a_color;\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
+                        "frag": "\nprecision highp float;\nlayout(location = 0) in vec4 color;\nlayout(set = 1, binding = 0) uniform Dissolve {\n  float dissolveThreshold;\n};\n#if USE_TEXTURE\n  layout(location = 1) in vec2 uv0;\n  layout(set = 1, binding = 1) uniform sampler2D u_dissolveMap;\n  layout(set = 2, binding = 10)uniform sampler2D cc_spriteTexture;\n#endif\nvec4 frag() {\n  vec4 o = vec4(1, 1, 1, 1);\n  float value = 1.0;\n  #if USE_TEXTURE\n    vec4 dissolveMap = texture(u_dissolveMap, uv0);\n    value *= dissolveMap.r;\n  #endif\n  if (value < dissolveThreshold) {\n    discard;\n  }\n  #if USE_TEXTURE\n    o *= texture(cc_spriteTexture, uv0);\n  #endif\n  o *= color;\n  return o;\n}\nlayout(location = 0) out vec4 cc_FragColor;\nvoid main() { cc_FragColor = frag(); }"
+                    },
+                    "glsl3": {
+                        "vert": "\nprecision highp float;\nlayout(std140) uniform CCGlobal {\n  highp   vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_nativeSize;\n};\nlayout(std140) uniform CCCamera {\n  highp   mat4 cc_matView;\n  highp   mat4 cc_matViewInv;\n  highp   mat4 cc_matProj;\n  highp   mat4 cc_matProjInv;\n  highp   mat4 cc_matViewProj;\n  highp   mat4 cc_matViewProjInv;\n  highp   vec4 cc_cameraPos;\n  mediump vec4 cc_screenScale;\n  mediump vec4 cc_exposure;\n  mediump vec4 cc_mainLitDir;\n  mediump vec4 cc_mainLitColor;\n  mediump vec4 cc_ambientSky;\n  mediump vec4 cc_ambientGround;\n  mediump vec4 cc_fogColor;\n  mediump vec4 cc_fogBase;\n  mediump vec4 cc_fogAdd;\n  mediump vec4 cc_nearFar;\n  mediump vec4 cc_viewPort;\n};\nin vec3 a_position;\nin vec2 a_texCoord;\nin vec4 a_color;\nout vec4 color;\nout vec2 uv0;\nvec4 vert() {\n  vec4 pos = vec4(a_position, 1);\n  pos = cc_matViewProj * pos;\n  uv0 = a_texCoord;\n  color = a_color;\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
+                        "frag": "\nprecision highp float;\nin vec4 color;\nlayout(std140) uniform Dissolve {\n  float dissolveThreshold;\n};\n#if USE_TEXTURE\n  in vec2 uv0;\n  uniform sampler2D u_dissolveMap;\n  uniform sampler2D cc_spriteTexture;\n#endif\nvec4 frag() {\n  vec4 o = vec4(1, 1, 1, 1);\n  float value = 1.0;\n  #if USE_TEXTURE\n    vec4 dissolveMap = texture(u_dissolveMap, uv0);\n    value *= dissolveMap.r;\n  #endif\n  if (value < dissolveThreshold) {\n    discard;\n  }\n  #if USE_TEXTURE\n    o *= texture(cc_spriteTexture, uv0);\n  #endif\n  o *= color;\n  return o;\n}\nlayout(location = 0) out vec4 cc_FragColor;\nvoid main() { cc_FragColor = frag(); }"
+                    },
+                    "glsl1": {
+                        "vert": "\nprecision highp float;\nuniform highp mat4 cc_matViewProj;\nattribute vec3 a_position;\nattribute vec2 a_texCoord;\nattribute vec4 a_color;\nvarying vec4 color;\nvarying vec2 uv0;\nvec4 vert() {\n  vec4 pos = vec4(a_position, 1);\n  pos = cc_matViewProj * pos;\n  uv0 = a_texCoord;\n  color = a_color;\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
+                        "frag": "\nprecision highp float;\nvarying vec4 color;\n   uniform float dissolveThreshold;\n#if USE_TEXTURE\n  varying vec2 uv0;\n  uniform sampler2D u_dissolveMap;\n  uniform sampler2D cc_spriteTexture;\n#endif\nvec4 frag() {\n  vec4 o = vec4(1, 1, 1, 1);\n  float value = 1.0;\n  #if USE_TEXTURE\n    vec4 dissolveMap = texture2D(u_dissolveMap, uv0);\n    value *= dissolveMap.r;\n  #endif\n  if (value < dissolveThreshold) {\n    discard;\n  }\n  #if USE_TEXTURE\n    o *= texture2D(cc_spriteTexture, uv0);\n  #endif\n  o *= color;\n  return o;\n}\nvoid main() { gl_FragColor = frag(); }"
+                    },
+                    "builtins": {
+                        "globals": {
+                            "blocks": [
+                                {
+                                    "name": "CCGlobal",
+                                    "defines": []
+                                },
+                                {
+                                    "name": "CCCamera",
+                                    "defines": []
+                                }
+                            ],
+                            "samplerTextures": [],
+                            "buffers": [],
+                            "images": []
+                        },
+                        "locals": {
+                            "blocks": [],
+                            "samplerTextures": [
+                                {
+                                    "name": "cc_spriteTexture",
+                                    "defines": [
+                                        "USE_TEXTURE"
+                                    ]
+                                }
+                            ],
+                            "buffers": [],
+                            "images": []
+                        },
+                        "statistics": {
+                            "CC_EFFECT_USED_VERTEX_UNIFORM_VECTORS": 39,
+                            "CC_EFFECT_USED_FRAGMENT_UNIFORM_VECTORS": 1
+                        }
+                    },
+                    "defines": [
+                        {
+                            "name": "USE_TEXTURE",
+                            "type": "boolean",
+                            "defines": []
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "passes": [
+                        {
+                            "program": "DissolveSpirte|vs:vert|fs:frag",
+                            "blendState": {
+                                "targets": [
+                                    {
+                                        "blend": true,
+                                        "blendSrc": 2,
+                                        "blendDst": 4,
+                                        "blendDstAlpha": 4
+                                    }
+                                ]
+                            },
+                            "rasterizerState": {
+                                "cullMode": 0
+                            },
+                            "properties": {
+                                "u_dissolveMap": {
+                                    "value": "white",
+                                    "type": 28,
+                                    "editor": {
+                                        "tooltip": "Noise map"
+                                    }
+                                },
+                                "dissolveThreshold": {
+                                    "type": 13,
+                                    "value": [
+                                        0.5
+                                    ],
+                                    "editor": {
+                                        "slide": true,
+                                        "tooltip": "issolution threshold",
+                                        "range": [
+                                            0,
+                                            1,
+                                            0.01
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        ]
+    ],
+    0,
+    0,
+    [],
+    [],
+    []
+]

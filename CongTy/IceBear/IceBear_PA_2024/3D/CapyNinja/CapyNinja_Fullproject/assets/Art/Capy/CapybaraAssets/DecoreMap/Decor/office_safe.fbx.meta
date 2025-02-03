@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "fd302159-81f9-4049-a391-2e1acb8974b7",
+  "files": [],
+  "subMetas": {
+    "87136": {
+      "importer": "gltf-scene",
+      "uuid": "fd302159-81f9-4049-a391-2e1acb8974b7@87136",
+      "displayName": "",
+      "id": "87136",
+      "name": "office_safe.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ab090": {
+      "importer": "gltf-mesh",
+      "uuid": "fd302159-81f9-4049-a391-2e1acb8974b7@ab090",
+      "displayName": "",
+      "id": "ab090",
+      "name": "office_safe.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "fd302159-81f9-4049-a391-2e1acb8974b7@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "fd302159-81f9-4049-a391-2e1acb8974b7@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "fd302159-81f9-4049-a391-2e1acb8974b7@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b1826": {
+      "importer": "gltf-material",
+      "uuid": "fd302159-81f9-4049-a391-2e1acb8974b7@b1826",
+      "displayName": "",
+      "id": "b1826",
+      "name": "Room_1_PC_Monitor_1SG.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "fd302159-81f9-4049-a391-2e1acb8974b7@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "fd302159-81f9-4049-a391-2e1acb8974b7@87136",
+    "assetFinder": {
+      "meshes": [
+        "fd302159-81f9-4049-a391-2e1acb8974b7@ab090"
+      ],
+      "skeletons": [],
+      "textures": [
+        "fd302159-81f9-4049-a391-2e1acb8974b7@d20e9"
+      ],
+      "materials": [
+        "fd302159-81f9-4049-a391-2e1acb8974b7@b1826"
+      ],
+      "scenes": [
+        "fd302159-81f9-4049-a391-2e1acb8974b7@87136"
+      ]
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a948086c-083a-49e6-aef3-68ae920d43d3",
+  "files": [],
+  "subMetas": {
+    "8acb5": {
+      "importer": "gltf-mesh",
+      "uuid": "a948086c-083a-49e6-aef3-68ae920d43d3@8acb5",
+      "displayName": "",
+      "id": "8acb5",
+      "name": "automatic_gun.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a948086c-083a-49e6-aef3-68ae920d43d3@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "a948086c-083a-49e6-aef3-68ae920d43d3@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a948086c-083a-49e6-aef3-68ae920d43d3@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "37cdd": {
+      "importer": "gltf-material",
+      "uuid": "a948086c-083a-49e6-aef3-68ae920d43d3@37cdd",
+      "displayName": "",
+      "id": "37cdd",
+      "name": "Mat_Environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "11e52": {
+      "importer": "gltf-scene",
+      "uuid": "a948086c-083a-49e6-aef3-68ae920d43d3@11e52",
+      "displayName": "",
+      "id": "11e52",
+      "name": "automatic_gun.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "a948086c-083a-49e6-aef3-68ae920d43d3@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "a948086c-083a-49e6-aef3-68ae920d43d3@11e52",
+    "assetFinder": {
+      "meshes": [
+        "a948086c-083a-49e6-aef3-68ae920d43d3@8acb5"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a948086c-083a-49e6-aef3-68ae920d43d3@7d6ab"
+      ],
+      "materials": [
+        "a948086c-083a-49e6-aef3-68ae920d43d3@37cdd"
+      ],
+      "scenes": [
+        "a948086c-083a-49e6-aef3-68ae920d43d3@11e52"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

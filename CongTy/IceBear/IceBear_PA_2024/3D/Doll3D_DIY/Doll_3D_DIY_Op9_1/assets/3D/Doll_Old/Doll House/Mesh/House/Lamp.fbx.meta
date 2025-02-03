@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ae6c2fc7-c781-41a5-9519-6fa372a6840e",
+  "files": [],
+  "subMetas": {
+    "36884": {
+      "importer": "gltf-embeded-image",
+      "uuid": "ae6c2fc7-c781-41a5-9519-6fa372a6840e@36884",
+      "displayName": "",
+      "id": "36884",
+      "name": "Megatexture.png.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eeb51": {
+      "importer": "gltf-mesh",
+      "uuid": "ae6c2fc7-c781-41a5-9519-6fa372a6840e@eeb51",
+      "displayName": "",
+      "id": "eeb51",
+      "name": "Lamp.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba42f": {
+      "importer": "texture",
+      "uuid": "ae6c2fc7-c781-41a5-9519-6fa372a6840e@ba42f",
+      "displayName": "",
+      "id": "ba42f",
+      "name": "Megatexture.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ae6c2fc7-c781-41a5-9519-6fa372a6840e@36884"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d54d8": {
+      "importer": "gltf-material",
+      "uuid": "ae6c2fc7-c781-41a5-9519-6fa372a6840e@d54d8",
+      "displayName": "",
+      "id": "d54d8",
+      "name": "Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "728d4": {
+      "importer": "gltf-scene",
+      "uuid": "ae6c2fc7-c781-41a5-9519-6fa372a6840e@728d4",
+      "displayName": "",
+      "id": "728d4",
+      "name": "Lamp.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Megatexture.png",
+        "uri": "ae6c2fc7-c781-41a5-9519-6fa372a6840e@36884"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "ae6c2fc7-c781-41a5-9519-6fa372a6840e@728d4",
+    "assetFinder": {
+      "meshes": [
+        "ae6c2fc7-c781-41a5-9519-6fa372a6840e@eeb51"
+      ],
+      "skeletons": [],
+      "textures": [
+        "ae6c2fc7-c781-41a5-9519-6fa372a6840e@ba42f"
+      ],
+      "materials": [
+        "ae6c2fc7-c781-41a5-9519-6fa372a6840e@d54d8"
+      ],
+      "scenes": [
+        "ae6c2fc7-c781-41a5-9519-6fa372a6840e@728d4"
+      ]
+    }
+  }
+}

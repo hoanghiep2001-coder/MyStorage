@@ -1,0 +1,124 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4c52a862-a29d-42a9-a8d3-98a5b92bbe89",
+  "files": [],
+  "subMetas": {
+    "a227c": {
+      "importer": "gltf-mesh",
+      "uuid": "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@a227c",
+      "displayName": "",
+      "id": "a227c",
+      "name": "military_streetmap.003.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": false,
+      "files": [],
+      "subMetas": {}
+    },
+    "37cdd": {
+      "importer": "gltf-material",
+      "uuid": "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@37cdd",
+      "displayName": "",
+      "id": "37cdd",
+      "name": "Mat_Environment.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2b347": {
+      "importer": "gltf-scene",
+      "uuid": "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@2b347",
+      "displayName": "",
+      "id": "2b347",
+      "name": "military_turret.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@48b02"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@2b347",
+    "assetFinder": {
+      "meshes": [
+        "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@a227c"
+      ],
+      "skeletons": [],
+      "textures": [
+        "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@7d6ab"
+      ],
+      "materials": [
+        "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@37cdd"
+      ],
+      "scenes": [
+        "4c52a862-a29d-42a9-a8d3-98a5b92bbe89@2b347"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}
