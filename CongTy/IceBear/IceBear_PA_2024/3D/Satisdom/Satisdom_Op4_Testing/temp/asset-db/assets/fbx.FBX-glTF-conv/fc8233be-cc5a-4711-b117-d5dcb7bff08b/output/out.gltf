@@ -1,0 +1,833 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 744,
+      "max": [
+        1.506825566291809,
+        2.101883888244629,
+        0.7690078616142273
+      ],
+      "min": [
+        -1.506825566291809,
+        -0.0014612063532695174,
+        -0.4532495439052582
+      ],
+      "name": "Grimace_Melee_01_body/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 744,
+      "name": "Grimace_Melee_01_body/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 744,
+      "name": "Grimace_Melee_01_body/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 744,
+      "name": "Grimace_Melee_01_body/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 744,
+      "name": "Grimace_Melee_01_body/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 56,
+      "componentType": 5123,
+      "count": 744,
+      "name": "Grimace_Melee_01_body/JOINTS_1",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 64,
+      "componentType": 5126,
+      "count": 744,
+      "name": "Grimace_Melee_01_body/WEIGHTS_1",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 3138,
+      "name": "Grimace_Melee_01_body/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 18,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1535,
+      "max": [
+        1.102426290512085,
+        3.997570753097534,
+        0.8631474375724792
+      ],
+      "min": [
+        -1.1024261713027954,
+        2.0879905223846436,
+        -0.7556272745132446
+      ],
+      "name": "Grimace_Melee_01_head/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1535,
+      "name": "Grimace_Melee_01_head/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1535,
+      "name": "Grimace_Melee_01_head/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 1535,
+      "name": "Grimace_Melee_01_head/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 1535,
+      "name": "Grimace_Melee_01_head/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 7620,
+      "name": "Grimace_Melee_01_head/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 3,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 59520,
+      "byteStride": 80,
+      "name": "Grimace_Melee_01_body",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12552,
+      "byteOffset": 59520
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1152,
+      "byteOffset": 72072
+    },
+    {
+      "buffer": 0,
+      "byteLength": 85960,
+      "byteOffset": 73224,
+      "byteStride": 56,
+      "name": "Grimace_Melee_01_head",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 30480,
+      "byteOffset": 159184
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 189664
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 189856,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "C:\\Users\\Admin\\Desktop\\Grimace_Melee\\Grimace_Melee.png",
+          "relativeFileName": "C:\\Users\\Admin\\Desktop\\Grimace_Melee\\Grimace_Melee.png"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "m_Grimace_Melee",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Grimace_Melee_01_body",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 3,
+            "JOINTS_1": 5,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "WEIGHTS_0": 4,
+            "WEIGHTS_1": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Grimace_Melee_01_head",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 12,
+            "NORMAL": 10,
+            "POSITION": 9,
+            "TEXCOORD_0": 11,
+            "WEIGHTS_0": 13
+          },
+          "indices": 14,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "name": "Grimace_Melee_01"
+    },
+    {
+      "mesh": 0,
+      "name": "Grimace_Melee_01_body",
+      "skin": 0
+    },
+    {
+      "mesh": 1,
+      "name": "Grimace_Melee_01_head",
+      "skin": 1
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "QuickRigCharacter_Reference",
+      "translation": [
+        0.0,
+        -0.0014612063532695174,
+        0.15787915885448456
+      ]
+    },
+    {
+      "children": [
+        5,
+        9,
+        13
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_Hips",
+      "rotation": [
+        0.49910515546798706,
+        0.500893235206604,
+        0.49910515546798706,
+        0.500893235206604
+      ],
+      "translation": [
+        0.0,
+        1.0329729318618774,
+        -0.06762082874774933
+      ]
+    },
+    {
+      "children": [
+        6
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_LeftUpLeg",
+      "rotation": [
+        0.0243210531771183,
+        -0.0935296043753624,
+        0.9927268624305725,
+        0.07179167121648788
+      ],
+      "translation": [
+        -0.1648845076560974,
+        -0.0011651553213596344,
+        0.29438117146492004
+      ]
+    },
+    {
+      "children": [
+        7
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_LeftLeg",
+      "rotation": [
+        0.0570044107735157,
+        0.004569418728351593,
+        0.07984571158885956,
+        0.9951654672622681
+      ],
+      "translation": [
+        0.4044954478740692,
+        1.4718231113874936e-06,
+        3.3918564668056206e-07
+      ]
+    },
+    {
+      "children": [
+        8
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_LeftFoot",
+      "rotation": [
+        0.026032619178295135,
+        0.032240502536296844,
+        -0.4757258892059326,
+        0.8786169290542603
+      ],
+      "translation": [
+        0.3440608084201813,
+        -7.251253464346519e-08,
+        -3.6361672783868926e-08
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_LeftToeBase",
+      "translation": [
+        0.18091917037963867,
+        3.390849556694775e-08,
+        7.629394360719743e-08
+      ]
+    },
+    {
+      "children": [
+        10
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_RightUpLeg",
+      "rotation": [
+        -0.09338591992855072,
+        -0.02432248555123806,
+        -0.07179929316043854,
+        0.9927397966384888
+      ],
+      "translation": [
+        -0.1648845076560974,
+        -0.0011651553213596344,
+        -0.29438117146492004
+      ]
+    },
+    {
+      "children": [
+        11
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_RightLeg",
+      "rotation": [
+        0.05691831558942795,
+        0.00456685945391655,
+        0.07985913753509521,
+        0.9951693415641785
+      ],
+      "translation": [
+        -0.40449586510658264,
+        -7.66979792388156e-06,
+        -1.8266694041813025e-06
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_RightFoot",
+      "rotation": [
+        0.025961508974432945,
+        0.03219063580036163,
+        -0.4757324755191803,
+        0.8786172866821289
+      ],
+      "translation": [
+        -0.34405988454818726,
+        -6.121408091530611e-08,
+        1.6428650662092537e-09
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_RightToeBase",
+      "rotation": [
+        2.5422079488635063e-05,
+        -3.725290742551124e-09,
+        9.467687728638777e-14,
+        1.0
+      ],
+      "translation": [
+        -0.18091921508312225,
+        -3.634955092479686e-08,
+        -2.6925331297888988e-08
+      ]
+    },
+    {
+      "children": [
+        14
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_Spine",
+      "rotation": [
+        3.968018199760899e-33,
+        1.8472556080503586e-18,
+        -0.030167974531650543,
+        0.9995448589324951
+      ],
+      "translation": [
+        0.358307808637619,
+        8.593373235221691e-10,
+        -7.888608875885965e-33
+      ]
+    },
+    {
+      "children": [
+        15
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_Spine1",
+      "rotation": [
+        -3.329815868076586e-33,
+        3.779942429765194e-19,
+        -0.006173114292323589,
+        0.9999809265136719
+      ],
+      "translation": [
+        0.25300678610801697,
+        -3.446875673773775e-09,
+        -5.606405860502297e-17
+      ]
+    },
+    {
+      "children": [
+        16,
+        20,
+        24
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_Spine2",
+      "rotation": [
+        -5.302249562843801e-34,
+        2.898183406420152e-18,
+        -0.04733092710375786,
+        0.9988792538642883
+      ],
+      "translation": [
+        0.21211089193820953,
+        -4.827100941184881e-09,
+        -1.444720703009514e-16
+      ]
+    },
+    {
+      "children": [
+        17
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_LeftShoulder",
+      "rotation": [
+        0.36118850111961365,
+        0.6079003810882568,
+        0.5375877022743225,
+        -0.45934680104255676
+      ],
+      "translation": [
+        0.11452879756689072,
+        -0.0875324010848999,
+        0.20454826951026917
+      ]
+    },
+    {
+      "children": [
+        18
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_LeftArm",
+      "rotation": [
+        0.6976416110992432,
+        0.11530918627977371,
+        0.11530918627977371,
+        0.6976416110992432
+      ],
+      "translation": [
+        0.22213947772979736,
+        -6.367733362822037e-08,
+        -3.552713599391162e-17
+      ]
+    },
+    {
+      "children": [
+        19
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_LeftForeArm",
+      "rotation": [
+        5.497246320373961e-07,
+        9.335377399111167e-06,
+        0.03210406377911568,
+        0.9994845390319824
+      ],
+      "translation": [
+        0.5517957210540771,
+        4.781319375979365e-07,
+        4.476480910398095e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_LeftHand",
+      "translation": [
+        0.4031476676464081,
+        3.033244411199121e-08,
+        -7.11139875875233e-08
+      ]
+    },
+    {
+      "children": [
+        21
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_RightShoulder",
+      "rotation": [
+        0.6079003810882568,
+        -0.36118850111961365,
+        0.45934680104255676,
+        0.5375877022743225
+      ],
+      "translation": [
+        0.11452879756689072,
+        -0.0875324010848999,
+        -0.20454826951026917
+      ]
+    },
+    {
+      "children": [
+        22
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_RightArm",
+      "rotation": [
+        0.6974079012870789,
+        0.11685024201869965,
+        0.10556568205356598,
+        0.699159562587738
+      ],
+      "translation": [
+        -0.22213947772979736,
+        6.367733362822037e-08,
+        2.6645351995433716e-17
+      ]
+    },
+    {
+      "children": [
+        23
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_RightForeArm",
+      "rotation": [
+        -2.8362984494378907e-07,
+        8.789736057224218e-06,
+        0.03207410126924515,
+        0.9994854927062988
+      ],
+      "translation": [
+        -0.551795482635498,
+        5.460310603666585e-07,
+        5.09418214278412e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_RightHand",
+      "translation": [
+        -0.40314701199531555,
+        -7.263258794409921e-08,
+        -8.126298745025906e-09
+      ]
+    },
+    {
+      "children": [
+        25
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_Neck",
+      "rotation": [
+        3.577084043507931e-33,
+        -5.4340497104231955e-18,
+        0.08874476701021194,
+        0.9960544109344482
+      ],
+      "translation": [
+        0.28037726879119873,
+        3.542788007404596e-10,
+        -1.9463776865565475e-16
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "QuickRigCharacter_Head",
+      "translation": [
+        0.6567279696464539,
+        -7.025074966193756e-10,
+        -4.364731395746052e-16
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        3
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 8,
+      "joints": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "inverseBindMatrices": 15,
+      "joints": [
+        15,
+        24,
+        25
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

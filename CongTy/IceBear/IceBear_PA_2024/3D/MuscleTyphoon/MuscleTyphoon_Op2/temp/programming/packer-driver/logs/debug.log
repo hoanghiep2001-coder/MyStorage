@@ -1,0 +1,1110 @@
+debug: Tue, 28 May 2024 01:37:32 GMT
+debug: Project: D:\PA_2024\3D\MuscleTyphoon\MuscleTyphoon_Op2
+debug: Targets: editor,preview
+debug: Incremental file seems great.
+debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.4.2\resources\resources\3d\engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Loading cache costs 45.81319999694824ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Loading cache costs 39.86880004405975ms.
+debug: Sync engine features: 2d,3d,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,primitive,profiler,terrain,tiled-map,tween,ui,video,webview
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 13.658200025558472ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 5
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:08:35 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon May 27 2024 15:55:28 GMT+0700 (Indochina Time), Current mtime: Tue May 28 2024 08:37:26 GMT+0700 (Indochina Time)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Target(editor) ends with cost 112.34060001373291ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:08:35 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon May 27 2024 15:55:28 GMT+0700 (Indochina Time), Current mtime: Tue May 28 2024 08:37:26 GMT+0700 (Indochina Time)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Target(preview) ends with cost 79.68660002946854ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:04:06 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts. Last mtime: Mon May 27 2024 17:04:01 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue May 28 2024 08:40:08 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Mon May 27 2024 16:56:38 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 08:41:32 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 458.90679997205734ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:04:07 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts. Last mtime: Mon May 27 2024 17:04:01 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue May 28 2024 08:40:08 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Mon May 27 2024 16:56:38 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 08:41:32 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 217.93830001354218ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:06 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:11:25 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 08:41:32 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 08:48:49 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 93.26289999485016ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:11:25 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 08:41:32 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 08:48:49 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 110.25089997053146ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:25 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:42:07 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 08:48:49 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 09:19:29 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Target(editor) ends with cost 6323.911099970341ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:25 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:42:14 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 08:48:49 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 09:19:29 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 128.61010003089905ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:42:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:45:41 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 09:19:29 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 09:23:00 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 4261.733500003815ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:42:14 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:45:45 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 09:19:29 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 09:23:00 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 106.27419996261597ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:45:41 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:02:42 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 09:23:00 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 09:40:06 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 101.46080005168915ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:45:45 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:02:42 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 09:23:00 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 09:40:06 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 89.61359995603561ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:02:42 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:04:48 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 09:40:06 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 09:42:11 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 7824.887700021267ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:02:42 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:04:55 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 09:40:06 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 09:42:11 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 77.60769999027252ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:04:48 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:13:28 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 09:42:11 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 09:50:53 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 123.95569998025894ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:04:55 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:13:28 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 09:42:11 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 09:50:53 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Target(preview) ends with cost 87.29710000753403ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:13:28 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:37:52 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 09:50:53 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:15:16 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 90.13169997930527ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:13:28 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:37:52 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 09:50:53 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:15:16 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 81.84949994087219ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:37:52 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:39:50 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:15:16 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:17:15 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 85.23750001192093ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:37:52 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:39:50 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:15:16 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:17:15 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 91.13369995355606ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:39:50 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:45:26 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:17:15 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:22:50 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 91.48280000686646ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:39:50 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:45:26 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:17:15 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:22:50 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 88.11049997806549ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:45:26 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:54:36 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:22:50 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:32:00 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 70.51059997081757ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:45:26 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:54:36 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:22:50 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:32:00 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 75.26620000600815ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:54:36 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:00:10 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:32:00 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:37:34 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 80.67129999399185ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:54:36 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:00:10 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:32:00 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:37:34 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 81.12779998779297ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:00:10 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:02:08 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:37:34 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:38:46 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 88.83019995689392ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:00:10 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:02:08 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:37:34 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:38:46 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 73.9394000172615ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:02:08 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:08:12 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:38:46 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:40:55 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 126.26719999313354ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:02:08 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:08:12 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:38:46 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:40:55 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 102.20560002326965ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:08:12 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:12:12 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:40:55 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:49:37 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 7994.21590000391ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:08:12 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:12:20 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:40:55 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:49:37 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 75.95739996433258ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:12:12 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:14:45 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:49:37 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:52:07 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 7281.331499993801ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:12:20 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:14:52 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:49:37 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:52:07 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 81.46979999542236ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:14:45 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:18:49 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:52:07 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:56:14 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 79.8361000418663ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:14:52 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:18:49 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:52:07 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:56:14 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 83.08270001411438ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:18:49 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:19:59 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:56:14 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:57:20 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Target(editor) ends with cost 86.49959999322891ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:18:49 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:19:59 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:56:14 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:57:20 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 77.8008000254631ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:19:59 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:20:13 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:57:20 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:57:37 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 75.72869998216629ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:19:59 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:20:13 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:57:20 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 10:57:37 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 88.28719997406006ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:20:13 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:24:10 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:57:37 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:01:34 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 68.99040001630783ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:20:13 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:24:10 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 10:57:37 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:01:34 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 73.8216000199318ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:24:10 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:29:53 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:01:34 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:07:17 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 78.14660000801086ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:24:10 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:29:53 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:01:34 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:07:17 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 83.28850001096725ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:29:53 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:56:25 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:07:17 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:33:49 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 73.98019999265671ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:29:53 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:56:25 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:07:17 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:33:49 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 79.61769998073578ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:56:25 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:56:37 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:33:49 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:34:01 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 73.19309997558594ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:56:25 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:56:37 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:33:49 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:34:01 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 68.13899999856949ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:56:37 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:59:08 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:34:01 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:36:33 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 77.86509996652603ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:56:37 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:59:09 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:34:01 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:36:33 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 70.07620000839233ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:59:08 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:59:20 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:36:33 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:36:44 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 76.20380002260208ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:59:09 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:59:20 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:36:33 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:36:44 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 70.94539999961853ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:59:20 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:05:04 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:36:44 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:42:26 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 7237.932000041008ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:59:20 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:05:11 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts. Last mtime: Tue May 28 2024 11:36:44 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c, Current mtime: Tue May 28 2024 11:42:26 GMT+0700 (Indochina Time)@2c659772-c9c6-4e48-b5cb-118a64f1a17c
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve ./GamePlay from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 100.84940004348755ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:05:04 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:08:00 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts. Last mtime: Tue May 28 2024 08:40:08 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue May 28 2024 11:45:23 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 186.3332000374794ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:05:11 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:08:00 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts. Last mtime: Tue May 28 2024 08:40:08 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue May 28 2024 11:45:23 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 110.74599999189377ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:08:00 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:09:08 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts. Last mtime: Tue May 28 2024 11:45:23 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue May 28 2024 11:46:32 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(editor) ends with cost 93.61970001459122ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:08:00 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:09:08 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts. Last mtime: Tue May 28 2024 11:45:23 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue May 28 2024 11:46:32 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GameController.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/AudioManager.ts.
+debug: Resolve ../Data/constants from file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Game/GamePlay.ts as file:///D:/PA_2024/3D/MuscleTyphoon/MuscleTyphoon_Op2/assets/Script/Data/constants.ts.
+debug: Target(preview) ends with cost 96.8769000172615ms.

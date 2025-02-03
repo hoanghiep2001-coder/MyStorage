@@ -1,0 +1,228 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 498,
+      "max": [
+        3.7813568115234375,
+        3.8396902084350586,
+        5.807224750518799
+      ],
+      "min": [
+        -3.7813568115234375,
+        -3.8396899700164795,
+        -5.956820487976074
+      ],
+      "name": "Boom_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 498,
+      "name": "Boom_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 498,
+      "name": "Boom_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 2448,
+      "name": "Boom_Material0/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 40,
+      "max": [
+        3.5365097522735596,
+        2.677624464035034,
+        4.944048881530762
+      ],
+      "min": [
+        -3.5365097522735596,
+        -0.6069678664207458,
+        1.8053460121154785
+      ],
+      "name": "Boom_Material0/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 40,
+      "name": "Boom_Material0/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 40,
+      "name": "Boom_Material0/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 144,
+      "name": "Boom_Material0/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 15936,
+      "byteStride": 32,
+      "name": "Boom_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 9792,
+      "byteOffset": 15936
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1280,
+      "byteOffset": 25728,
+      "byteStride": 32,
+      "name": "Boom_Material0",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 576,
+      "byteOffset": 27008
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 27584,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "C:\\Users\\dasmonstrum\\Downloads\\bullet-bill-super-mario-bros\\source\\Bullet Bill\\Bullet Bill_tex.png",
+          "relativeFileName": "..\\Downloads\\bullet-bill-super-mario-bros\\source\\Bullet Bill\\Bullet Bill_tex.png"
+        }
+      },
+      "name": "Map #2",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "02 - Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    },
+    {
+      "name": "07 - Default",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Boom_Material0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Boom",
+      "rotation": [
+        1.5454309831852697e-08,
+        -0.7071067094802856,
+        1.5454308055495858e-08,
+        0.7071068286895752
+      ],
+      "scale": [
+        2.6137232780456543,
+        2.6137232780456543,
+        2.6137232780456543
+      ],
+      "translation": [
+        -0.8729203939437866,
+        0.07838625460863113,
+        0.05120307579636574
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Map #2",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

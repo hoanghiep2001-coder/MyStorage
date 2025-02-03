@@ -1,0 +1,225 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e74e6252-c43f-4067-bebf-03573a467ffd",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-2.cconb"
+  ],
+  "subMetas": {
+    "40461": {
+      "importer": "gltf-animation",
+      "uuid": "e74e6252-c43f-4067-bebf-03573a467ffd@40461",
+      "displayName": "",
+      "id": "40461",
+      "name": "giftbox_open.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "90bc6": {
+      "importer": "gltf-mesh",
+      "uuid": "e74e6252-c43f-4067-bebf-03573a467ffd@90bc6",
+      "displayName": "",
+      "id": "90bc6",
+      "name": "Bot.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5770f": {
+      "importer": "gltf-mesh",
+      "uuid": "e74e6252-c43f-4067-bebf-03573a467ffd@5770f",
+      "displayName": "",
+      "id": "5770f",
+      "name": "Top.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cad42": {
+      "importer": "gltf-animation",
+      "uuid": "e74e6252-c43f-4067-bebf-03573a467ffd@cad42",
+      "displayName": "",
+      "id": "cad42",
+      "name": "giftbox_idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7916666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "0eb08": {
+      "importer": "gltf-animation",
+      "uuid": "e74e6252-c43f-4067-bebf-03573a467ffd@0eb08",
+      "displayName": "",
+      "id": "0eb08",
+      "name": "giftbox_anim.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6d020": {
+      "importer": "gltf-material",
+      "uuid": "e74e6252-c43f-4067-bebf-03573a467ffd@6d020",
+      "displayName": "",
+      "id": "6d020",
+      "name": "lambert10-0.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "17b40": {
+      "importer": "gltf-material",
+      "uuid": "e74e6252-c43f-4067-bebf-03573a467ffd@17b40",
+      "displayName": "",
+      "id": "17b40",
+      "name": "lambert10-1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e5886": {
+      "importer": "gltf-scene",
+      "uuid": "e74e6252-c43f-4067-bebf-03573a467ffd@e5886",
+      "displayName": "",
+      "id": "e5886",
+      "name": "egg_giftbox.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "giftbox_idle",
+        "duration": 0.7916666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "giftbox_idle",
+            "from": 0,
+            "to": 0.7916666865348816,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "giftbox_open",
+        "duration": 0.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "giftbox_open",
+            "from": 0,
+            "to": 0.5,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "giftbox_anim",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "giftbox_anim",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "e74e6252-c43f-4067-bebf-03573a467ffd@e5886",
+    "assetFinder": {
+      "meshes": [
+        "e74e6252-c43f-4067-bebf-03573a467ffd@90bc6",
+        "e74e6252-c43f-4067-bebf-03573a467ffd@5770f"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "e74e6252-c43f-4067-bebf-03573a467ffd@6d020",
+        "e74e6252-c43f-4067-bebf-03573a467ffd@17b40"
+      ],
+      "scenes": [
+        "e74e6252-c43f-4067-bebf-03573a467ffd@e5886"
+      ]
+    }
+  }
+}

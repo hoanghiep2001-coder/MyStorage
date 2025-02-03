@@ -1,0 +1,2021 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 7231.5292999744415,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 25122.768899977207,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/constants.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 120
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/interfaces.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 136
+          },
+          "end": {
+            "line": 5,
+            "column": 222
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/AudioManager.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 238
+          },
+          "end": {
+            "line": 5,
+            "column": 337
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/GameController.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 353
+          },
+          "end": {
+            "line": 5,
+            "column": 454
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/NodeController.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 470
+          },
+          "end": {
+            "line": 5,
+            "column": 571
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/TouchController.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 587
+          },
+          "end": {
+            "line": 5,
+            "column": 689
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/TubeController.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 705
+          },
+          "end": {
+            "line": 5,
+            "column": 806
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/BottleItem.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 822
+          },
+          "end": {
+            "line": 5,
+            "column": 914
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/GamePlay.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 930
+          },
+          "end": {
+            "line": 5,
+            "column": 1020
+          }
+        }
+      },
+      {
+        "value": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/Responsive.ts",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1036
+          },
+          "end": {
+            "line": 5,
+            "column": 1128
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/interfaces.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/NodeController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/TouchController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/TubeController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/BottleItem.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/GamePlay.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/Responsive.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Data/interfaces.ts": {
+    "mTimestamp": {
+      "mtime": 1720773120534.804,
+      "uuid": "26a83ba0-8839-45c3-9012-48b6980713f8"
+    },
+    "chunkId": "assets/Script/Data/interfaces.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Data/constants.ts": {
+    "mTimestamp": {
+      "mtime": 1720769439909.4373,
+      "uuid": "2561fd39-e8f6-4d9d-a953-e0bd0f0f1666"
+    },
+    "chunkId": "assets/Script/Data/constants.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Controller/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1720606619701.9866,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/Game/Controller/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Controller/TouchController.ts": {
+    "mTimestamp": {
+      "mtime": 1720613908560.4138,
+      "uuid": "555fbb57-612d-4cca-b292-1970c634e9f6"
+    },
+    "chunkId": "assets/Script/Game/Controller/TouchController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 96
+          },
+          "end": {
+            "line": 2,
+            "column": 100
+          }
+        }
+      },
+      {
+        "value": "./NodeController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Other/BottleItem",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Other/GamePlay",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 25
+          },
+          "end": {
+            "line": 7,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Controller/NodeController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Other/BottleItem.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Other/GamePlay.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Controller/TubeController.ts": {
+    "mTimestamp": {
+      "mtime": 1720779923916.0347,
+      "uuid": "831175bd-13ed-4f38-b32e-49f42c59e90c"
+    },
+    "chunkId": "assets/Script/Game/Controller/TubeController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 61
+          },
+          "end": {
+            "line": 1,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Other/BottleItem",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 27
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Other/BottleItem.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1720428353727.828,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/Game/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 80
+          },
+          "end": {
+            "line": 2,
+            "column": 84
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Other/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1720428198207.934,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Game/Other/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 94
+          },
+          "end": {
+            "line": 2,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Other/GamePlay.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Other/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1720773123968.619,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/Game/Other/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 235
+          },
+          "end": {
+            "line": 1,
+            "column": 239
+          }
+        }
+      },
+      {
+        "value": "../Controller/GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 26
+          },
+          "end": {
+            "line": 7,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Controller/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 29
+          },
+          "end": {
+            "line": 8,
+            "column": 57
+          }
+        }
+      },
+      {
+        "value": "./BottleItem",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 27
+          },
+          "end": {
+            "line": 9,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "../Controller/NodeController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 31
+          },
+          "end": {
+            "line": 10,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Other/BottleItem.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Controller/NodeController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Controller/NodeController.ts": {
+    "mTimestamp": {
+      "mtime": 1720772080299.9102,
+      "uuid": "e5f20aa7-2c42-46bc-9b87-f5164ed13083"
+    },
+    "chunkId": "assets/Script/Game/Controller/NodeController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Other/BottleItem.ts": {
+    "mTimestamp": {
+      "mtime": 1720777772751.3381,
+      "uuid": "1c7c6889-6e1a-4ec9-93db-55a12713b053"
+    },
+    "chunkId": "assets/Script/Game/Other/BottleItem.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 116
+          },
+          "end": {
+            "line": 1,
+            "column": 120
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Controller/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 57
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4/assets/Script/Game/Controller/AudioManager.ts"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1721118887116,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1720428353727.828,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/Game/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 80
+          },
+          "end": {
+            "line": 2,
+            "column": 84
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1720606619701.9866,
+      "uuid": "8852cac8-7f8f-4b50-b5c9-a58f695e2a89"
+    },
+    "chunkId": "assets/Script/Game/Controller/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/constants.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/TubeController.ts": {
+    "mTimestamp": {
+      "mtime": 1720779923916.0347,
+      "uuid": "831175bd-13ed-4f38-b32e-49f42c59e90c"
+    },
+    "chunkId": "assets/Script/Game/Controller/TubeController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 61
+          },
+          "end": {
+            "line": 1,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Other/BottleItem",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 27
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/BottleItem.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/NodeController.ts": {
+    "mTimestamp": {
+      "mtime": 1720772080299.9102,
+      "uuid": "e5f20aa7-2c42-46bc-9b87-f5164ed13083"
+    },
+    "chunkId": "assets/Script/Game/Controller/NodeController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/constants.ts": {
+    "mTimestamp": {
+      "mtime": 1720769439909.4373,
+      "uuid": "2561fd39-e8f6-4d9d-a953-e0bd0f0f1666"
+    },
+    "chunkId": "assets/Script/Data/constants.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 2,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/TouchController.ts": {
+    "mTimestamp": {
+      "mtime": 1720613908560.4138,
+      "uuid": "555fbb57-612d-4cca-b292-1970c634e9f6"
+    },
+    "chunkId": "assets/Script/Game/Controller/TouchController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 96
+          },
+          "end": {
+            "line": 2,
+            "column": 100
+          }
+        }
+      },
+      {
+        "value": "./NodeController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Other/BottleItem",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Other/GamePlay",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 25
+          },
+          "end": {
+            "line": 7,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/NodeController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/BottleItem.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/GamePlay.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/interfaces.ts": {
+    "mTimestamp": {
+      "mtime": 1720773120534.804,
+      "uuid": "26a83ba0-8839-45c3-9012-48b6980713f8"
+    },
+    "chunkId": "assets/Script/Data/interfaces.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/BottleItem.ts": {
+    "mTimestamp": {
+      "mtime": 1720777772751.3381,
+      "uuid": "1c7c6889-6e1a-4ec9-93db-55a12713b053"
+    },
+    "chunkId": "assets/Script/Game/Other/BottleItem.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 116
+          },
+          "end": {
+            "line": 1,
+            "column": 120
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Controller/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 57
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1720428198207.934,
+      "uuid": "2c659772-c9c6-4e48-b5cb-118a64f1a17c"
+    },
+    "chunkId": "assets/Script/Game/Other/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 94
+          },
+          "end": {
+            "line": 2,
+            "column": 98
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./GamePlay",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/GamePlay.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1720773123968.619,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/Game/Other/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 235
+          },
+          "end": {
+            "line": 1,
+            "column": 239
+          }
+        }
+      },
+      {
+        "value": "../Controller/GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "../../Data/constants",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 26
+          },
+          "end": {
+            "line": 7,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Controller/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 29
+          },
+          "end": {
+            "line": 8,
+            "column": 57
+          }
+        }
+      },
+      {
+        "value": "./BottleItem",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 27
+          },
+          "end": {
+            "line": 9,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "../Controller/NodeController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 31
+          },
+          "end": {
+            "line": 10,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Data/constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Other/BottleItem.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/Satisdom/Satisdom_Op4_Testing/assets/Script/Game/Controller/NodeController.ts"
+      }
+    ]
+  }
+}

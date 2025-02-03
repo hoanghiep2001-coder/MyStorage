@@ -1,0 +1,178 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9e6715c9-49d6-4e09-81ee-0e724802f79f",
+  "files": [],
+  "subMetas": {
+    "80972": {
+      "importer": "gltf-mesh",
+      "uuid": "9e6715c9-49d6-4e09-81ee-0e724802f79f@80972",
+      "displayName": "",
+      "id": "80972",
+      "name": "wing_L.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5e001": {
+      "importer": "gltf-mesh",
+      "uuid": "9e6715c9-49d6-4e09-81ee-0e724802f79f@5e001",
+      "displayName": "",
+      "id": "5e001",
+      "name": "body.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ee435": {
+      "importer": "gltf-mesh",
+      "uuid": "9e6715c9-49d6-4e09-81ee-0e724802f79f@ee435",
+      "displayName": "",
+      "id": "ee435",
+      "name": "leg.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e97a2": {
+      "importer": "gltf-mesh",
+      "uuid": "9e6715c9-49d6-4e09-81ee-0e724802f79f@e97a2",
+      "displayName": "",
+      "id": "e97a2",
+      "name": "head.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "18ea0": {
+      "importer": "gltf-mesh",
+      "uuid": "9e6715c9-49d6-4e09-81ee-0e724802f79f@18ea0",
+      "displayName": "",
+      "id": "18ea0",
+      "name": "wing_R.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "9e6715c9-49d6-4e09-81ee-0e724802f79f@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Art/Toy/Mesh/Heros/Dragons/Thunder_Dragon/thunder_dragon_text.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6a51": {
+      "importer": "gltf-material",
+      "uuid": "9e6715c9-49d6-4e09-81ee-0e724802f79f@c6a51",
+      "displayName": "",
+      "id": "c6a51",
+      "name": "mat_16.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7133d": {
+      "importer": "gltf-scene",
+      "uuid": "9e6715c9-49d6-4e09-81ee-0e724802f79f@7133d",
+      "displayName": "",
+      "id": "7133d",
+      "name": "Thunder_Dragon.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Art/Toy/Mesh/Heros/Dragons/Thunder_Dragon/thunder_dragon_text.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "9e6715c9-49d6-4e09-81ee-0e724802f79f@7133d",
+    "assetFinder": {
+      "meshes": [
+        "9e6715c9-49d6-4e09-81ee-0e724802f79f@5e001",
+        "9e6715c9-49d6-4e09-81ee-0e724802f79f@ee435",
+        "9e6715c9-49d6-4e09-81ee-0e724802f79f@80972",
+        "9e6715c9-49d6-4e09-81ee-0e724802f79f@e97a2",
+        "9e6715c9-49d6-4e09-81ee-0e724802f79f@18ea0"
+      ],
+      "skeletons": [],
+      "textures": [
+        "9e6715c9-49d6-4e09-81ee-0e724802f79f@7d6ab"
+      ],
+      "materials": [
+        "9e6715c9-49d6-4e09-81ee-0e724802f79f@c6a51"
+      ],
+      "scenes": [
+        "9e6715c9-49d6-4e09-81ee-0e724802f79f@7133d"
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "scenes": [
+      {
+        "url": "db://assets/Scene/Op12.scene",
+        "uuid": "ba770f42-b1bd-480a-812a-b2d060f264d8",
+        "inBundle": false
+      }
+    ],
+    "name": "MergeRobo",
+    "startScene": "8f72cef1-e7b5-4506-976d-1d8b50e791e4"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1732288090404": {
+        "id": "1732288090404",
+        "progress": 1,
+        "state": "success",
+        "message": "11-22-2024 22:08 Build success in 7559 ms!",
+        "options": {
+          "name": "MergeRobo",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "8f72cef1-e7b5-4506-976d-1d8b50e791e4",
+          "scenes": [
+            {
+              "url": "db://assets/Scene/scene.scene",
+              "uuid": "8f72cef1-e7b5-4506-976d-1d8b50e791e4",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-mobile",
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "aa8ef9",
+              "services": []
+            },
+            "super-html": null
+          }
+        },
+        "time": "11-22-2024 22:08",
+        "dirty": false
+      }
+    }
+  }
+}

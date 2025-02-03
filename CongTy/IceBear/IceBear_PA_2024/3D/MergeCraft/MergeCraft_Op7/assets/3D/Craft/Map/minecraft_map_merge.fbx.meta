@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b2495ffd-9f46-4622-894d-583f04fcc9fa",
+  "files": [],
+  "subMetas": {
+    "4623f": {
+      "importer": "gltf-mesh",
+      "uuid": "b2495ffd-9f46-4622-894d-583f04fcc9fa@4623f",
+      "displayName": "",
+      "id": "4623f",
+      "name": "minecraft_platform.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "612f0": {
+      "importer": "gltf-embeded-image",
+      "uuid": "b2495ffd-9f46-4622-894d-583f04fcc9fa@612f0",
+      "displayName": "",
+      "id": "612f0",
+      "name": "file4.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "91dcf": {
+      "importer": "texture",
+      "uuid": "b2495ffd-9f46-4622-894d-583f04fcc9fa@91dcf",
+      "displayName": "",
+      "id": "91dcf",
+      "name": "file4.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b2495ffd-9f46-4622-894d-583f04fcc9fa@612f0"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49d4c": {
+      "importer": "gltf-material",
+      "uuid": "b2495ffd-9f46-4622-894d-583f04fcc9fa@49d4c",
+      "displayName": "",
+      "id": "49d4c",
+      "name": "minecraft_platform_mat.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "af6ef": {
+      "importer": "gltf-scene",
+      "uuid": "b2495ffd-9f46-4622-894d-583f04fcc9fa@af6ef",
+      "displayName": "",
+      "id": "af6ef",
+      "name": "minecraft_map_merge.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file4",
+        "uri": "b2495ffd-9f46-4622-894d-583f04fcc9fa@612f0"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "b2495ffd-9f46-4622-894d-583f04fcc9fa@af6ef",
+    "assetFinder": {
+      "meshes": [
+        "b2495ffd-9f46-4622-894d-583f04fcc9fa@4623f"
+      ],
+      "skeletons": [],
+      "textures": [
+        "b2495ffd-9f46-4622-894d-583f04fcc9fa@91dcf"
+      ],
+      "materials": [
+        "b2495ffd-9f46-4622-894d-583f04fcc9fa@49d4c"
+      ],
+      "scenes": [
+        "b2495ffd-9f46-4622-894d-583f04fcc9fa@af6ef"
+      ]
+    }
+  }
+}

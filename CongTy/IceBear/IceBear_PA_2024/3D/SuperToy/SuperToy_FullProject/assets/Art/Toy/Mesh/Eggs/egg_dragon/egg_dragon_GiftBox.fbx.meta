@@ -1,0 +1,238 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f4d944e0-3674-4e78-b1f8-ece4d709bbe4",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-2.cconb"
+  ],
+  "subMetas": {
+    "94184": {
+      "importer": "gltf-animation",
+      "uuid": "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@94184",
+      "displayName": "",
+      "id": "94184",
+      "name": "egg_dragon_GiftBox_idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9583333134651184
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "7a99a": {
+      "importer": "gltf-mesh",
+      "uuid": "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@7a99a",
+      "displayName": "",
+      "id": "7a99a",
+      "name": "Top_Box.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1d10b": {
+      "importer": "gltf-mesh",
+      "uuid": "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@1d10b",
+      "displayName": "",
+      "id": "1d10b",
+      "name": "Bot_Box.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8dc2b": {
+      "importer": "gltf-animation",
+      "uuid": "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@8dc2b",
+      "displayName": "",
+      "id": "8dc2b",
+      "name": "egg_dragon_GiftBox_open.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7916666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "4b2c9": {
+      "importer": "gltf-animation",
+      "uuid": "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@4b2c9",
+      "displayName": "",
+      "id": "4b2c9",
+      "name": "egg_dragon_GiftBox.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.75
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "9a420": {
+      "importer": "texture",
+      "uuid": "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@9a420",
+      "displayName": "",
+      "id": "9a420",
+      "name": "file12.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Art/Toy/Mesh/Eggs/egg_dragon/tt_dan01a.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7424": {
+      "importer": "gltf-material",
+      "uuid": "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@a7424",
+      "displayName": "",
+      "id": "a7424",
+      "name": "lambert5.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "41a6a": {
+      "importer": "gltf-scene",
+      "uuid": "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@41a6a",
+      "displayName": "",
+      "id": "41a6a",
+      "name": "egg_dragon_GiftBox.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file12",
+        "uri": "db://assets/Art/Toy/Mesh/Eggs/egg_dragon/tt_dan01a.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "egg_dragon_GiftBox_idle",
+        "duration": 0.9583333134651184,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "egg_dragon_GiftBox_idle",
+            "from": 0,
+            "to": 0.9583333134651184,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "egg_dragon_GiftBox_open",
+        "duration": 0.7916666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "egg_dragon_GiftBox_open",
+            "from": 0,
+            "to": 0.7916666865348816,
+            "wrapMode": 1
+          }
+        ]
+      },
+      {
+        "name": "egg_dragon_GiftBox",
+        "duration": 1.75,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "egg_dragon_GiftBox",
+            "from": 0,
+            "to": 1.75,
+            "wrapMode": 1
+          }
+        ]
+      }
+    ],
+    "redirect": "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@41a6a",
+    "assetFinder": {
+      "meshes": [
+        "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@7a99a",
+        "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@1d10b"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@9a420"
+      ],
+      "materials": [
+        "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@a7424"
+      ],
+      "scenes": [
+        "f4d944e0-3674-4e78-b1f8-ece4d709bbe4@41a6a"
+      ]
+    }
+  }
+}

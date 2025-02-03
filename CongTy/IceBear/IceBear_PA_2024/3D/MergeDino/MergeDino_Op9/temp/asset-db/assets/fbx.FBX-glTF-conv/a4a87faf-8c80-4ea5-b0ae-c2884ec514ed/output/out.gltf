@@ -1,0 +1,1275 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1390,
+      "max": [
+        0.7228379845619202,
+        1.4301029443740845,
+        0.42258599400520325
+      ],
+      "min": [
+        -0.7228380441665649,
+        0.0013514976017177105,
+        -0.4125860631465912
+      ],
+      "name": "Zominion/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1390,
+      "name": "Zominion/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1390,
+      "name": "Zominion/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 1390,
+      "name": "Zominion/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 1390,
+      "name": "Zominion/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 56,
+      "componentType": 5123,
+      "count": 1390,
+      "name": "Zominion/JOINTS_1",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 64,
+      "componentType": 5126,
+      "count": 1390,
+      "name": "Zominion/WEIGHTS_1",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 5070,
+      "name": "Zominion/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 19,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_Reference/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_Reference/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_Reference/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_Hips/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 2,
+      "name": "Character1_Hips/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_LeftUpLeg/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_LeftUpLeg/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_LeftLeg/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_LeftLeg/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_RightUpLeg/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_RightUpLeg/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_RightLeg/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_RightLeg/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_Spine/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_Spine/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_Spine1/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_Spine1/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_LeftShoulder/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_LeftShoulder/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_LeftArm/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_LeftArm/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_LeftForeArm/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_LeftForeArm/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_RightShoulder/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_RightShoulder/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_RightArm/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_RightArm/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_RightForeArm/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_RightForeArm/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        2.616666555404663
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Character1_Neck/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Character1_Neck/rotation/Output",
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 4,
+          "target": {
+            "node": 3,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 5,
+          "target": {
+            "node": 5,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 6,
+          "target": {
+            "node": 6,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 7,
+          "target": {
+            "node": 8,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 8,
+          "target": {
+            "node": 9,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 9,
+          "target": {
+            "node": 10,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 10,
+          "target": {
+            "node": 11,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 11,
+          "target": {
+            "node": 12,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 12,
+          "target": {
+            "node": 14,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 13,
+          "target": {
+            "node": 15,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 14,
+          "target": {
+            "node": 16,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 15,
+          "target": {
+            "node": 18,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "mixamo.com",
+      "samplers": [
+        {
+          "input": 9,
+          "output": 10
+        },
+        {
+          "input": 9,
+          "output": 11
+        },
+        {
+          "input": 12,
+          "output": 13
+        },
+        {
+          "input": 14,
+          "output": 15
+        },
+        {
+          "input": 16,
+          "output": 17
+        },
+        {
+          "input": 18,
+          "output": 19
+        },
+        {
+          "input": 20,
+          "output": 21
+        },
+        {
+          "input": 22,
+          "output": 23
+        },
+        {
+          "input": 24,
+          "output": 25
+        },
+        {
+          "input": 26,
+          "output": 27
+        },
+        {
+          "input": 28,
+          "output": 29
+        },
+        {
+          "input": 30,
+          "output": 31
+        },
+        {
+          "input": 32,
+          "output": 33
+        },
+        {
+          "input": 34,
+          "output": 35
+        },
+        {
+          "input": 36,
+          "output": 37
+        },
+        {
+          "input": 38,
+          "output": 39
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 111200,
+      "byteStride": 80,
+      "name": "Zominion",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20280,
+      "byteOffset": 111200
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1216,
+      "byteOffset": 131480
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 132696
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1896,
+      "byteOffset": 133328
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 135224
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 137752
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32,
+      "byteOffset": 137760
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 137792
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 138424
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 140952
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 141584
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 144112
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 144744
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 147272
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 147904
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 150432
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 151064
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 153592
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 154224
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 156752
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 157384
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 159912
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 160544
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 163072
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 163704
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 166232
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 166864
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 169392
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 170024
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 172552
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 173184
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 175712
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2528,
+      "byteOffset": 176344
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 178872,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 60.0
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "C:\\Users\\Artist\\Downloads\\Zominion.fbm\\shared.Imp.Imp_Tex.png",
+          "relativeFileName": "C:/Users/Artist/Downloads/Zominion.fbm/shared.Imp.Imp_Tex.png"
+        }
+      },
+      "name": "Imps:shared_Imp_Imp_Tex1F1",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "Imps:shared_Imp_Imp_Tex2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Zominion",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 3,
+            "JOINTS_1": 5,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "WEIGHTS_0": 4,
+            "WEIGHTS_1": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "Character1_Reference"
+    },
+    {
+      "children": [
+        2,
+        5,
+        8
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_Hips",
+      "translation": [
+        0.0,
+        0.24999982118606567,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        3
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_LeftUpLeg",
+      "rotation": [
+        -5.303450052451808e-06,
+        -0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        0.11999991536140442,
+        -0.049999963492155075,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        4
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_LeftLeg",
+      "rotation": [
+        3.6196199744154e-06,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        5.7220457705398076e-08,
+        -0.06999993324279785,
+        -7.42484360216622e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_LeftFoot",
+      "rotation": [
+        1.6838299643495702e-06,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        1.907348590179936e-08,
+        -0.10175234079360962,
+        -3.4266741977262427e-07
+      ]
+    },
+    {
+      "children": [
+        6
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_RightUpLeg",
+      "rotation": [
+        -5.397149834607262e-06,
+        -0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        -0.11999991536140442,
+        -0.049999963492155075,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        7
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_RightLeg",
+      "rotation": [
+        3.7133199839445297e-06,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        -5.7220457705398076e-08,
+        -0.06999993324279785,
+        -7.555972842965275e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_RightFoot",
+      "rotation": [
+        1.6838299643495702e-06,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        -1.907348590179936e-08,
+        -0.10175234079360962,
+        -3.4266741977262427e-07
+      ]
+    },
+    {
+      "children": [
+        9
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_Spine",
+      "translation": [
+        0.0,
+        0.06999997794628143,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        10,
+        14,
+        18
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_Spine1",
+      "translation": [
+        0.0,
+        0.06875000149011612,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        11
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_LeftShoulder",
+      "translation": [
+        0.19999998807907104,
+        0.05124996230006218,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_LeftArm",
+      "rotation": [
+        4.911225005344022e-06,
+        1.0562755051068962e-05,
+        9.409131394022552e-07,
+        1.0
+      ],
+      "translation": [
+        0.09999990463256836,
+        0.009999999776482582,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        13
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_LeftForeArm",
+      "rotation": [
+        -4.971578619006323e-06,
+        -1.1658247785817366e-05,
+        6.322459375951439e-05,
+        1.0
+      ],
+      "translation": [
+        0.15999989211559296,
+        0.01999969780445099,
+        3.1836236757953884e-06
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_LeftHand",
+      "rotation": [
+        3.867364206655566e-10,
+        1.095849825105688e-06,
+        -0.0003529100213199854,
+        0.9999999403953552
+      ],
+      "translation": [
+        0.0667428970336914,
+        -8.565177267882973e-06,
+        -1.4627582345383416e-07
+      ]
+    },
+    {
+      "children": [
+        15
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_RightShoulder",
+      "translation": [
+        -0.19999998807907104,
+        0.05124996230006218,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        16
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_RightArm",
+      "rotation": [
+        4.790271759702591e-06,
+        -1.0704538908612449e-05,
+        1.2754851013596635e-05,
+        1.0
+      ],
+      "translation": [
+        -0.09999990463256836,
+        0.009999999776482582,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        17
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_RightForeArm",
+      "rotation": [
+        -4.852251549891662e-06,
+        1.1799411367974244e-05,
+        -0.0002150699292542413,
+        1.0
+      ],
+      "translation": [
+        -0.1599993258714676,
+        0.02000408247113228,
+        3.2338250548491487e-06
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_RightHand",
+      "rotation": [
+        1.2194693033151793e-09,
+        -1.0959217888739659e-06,
+        0.0011127331526950002,
+        0.9999994039535522
+      ],
+      "translation": [
+        -0.06674288958311081,
+        -2.7006190066458657e-05,
+        -1.4627583766468888e-07
+      ]
+    },
+    {
+      "children": [
+        19
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_Neck",
+      "translation": [
+        0.0,
+        0.1612483561038971,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Character1_Head",
+      "translation": [
+        0.0,
+        0.18249648809432983,
+        0.0
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Zominion",
+      "skin": 0
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        20
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 8,
+      "joints": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Imps:shared_Imp_Imp_Tex1F1",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
