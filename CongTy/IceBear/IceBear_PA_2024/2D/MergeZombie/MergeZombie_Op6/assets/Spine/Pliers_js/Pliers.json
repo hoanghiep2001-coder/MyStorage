@@ -1,0 +1,61 @@
+{
+"skeleton": {
+	"hash": "e9M0Z6OEUks",
+	"spine": "3.8-from-4.0-from-4.1.24",
+	"x": -224.7,
+	"y": -669.18,
+	"width": 1058.41,
+	"height": 976.27,
+	"images": "./images/",
+	"audio": "C:/Users/Admin/Desktop/Doll Makeover/Remake/Tool/Pliers"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "rotation": 58.8, "x": 711.88, "y": -414.54 },
+	{ "name": "bone2", "parent": "bone", "length": 646.1, "rotation": 91.31, "x": 4.21, "y": 16.83 },
+	{ "name": "bone3", "parent": "bone2", "length": 151.06, "rotation": 9.68, "x": 703.06, "y": 0.96 },
+	{ "name": "bone4", "parent": "bone2", "length": 151.06, "rotation": -13.19, "x": 703.06, "y": 0.96 }
+],
+"slots": [
+	{ "name": "Layer 1", "bone": "bone4", "attachment": "Layer 1" },
+	{ "name": "pliers 02", "bone": "bone3", "attachment": "pliers 02" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Layer 1": {
+				"Layer 1": { "x": -272.45, "y": 79.84, "rotation": -78.11, "width": 348, "height": 862 }
+			},
+			"pliers 02": {
+				"pliers 02": { "x": -271.54, "y": -86.09, "rotation": -100.98, "width": 349, "height": 863 }
+			}
+		}
+	}
+],
+"animations": {
+	"action": {
+		"bones": {
+			"bone3": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 10.06 },
+					{ "time": 0.5, "angle": -6.04, "curve": "stepped" },
+					{ "time": 0.6, "angle": -6.04 },
+					{ "time": 0.8333 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -19.3 },
+					{ "time": 0.5, "angle": 4.92, "curve": "stepped" },
+					{ "time": 0.6, "angle": 4.92 },
+					{ "time": 0.8333 }
+				]
+			}
+		}
+	},
+	"idle": {}
+}
+}

@@ -1,0 +1,95 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "multi_tool",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "2QEtRdkuCOg",
+      "spine": "3.8-from-4.0.64",
+      "x": -444.76,
+      "y": -309.92,
+      "width": 932,
+      "height": 881,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root",
+        "length": 821.04,
+        "rotation": 129.87,
+        "x": 418.72,
+        "y": -527.47
+      }
+    ],
+    "slots": [
+      {
+        "name": "tools",
+        "bone": "bone",
+        "attachment": "tools"
+      }
+    ],
+    "skins": [
+      {
+        "name": "comb",
+        "attachments": {
+          "tools": {
+            "tools": {
+              "name": "shampoo-comb",
+              "x": 759.85,
+              "y": -116.81,
+              "rotation": -129.87,
+              "width": 932,
+              "height": 881
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "action": {
+        "bones": {
+          "bone": {
+            "rotate": [
+              {},
+              {
+                "time": 0.3333,
+                "angle": 6
+              },
+              {
+                "time": 0.6667
+              }
+            ],
+            "translate": [
+              {},
+              {
+                "time": 0.3333,
+                "x": 81.71,
+                "y": -81.71
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          }
+        }
+      },
+      "idle": {}
+    }
+  },
+  "_atlasText": "\nmulti_tool.png\nsize: 512, 512\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nshampoo-comb\n  rotate: false\n  xy: 2, 2\n  size: 466, 441\n  orig: 466, 441\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "30b7847e-1e25-468b-9446-efe95c8b7dc0"
+    }
+  ],
+  "textureNames": [
+    "multi_tool.png"
+  ],
+  "scale": 1
+}

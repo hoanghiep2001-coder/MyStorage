@@ -1,0 +1,490 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Tooth",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "EyWZAGz1WzA",
+      "spine": "3.8-from-4.0-from-4.1.24",
+      "x": 21.5,
+      "y": 13.83,
+      "width": 834.66,
+      "height": 1135.63,
+      "images": "./images/",
+      "audio": "C:/Users/Admin/Desktop/Doll Makeover/Tooth_care/Toothpaste"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "Tuyp",
+        "parent": "root",
+        "length": 1062.53,
+        "rotation": 89.21,
+        "x": 241.5,
+        "y": 37
+      },
+      {
+        "name": "Cape",
+        "parent": "Tuyp",
+        "length": 147.21,
+        "rotation": -3.02,
+        "x": 929.88,
+        "y": 32.44
+      },
+      {
+        "name": "Brush",
+        "parent": "root",
+        "length": 1063.59,
+        "rotation": 90.59,
+        "x": 741.43,
+        "y": 51.23,
+        "shearY": -180
+      },
+      {
+        "name": "Cream",
+        "parent": "Brush",
+        "length": 245,
+        "rotation": -2.88,
+        "x": 989.41,
+        "y": 63.98
+      }
+    ],
+    "slots": [
+      {
+        "name": "Brush",
+        "bone": "Brush",
+        "attachment": "Brush"
+      },
+      {
+        "name": "Cream",
+        "bone": "Cream",
+        "attachment": "Cream"
+      },
+      {
+        "name": "Brush2",
+        "bone": "Brush",
+        "attachment": "Brush2"
+      },
+      {
+        "name": "Tip",
+        "bone": "Tuyp",
+        "attachment": "Tip"
+      },
+      {
+        "name": "Cape",
+        "bone": "Cape",
+        "attachment": "Cape"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "Brush": {
+            "Brush": {
+              "x": 526.48,
+              "y": 24.6,
+              "rotation": -90.59,
+              "width": 168,
+              "height": 1125
+            }
+          },
+          "Brush2": {
+            "Brush2": {
+              "x": 533.44,
+              "y": 20.53,
+              "rotation": -90.59,
+              "width": 168,
+              "height": 1126
+            }
+          },
+          "Cape": {
+            "Cape": {
+              "x": 78.5,
+              "y": -1.85,
+              "rotation": -86.19,
+              "width": 228,
+              "height": 189
+            }
+          },
+          "Cream": {
+            "Cream": {
+              "x": 38.8,
+              "y": 15.84,
+              "rotation": -87.71,
+              "width": 88,
+              "height": 90
+            }
+          },
+          "Tip": {
+            "Tip": {
+              "x": 527.76,
+              "y": 15.8,
+              "rotation": -89.21,
+              "width": 423,
+              "height": 1048
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "action": {
+        "slots": {
+          "Brush": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Cape": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Tip": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Tuyp": {
+            "rotate": [
+              {
+                "angle": -108.53
+              }
+            ],
+            "translate": [
+              {
+                "x": -1800.24,
+                "y": 492.36
+              }
+            ]
+          },
+          "Cape": {
+            "translate": [
+              {
+                "x": 750.91,
+                "y": 10.38
+              }
+            ]
+          },
+          "Brush": {
+            "rotate": [
+              {
+                "angle": 87.03
+              }
+            ],
+            "translate": [
+              {
+                "x": 424.84
+              },
+              {
+                "time": 0.1333,
+                "x": 424.84,
+                "y": 26.66
+              },
+              {
+                "time": 0.2667,
+                "x": 424.84
+              }
+            ]
+          }
+        }
+      },
+      "Idle1": {
+        "slots": {
+          "Brush2": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Cream": {
+            "rotate": [
+              {
+                "angle": -33.38
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "Idle2": {
+        "slots": {
+          "Brush": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Cape": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Tip": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Tuyp": {
+            "rotate": [
+              {
+                "angle": -108.53
+              }
+            ],
+            "translate": [
+              {
+                "x": -1800.24,
+                "y": 492.36
+              }
+            ]
+          },
+          "Cape": {
+            "translate": [
+              {
+                "x": 750.91,
+                "y": 10.38
+              }
+            ]
+          },
+          "Brush": {
+            "rotate": [
+              {
+                "angle": 87.03
+              }
+            ],
+            "translate": [
+              {
+                "x": 424.84
+              }
+            ]
+          }
+        }
+      },
+      "Intro": {
+        "slots": {
+          "Brush": {
+            "color": [
+              {
+                "time": 3.6333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 3.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Brush2": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 3.6333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 3.6667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 4.3333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "Cape": {
+            "color": [
+              {
+                "time": 0.7667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.0333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Cream": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": "Cream"
+              }
+            ]
+          },
+          "Tip": {
+            "color": [
+              {
+                "time": 2.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 3.1,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Tuyp": {
+            "rotate": [
+              {
+                "time": 1.2333
+              },
+              {
+                "time": 2,
+                "angle": -114.71
+              },
+              {
+                "time": 2.5,
+                "angle": -108.53
+              }
+            ],
+            "translate": [
+              {
+                "time": 1.2333
+              },
+              {
+                "time": 2,
+                "x": -1069.26,
+                "y": 551.35
+              },
+              {
+                "time": 2.5,
+                "x": -1144.64,
+                "y": 458.65
+              },
+              {
+                "time": 3.1,
+                "x": -1800.24,
+                "y": 492.36
+              }
+            ]
+          },
+          "Cape": {
+            "rotate": [
+              {},
+              {
+                "time": 0.3,
+                "angle": -1.23
+              },
+              {
+                "time": 0.3333,
+                "angle": 7.04
+              },
+              {
+                "time": 0.7333,
+                "angle": 7.89
+              },
+              {
+                "time": 1,
+                "angle": 6.98
+              },
+              {
+                "time": 1.0333
+              }
+            ],
+            "translate": [
+              {},
+              {
+                "time": 0.3,
+                "x": 218,
+                "y": 3.8
+              },
+              {
+                "time": 0.3333,
+                "x": 242.5,
+                "y": -16.25
+              },
+              {
+                "time": 1.0333,
+                "x": 750.91,
+                "y": 10.38
+              }
+            ],
+            "shear": [
+              {
+                "time": 0.3
+              },
+              {
+                "time": 0.3333,
+                "y": -180,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "y": -180
+              },
+              {
+                "time": 1.0333
+              }
+            ]
+          },
+          "Brush": {
+            "rotate": [
+              {
+                "time": 1.2333
+              },
+              {
+                "time": 2,
+                "angle": 87.03
+              }
+            ],
+            "translate": [
+              {
+                "time": 1.2333
+              },
+              {
+                "time": 2,
+                "x": 424.84
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nTooth.png\nsize: 624, 384\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nBrush\n  rotate: true\n  xy: 2, 88\n  size: 84, 562\n  orig: 84, 563\n  offset: 0, 0\n  index: -1\nBrush2\n  rotate: true\n  xy: 2, 2\n  size: 84, 561\n  orig: 84, 563\n  offset: 0, 0\n  index: -1\nCape\n  rotate: true\n  xy: 528, 267\n  size: 114, 93\n  orig: 114, 95\n  offset: 0, 2\n  index: -1\nCream\n  rotate: true\n  xy: 528, 222\n  size: 43, 45\n  orig: 44, 45\n  offset: 1, 0\n  index: -1\nTip\n  rotate: true\n  xy: 2, 174\n  size: 207, 524\n  orig: 212, 524\n  offset: 2, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4d953c10-21b7-49ef-a253-437cfabe0f06"
+    }
+  ],
+  "textureNames": [
+    "Tooth.png"
+  ],
+  "scale": 1
+}

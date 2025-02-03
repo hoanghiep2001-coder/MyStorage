@@ -1,0 +1,287 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Eyeliner",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "amqCTUP7q2g",
+      "spine": "3.8-from-4.0-from-4.1.24",
+      "x": 322.74,
+      "y": -557.26,
+      "width": 297.25,
+      "height": 665.32,
+      "images": "./images/",
+      "audio": "C:/Users/Admin/Desktop/Doll Makeover/Remake/Tool/Makeup Tool/Eyeliner"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone3",
+        "parent": "root",
+        "rotation": 19.2,
+        "x": 580.93,
+        "y": -545.98
+      },
+      {
+        "name": "bone",
+        "parent": "bone3",
+        "length": 431.79,
+        "rotation": 90.29,
+        "x": 0.54,
+        "y": -1.9
+      },
+      {
+        "name": "bone2",
+        "parent": "bone3",
+        "length": 248.98,
+        "rotation": -88.99,
+        "x": -1.66,
+        "y": 676.62
+      }
+    ],
+    "slots": [
+      {
+        "name": "Stick",
+        "bone": "bone2",
+        "attachment": "Stick"
+      },
+      {
+        "name": "Base",
+        "bone": "bone",
+        "attachment": "Base"
+      },
+      {
+        "name": "Cap",
+        "bone": "bone2",
+        "attachment": "Cap"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "Base": {
+            "Base": {
+              "x": 341.43,
+              "y": -3.42,
+              "rotation": -90.29,
+              "width": 79,
+              "height": 677
+            }
+          },
+          "Cap": {
+            "Cap": {
+              "x": 337.1,
+              "y": -2.09,
+              "rotation": 88.99,
+              "width": 79,
+              "height": 677
+            }
+          },
+          "Stick": {
+            "Stick": {
+              "x": 337.1,
+              "y": -2.09,
+              "rotation": 88.99,
+              "width": 79,
+              "height": 677
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "Eyeliner_action": {
+        "slots": {
+          "Base": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone2": {
+            "rotate": [
+              {
+                "angle": -143.81
+              },
+              {
+                "time": 0.6667,
+                "angle": -148.59
+              },
+              {
+                "time": 1.3333,
+                "angle": -143.81
+              }
+            ],
+            "translate": [
+              {
+                "x": 31.27,
+                "y": -502.65
+              }
+            ]
+          },
+          "bone": {
+            "rotate": [
+              {
+                "angle": -43.79
+              }
+            ],
+            "translate": [
+              {
+                "x": 955.28,
+                "y": -332.67
+              }
+            ]
+          }
+        }
+      },
+      "Eyeliner_idle01": {
+        "bones": {
+          "bone3": {
+            "translate": [
+              {}
+            ]
+          }
+        }
+      },
+      "Eyeliner_idle02": {
+        "slots": {
+          "Base": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone2": {
+            "rotate": [
+              {
+                "angle": -143.81
+              }
+            ],
+            "translate": [
+              {
+                "x": 31.27,
+                "y": -502.65
+              }
+            ]
+          },
+          "bone": {
+            "rotate": [
+              {
+                "angle": -43.79
+              }
+            ],
+            "translate": [
+              {
+                "x": 955.28,
+                "y": -332.67
+              }
+            ]
+          }
+        }
+      },
+      "Eyeliner_intro": {
+        "slots": {
+          "Base": {
+            "color": [
+              {
+                "time": 0.8333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 1.3333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone2": {
+            "rotate": [
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.6667,
+                "angle": -98.17
+              },
+              {
+                "time": 1.3333,
+                "angle": -143.81
+              }
+            ],
+            "translate": [
+              {},
+              {
+                "time": 0.3333,
+                "x": 3.68,
+                "y": 465.04
+              },
+              {
+                "time": 1.3333,
+                "x": 31.27,
+                "y": -502.65
+              }
+            ]
+          },
+          "bone": {
+            "rotate": [
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 1.3333,
+                "angle": -43.79
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.5,
+                "x": 85.25,
+                "y": -195.33
+              },
+              {
+                "time": 1.3333,
+                "x": 955.28,
+                "y": -332.67
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nEyeliner.png\nsize: 264, 692\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nBase\n  rotate: false\n  xy: 6, 6\n  size: 79, 677\n  orig: 79, 677\n  offset: 0, 0\n  index: -1\nCap\n  rotate: false\n  xy: 91, 6\n  size: 79, 677\n  orig: 79, 677\n  offset: 0, 0\n  index: -1\nStick\n  rotate: false\n  xy: 176, 6\n  size: 79, 677\n  orig: 79, 677\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "35fa1084-653c-40df-b7bd-66bb1c3d0b13"
+    }
+  ],
+  "textureNames": [
+    "Eyeliner.png"
+  ],
+  "scale": 1
+}
