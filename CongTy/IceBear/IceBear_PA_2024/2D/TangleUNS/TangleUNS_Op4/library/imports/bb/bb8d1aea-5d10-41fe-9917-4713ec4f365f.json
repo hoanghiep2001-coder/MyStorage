@@ -1,0 +1,118 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "cut",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "6//BNDMnBbu2ZhAfV85wJhIi6e8",
+      "spine": "3.8.99",
+      "images": "",
+      "audio": "C:/Users/Admin/Desktop/Cut The Levels/Main Character"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "blood/Blood_F1",
+        "parent": "root",
+        "rotation": -19.2,
+        "x": 129.27,
+        "y": 138.14
+      }
+    ],
+    "slots": [
+      {
+        "name": "blood/Blood_F1",
+        "bone": "blood/Blood_F1"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "blood/Blood_F1": {
+            "blood/Blood_F1": {
+              "x": 3.3,
+              "y": 32.93,
+              "width": 301,
+              "height": 346
+            },
+            "blood/Blood_F2": {
+              "x": 3.55,
+              "y": 32.93,
+              "width": 301,
+              "height": 346
+            },
+            "blood/Blood_F3": {
+              "x": 3.55,
+              "y": 32.93,
+              "width": 301,
+              "height": 346
+            },
+            "blood/Blood_F4": {
+              "x": 3.55,
+              "y": 32.93,
+              "width": 301,
+              "height": 346
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "cut": {
+        "slots": {
+          "blood/Blood_F1": {
+            "color": [
+              {
+                "color": "ffd679ff"
+              }
+            ],
+            "attachment": [
+              {
+                "name": "blood/Blood_F1"
+              },
+              {
+                "time": 0.0333,
+                "name": "blood/Blood_F2"
+              },
+              {
+                "time": 0.0667,
+                "name": "blood/Blood_F3"
+              },
+              {
+                "time": 0.1,
+                "name": "blood/Blood_F4"
+              },
+              {
+                "time": 0.1333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "blood/Blood_F1": {
+            "translate": [
+              {
+                "y": -52.45
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ncut.png\nsize: 2048,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nblood/Blood_F1\n  rotate: false\n  xy: 2, 2\n  size: 301, 346\n  orig: 301, 346\n  offset: 0, 0\n  index: -1\nblood/Blood_F2\n  rotate: false\n  xy: 305, 2\n  size: 301, 346\n  orig: 301, 346\n  offset: 0, 0\n  index: -1\nblood/Blood_F3\n  rotate: false\n  xy: 608, 2\n  size: 301, 346\n  orig: 301, 346\n  offset: 0, 0\n  index: -1\nblood/Blood_F4\n  rotate: false\n  xy: 911, 2\n  size: 301, 346\n  orig: 301, 346\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "11d15f0f-b817-4675-8eb5-5c37ee407354"
+    }
+  ],
+  "textureNames": [
+    "cut.png"
+  ],
+  "scale": 1
+}

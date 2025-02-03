@@ -1,0 +1,785 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Zombie",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "V3ddAq1Bduo",
+      "spine": "3.8-from-4.0.61",
+      "x": -63.42,
+      "y": 0.45,
+      "width": 92,
+      "height": 162,
+      "images": "./images/",
+      "audio": "C:/Users/Admin/Desktop/1/Zombie"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "atk",
+        "bone": "bone",
+        "attachment": "atk01"
+      },
+      {
+        "name": "idle",
+        "bone": "bone"
+      },
+      {
+        "name": "walk",
+        "bone": "bone"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "atk": {
+            "atk01": {
+              "x": -17.42,
+              "y": 81.45,
+              "width": 92,
+              "height": 162
+            },
+            "atk03": {
+              "x": 14.58,
+              "y": 81.95,
+              "width": 58,
+              "height": 165
+            },
+            "atk05": {
+              "x": 30.58,
+              "y": 78.95,
+              "width": 98,
+              "height": 159
+            },
+            "atk07": {
+              "x": 31.58,
+              "y": 78.95,
+              "width": 112,
+              "height": 159
+            },
+            "atk09": {
+              "x": 32.58,
+              "y": 73.45,
+              "width": 124,
+              "height": 148
+            },
+            "atk11": {
+              "x": 32.58,
+              "y": 70.95,
+              "width": 132,
+              "height": 141
+            },
+            "atk13": {
+              "x": -3.42,
+              "y": 82.45,
+              "width": 58,
+              "height": 166
+            },
+            "atk15": {
+              "x": -44.92,
+              "y": 59.95,
+              "width": 145,
+              "height": 119
+            },
+            "atk17": {
+              "x": -45.92,
+              "y": 52.45,
+              "width": 147,
+              "height": 104
+            },
+            "atk19": {
+              "x": -42.92,
+              "y": 51.45,
+              "width": 141,
+              "height": 102
+            },
+            "atk21": {
+              "x": -40.92,
+              "y": 57.45,
+              "width": 137,
+              "height": 114
+            },
+            "atk23": {
+              "x": -38.42,
+              "y": 62.95,
+              "width": 130,
+              "height": 127
+            },
+            "atk25": {
+              "x": -33.92,
+              "y": 70.45,
+              "width": 113,
+              "height": 142
+            },
+            "atk27": {
+              "x": -24.92,
+              "y": 75.45,
+              "width": 93,
+              "height": 152
+            },
+            "atk29": {
+              "x": -11.92,
+              "y": 77.45,
+              "width": 83,
+              "height": 156
+            },
+            "atk31": {
+              "x": -6.42,
+              "y": 78.45,
+              "width": 80,
+              "height": 156
+            },
+            "atk33": {
+              "x": -5.42,
+              "y": 78.95,
+              "width": 76,
+              "height": 157
+            },
+            "atk35": {
+              "x": -8.92,
+              "y": 80.45,
+              "width": 77,
+              "height": 160
+            },
+            "atk37": {
+              "x": -9.92,
+              "y": 81.95,
+              "width": 75,
+              "height": 163
+            },
+            "atk39": {
+              "x": -7.92,
+              "y": 82.45,
+              "width": 71,
+              "height": 164
+            },
+            "atk41": {
+              "x": -3.42,
+              "y": 82.45,
+              "width": 62,
+              "height": 164
+            },
+            "atk43": {
+              "x": 0.58,
+              "y": 81.45,
+              "width": 56,
+              "height": 162
+            },
+            "atk45": {
+              "x": 1.08,
+              "y": 81.45,
+              "width": 55,
+              "height": 162
+            }
+          },
+          "idle": {
+            "idle01": {
+              "x": -8.42,
+              "y": 81.95,
+              "width": 68,
+              "height": 163
+            },
+            "idle05": {
+              "x": -9.92,
+              "y": 81.95,
+              "width": 69,
+              "height": 163
+            },
+            "idle09": {
+              "x": -10.92,
+              "y": 81.95,
+              "width": 71,
+              "height": 163
+            },
+            "idle13": {
+              "x": -11.92,
+              "y": 81.95,
+              "width": 73,
+              "height": 163
+            },
+            "idle15": {
+              "x": -12.92,
+              "y": 81.95,
+              "width": 73,
+              "height": 163
+            },
+            "idle19": {
+              "x": -13.42,
+              "y": 81.95,
+              "width": 74,
+              "height": 163
+            },
+            "idle23": {
+              "x": -13.92,
+              "y": 81.95,
+              "width": 75,
+              "height": 163
+            },
+            "idle27": {
+              "x": -13.92,
+              "y": 81.95,
+              "width": 75,
+              "height": 163
+            },
+            "idle29": {
+              "x": -13.92,
+              "y": 81.95,
+              "width": 75,
+              "height": 163
+            },
+            "idle33": {
+              "x": -13.42,
+              "y": 81.95,
+              "width": 74,
+              "height": 163
+            },
+            "idle37": {
+              "x": -12.42,
+              "y": 81.95,
+              "width": 74,
+              "height": 163
+            },
+            "idle41": {
+              "x": -11.42,
+              "y": 81.95,
+              "width": 72,
+              "height": 163
+            },
+            "idle43": {
+              "x": -10.42,
+              "y": 82.45,
+              "width": 72,
+              "height": 164
+            },
+            "idle47": {
+              "x": -9.42,
+              "y": 82.45,
+              "width": 70,
+              "height": 164
+            },
+            "idle51": {
+              "x": -8.92,
+              "y": 82.45,
+              "width": 69,
+              "height": 164
+            },
+            "idle55": {
+              "x": -7.42,
+              "y": 82.45,
+              "width": 68,
+              "height": 164
+            },
+            "idle57": {
+              "x": -7.42,
+              "y": 82.45,
+              "width": 68,
+              "height": 164
+            },
+            "idle61": {
+              "x": -6.92,
+              "y": 82.45,
+              "width": 67,
+              "height": 164
+            },
+            "idle65": {
+              "x": -6.92,
+              "y": 82.45,
+              "width": 67,
+              "height": 164
+            },
+            "idle69": {
+              "x": -7.42,
+              "y": 81.95,
+              "width": 66,
+              "height": 163
+            },
+            "idle71": {
+              "x": -7.92,
+              "y": 81.95,
+              "width": 67,
+              "height": 163
+            },
+            "idle75": {
+              "x": -7.92,
+              "y": 81.95,
+              "width": 67,
+              "height": 163
+            },
+            "idle79": {
+              "x": -8.42,
+              "y": 81.95,
+              "width": 68,
+              "height": 163
+            }
+          },
+          "walk": {
+            "walk01": {
+              "x": -19.92,
+              "y": 82.95,
+              "width": 95,
+              "height": 159
+            },
+            "walk03": {
+              "x": -19.92,
+              "y": 82.95,
+              "width": 95,
+              "height": 159
+            },
+            "walk05": {
+              "x": -19.42,
+              "y": 83.45,
+              "width": 96,
+              "height": 158
+            },
+            "walk07": {
+              "x": -15.42,
+              "y": 85.45,
+              "width": 104,
+              "height": 154
+            },
+            "walk09": {
+              "x": -13.42,
+              "y": 87.95,
+              "width": 110,
+              "height": 149
+            },
+            "walk11": {
+              "x": -12.92,
+              "y": 87.95,
+              "width": 111,
+              "height": 149
+            },
+            "walk13": {
+              "x": -13.92,
+              "y": 81.45,
+              "width": 111,
+              "height": 160
+            },
+            "walk15": {
+              "x": -15.92,
+              "y": 79.95,
+              "width": 107,
+              "height": 163
+            },
+            "walk17": {
+              "x": -18.92,
+              "y": 79.95,
+              "width": 99,
+              "height": 163
+            },
+            "walk19": {
+              "x": -19.92,
+              "y": 80.95,
+              "width": 95,
+              "height": 163
+            },
+            "walk21": {
+              "x": -19.92,
+              "y": 80.95,
+              "width": 95,
+              "height": 163
+            },
+            "walk23": {
+              "x": -19.42,
+              "y": 80.95,
+              "width": 94,
+              "height": 163
+            },
+            "walk25": {
+              "x": -15.42,
+              "y": 82.45,
+              "width": 102,
+              "height": 160
+            },
+            "walk27": {
+              "x": -9.92,
+              "y": 84.95,
+              "width": 111,
+              "height": 157
+            },
+            "walk29": {
+              "x": -7.42,
+              "y": 86.95,
+              "width": 116,
+              "height": 153
+            },
+            "walk31": {
+              "x": -7.42,
+              "y": 86.95,
+              "width": 118,
+              "height": 151
+            },
+            "walk33": {
+              "x": -11.42,
+              "y": 80.95,
+              "width": 118,
+              "height": 161
+            },
+            "walk35": {
+              "x": -14.92,
+              "y": 79.95,
+              "width": 111,
+              "height": 163
+            },
+            "walk37": {
+              "x": -18.92,
+              "y": 80.45,
+              "width": 101,
+              "height": 162
+            },
+            "walk39": {
+              "x": -20.42,
+              "y": 81.95,
+              "width": 96,
+              "height": 161
+            },
+            "walk41": {
+              "x": -19.92,
+              "y": 82.95,
+              "width": 95,
+              "height": 159
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "atk": {
+        "slots": {
+          "atk": {
+            "attachment": [
+              {
+                "time": 0.0333,
+                "name": "atk03"
+              },
+              {
+                "time": 0.0667,
+                "name": "atk05"
+              },
+              {
+                "time": 0.1,
+                "name": "atk07"
+              },
+              {
+                "time": 0.1333,
+                "name": "atk09"
+              },
+              {
+                "time": 0.1667,
+                "name": "atk11"
+              },
+              {
+                "time": 0.2,
+                "name": "atk13"
+              },
+              {
+                "time": 0.2333,
+                "name": "atk15"
+              },
+              {
+                "time": 0.2667,
+                "name": "atk17"
+              },
+              {
+                "time": 0.3,
+                "name": "atk19"
+              },
+              {
+                "time": 0.3333,
+                "name": "atk21"
+              },
+              {
+                "time": 0.3667,
+                "name": "atk23"
+              },
+              {
+                "time": 0.4,
+                "name": "atk25"
+              },
+              {
+                "time": 0.4333,
+                "name": "atk27"
+              },
+              {
+                "time": 0.4667,
+                "name": "atk29"
+              },
+              {
+                "time": 0.5,
+                "name": "atk31"
+              },
+              {
+                "time": 0.5333,
+                "name": "atk33"
+              },
+              {
+                "time": 0.5667,
+                "name": "atk35"
+              },
+              {
+                "time": 0.6,
+                "name": "atk37"
+              },
+              {
+                "time": 0.6333,
+                "name": "atk39"
+              },
+              {
+                "time": 0.6667,
+                "name": "atk41"
+              },
+              {
+                "time": 0.7,
+                "name": "atk43"
+              },
+              {
+                "time": 0.7333,
+                "name": "atk45"
+              }
+            ]
+          }
+        }
+      },
+      "idle": {
+        "slots": {
+          "atk": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "idle": {
+            "attachment": [
+              {
+                "name": "idle01"
+              },
+              {
+                "time": 0.0333,
+                "name": "idle05"
+              },
+              {
+                "time": 0.0667,
+                "name": "idle09"
+              },
+              {
+                "time": 0.1,
+                "name": "idle13"
+              },
+              {
+                "time": 0.1333,
+                "name": "idle15"
+              },
+              {
+                "time": 0.1667,
+                "name": "idle19"
+              },
+              {
+                "time": 0.2,
+                "name": "idle23"
+              },
+              {
+                "time": 0.2333,
+                "name": "idle27"
+              },
+              {
+                "time": 0.2667,
+                "name": "idle29"
+              },
+              {
+                "time": 0.3,
+                "name": "idle33"
+              },
+              {
+                "time": 0.3333,
+                "name": "idle37"
+              },
+              {
+                "time": 0.3667,
+                "name": "idle41"
+              },
+              {
+                "time": 0.4,
+                "name": "idle43"
+              },
+              {
+                "time": 0.4333,
+                "name": "idle47"
+              },
+              {
+                "time": 0.4667,
+                "name": "idle51"
+              },
+              {
+                "time": 0.5,
+                "name": "idle55"
+              },
+              {
+                "time": 0.5333,
+                "name": "idle57"
+              },
+              {
+                "time": 0.5667,
+                "name": "idle61"
+              },
+              {
+                "time": 0.6,
+                "name": "idle65"
+              },
+              {
+                "time": 0.6333,
+                "name": "idle69"
+              },
+              {
+                "time": 0.6667,
+                "name": "idle71"
+              },
+              {
+                "time": 0.7,
+                "name": "idle75"
+              },
+              {
+                "time": 0.7333,
+                "name": "idle79"
+              }
+            ]
+          }
+        }
+      },
+      "walk": {
+        "slots": {
+          "atk": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "walk": {
+            "attachment": [
+              {
+                "name": "walk01"
+              },
+              {
+                "time": 0.0333,
+                "name": "walk03"
+              },
+              {
+                "time": 0.0667,
+                "name": "walk05"
+              },
+              {
+                "time": 0.1,
+                "name": "walk07"
+              },
+              {
+                "time": 0.1333,
+                "name": "walk09"
+              },
+              {
+                "time": 0.1667,
+                "name": "walk11"
+              },
+              {
+                "time": 0.2,
+                "name": "walk13"
+              },
+              {
+                "time": 0.2333,
+                "name": "walk15"
+              },
+              {
+                "time": 0.2667,
+                "name": "walk17"
+              },
+              {
+                "time": 0.3,
+                "name": "walk19"
+              },
+              {
+                "time": 0.3333,
+                "name": "walk21"
+              },
+              {
+                "time": 0.3667,
+                "name": "walk23"
+              },
+              {
+                "time": 0.4,
+                "name": "walk25"
+              },
+              {
+                "time": 0.4333,
+                "name": "walk27"
+              },
+              {
+                "time": 0.4667,
+                "name": "walk29"
+              },
+              {
+                "time": 0.5,
+                "name": "walk31"
+              },
+              {
+                "time": 0.5333,
+                "name": "walk33"
+              },
+              {
+                "time": 0.5667,
+                "name": "walk35"
+              },
+              {
+                "time": 0.6,
+                "name": "walk37"
+              },
+              {
+                "time": 0.6333,
+                "name": "walk39"
+              },
+              {
+                "time": 0.6667,
+                "name": "walk41"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nZombie.png\r\nsize: 512, 512\r\nformat: RGBA8888\r\nfilter: Linear, Linear\r\nrepeat: none\r\natk07\r\n  rotate: false\r\n  xy: 235, 14\r\n  size: 112, 159\r\n  orig: 112, 159\r\n  offset: 0, 0\r\n  index: -1\r\natk09\r\n  rotate: false\r\n  xy: 122, 330\r\n  size: 124, 148\r\n  orig: 124, 148\r\n  offset: 0, 0\r\n  index: -1\r\natk11\r\n  rotate: false\r\n  xy: 2, 174\r\n  size: 132, 141\r\n  orig: 132, 141\r\n  offset: 0, 0\r\n  index: -1\r\natk15\r\n  rotate: false\r\n  xy: 248, 359\r\n  size: 145, 119\r\n  orig: 145, 119\r\n  offset: 0, 0\r\n  index: -1\r\nwalk13\r\n  rotate: false\r\n  xy: 254, 197\r\n  size: 111, 160\r\n  orig: 111, 160\r\n  offset: 0, 0\r\n  index: -1\r\nwalk15\r\n  rotate: false\r\n  xy: 349, 32\r\n  size: 107, 163\r\n  orig: 107, 163\r\n  offset: 0, 0\r\n  index: -1\r\nwalk27\r\n  rotate: false\r\n  xy: 367, 200\r\n  size: 111, 157\r\n  orig: 111, 157\r\n  offset: 0, 0\r\n  index: -1\r\nwalk29\r\n  rotate: false\r\n  xy: 136, 175\r\n  size: 116, 153\r\n  orig: 116, 153\r\n  offset: 0, 0\r\n  index: -1\r\nwalk31\r\n  rotate: false\r\n  xy: 115, 21\r\n  size: 118, 151\r\n  orig: 118, 151\r\n  offset: 0, 0\r\n  index: -1\r\nwalk33\r\n  rotate: false\r\n  xy: 2, 317\r\n  size: 118, 161\r\n  orig: 118, 161\r\n  offset: 0, 0\r\n  index: -1\r\nwalk35\r\n  rotate: false\r\n  xy: 2, 9\r\n  size: 111, 163\r\n  orig: 111, 163\r\n  offset: 0, 0\r\n  index: -1\r\n\r\nZombie_2.png\r\nsize: 512, 512\r\nformat: RGBA8888\r\nfilter: Linear, Linear\r\nrepeat: none\r\natk17\r\n  rotate: false\r\n  xy: 273, 262\r\n  size: 147, 104\r\n  orig: 147, 104\r\n  offset: 0, 0\r\n  index: -1\r\natk19\r\n  rotate: false\r\n  xy: 342, 408\r\n  size: 141, 102\r\n  orig: 141, 102\r\n  offset: 0, 0\r\n  index: -1\r\natk21\r\n  rotate: false\r\n  xy: 134, 245\r\n  size: 137, 114\r\n  orig: 137, 114\r\n  offset: 0, 0\r\n  index: -1\r\natk23\r\n  rotate: false\r\n  xy: 2, 232\r\n  size: 130, 127\r\n  orig: 130, 127\r\n  offset: 0, 0\r\n  index: -1\r\natk25\r\n  rotate: false\r\n  xy: 227, 368\r\n  size: 113, 142\r\n  orig: 113, 142\r\n  offset: 0, 0\r\n  index: -1\r\natk29\r\n  rotate: false\r\n  xy: 422, 250\r\n  size: 83, 156\r\n  orig: 83, 156\r\n  offset: 0, 0\r\n  index: -1\r\nwalk07\r\n  rotate: false\r\n  xy: 310, 106\r\n  size: 104, 154\r\n  orig: 104, 154\r\n  offset: 0, 0\r\n  index: -1\r\nwalk09\r\n  rotate: false\r\n  xy: 115, 361\r\n  size: 110, 149\r\n  orig: 110, 149\r\n  offset: 0, 0\r\n  index: -1\r\nwalk11\r\n  rotate: false\r\n  xy: 2, 361\r\n  size: 111, 149\r\n  orig: 111, 149\r\n  offset: 0, 0\r\n  index: -1\r\nwalk17\r\n  rotate: false\r\n  xy: 209, 80\r\n  size: 99, 163\r\n  orig: 99, 163\r\n  offset: 0, 0\r\n  index: -1\r\nwalk23\r\n  rotate: false\r\n  xy: 416, 85\r\n  size: 94, 163\r\n  orig: 94, 163\r\n  offset: 0, 0\r\n  index: -1\r\nwalk25\r\n  rotate: false\r\n  xy: 105, 70\r\n  size: 102, 160\r\n  orig: 102, 160\r\n  offset: 0, 0\r\n  index: -1\r\nwalk37\r\n  rotate: false\r\n  xy: 2, 68\r\n  size: 101, 162\r\n  orig: 101, 162\r\n  offset: 0, 0\r\n  index: -1\r\n\r\nZombie_3.png\r\nsize: 512, 512\r\nformat: RGBA8888\r\nfilter: Linear, Linear\r\nrepeat: none\r\natk01\r\n  rotate: false\r\n  xy: 170, 27\r\n  size: 92, 162\r\n  orig: 92, 162\r\n  offset: 0, 0\r\n  index: -1\r\natk05\r\n  rotate: false\r\n  xy: 355, 351\r\n  size: 98, 159\r\n  orig: 98, 159\r\n  offset: 0, 0\r\n  index: -1\r\natk27\r\n  rotate: false\r\n  xy: 2, 358\r\n  size: 93, 152\r\n  orig: 93, 152\r\n  offset: 0, 0\r\n  index: -1\r\natk31\r\n  rotate: false\r\n  xy: 97, 354\r\n  size: 80, 156\r\n  orig: 80, 156\r\n  offset: 0, 0\r\n  index: -1\r\natk33\r\n  rotate: false\r\n  xy: 179, 353\r\n  size: 76, 157\r\n  orig: 76, 157\r\n  offset: 0, 0\r\n  index: -1\r\natk35\r\n  rotate: false\r\n  xy: 2, 196\r\n  size: 77, 160\r\n  orig: 77, 160\r\n  offset: 0, 0\r\n  index: -1\r\natk37\r\n  rotate: false\r\n  xy: 430, 183\r\n  size: 75, 163\r\n  orig: 75, 163\r\n  offset: 0, 0\r\n  index: -1\r\natk43\r\n  rotate: false\r\n  xy: 372, 187\r\n  size: 56, 162\r\n  orig: 56, 162\r\n  offset: 0, 0\r\n  index: -1\r\natk45\r\n  rotate: false\r\n  xy: 455, 348\r\n  size: 55, 162\r\n  orig: 55, 162\r\n  offset: 0, 0\r\n  index: -1\r\nidle01\r\n  rotate: false\r\n  xy: 2, 31\r\n  size: 68, 163\r\n  orig: 68, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle05\r\n  rotate: false\r\n  xy: 264, 25\r\n  size: 69, 163\r\n  orig: 69, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle09\r\n  rotate: false\r\n  xy: 335, 22\r\n  size: 71, 163\r\n  orig: 71, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle13\r\n  rotate: false\r\n  xy: 408, 18\r\n  size: 73, 163\r\n  orig: 73, 163\r\n  offset: 0, 0\r\n  index: -1\r\nwalk01\r\n  rotate: false\r\n  xy: 81, 193\r\n  size: 95, 159\r\n  orig: 95, 159\r\n  offset: 0, 0\r\n  index: -1\r\nwalk03\r\n  rotate: false\r\n  xy: 178, 191\r\n  size: 95, 159\r\n  orig: 95, 159\r\n  offset: 0, 0\r\n  index: -1\r\nwalk05\r\n  rotate: false\r\n  xy: 257, 352\r\n  size: 96, 158\r\n  orig: 96, 158\r\n  offset: 0, 0\r\n  index: -1\r\nwalk39\r\n  rotate: false\r\n  xy: 72, 30\r\n  size: 96, 161\r\n  orig: 96, 161\r\n  offset: 0, 0\r\n  index: -1\r\nwalk41\r\n  rotate: false\r\n  xy: 275, 190\r\n  size: 95, 159\r\n  orig: 95, 159\r\n  offset: 0, 0\r\n  index: -1\r\n\r\nZombie_4.png\r\nsize: 512, 512\r\nformat: RGBA8888\r\nfilter: Linear, Linear\r\nrepeat: none\r\natk03\r\n  rotate: false\r\n  xy: 438, 2\r\n  size: 58, 165\r\n  orig: 58, 165\r\n  offset: 0, 0\r\n  index: -1\r\natk39\r\n  rotate: false\r\n  xy: 327, 335\r\n  size: 71, 164\r\n  orig: 71, 164\r\n  offset: 0, 0\r\n  index: -1\r\nidle15\r\n  rotate: false\r\n  xy: 252, 336\r\n  size: 73, 163\r\n  orig: 73, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle19\r\n  rotate: false\r\n  xy: 176, 336\r\n  size: 74, 163\r\n  orig: 74, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle23\r\n  rotate: false\r\n  xy: 99, 336\r\n  size: 75, 163\r\n  orig: 75, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle27\r\n  rotate: false\r\n  xy: 2, 6\r\n  size: 75, 163\r\n  orig: 75, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle29\r\n  rotate: false\r\n  xy: 99, 171\r\n  size: 75, 163\r\n  orig: 75, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle33\r\n  rotate: false\r\n  xy: 79, 6\r\n  size: 74, 163\r\n  orig: 74, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle37\r\n  rotate: false\r\n  xy: 176, 171\r\n  size: 74, 163\r\n  orig: 74, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle41\r\n  rotate: false\r\n  xy: 155, 6\r\n  size: 72, 163\r\n  orig: 72, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle43\r\n  rotate: false\r\n  xy: 252, 170\r\n  size: 72, 164\r\n  orig: 72, 164\r\n  offset: 0, 0\r\n  index: -1\r\nidle47\r\n  rotate: false\r\n  xy: 400, 335\r\n  size: 70, 164\r\n  orig: 70, 164\r\n  offset: 0, 0\r\n  index: -1\r\nidle51\r\n  rotate: false\r\n  xy: 326, 169\r\n  size: 69, 164\r\n  orig: 69, 164\r\n  offset: 0, 0\r\n  index: -1\r\nidle55\r\n  rotate: false\r\n  xy: 397, 169\r\n  size: 68, 164\r\n  orig: 68, 164\r\n  offset: 0, 0\r\n  index: -1\r\nidle57\r\n  rotate: false\r\n  xy: 229, 4\r\n  size: 68, 164\r\n  orig: 68, 164\r\n  offset: 0, 0\r\n  index: -1\r\nidle61\r\n  rotate: false\r\n  xy: 369, 3\r\n  size: 67, 164\r\n  orig: 67, 164\r\n  offset: 0, 0\r\n  index: -1\r\nidle79\r\n  rotate: false\r\n  xy: 299, 4\r\n  size: 68, 163\r\n  orig: 68, 163\r\n  offset: 0, 0\r\n  index: -1\r\nwalk19\r\n  rotate: false\r\n  xy: 2, 336\r\n  size: 95, 163\r\n  orig: 95, 163\r\n  offset: 0, 0\r\n  index: -1\r\nwalk21\r\n  rotate: false\r\n  xy: 2, 171\r\n  size: 95, 163\r\n  orig: 95, 163\r\n  offset: 0, 0\r\n  index: -1\r\n\r\nZombie_5.png\r\nsize: 512, 512\r\nformat: RGBA8888\r\nfilter: Linear, Linear\r\nrepeat: none\r\natk13\r\n  rotate: false\r\n  xy: 341, 233\r\n  size: 58, 166\r\n  orig: 58, 166\r\n  offset: 0, 0\r\n  index: -1\r\natk41\r\n  rotate: false\r\n  xy: 208, 235\r\n  size: 62, 164\r\n  orig: 62, 164\r\n  offset: 0, 0\r\n  index: -1\r\nidle65\r\n  rotate: false\r\n  xy: 272, 235\r\n  size: 67, 164\r\n  orig: 67, 164\r\n  offset: 0, 0\r\n  index: -1\r\nidle69\r\n  rotate: false\r\n  xy: 2, 236\r\n  size: 66, 163\r\n  orig: 66, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle71\r\n  rotate: false\r\n  xy: 70, 236\r\n  size: 67, 163\r\n  orig: 67, 163\r\n  offset: 0, 0\r\n  index: -1\r\nidle75\r\n  rotate: false\r\n  xy: 139, 236\r\n  size: 67, 163\r\n  orig: 67, 163\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "bd78c986-1416-4710-88d2-f23e23fd404a"
+    },
+    {
+      "__uuid__": "cccfb285-5364-4e40-a30f-145489351071"
+    },
+    {
+      "__uuid__": "185058f0-084a-4149-8d61-afccc4d608d3"
+    },
+    {
+      "__uuid__": "d401163d-77bd-4a00-a02a-03d7e7cfa8cd"
+    },
+    {
+      "__uuid__": "53c4dea5-844f-4824-8d5c-e46b2cac8a42"
+    }
+  ],
+  "textureNames": [
+    "Zombie.png",
+    "Zombie_2.png",
+    "Zombie_3.png",
+    "Zombie_4.png",
+    "Zombie_5.png"
+  ],
+  "scale": 1
+}

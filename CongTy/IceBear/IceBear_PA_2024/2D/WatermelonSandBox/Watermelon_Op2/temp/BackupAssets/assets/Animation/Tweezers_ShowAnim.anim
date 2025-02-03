@@ -1,0 +1,60 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Tweezers_ShowAnim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Spine_Tweezers": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                15,
+                -260,
+                0
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                48,
+                -260,
+                0
+              ]
+            }
+          ],
+          "opacity": []
+        }
+      },
+      "Hand_Base2/hand2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.5,
+          "value": 255
+        }
+      ]
+    }
+  },
+  "events": []
+}

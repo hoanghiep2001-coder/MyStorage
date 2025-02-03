@@ -1,0 +1,64 @@
+{
+"skeleton": {
+	"hash": "ThwK+rOnxQ4",
+	"spine": "3.8-from-4.0-from-4.1.24",
+	"x": -199,
+	"y": -986.04,
+	"width": 1049.97,
+	"height": 1120.95,
+	"images": "./images/",
+	"audio": "C:/Users/Admin/Desktop/Doll Makeover/Tooth_care/Waterthoothbrush"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Botte", "parent": "root", "length": 1213.12, "rotation": 121.83, "x": 931.5, "y": -1287.74 },
+	{ "name": "Water", "parent": "Botte", "length": 471.21, "rotation": 33.45, "x": 1379.1, "y": -58.4 }
+],
+"slots": [
+	{ "name": "Watter", "bone": "Botte", "attachment": "Watter" },
+	{ "name": "Botte", "bone": "Water", "attachment": "Botte" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Botte": {
+				"Botte": { "x": 234.81, "y": -7.22, "rotation": -86.75, "width": 51, "height": 501 }
+			},
+			"Watter": {
+				"Watter": { "x": 885.82, "y": -59.97, "rotation": -91.83, "width": 198, "height": 1000 }
+			}
+		}
+	}
+],
+"animations": {
+	"action01": {
+		"bones": {
+			"Water": {
+				"scale": [
+					{},
+					{ "time": 0.0667, "x": 0.842, "y": -1 },
+					{ "time": 0.1333 },
+					{ "time": 0.2, "x": 0.842, "y": -1 },
+					{ "time": 0.2667 },
+					{ "time": 0.3333, "x": 0.842, "y": -1 },
+					{ "time": 0.4 },
+					{ "time": 0.4667, "x": 0.842, "y": -1 },
+					{ "time": 0.5333 },
+					{ "time": 0.6, "x": 0.842, "y": -1 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"Idle1": {
+		"bones": {
+			"Water": {
+				"scale": [
+					{ "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

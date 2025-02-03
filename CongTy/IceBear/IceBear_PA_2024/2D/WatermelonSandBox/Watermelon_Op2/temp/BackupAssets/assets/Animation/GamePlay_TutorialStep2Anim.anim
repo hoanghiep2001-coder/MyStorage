@@ -1,0 +1,112 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "GamePlay_TutorialStep2Anim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Tools/Overlay": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 150
+            }
+          ]
+        }
+      },
+      "UI/Text_CleanFace": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            }
+          ],
+          "angle": [
+            {
+              "frame": 1,
+              "value": -5
+            },
+            {
+              "frame": 1.0833333333333333,
+              "value": 5
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": -5
+            },
+            {
+              "frame": 1.25,
+              "value": 5
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": -5
+            },
+            {
+              "frame": 1.4166666666666667,
+              "value": 5
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "UI/hand": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "Tools/Spine_CleanHair": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/Text_CleanHair": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

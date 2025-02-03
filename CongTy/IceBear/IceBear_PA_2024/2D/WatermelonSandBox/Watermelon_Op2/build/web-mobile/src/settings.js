@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-mobile",groupList:["Hand","Objects",""],collisionMatrix:[[false,false,true],[false,true],[true,false,false]],hasResourcesBundle:false,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/game.fire",orientation:"",jsList:[]};

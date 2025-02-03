@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-mobile",groupList:["Object","Rope","Hand","walls","default"],collisionMatrix:[[false,true,false],[true,false],[false,false,false,false],[false,false,false,false],[false,false,false,false,true]],hasResourcesBundle:false,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/game.fire",orientation:"",jsList:[]};

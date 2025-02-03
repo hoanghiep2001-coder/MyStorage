@@ -1,0 +1,111 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Shelf",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "KBJwCX1Le9Q",
+      "spine": "3.8-from-4.0.59",
+      "x": -367.36,
+      "y": -0.39,
+      "width": 734,
+      "height": 850,
+      "images": "./images/",
+      "audio": "C:/Users/Admin/Desktop/Toilet Boy/Shelf"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "shelf01",
+        "bone": "bone",
+        "attachment": "shelf01"
+      },
+      {
+        "name": "box",
+        "bone": "bone"
+      },
+      {
+        "name": "shelf02",
+        "bone": "bone",
+        "attachment": "shelf02"
+      },
+      {
+        "name": "shelf03",
+        "bone": "bone",
+        "attachment": "shelf03"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "box": {
+            "box": {
+              "x": -1.36,
+              "y": 417.61,
+              "width": 504,
+              "height": 566
+            }
+          },
+          "shelf01": {
+            "shelf01": {
+              "x": -0.36,
+              "y": 297.61,
+              "width": 734,
+              "height": 462
+            }
+          },
+          "shelf02": {
+            "shelf02": {
+              "x": -1.36,
+              "y": 263.61,
+              "width": 46,
+              "height": 528
+            }
+          },
+          "shelf03": {
+            "shelf03": {
+              "x": -0.36,
+              "y": 650.61,
+              "width": 734,
+              "height": 398
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "Shelf_box": {
+        "slots": {
+          "box": {
+            "attachment": [
+              {
+                "name": "box"
+              }
+            ]
+          }
+        }
+      },
+      "Shelf_empty": {}
+    }
+  },
+  "_atlasText": "\nShelf.png\nsize: 2048, 1024\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nbox\n  rotate: false\n  xy: 738, 298\n  size: 504, 566\n  orig: 504, 566\n  offset: 0, 0\n  index: -1\nshelf01\n  rotate: false\n  xy: 2, 402\n  size: 734, 462\n  orig: 734, 462\n  offset: 0, 0\n  index: -1\nshelf02\n  rotate: false\n  xy: 1244, 336\n  size: 46, 528\n  orig: 46, 528\n  offset: 0, 0\n  index: -1\nshelf03\n  rotate: false\n  xy: 2, 2\n  size: 734, 398\n  orig: 734, 398\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "d51813f8-b474-4670-8e6b-1aaaa4eba79b"
+    }
+  ],
+  "textureNames": [
+    "Shelf.png"
+  ],
+  "scale": 1
+}
